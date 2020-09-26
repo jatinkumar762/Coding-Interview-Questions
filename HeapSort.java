@@ -47,13 +47,13 @@ class HeapSort
 
 		for(int i=this.size-1;i>=0;i--)
 		{
-			// Move current root to end 
-            int temp = arr[0]; 
-            arr[0] = arr[i]; 
-            arr[i] = temp; 
+			    // Move current root to end 
+			    int temp = arr[0]; 
+			    arr[0] = arr[i]; 
+			    arr[i] = temp; 
 
-            // call max heapify on the reduced heap 
-            heapify(arr, i, 0);
+			    // call max heapify on the reduced heap 
+			    heapify(arr, i, 0);
 		}
 	}
 
