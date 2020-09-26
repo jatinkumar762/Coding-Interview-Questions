@@ -3,7 +3,8 @@
 
 
 ## Sorting Problems
-  - [QuickSort implementation in java](QuickSort.java)
+  1. [QuickSort implementation in java](QuickSort.java)
+  2. [HeapSort implementation in java](HeapSort.java)
 
 
 
