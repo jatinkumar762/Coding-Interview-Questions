@@ -7,7 +7,8 @@
   2. [HeapSort implementation in java](HeapSort.java)
   3. [MergeSort implementation in java](MergeSort.java)
 
-
+## Dynamic Programming
+  1. [Longest Palindrome in a String]
 
 ## Others
 
