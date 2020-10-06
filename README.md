@@ -8,7 +8,7 @@
   3. [MergeSort implementation in java](MergeSort.java)
 
 ## Dynamic Programming
-  1. [Longest Palindrome in a String]
+  1. [Longest Palindrome in a String](LongPalSub.java)
 
 ## Others
 
