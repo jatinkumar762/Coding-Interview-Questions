@@ -8,7 +8,7 @@
   3. [MergeSort implementation in java](MergeSort.java)
 
 ## String Problems
-
+  1. [Remove all consecutive duplicates from the string]()
 ## Dynamic Programming
   1. [Longest Palindrome in a String](LongPalSub.java)
 
