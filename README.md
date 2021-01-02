@@ -13,6 +13,7 @@
   1. [Longest Palindrome in a String](LongPalSub.java)
   2. [Minimum Operations](MinimumOperations.md)
   3. [Minimum number of Coins](MinimumNumberOfCoins.md)
+  4. [Longest Common Substring](LongestCommonSubstring.md)
 
 ## Others
 
