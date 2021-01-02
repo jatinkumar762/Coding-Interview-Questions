@@ -1,7 +1,7 @@
-[Problem Link](https://www.geeksforgeeks.org/find-minimum-number-of-coins-that-make-a-change/)
+[Problem Link](https://practice.geeksforgeeks.org/problems/find-optimum-operation4504/1)
 
 #### Dynamic Programming Solution
-```
+```java 
 import java.io.*;
 import java.util.*;
 class MinNoCoins
@@ -17,8 +17,7 @@ class MinNoCoins
                 System.out.println(ob.minOperation(n));
             }
         }
-}    // } Driver Code Ends
-
+}   
 
 //User function Template for Java
 class Solution
