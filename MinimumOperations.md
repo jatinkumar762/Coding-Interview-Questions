@@ -41,8 +41,7 @@ class Solution
                 
             arr[i]=a>b?b:a;
         }
-        return arr[n];
-        
+        return arr[n];  
     }
 }
 ```
