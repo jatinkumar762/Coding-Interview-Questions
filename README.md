@@ -15,6 +15,7 @@
   3. [Minimum number of Coins](MinimumNumberOfCoins.md)
   4. [Longest Common Substring](LongestCommonSubstring.md)
   5. [Longest Increasing Subsequence](LongestIncreasingSubsequence.md)
+  6. [Max length chain](Maxlengthchain.md)
 
 ## Others
 
