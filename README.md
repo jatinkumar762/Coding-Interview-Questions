@@ -13,6 +13,14 @@
 ## Recursion
   1. [Combination Sum](CombinationSum.md)
 
+## Binary Tree
+  ### Easy
+  
+  ### Medium
+   1. [ZigZag Tree Traversal](ZigZagTreeTraversal.md)
+    
+  ### Hard
+
 ## Dynamic Programming
   1. [Longest Palindrome in a String](LongPalSub.java)
   2. [Minimum Operations](MinimumOperations.md)
