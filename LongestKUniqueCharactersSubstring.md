@@ -1,3 +1,5 @@
+[Problem Link](https://practice.geeksforgeeks.org/problems/longest-k-unique-characters-substring0853/1/)
+
 ```java
 class Solution {
     public int longestkSubstr(String s, int k) {
