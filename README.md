@@ -13,6 +13,11 @@
 ## Recursion
   1. [Combination Sum](CombinationSum.md)
 
+## String
+  ### Topic - Sliding Window
+   #### Easy
+   1. [Longest K unique characters substring](LongestKUniqueCharactersSubstring.md)
+
 ## Binary Tree
   ### Easy
   
