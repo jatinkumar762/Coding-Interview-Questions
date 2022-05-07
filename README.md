@@ -18,6 +18,9 @@
    #### Easy
    1. [Longest K unique characters substring](LongestKUniqueCharactersSubstring.md)
 
+   #### Medium
+   1. [Valid Substring](ValidSubstring.md)
+
 ## Binary Tree
   ### Easy
   
