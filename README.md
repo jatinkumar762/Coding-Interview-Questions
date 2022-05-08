@@ -16,6 +16,7 @@
 ## String
    #### Easy
    1. [Longest K unique characters substring](LongestKUniqueCharactersSubstring.md)
+   2. [Isomorphic Strings](IsomorphicStrings.md)
 
    #### Medium
    1. [Valid Substring](ValidSubstring.md)
