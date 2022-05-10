@@ -18,6 +18,7 @@
    1. [Longest K unique characters substring](LongestKUniqueCharactersSubstring.md)
    2. [Isomorphic Strings](IsomorphicStrings.md)
    3. [Shuffle String](ShuffleString.md)
+   4. [Look and Say Pattern](LookAndSayPattern.md)
 
    #### Medium
    1. [Valid Substring](ValidSubstring.md)
