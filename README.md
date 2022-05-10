@@ -20,6 +20,7 @@
 
    #### Medium
    1. [Valid Substring](ValidSubstring.md)
+   2. [Check if the given string is shuffled substring of another string](ShuffleTwoStrings.md)
 
 ## Binary Tree
   ### Easy
