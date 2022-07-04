@@ -32,6 +32,10 @@
     
   ### Hard
 
+## Binary Search Tree
+  ### Easy
+  1. [Check for BST](checkBST.md)
+
 ## Dynamic Programming
   1. [Longest Palindrome in a String](LongPalSub.java)
   2. [Minimum Operations](MinimumOperations.md)
