@@ -1,4 +1,4 @@
-[Problem Link](https://practice.geeksforgeeks.org/problems/check-for-bst/1)
+[Problem](https://practice.geeksforgeeks.org/problems/check-for-bst/1)
 
 ```java
 public class Solution
@@ -22,3 +22,5 @@ public class Solution
     }
 }
 ```
+
+[Editorial](https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/)
