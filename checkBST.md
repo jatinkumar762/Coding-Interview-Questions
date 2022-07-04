@@ -23,4 +23,6 @@ public class Solution
 }
 ```
 
+*   for optimization - without recrusion - In order traversal using stack - and use property that during traversal current node val should be greater than prev node val
+
 [Editorial](https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/)
