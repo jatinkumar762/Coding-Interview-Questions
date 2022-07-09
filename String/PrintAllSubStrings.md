@@ -1,4 +1,5 @@
 
+#### Method-1: Using two nested loops
 ```java
 import java.io.*;
 import java.util.*;
