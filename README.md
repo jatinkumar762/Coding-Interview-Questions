@@ -19,10 +19,10 @@
    5. [Remove all consecutive duplicates from the string]()
 
    #### Medium
-   1. [Valid Substring](ValidSubstring.md)
-   2. [Check if the given string is shuffled substring of another string](ShuffleTwoStrings.md)
-   3. [Print all subsequences of a string](PrintAllSubSequences.md)
-   4. [Permutations of a given string](PermutationsString.md)
+   1. [Valid Substring](./String/ValidSubstring.md)
+   2. [Check if the given string is shuffled substring of another string](./String/ShuffleTwoStrings.md)
+   3. [Print all subsequences of a string](/String/PrintAllSubSequences.md)
+   4. [Permutations of a given string](./String/PermutationsString.md)
 
 ## Binary Tree
   ### Easy
