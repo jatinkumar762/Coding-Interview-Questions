@@ -8,7 +8,7 @@
   3. [MergeSort implementation in java](MergeSort.java)
 
 ## Recursion
-  1. [Combination Sum](CombinationSum.md)
+  1. [Combination Sum](./Recursion/CombinationSum.md)
 
 ## String
    #### Easy
