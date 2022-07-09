@@ -12,10 +12,10 @@
 
 ## String
    #### Easy
-   1. [Longest K unique characters substring](LongestKUniqueCharactersSubstring.md)
-   2. [Isomorphic Strings](IsomorphicStrings.md)
-   3. [Shuffle String](ShuffleString.md)
-   4. [Look and Say Pattern](LookAndSayPattern.md)
+   1. [Longest K unique characters substring](./String/LongestKUniqueCharactersSubstring.md)
+   2. [Isomorphic Strings](./String/IsomorphicStrings.md)
+   3. [Shuffle String](./String/ShuffleString.md)
+   4. [Look and Say Pattern](./String/LookAndSayPattern.md)
    5. [Remove all consecutive duplicates from the string]()
 
    #### Medium
