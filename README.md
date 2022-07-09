@@ -28,7 +28,7 @@
   ### Easy
   
   ### Medium
-   1. [ZigZag Tree Traversal](ZigZagTreeTraversal.md)
+   1. [ZigZag Tree Traversal](./BinaryTree/ZigZagTreeTraversal.md)
     
   ### Hard
 
