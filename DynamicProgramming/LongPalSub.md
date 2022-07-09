@@ -1,3 +1,5 @@
+
+```java
 import java.io.*;
 import java.util.*;
 
@@ -36,3 +38,4 @@ public class LongPalSub
         System.out.println("Max Length Substring: "+inp.substring(index, index+max)+" :");
     }
 }
+```

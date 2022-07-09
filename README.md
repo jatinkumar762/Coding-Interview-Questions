@@ -37,12 +37,12 @@
   1. [Check for BST](./BST/checkBST.md)
 
 ## Dynamic Programming
-  1. [Longest Palindrome in a String](LongPalSub.java)
-  2. [Minimum Operations](MinimumOperations.md)
-  3. [Minimum number of Coins](MinimumNumberOfCoins.md)
-  4. [Longest Common Substring](LongestCommonSubstring.md)
-  5. [Longest Increasing Subsequence](LongestIncreasingSubsequence.md)
-  6. [Max length chain](Maxlengthchain.md)
+  1. [Longest Palindrome in a String](./DynamicProgramming/LongPalSub.md)
+  2. [Minimum Operations](./DynamicProgramming/MinimumOperations.md)
+  3. [Minimum number of Coins](./DynamicProgramming/MinimumNumberOfCoins.md)
+  4. [Longest Common Substring](./DynamicProgramming/LongestCommonSubstring.md)
+  5. [Longest Increasing Subsequence](./DynamicProgramming/LongestIncreasingSubsequence.md)
+  6. [Max length chain](./DynamicProgramming/Maxlengthchain.md)
 
 ## Others
 - [Program to Print a given matrix in spiral form](https://github.com/jatinkumar762/ProgrammingInterviewQuestions/blob/master/SpiralMatrix.cpp)
