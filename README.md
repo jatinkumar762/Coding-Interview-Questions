@@ -34,7 +34,7 @@
 
 ## Binary Search Tree
   ### Easy
-  1. [Check for BST](checkBST.md)
+  1. [Check for BST](./BST/checkBST.md)
 
 ## Dynamic Programming
   1. [Longest Palindrome in a String](LongPalSub.java)
