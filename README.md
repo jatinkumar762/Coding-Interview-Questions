@@ -23,6 +23,7 @@
    2. [Check if the given string is shuffled substring of another string](./String/ShuffleTwoStrings.md)
    3. [Print all subsequences of a string](/String/PrintAllSubSequences.md)
    4. [Permutations of a given string](./String/PermutationsString.md)
+   5. [Print all substrings](./String/PrintAllSubStrings.md)
 
 ## Binary Tree
   ### Easy
