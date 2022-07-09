@@ -18,3 +18,5 @@ class GFG {
 	}
 }
 ```
+
+[Editorial](https://www.geeksforgeeks.org/program-print-substrings-given-string/)
