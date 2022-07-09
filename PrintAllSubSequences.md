@@ -36,4 +36,12 @@ class GFG {
 }
 ````
 
+#### Method-2: 
+
+```java
+
+```
+
+
+
 [Editorial](https://www.geeksforgeeks.org/print-subsequences-string/)

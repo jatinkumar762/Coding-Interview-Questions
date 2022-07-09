@@ -7,9 +7,6 @@
   2. [HeapSort implementation in java](HeapSort.java)
   3. [MergeSort implementation in java](MergeSort.java)
 
-## String Problems
-  1. [Remove all consecutive duplicates from the string]()
-
 ## Recursion
   1. [Combination Sum](CombinationSum.md)
 
@@ -19,6 +16,7 @@
    2. [Isomorphic Strings](IsomorphicStrings.md)
    3. [Shuffle String](ShuffleString.md)
    4. [Look and Say Pattern](LookAndSayPattern.md)
+   5. [Remove all consecutive duplicates from the string]()
 
    #### Medium
    1. [Valid Substring](ValidSubstring.md)
