@@ -38,7 +38,7 @@
   1. [Check for BST](./BST/checkBST.md)
 
   ### Medium
-  1. [Predecessor and Successor](PredecessorandSuccessor.md)
+  1. [Predecessor and Successor](./BST/PredecessorandSuccessor.md)
 
 ## Dynamic Programming
   1. [Longest Palindrome in a String](./DynamicProgramming/LongPalSub.md)
