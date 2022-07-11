@@ -45,6 +45,25 @@ public String removeDuplicates(String S) {
 ```
 
 Method-2: Two Pointer
-
+```java
+class Solution {
+    public String removeDuplicates(String s) {
+        
+        if(s.length()==1)
+            return s;
+        
+        char[] arr = new char[s.length()];
+        int i=-1,j;
+        for(j=0;j<s.length();j++){
+            if(i>=0 && arr[i]==s.charAt(j)){
+                --i;
+            } else{
+                arr[++i] = s.charAt(j);
+            }
+        }
+        return new String(arr,0,i+1);
+    }
+}
+```
 
 [Best Solution](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/discuss/294893/JavaC%2B%2BPython-Two-Pointers-and-Stack-Solution)
