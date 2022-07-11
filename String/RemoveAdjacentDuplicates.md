@@ -43,3 +43,8 @@ public String removeDuplicates(String S) {
     return sb.toString();
 }
 ```
+
+Method-2: Two Pointer
+
+
+[Best Solution](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/discuss/294893/JavaC%2B%2BPython-Two-Pointers-and-Stack-Solution)
