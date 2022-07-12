@@ -25,6 +25,7 @@
    3. [Print all subsequences of a string](/String/PrintAllSubSequences.md)
    4. [Permutations of a given string](./String/PermutationsString.md)
    5. [Print all substrings](./String/PrintAllSubStrings.md)
+   6. [Find the string in grid](./String/StringInGrid.md)
 
 ## Binary Tree
   ### Easy
