@@ -17,6 +17,7 @@
    3. [Shuffle String](./String/ShuffleString.md)
    4. [Look and Say Pattern](./String/LookAndSayPattern.md)
    5. [Remove all consecutive duplicates from the string](./String/RemoveAdjacentDuplicates.md)
+   6. [Count Binary Substrings](./String/CountBinaryStrings.md)
 
    #### Medium
    1. [Valid Substring](./String/ValidSubstring.md)
