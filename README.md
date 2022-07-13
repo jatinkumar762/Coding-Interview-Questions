@@ -10,6 +10,10 @@
 ## Recursion
   1. [Combination Sum](./Recursion/CombinationSum.md)
 
+## Array
+  #### Medium
+  1. [Next Permutation](./Array/NextPermutation.md)
+
 ## String
    #### Easy
    1. [Longest K unique characters substring](./String/LongestKUniqueCharactersSubstring.md)
@@ -53,3 +57,4 @@
 ## Others
 - [Program to Print a given matrix in spiral form](https://github.com/jatinkumar762/ProgrammingInterviewQuestions/blob/master/SpiralMatrix.cpp)
 - [Program to Print reverse words in a given string](https://github.com/jatinkumar762/ProgrammingInterviewQuestions/blob/master/ReverseWord.c)
+
