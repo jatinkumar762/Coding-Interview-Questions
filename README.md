@@ -31,6 +31,7 @@
    5. [Print all substrings](./String/PrintAllSubStrings.md)
    6. [Find the string in grid](./String/StringInGrid.md)
    7. [Next Permutation](./String/NextPermutation.md)
+   8. [Permutations]()
 
 ## Binary Tree
   ### Easy
