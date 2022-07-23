@@ -36,6 +36,7 @@
    6. [Find the string in grid](./String/StringInGrid.md)
    7. [Next Permutation](./String/NextPermutation.md)
    8. [Permutations](./String/Permutations.md)
+   9. [Number of Matching Subsequences](./String/NumberofMatchingSubsequences.md)
 
 ## Binary Tree
   ### Easy
