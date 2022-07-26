@@ -53,6 +53,16 @@
   ### Medium
   1. [Predecessor and Successor](./BST/PredecessorandSuccessor.md)
 
+## Backtracking
+  ### Medium
+  1. [Permutations](./Backtracking/Permutations.md)
+  2. [Permutations II](./Backtracking/Permutations_2.md)
+  3. [Subsets](./Backtracking/Subsets.md)
+  4. [Subsets II](./Backtracking/Subsets_2.md)
+  5. [Combination Sum](./Backtracking/CombinationSum.md)
+  6. [Combination Sum II](./Backtracking/CombinationSum_2.md)
+  7. [Palindrome Partitioning](./Backtracking/PalindromePartitioning.md)
+
 ## Dynamic Programming
   1. [Longest Palindrome in a String](./DynamicProgramming/LongPalSub.md)
   2. [Minimum Operations](./DynamicProgramming/MinimumOperations.md)
