@@ -39,12 +39,8 @@
    9. [Number of Matching Subsequences](./String/NumberofMatchingSubsequences.md)
 
 ## Binary Tree
-  ### Easy
-  
   ### Medium
    1. [ZigZag Tree Traversal](./BinaryTree/ZigZagTreeTraversal.md)
-    
-  ### Hard
 
 ## Binary Search Tree
   ### Easy
