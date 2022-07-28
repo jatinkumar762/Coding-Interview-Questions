@@ -41,6 +41,8 @@
 ## Binary Tree
   ### Medium
    1. [ZigZag Tree Traversal](./BinaryTree/ZigZagTreeTraversal.md)
+    
+  ### Hard
 
 ## Binary Search Tree
   ### Easy
