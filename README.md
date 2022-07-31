@@ -13,6 +13,7 @@
 ## Array
   ### Easy
   1. [Max and Min with minimum number of comparison](https://www.geeksforgeeks.org/maximum-and-minimum-in-an-array/)
+  2. [Peak Element](./Array/PeakElement.md)
 
   #### Medium
   1. [Next Permutation](./Array/NextPermutation.md)
