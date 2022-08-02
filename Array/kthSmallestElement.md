@@ -4,8 +4,8 @@
 * Sorting - O(NlogN)
 * MinHeap - O(n + kLogn)
 * MaxHeap -  O(k + (n-k)*Logk)
-* QuickSort - 
-* Randomized QuickSort
+* QuickSort - Avg - O(N) - Worst - O(N^2)
+* Randomized QuickSort - 
 
 ```java
 class Solution{
