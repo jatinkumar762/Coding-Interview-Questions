@@ -10,6 +10,9 @@
 ## Recursion
   1. [Combination Sum](./Recursion/CombinationSum.md)
 
+## LinkedList
+  1. [Rotate List](./LinkedList/RotateList.md)
+
 ## Array
   ### Easy
   1. [Max and Min with minimum number of comparison](https://www.geeksforgeeks.org/maximum-and-minimum-in-an-array/)
