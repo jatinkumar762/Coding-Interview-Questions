@@ -27,7 +27,6 @@ public boolean binarySearch(int[] arr, int start, int end, int key){
 public int[] intersection(int[] nums1, int[] nums2) {
     
     Arrays.sort(nums1);
-    Arrays.sort(nums2);
     
     int i=0,j=0;
     int len1 = nums1.length;
