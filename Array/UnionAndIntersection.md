@@ -1,3 +1,5 @@
+[Problem](https://leetcode.com/problems/intersection-of-two-arrays/)
+
 #### Methods
 * Brute force approach using two nested loops
 * Using Sorting and two pointers
@@ -70,3 +72,4 @@ class Solution {
     }
 }
 ```
+

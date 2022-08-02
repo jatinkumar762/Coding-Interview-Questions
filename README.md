@@ -18,6 +18,7 @@
 
   #### Medium
   1. [Next Permutation](./Array/NextPermutation.md)
+  2. [Kth smallest element](./Array/kthSmallestElement.md)
 
 ## String
    #### Easy
