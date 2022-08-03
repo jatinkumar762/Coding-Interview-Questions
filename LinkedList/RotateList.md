@@ -1,5 +1,16 @@
 [Problem](https://leetcode.com/problems/rotate-list/)
 
+* Method-1
+
+To rotate the linked list, we need to change the next pointer of kth node to NULL, the next pointer of the last node should point to previous head node, and finally, change the head to (k+1)th node. So we need to get hold of three nodes: kth node, (k+1)th node, and last node. 
+
+* Method-2 : rotate a linked list
+
+To rotate a linked list by k, we can first make the linked list circular and then moving k-1 steps forward from head node, making (k-1)th node’s next to null and make kth node as head.
+
+---
+
+
 ```java
 /**
  * Definition for singly-linked list.
