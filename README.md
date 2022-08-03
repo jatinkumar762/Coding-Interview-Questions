@@ -11,6 +11,8 @@
   1. [Combination Sum](./Recursion/CombinationSum.md)
 
 ## LinkedList
+
+  #### Medium
   1. [Rotate List](./LinkedList/RotateList.md)
 
 ## Array
