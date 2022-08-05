@@ -1,70 +1,50 @@
 [Problem](https://practice.geeksforgeeks.org/problems/kth-smallest-element5635/1)
 
+[Leetcode](https://leetcode.com/problems/kth-largest-element-in-an-array/)
+
 #### Methods
 * Sorting - O(NlogN)
 * MinHeap - O(n + kLogn)
 * MaxHeap -  O(k + (n-k)*Logk)
 * QuickSort - Avg - O(N) - Worst - O(N^2)
-* Randomized QuickSort - 
+* Randomized QuickSort - Avg - O(N)
 
 ```java
 class Solution{
-    public static int kthSmallest(int arr[], int l, int r, int k) 
-    { 
-        // If k is smaller than number of elements in array 
-        if (k > 0 && k <= r - l + 1) 
-        { 
-            // Partition the array around a random element and 
-            // get position of pivot element in sorted array 
-            int pos = randomPartition(arr, l, r); 
- 
-            // If position is same as k 
-            if (pos-l == k-1) 
-                return arr[pos]; 
- 
-            // If position is more, recur for left subarray 
-            if (pos-l > k-1) 
-                return kthSmallest(arr, l, pos-1, k); 
- 
-            // Else recur for right subarray 
-            return kthSmallest(arr, pos+1, r, k-pos+l-1); 
-        } 
- 
-        // If k is more than number of elements in array 
-        return Integer.MAX_VALUE; 
-    } 
+    public static void swap(int[] nums,int i,int j){
+        int tmp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = tmp;
+    }
     
-    // Utility method to swap arr[i] and arr[j] 
-    static void swap(int arr[], int i, int j) 
-    { 
-        int temp = arr[i]; 
-        arr[i] = arr[j]; 
-        arr[j] = temp; 
-    } 
+    public static int pivotElement(int[] nums, int start,int end,int k){
+        
+        int ran_index = (int)(Math.random()*(end-start+1))+start;    
+        swap(nums, ran_index, end);
+        int pivot = start;
+        for(int i=start;i<end;i++){
+            if(nums[i]<nums[end]){
+                swap(nums, pivot, i);
+                pivot++;
+            }
+        }
+        swap(nums, pivot, end);
+        if(pivot==k)
+            return nums[pivot];
+        
+        if(pivot<k)
+            return pivotElement(nums, pivot+1, end, k);
+        else
+            return pivotElement(nums, start, pivot-1, k);
+    }
     
-    static int partition(int arr[], int l, int r) 
+    public static int kthSmallest(int[] arr, int l, int r, int k) 
     { 
-        int x = arr[r], i = l; 
-        for (int j = l; j < r; j++) 
-        { 
-            if (arr[j] <= x) 
-            { 
-                swap(arr, i, j); 
-                i++; 
-            } 
-        } 
-        swap(arr, i, r); 
-        return i; 
+        //Your code here
+        int res = pivotElement(arr, l, r, k-1);
+        //System.out.println(Arrays.toString(arr));
+        return res;
     } 
-    
-    static int randomPartition(int arr[], int l, int r) 
-    { 
-        int n = r - l + 1; 
-        int pivot = (int)(Math.random() * (n - 1)); 
-        swap(arr, l + pivot, r); 
-        return partition(arr, l, r); 
-    } 
- 
 }
 ```
 
