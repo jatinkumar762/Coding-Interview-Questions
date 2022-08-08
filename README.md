@@ -26,6 +26,7 @@
   2. [Kth smallest element](./Array/kthSmallestElement.md)
   3. [Rotate Array](./Array/RotateArray.md)
   4. [Maximum Subarray](./Array/MaximumSubarray.md)
+  5. [Minimize the Heights](./Array/MinimizeHeights.md)
 
 ## String
    #### Easy
