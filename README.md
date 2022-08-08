@@ -27,6 +27,7 @@
   3. [Rotate Array](./Array/RotateArray.md)
   4. [Maximum Subarray](./Array/MaximumSubarray.md)
   5. [Minimize the Heights](./Array/MinimizeHeights.md)
+  6. [Minimum number of jumps](./Array/MinimumNumberOfJumps.md)
 
 ## String
    #### Easy
