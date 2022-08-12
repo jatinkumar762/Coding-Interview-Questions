@@ -39,3 +39,4 @@ class Solution{
     }
 }
 ```
+![Test case](./images/NextPermutation.png)
