@@ -25,7 +25,7 @@
   1. [Next Permutation](./Array/NextPermutation.md)
   2. [Kth smallest element](./Array/kthSmallestElement.md)
   3. [Rotate Array](./Array/RotateArray.md)
-  4. [Maximum Subarray](./Array/MaximumSubarray.md)
+  4. [Maximum Subarray or Kadane's Algorithm](./Array/MaximumSubarray.md)
   5. [Minimize the Heights](./Array/MinimizeHeights.md)
   6. [Minimum number of jumps](./Array/MinimumNumberOfJumps.md)
 
