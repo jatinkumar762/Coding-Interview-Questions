@@ -28,6 +28,7 @@
   4. [Maximum Subarray or Kadane's Algorithm](./Array/MaximumSubarray.md)
   5. [Minimize the Heights](./Array/MinimizeHeights.md)
   6. [Minimum number of jumps](./Array/MinimumNumberOfJumps.md)
+  7. [Count Inversions](./Array/CountInversions.md)
 
 ## String
    #### Easy
