@@ -30,7 +30,7 @@
   6. [Minimum number of jumps](./Array/MinimumNumberOfJumps.md)
   7. [Count Inversions](./Array/CountInversions.md)
   8. [Best time to buy and Sell stock](./Array/Buy_Sell_Stock.md)
-  9. [Count pairs with given sum]()
+  9. [Count pairs with given sum](./Array/CountPairsWithGivenSum.md)
 
 ## String
    #### Easy
