@@ -29,6 +29,7 @@
   5. [Minimize the Heights](./Array/MinimizeHeights.md)
   6. [Minimum number of jumps](./Array/MinimumNumberOfJumps.md)
   7. [Count Inversions](./Array/CountInversions.md)
+  8. [Best time to buy and Sell stock](./Array/Buy_Sell_Stock.md)
 
 ## String
    #### Easy
