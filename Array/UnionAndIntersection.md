@@ -1,3 +1,7 @@
+
+----
+### Intersection
+
 [Problem](https://leetcode.com/problems/intersection-of-two-arrays/)
 
 #### Methods
