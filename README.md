@@ -21,6 +21,7 @@
   2. [Peak Element](./Array/PeakElement.md)
   3. [Find Union and Intersection of two arrays](./Array/UnionAndIntersection.md)
   4. [CommonElements in Three Sorted Arrays](./Array/CommonElements.md)
+  5. [Alternate positive and negative numbers](./Array/AlternatePositiveNegative.md)
 
   #### Medium
   1. [Next Permutation](./Array/NextPermutation.md)
