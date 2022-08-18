@@ -20,6 +20,7 @@
   1. [Max and Min with minimum number of comparison](https://www.geeksforgeeks.org/maximum-and-minimum-in-an-array/)
   2. [Peak Element](./Array/PeakElement.md)
   3. [Find Union and Intersection of two arrays](./Array/UnionAndIntersection.md)
+  4. [CommonElements in Three Sorted Arrays]()
 
   #### Medium
   1. [Next Permutation](./Array/NextPermutation.md)
