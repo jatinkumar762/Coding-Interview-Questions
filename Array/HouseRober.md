@@ -23,8 +23,8 @@ class Solution {
         }
         
         /*
-            nums    ->  5 3 4 2
-            arr     ->  5 3 9 7
+            nums    ->  5 3 4 5
+            arr     ->  5 3 9 10
         */
         
         return res;
