@@ -1,5 +1,7 @@
 [Problem](https://leetcode.com/problems/maximum-product-subarray/)
 
+#### Method-1: Using Min and Max variable
+
 ```java
 class Solution {
     public int maxProduct(int[] arr) {
@@ -33,3 +35,5 @@ class Solution {
     }
 }
 ```
+
+#### Method-2: 
