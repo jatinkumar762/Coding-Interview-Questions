@@ -34,6 +34,7 @@
   8. [Best time to buy and Sell stock](./Array/Buy_Sell_Stock.md)
   9. [Count pairs with given sum](./Array/CountPairsWithGivenSum.md)
   10. [Factorials of large numbers](./Array/Factorial_Large_Number.md)
+  11. [Maximum Product Subarray](./Array/MaximumProductSubarray.md)
 
 ## String
    #### Easy
