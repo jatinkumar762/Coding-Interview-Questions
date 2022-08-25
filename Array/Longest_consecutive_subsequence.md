@@ -3,7 +3,7 @@
 #### Methods
 * Sorting - O(NlogN)
 * Hashing - O(N)
-* PriorityQueue - 
+* PriorityQueue - O(NlogN) - Time required to push and pop N elements is logN for each element.
 
 ##### Method: Sorting
 
