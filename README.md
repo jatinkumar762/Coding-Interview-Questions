@@ -39,6 +39,7 @@
   13. [Product of Array Except Self](./Array/Product_of_Array_Except_Self.md)
   14. [Longest consecutive subsequence](./Array/Longest_consecutive_subsequence.md)
   15. [Triplet Sum in Array](./Array/TripletSum.md)
+  16. [Trapping Rain Water](./Array/TrappingRainWater.md)
 
 ## String
    #### Easy
