@@ -38,6 +38,7 @@
   12. [House Robber](./Array/HouseRober.md)
   13. [Product of Array Except Self](./Array/Product_of_Array_Except_Self.md)
   14. [Longest consecutive subsequence](./Array/Longest_consecutive_subsequence.md)
+  15. [Triplet Sum in Array]
 
 ## String
    #### Easy
