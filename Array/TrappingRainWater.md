@@ -1,5 +1,7 @@
 [Problem](https://practice.geeksforgeeks.org/problems/trapping-rain-water-1587115621/1)
 
+#### Method-1: Precalculation - O(N)
+
 ```java
 class Solution{
     
@@ -45,3 +47,5 @@ class Solution{
     } 
 }
 ```
+
+#### Method-2: Using Stack
