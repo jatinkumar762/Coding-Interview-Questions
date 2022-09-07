@@ -23,3 +23,6 @@ class Solution {
     }
 }
 ```
+
+#### Editorial
+* [https://www.geeksforgeeks.org/find-the-row-with-maximum-number-1s/](https://www.geeksforgeeks.org/find-the-row-with-maximum-number-1s/)
