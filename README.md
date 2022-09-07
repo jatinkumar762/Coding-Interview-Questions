@@ -69,6 +69,7 @@
   #### Medium
   1. [Spirally traversing a matrix](./Matrix/SpirallyTraversingMatrix.md)
   2. [Search a 2D Matrix](./Matrix/Search2DMatrix.md)
+  3. [Row with max 1s](./Matrix/Row_with_max_1s.md)
 
 ## Binary Tree
   ### Medium
