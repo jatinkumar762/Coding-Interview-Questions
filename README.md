@@ -65,6 +65,10 @@
    8. [Permutations](./String/Permutations.md)
    9. [Number of Matching Subsequences](./String/NumberofMatchingSubsequences.md)
 
+## Matrix
+  #### Medium
+  1. [Spirally traversing a matrix](./Matrix/SpirallyTraversingMatrix.md)
+
 ## Binary Tree
   ### Medium
    1. [ZigZag Tree Traversal](./BinaryTree/ZigZagTreeTraversal.md)
