@@ -36,3 +36,74 @@ class Solution {
     }
 }
 ```
+
+#### KMP Pattern search code implementation
+
+```java
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Codechef
+{
+    private static int[] lps(String s) {
+        
+        // code here
+        int len = s.length();
+        
+        int[] count = new int[s.length()];
+        
+        count[0] = 0;
+        if(s.length()==1)
+            return count;
+            
+        for(int i=0,j=i+1;j<len;){
+            if(s.charAt(i)==s.charAt(j)){
+                count[j] = i+1;
+                j++; i++;
+            } else {
+                if(i!=0){
+                    i = count[i-1];
+                } else {
+                    count[j]=0;
+                    j++;
+                }
+            }
+            
+        }
+        return count;
+    }
+    
+    private static boolean KMP(String text, String pattern){
+        
+        int[] count = lps(pattern);
+        int i=0,j=0;
+        while(i<text.length() && j<pattern.length()){
+            
+            if(text.charAt(i)==pattern.charAt(j)){
+                i++;j++;
+            } else {
+                if(j!=0){
+                    j = count[j-1];
+                } else {
+                    i++;
+                }
+            }
+        }
+        if(j==pattern.length())
+            return true;
+        return false;
+    }
+    
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		String text = "THIS IS A TEST TEXT";
+		String pattern = "TEST";
+		
+		boolean result = KMP(text, pattern);
+		System.out.println(result);
+	}
+}
+```
