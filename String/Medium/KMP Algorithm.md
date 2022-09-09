@@ -48,7 +48,6 @@ import java.io.*;
 class Codechef
 {
     private static int[] lps(String s) {
-        
         // code here
         int len = s.length();
         
@@ -76,7 +75,6 @@ class Codechef
     }
     
     private static boolean KMP(String text, String pattern){
-        
         int[] count = lps(pattern);
         int i=0,j=0;
         while(i<text.length() && j<pattern.length()){
@@ -92,7 +90,7 @@ class Codechef
             }
         }
         if(j==pattern.length())
-            return true;
+          return true;
         return false;
     }
     
