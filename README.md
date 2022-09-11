@@ -7,6 +7,10 @@
   2. [HeapSort implementation in java](HeapSort.java)
   3. [MergeSort implementation in java](MergeSort.java)
 
+## Searching Problems
+  ### Easy
+  1. [Find first and last positions of an element in a sorted array](./Searching/FirstAndLastOccurence.md)
+
 ## Recursion
   1. [Combination Sum](./Recursion/CombinationSum.md)
 
