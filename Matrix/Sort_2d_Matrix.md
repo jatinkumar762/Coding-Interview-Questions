@@ -1,6 +1,9 @@
 [Problem](https://www.geeksforgeeks.org/sort-the-given-matrix-memory-efficient-approach/)
 
-#### Approach
+#### Normal Approach
+Create a temp[] array of size Rows*Cols. Starting with the first row one by one copy the elements of the given matrix into temp[]. Sort temp[]. Now one by one copy the elements of temp[] back to the given matrix.
+
+#### Optiomal Approach
 * Consider 2D array as a 1D array.
 * Ith Element of the Matrix = Mat[ i / cols ][ i % cols ]  
 
