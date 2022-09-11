@@ -10,7 +10,9 @@
 ## Searching Problems
   ### Easy
   1. [Find first and last positions of an element in a sorted array](./Searching/FirstAndLastOccurence.md)
-  2. [Search in Rotated Sorted Array](./Searching/SearchinRotatedSortedArray.md)
+
+  ### Medium
+  1. [Search in Rotated Sorted Array](./Searching/SearchinRotatedSortedArray.md)
 
 ## Recursion
   1. [Combination Sum](./Recursion/CombinationSum.md)
