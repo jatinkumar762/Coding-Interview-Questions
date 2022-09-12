@@ -1,6 +1,13 @@
 [Missing Number](https://leetcode.com/problems/missing-number/)
 
 #### Method:1 XOR
+* Let x be the desired output elements.
+* Calculate XOR of all the array elements.
+  - xor1 = arr[0]^arr[1]^arr[2]…..arr[n-1]
+* XOR the result with all numbers from 1 to n
+  - xor1 = xor1^1^2^…..^n
+* In the result xor1, all elements would nullify each other except x
+
 ```java
 public int missingNumber(int[] nums) { //xor
     int res = nums.length;
