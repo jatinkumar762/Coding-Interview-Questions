@@ -46,3 +46,49 @@ public int missingNumber(int[] nums) { //binary search
 ```
 
 Summary: If the array is in order, prefer Binary Search method. Otherwise, the XOR method is better.
+
+---
+
+[Find Missing And Repeating](https://practice.geeksforgeeks.org/problems/find-missing-and-repeating2512/1)
+
+#### Method:1 - Use Sorting
+
+#### Method:2 - Use count array
+
+#### Method:3 - Use elements as Index and mark the visited places
+
+* Traverse the array. 
+* While traversing, use the absolute value of every element as an index and make the value at this index as negative to mark it visited. 
+* If something is already marked negative then this is the repeating element. 
+* To find missing, traverse the array again and look for a positive value.
+
+```java
+static void printTwoElements(int arr[], int size)
+{
+    int i;
+    System.out.print("The repeating element is ");
+
+    for (i = 0; i < size; i++) {
+        int abs_val = Math.abs(arr[i]);
+        if (arr[abs_val - 1] > 0)
+            arr[abs_val - 1] = -arr[abs_val - 1];
+        else
+            System.out.println(abs_val);
+    }
+
+    System.out.print("and the missing element is ");
+    for (i = 0; i < size; i++) {
+        if (arr[i] > 0)
+            System.out.println(i + 1);
+    }
+}
+```
+
+#### Method:4 - Make two equations
+
+* Let x be the missing and y be the repeating element.
+* Get the sum of all numbers using formula S = n(n+1)/2 – x + y
+* Get product of all numbers using formula P = 1*2*3*…*n * y / x
+* The above two steps give us two equations, we can solve the equations and get the values of x and y.
+
+#### Method:5 - Use Map
