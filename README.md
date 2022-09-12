@@ -7,12 +7,13 @@
   2. [HeapSort implementation in java](HeapSort.java)
   3. [MergeSort implementation in java](MergeSort.java)
 
-## Searching Problems
+## Searching and Sorting Problems
   ### Easy
-  1. [Find first and last positions of an element in a sorted array](./Searching/FirstAndLastOccurence.md)
+  1. [Find first and last positions of an element in a sorted array](./SearchingAndSorting/FirstAndLastOccurence.md)
 
   ### Medium
-  1. [Search in Rotated Sorted Array](./Searching/SearchinRotatedSortedArray.md)
+  1. [Search in Rotated Sorted Array](./SearchingAndSorting/SearchinRotatedSortedArray.md)
+  2. [Boyer-Moore Majority Voting Algorithm/ Majority Element](./SearchingAndSorting/Majority%20Element.md)
 
 ## Maths Problem
   ### Easy
