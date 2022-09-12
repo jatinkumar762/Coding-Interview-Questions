@@ -14,6 +14,10 @@
   ### Medium
   1. [Search in Rotated Sorted Array](./Searching/SearchinRotatedSortedArray.md)
 
+## Maths Problem
+  ### Easy
+  1. [Missing Number](./Maths/Missing%20Number.md)
+
 ## Recursion
   1. [Combination Sum](./Recursion/CombinationSum.md)
 
