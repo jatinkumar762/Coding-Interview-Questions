@@ -83,6 +83,9 @@
    10. [KMP Algorithm/Longest Prefix Suffix](./String/Medium/KMP%20Algorithm.md)
 
 ## Matrix
+  #### Easy
+  1. [Common elements in all rows of a given matrix](https://www.geeksforgeeks.org/common-elements-in-all-rows-of-a-given-matrix/)
+
   #### Medium
   1. [Spirally traversing a matrix](./Matrix/SpirallyTraversingMatrix.md)
   2. [Search a 2D Matrix](./Matrix/Search2DMatrix.md)
