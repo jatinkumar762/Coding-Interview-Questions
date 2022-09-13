@@ -10,6 +10,7 @@
 ## Searching and Sorting Problems
   ### Easy
   1. [Find first and last positions of an element in a sorted array](./SearchingAndSorting/FirstAndLastOccurence.md)
+  2. [Sort an array according to count of set bits](./SearchingAndSorting/SortArraySetBitsCount.md)
 
   ### Medium
   1. [Search in Rotated Sorted Array](./SearchingAndSorting/SearchinRotatedSortedArray.md)
