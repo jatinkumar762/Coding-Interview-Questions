@@ -34,3 +34,7 @@ class Solution
     }
 }
 ```
+
+#### Editorial
+* [https://www.geeksforgeeks.org/minimum-number-swaps-required-sort-array/](https://www.geeksforgeeks.org/minimum-number-swaps-required-sort-array/)
+* [https://www.geeksforgeeks.org/minimum-number-of-swaps-required-to-sort-an-array-set-2/](https://www.geeksforgeeks.org/minimum-number-of-swaps-required-to-sort-an-array-set-2/)
