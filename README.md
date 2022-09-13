@@ -14,6 +14,7 @@
   ### Medium
   1. [Search in Rotated Sorted Array](./SearchingAndSorting/SearchinRotatedSortedArray.md)
   2. [Boyer-Moore Majority Voting Algorithm/ Majority Element](./SearchingAndSorting/Majority%20Element.md)
+  3. [Count triplets with sum smaller than X](./SearchingAndSorting/Count%20triplets.md)
 
 ## Maths Problem
   ### Easy
