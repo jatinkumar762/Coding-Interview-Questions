@@ -69,6 +69,7 @@
    5. [Remove all consecutive duplicates from the string](./String/RemoveAdjacentDuplicates.md)
    6. [Count Binary Substrings](./String/CountBinaryStrings.md)
    7. [Letter Combinations of a Phone Number](./String/LetterCombinationPhoneNumber.md)
+   8. [Longest Repeating Subsequence](./String/LongestRepeatingSubsequence.md)
 
    #### Medium
    1. [Valid Substring](./String/ValidSubstring.md)
