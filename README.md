@@ -94,6 +94,7 @@
   2. [Search a 2D Matrix](./Matrix/Search2DMatrix.md)
   3. [Row with max 1s](./Matrix/Row_with_max_1s.md)
   4. [Sort the given 2D Matrix](./Matrix/Sort_2d_Matrix.md)
+  5. [Diagonal Traverse](./Matrix/DiagonalTraverse.md)
 
 ## Binary Tree
   ### Medium
