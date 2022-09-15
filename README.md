@@ -85,6 +85,7 @@
    9. [Number of Matching Subsequences](./String/NumberofMatchingSubsequences.md)
    10. [KMP Algorithm/Longest Prefix Suffix](./String/Medium/KMP%20Algorithm.md)
    11. [Word Break](./String/Medium/WordBreak.md)
+   12. [Count Reversal](./String/Medium/CountReversal.md)
 
 ## Matrix
   #### Easy
