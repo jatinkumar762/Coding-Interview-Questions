@@ -1,5 +1,7 @@
 [Problem](https://practice.geeksforgeeks.org/problems/word-break1352/1)
 
+#### Method-1: Trie Solution
+
 ```java
 class Sol
 {
@@ -71,3 +73,11 @@ class Sol
     }
 }
 ```
+
+#### Method-2: DP Solution
+
+
+
+
+#### Editorial
+*[https://www.geeksforgeeks.org/word-break-problem-trie-solution/](https://www.geeksforgeeks.org/word-break-problem-trie-solution/)
