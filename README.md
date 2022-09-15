@@ -86,6 +86,7 @@
    10. [KMP Algorithm/Longest Prefix Suffix](./String/Medium/KMP%20Algorithm.md)
    11. [Word Break](./String/Medium/WordBreak.md)
    12. [Count Reversal](./String/Medium/CountReversal.md)
+   13. [Longest Common Subsequence](./String/Medium/longest%20common%20subsequence.md)
 
 ## Matrix
   #### Easy
