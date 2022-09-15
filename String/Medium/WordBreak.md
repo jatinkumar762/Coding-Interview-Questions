@@ -80,4 +80,4 @@ class Sol
 
 
 #### Editorial
-*[https://www.geeksforgeeks.org/word-break-problem-trie-solution/](https://www.geeksforgeeks.org/word-break-problem-trie-solution/)
+* [https://www.geeksforgeeks.org/word-break-problem-trie-solution/](https://www.geeksforgeeks.org/word-break-problem-trie-solution/)
