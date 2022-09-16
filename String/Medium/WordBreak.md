@@ -76,7 +76,52 @@ class Sol
 
 #### Method-2: DP Solution
 
-
+```java
+class Sol
+{
+    static boolean wordPresent(String key, ArrayList<String> B){
+        if(B.indexOf(key)!=-1)
+            return true;
+        return false;
+    }
+    
+    public static int wordBreak(String A, ArrayList<String> B )
+    {
+        //code here
+        if(A.length()==0)
+            return 1;
+        if(A.length()>0 && B.size()==0)
+            return 0;
+        
+        int size = A.length();
+        
+        boolean[] wb = new boolean[size+1];
+        Arrays.fill(wb,false);
+        
+        for(int i=1;i<=size;i++){
+            if(wb[i]==false && wordPresent(A.substring(0,i), B)){
+                wb[i] = true;
+            }
+            if(wb[i]){
+                if(i==size)
+                    return 1;
+                int j;
+                for(j=i+1;j<=size;j++){
+                    if(wb[j]==false && wordPresent(A.substring(i,j), B)){
+                        wb[j] = true;
+                    }
+                }
+                if(j==size&&wb[j])
+                    return 1;
+            }
+        }
+        if(wb[size])
+            return 1;
+        else
+            return 0;
+    }
+}
+```
 
 
 #### Editorial
