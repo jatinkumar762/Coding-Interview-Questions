@@ -76,6 +76,7 @@
    8. [Longest Repeating Subsequence](./String/LongestRepeatingSubsequence.md)
    9. [Word Search](./String/Easy/WordSearch.md)
    10. [Roman Number to Integer](./String/Easy/RomanNumbertoInteger.md)
+   11. [Print Anagrams Together](./String/Easy/Print%20Anagrams%20Together.md)
 
    #### Medium
    1. [Valid Substring](./String/ValidSubstring.md)
