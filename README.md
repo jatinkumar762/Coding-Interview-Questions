@@ -61,6 +61,7 @@
   16. [Trapping Rain Water](./Array/TrappingRainWater.md)
   17. [Median of 2 sorted arrays of equal size](./Array/Median_2_Array_Equal_Size.md)
   18. [Median of 2 sorted arrays of different size](./Array/Median_2_Array_Different_Size.md)
+  19. [Not a subset sum](./Array/NotaSubsetSum.md)
 
 ## String
    #### Easy
