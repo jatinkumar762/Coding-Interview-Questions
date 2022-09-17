@@ -90,6 +90,9 @@
    13. [Longest Common Subsequence](./String/Medium/longest%20common%20subsequence.md)
    14. [Smallest distinct window](./String/Medium/SmallestDistinctWindow.md)
 
+   #### Hard
+   1. [Minimum characters to be added at front to make string palindrome](./String/Hard/AddCharactersFrontMakeStringPalindrome.md)
+
 ## Matrix
   #### Easy
   1. [Common elements in all rows of a given matrix](https://www.geeksforgeeks.org/common-elements-in-all-rows-of-a-given-matrix/)
