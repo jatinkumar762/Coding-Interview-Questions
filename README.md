@@ -1,6 +1,6 @@
 # Programming Interview Questions
 <a href='https://github.com/jatinkumar762/ProgrammingInterviewQuestions#sorting-problems'><img src='https://img.shields.io/badge/Sorting-Problems-green' /></a>
-<a href='https://github.com/jatinkumar762/ProgrammingInterviewQuestions#string-problems'><img src='https://img.shields.io/badge/String-Problems-red' /></a>
+<a href='https://github.com/jatinkumar762/ProgrammingInterviewQuestions#string'><img src='https://img.shields.io/badge/String-Problems-red' /></a>
 
 ## Sorting Problems
   1. [QuickSort implementation in java](QuickSort.java)
