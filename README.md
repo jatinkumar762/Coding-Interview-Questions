@@ -96,6 +96,7 @@
 
    #### Hard
    1. [Minimum characters to be added at front to make string palindrome](./String/Hard/AddCharactersFrontMakeStringPalindrome.md)
+   2. [Recursively remove all adjacent duplicates](./String/Hard/RecursivelyRemoveAllAdjacentDuplicates.md)
 
 ## Matrix
   #### Easy
