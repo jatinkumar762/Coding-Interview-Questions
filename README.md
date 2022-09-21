@@ -77,6 +77,7 @@
    9. [Word Search](./String/Easy/WordSearch.md)
    10. [Roman Number to Integer](./String/Easy/RomanNumbertoInteger.md)
    11. [Print Anagrams Together](./String/Easy/Print%20Anagrams%20Together.md)
+   12. [Isomorphic Strings](./String/Easy/Isomorphic%20Strings.md)
 
    #### Medium
    1. [Valid Substring](./String/ValidSubstring.md)
