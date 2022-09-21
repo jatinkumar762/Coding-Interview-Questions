@@ -1,7 +1,5 @@
 [Transform String](https://practice.geeksforgeeks.org/problems/transform-string5648/1)
 
-* Note - Question focuses on Find min. no of operation, not asking exact no. of operations 
-
 ```java
 class Solution
 {
