@@ -46,8 +46,8 @@ Example:
 
 GseekForGeeks orFGeeksGeeks
 
-why answer is 7 (min. no of operations)
-it should be 8 (exact no of operations)
+why answer is 7
+it should be 8
 
 GseekForGeeks-> sGeekForGeeks-> ksGeeForGeeks -> eksGeForGeeks -> eeksGForGeeks -> GeeksForGeeks -> FGeeksorGeeks -> rFGeeksoGeeks -> orFGeeksGeeks
 
