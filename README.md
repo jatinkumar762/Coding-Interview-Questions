@@ -94,6 +94,7 @@
    12. [Count Reversal](./String/Medium/CountReversal.md)
    13. [Longest Common Subsequence](./String/Medium/longest%20common%20subsequence.md)
    14. [Smallest distinct window](./String/Medium/SmallestDistinctWindow.md)
+   15. [Transform One String to Another using Minimum Number of Given Operation](./String/Medium/TransformStringMinOperations.md)
 
    #### Hard
    1. [Minimum characters to be added at front to make string palindrome](./String/Hard/AddCharactersFrontMakeStringPalindrome.md)
