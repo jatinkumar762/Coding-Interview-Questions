@@ -114,6 +114,7 @@
 ## Stacks & Queues
   #### Easy
   1. [Implement Circular Queue](./StackAndQueue/Easy/ImplementCircularQueue.md)
+  2. [BFS - Number of Islands](./StackAndQueue/Easy/BFS%20-%20Number%20of%20Islands.md)
 
   #### Medium
   1. 
