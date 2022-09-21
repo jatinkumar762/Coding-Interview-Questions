@@ -117,7 +117,7 @@
   2. [BFS - Number of Islands](./StackAndQueue/Easy/BFS%20-%20Number%20of%20Islands.md)
 
   #### Medium
-  1. 
+  1. [BFS - Open the Lock](./StackAndQueue/Medium/Open%20the%20Lock.md)
 
 ## Binary Tree
   ### Medium
