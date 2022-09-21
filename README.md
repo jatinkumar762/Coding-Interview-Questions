@@ -143,6 +143,10 @@
   7. [Palindrome Partitioning](./Backtracking/PalindromePartitioning.md)
 
 ## Dynamic Programming
+  ### Easy
+  1. [Perfect Square](./DynamicProgramming/Easy/PerfectSquare.md)
+
+  ### Medium
   1. [Longest Palindrome in a String](./DynamicProgramming/LongPalSub.md)
   2. [Minimum Operations](./DynamicProgramming/MinimumOperations.md)
   3. [Minimum number of Coins](./DynamicProgramming/MinimumNumberOfCoins.md)
