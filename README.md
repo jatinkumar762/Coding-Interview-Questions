@@ -118,6 +118,7 @@
 
   #### Medium
   1. [BFS - Open the Lock](./StackAndQueue/Medium/Open%20the%20Lock.md)
+  2. [Next Greater Element](./StackAndQueue/Medium/NextGreaterElement.md)
 
 ## Binary Tree
   ### Medium
