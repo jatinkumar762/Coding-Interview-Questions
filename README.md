@@ -115,7 +115,8 @@
   #### Easy
   1. [Implement Circular Queue](./StackAndQueue/Easy/ImplementCircularQueue.md)
   2. [BFS - Number of Islands](./StackAndQueue/Easy/BFS%20-%20Number%20of%20Islands.md)
-  3. [Valid Parentheses](./StackAndQueue/Easy/ValidParentheses.md)
+  3. [Valid Parentheses](./StackAndQueue/Easy/ValidParentheses.md).
+  4. [Convert Infix to Postfix](./StackAndQueue/Easy/InfixToPostfix.md)
 
   #### Medium
   1. [BFS - Open the Lock](./StackAndQueue/Medium/Open%20the%20Lock.md)
