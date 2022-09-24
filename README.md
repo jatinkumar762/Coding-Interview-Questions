@@ -123,6 +123,7 @@
   2. [Next Greater Element](./StackAndQueue/Medium/NextGreaterElement.md)
   3. [The Celebrity Problem](./StackAndQueue/Medium/TheCelebrityProblem.md)
   4. [Design a stack with operations on middle element](./StackAndQueue/Medium/StackMiddleElement.md)
+  5. [Get minimum element from stack in O(1) time](./StackAndQueue/Medium/MinimumElementFromStack.md)
 
 ## Binary Tree
   ### Medium
