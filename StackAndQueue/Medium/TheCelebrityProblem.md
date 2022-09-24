@@ -15,6 +15,11 @@ Space Complexity: O(n).
 
 #### Method-2: Uses elimination technique 
 
+* If A knows B, then A can’t be a celebrity. Discard A, and B may be celebrity.
+* If A doesn’t know B, then B can’t be a celebrity. Discard B, and A may be celebrity.
+* Repeat above two steps till there is only one person.
+* Ensure the remained person is a celebrity. 
+
 ```java
 class Solution
 { 
