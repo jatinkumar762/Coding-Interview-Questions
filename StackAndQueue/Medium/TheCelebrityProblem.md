@@ -64,10 +64,17 @@ Time Complexity: O(n).
 Space Complexity: O(n). 
   n extra space is needed to store the stack.
 
-#### Method-3: Uses elimination technique
+#### Method-3: Uses two-pointer approach
 
+1. Create two indices i and j, where i = 0 and j = n-1
+2. Run a loop until i is less than j.
+3. Check if i knows j, then i can’t be a celebrity. so increment i, i.e. i++
+4. Else j cannot be a celebrity, so decrement j, i.e. j–
+5. Assign i as the celebrity candidate
+6. Now at last check that whether the candidate is actually a celebrity by re-running a loop from 0 to n-1  and constantly checking that if the candidate knows a person or if there is a candidate who does not know the candidate, then we should return -1. else at the end of the loop, we can be sure that the candidate is actually a celebrity.
 
-
+* Time Complexity: O(n)
+* Space Complexity: O(1) No extra space is required.
 
 
 #### References:
