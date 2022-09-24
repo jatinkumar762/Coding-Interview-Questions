@@ -9,3 +9,4 @@ Push and pop are standard stack operations.
 
 * When to use Array or LinkedList?
   * when asked O(1) time compexity for middle or findMin, try to go for LinkedList
+
