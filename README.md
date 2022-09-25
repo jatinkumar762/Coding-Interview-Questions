@@ -119,7 +119,7 @@
   4. [Convert Infix to Postfix](./StackAndQueue/Easy/InfixToPostfix.md)
 
   #### Medium
-  1. [BFS - Open the Lock](./StackAndQueue/Medium/Open%20the%20Lock.md)
+  1. 🔥 [BFS - Open the Lock](./StackAndQueue/Medium/Open%20the%20Lock.md)
   2. [Next Greater Element](./StackAndQueue/Medium/NextGreaterElement.md)
   3. [The Celebrity Problem](./StackAndQueue/Medium/TheCelebrityProblem.md)
   4. [Design a stack with operations on middle element](./StackAndQueue/Medium/StackMiddleElement.md)
