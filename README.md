@@ -124,6 +124,7 @@
   3. [The Celebrity Problem](./StackAndQueue/Medium/TheCelebrityProblem.md)
   4. [Design a stack with operations on middle element](./StackAndQueue/Medium/StackMiddleElement.md)
   5. [Get minimum element from stack in O(1) time](./StackAndQueue/Medium/MinimumElementFromStack.md)
+  6. 🔥 [Validate Stack Sequences](./StackAndQueue/Medium/ValidateStackSequences.md)
 
 ## Binary Tree
   ### Medium
