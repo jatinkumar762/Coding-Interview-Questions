@@ -126,6 +126,7 @@
   4. [Design a stack with operations on middle element](./StackAndQueue/Medium/StackMiddleElement.md)
   5. [Get minimum element from stack in O(1) time](./StackAndQueue/Medium/MinimumElementFromStack.md)
   6. 🔥 [Validate Stack Sequences](./StackAndQueue/Medium/ValidateStackSequences.md)
+  7. 🔥 [Valid Substring](./StackAndQueue/Medium/ValidSubstring.md)
 
 ## Binary Tree
   ### Medium
