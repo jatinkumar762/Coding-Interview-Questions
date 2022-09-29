@@ -1,3 +1,7 @@
+### 📟 Please give a star 🌟 to the repository if it helped you.
+
+</br>
+
 # Programming Interview Questions
 <a href='https://github.com/jatinkumar762/ProgrammingInterviewQuestions#sorting-problems'><img src='https://img.shields.io/badge/Sorting-Problems-green' /></a>
 <a href='https://github.com/jatinkumar762/ProgrammingInterviewQuestions#string'><img src='https://img.shields.io/badge/String-Problems-red' /></a>
