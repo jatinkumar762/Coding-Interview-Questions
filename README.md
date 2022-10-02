@@ -122,6 +122,7 @@
   3. [Valid Parentheses](./StackAndQueue/Easy/ValidParentheses.md).
   4. [Convert Infix to Postfix](./StackAndQueue/Easy/InfixToPostfix.md)
   5. [Expression contains redundant bracket or not](https://www.geeksforgeeks.org/expression-contains-redundant-bracket-not/)
+  6. [Daily Temperatures](./StackAndQueue/Easy/DailyTemperatures.md)
 
   #### Medium
   1. 🔥 [BFS - Open the Lock](./StackAndQueue/Medium/Open%20the%20Lock.md)
