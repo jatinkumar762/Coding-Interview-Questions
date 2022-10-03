@@ -1,5 +1,7 @@
 [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
 
+#### Approach: 1 (Two Stacks) Push - O(1) per operation, Pop - Amortized O(1) per operation.
+
 ```java
 class MyQueue {
 
