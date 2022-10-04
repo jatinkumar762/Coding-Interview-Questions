@@ -136,6 +136,7 @@
   8. [Inorder Traversal (Iterative)](./StackAndQueue/Medium/InorderTraversal.md)
   9. 🔥 [Decode String](./StackAndQueue/Medium/DecodeString.md)
   10. [Implement Stack using Queues](./StackAndQueue/Medium/StackUsingQueue.md)
+  11. [01 Matrix](./StackAndQueue/Medium/01%20Matrix.md)
 
 ## Binary Tree
   ### Medium
