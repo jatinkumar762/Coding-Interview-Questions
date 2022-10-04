@@ -134,7 +134,8 @@
   6. 🔥 [Validate Stack Sequences](./StackAndQueue/Medium/ValidateStackSequences.md)
   7. 🔥 [Valid Substring](./StackAndQueue/Medium/ValidSubstring.md)
   8. [Inorder Traversal (Iterative)](./StackAndQueue/Medium/InorderTraversal.md)
-  9. 🔥 [Decode String](https://leetcode.com/problems/decode-string/)
+  9. 🔥 [Decode String](./StackAndQueue/Medium/DecodeString.md)
+  10. [Implement Stack using Queues](./StackAndQueue/Medium/StackUsingQueue.md)
 
 ## Binary Tree
   ### Medium
