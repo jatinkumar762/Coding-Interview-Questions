@@ -45,3 +45,8 @@ class MyStack {
  * boolean param_4 = obj.empty();
  */
  ```
+
+ #### Follow-up: Can you implement the stack using only one queue?
+ * Push - O(N)
+ * Pop - o(1)
+ * invert the order of queue elements when pushing a new element
