@@ -11,6 +11,7 @@
   1. [QuickSort implementation in java](QuickSort.java)
   2. [HeapSort implementation in java](HeapSort.java)
   3. [MergeSort implementation in java](MergeSort.java)
+  4. [Selection Sort](./SearchingAndSorting/Sorting/Selection%20Sort.md)
 
 ## Searching and Sorting Problems
   ### Easy
