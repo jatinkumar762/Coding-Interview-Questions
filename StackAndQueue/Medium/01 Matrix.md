@@ -75,3 +75,49 @@ class Solution {
 
 #### Method-2: Dynamic Programming
 
+```java
+class Solution {
+    
+    private int min(int a,int b){
+        return a<b?a:b;    
+    } 
+    
+    public int[][] updateMatrix(int[][] mat) {
+        
+        int ROWS = mat.length;
+        int COLS = mat[0].length;
+        
+        int[][] dist = new int[ROWS][COLS];
+        
+        for(int[] d:dist)
+            Arrays.fill(d, Integer.MAX_VALUE-1);
+        
+        for(int r=0;r<ROWS;r++){
+            for(int c=0;c<COLS;c++){
+                if(mat[r][c]==0){
+                    dist[r][c] = 0;
+                } else {
+                    if(r>0)
+                        dist[r][c] = min(dist[r][c], dist[r-1][c]+1);
+                    if(c>0)
+                        dist[r][c] = min(dist[r][c], dist[r][c-1]+1);
+                }
+            }
+        }
+        
+        for(int r=ROWS-1;r>=0;r--){
+            for(int c=COLS-1;c>=0;c--){
+                if(mat[r][c]==0){
+                    dist[r][c] = 0;
+                } else {
+                    if(r<ROWS-1)
+                        dist[r][c] = min(dist[r][c], dist[r+1][c]+1);
+                    if(c<COLS-1)
+                        dist[r][c] = min(dist[r][c], dist[r][c+1]+1);
+                }
+            }
+        }
+        return dist;
+    }
+}
+```
