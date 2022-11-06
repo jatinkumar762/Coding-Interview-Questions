@@ -13,7 +13,8 @@
   3. [MergeSort implementation in java](MergeSort.java)
   4. [Selection Sort](./SearchingAndSorting/Sorting/Selection%20Sort.md)
   5. [Bubble Sort](./SearchingAndSorting/Sorting/BubbleSort.md)
-  6. [Sort an array of 0s, 1s and 2s | Dutch National Flag problem]()
+  6. [Insertion Sort](./SearchingAndSorting/Sorting/InsertionSort.md)
+  7. [Sort an array of 0s, 1s and 2s | Dutch National Flag problem]()
 
 ## Searching and Sorting Problems
   ### Easy
