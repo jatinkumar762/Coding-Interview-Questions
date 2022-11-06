@@ -31,3 +31,6 @@ public class Solution {
 #### Editorial
 * [https://www.geeksforgeeks.org/insertion-sort/](https://www.geeksforgeeks.org/insertion-sort/)
 * [https://leetcode.com/explore/learn/card/sorting/694/comparison-based-sorts/4435/](https://leetcode.com/explore/learn/card/sorting/694/comparison-based-sorts/4435/)
+
+#### Related Problems
+* [Insertion Sort List](https://leetcode.com/explore/learn/card/sorting/694/comparison-based-sorts/4485/)
