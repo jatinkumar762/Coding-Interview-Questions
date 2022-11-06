@@ -26,5 +26,9 @@ public class Solution {
 }
 ```
 
+* a stable sorting algorithm since equal elements will never have swapped places, so their relative ordering will be preserved.
+* space complexity - worst case runtime of O(n^2)
+* space complexity - O(1)
+
 #### Editorial
 * [https://www.geeksforgeeks.org/bubble-sort/](https://www.geeksforgeeks.org/bubble-sort/)
