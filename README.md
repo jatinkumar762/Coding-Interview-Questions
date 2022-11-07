@@ -16,6 +16,9 @@
   6. [Insertion Sort](./SearchingAndSorting/Sorting/InsertionSort.md)
   7. [Sort an array of 0s, 1s and 2s | Dutch National Flag problem]()
 
+  ### Non-Comparison based Sorts
+  1. [Counting Sort](./SearchingAndSorting/Sorting/CountingSort.md)
+
 ## Searching and Sorting Problems
   ### Easy
   1. [Find first and last positions of an element in a sorted array](./SearchingAndSorting/FirstAndLastOccurence.md)
