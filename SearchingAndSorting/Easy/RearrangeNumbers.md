@@ -6,3 +6,5 @@
 * [Rearrange positive and negative numbers with constant extra space](https://www.geeksforgeeks.org/rearrange-positive-and-negative-numbers/)
 
   <b>Note:</b>  The order of appearance should be maintained.
+
+* [Dutch National Flag Algorithm](https://users.monash.edu/~lloyd/tildeAlgDS/Sort/Flag/)
