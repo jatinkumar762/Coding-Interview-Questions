@@ -26,7 +26,7 @@
   2. [Sort an array according to count of set bits](./SearchingAndSorting/SortArraySetBitsCount.md)
   3. [Smallest factorial number](./SearchingAndSorting/Smallest%20factorial%20number.md)
   4. [Rearrange numbers with constant extra space](./SearchingAndSorting/Easy/RearrangeNumbers.md)
-  5. 
+  5. [Merge Sorted Array]()
 
   ### Medium
   1. [Search in Rotated Sorted Array](./SearchingAndSorting/SearchinRotatedSortedArray.md)
