@@ -56,6 +56,7 @@
   5. [Alternate positive and negative numbers](./Array/AlternatePositiveNegative.md)
   6. [Three way partitioning](./Array/ThreeWayPartitioning.md)
   7. [Find Pivot Index](./Array/Easy/FindPivotIndex.md)
+  8. [Max Consecutive Ones II](./Array/Easy/MaxConsecutiveOnesII.md)
 
   #### Medium
   1. [Next Permutation](./Array/NextPermutation.md)
