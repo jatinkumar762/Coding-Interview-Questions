@@ -45,6 +45,7 @@
 ## LinkedList
   #### Easy
   1. [Design Linked List](./LinkedList/Easy/SingleLinkedList.md)
+  2. [ Linked List Cycle]()
 
   #### Medium
   1. [Rotate List](./LinkedList/RotateList.md)
