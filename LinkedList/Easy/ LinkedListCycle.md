@@ -1,5 +1,9 @@
 [https://leetcode.com/problems/linked-list-cycle/description/](https://leetcode.com/problems/linked-list-cycle/description/)
 
+#### Approach 1: Hash Table
+
+#### Approach 2: Floyd's Cycle Finding Algorithm
+
 ```java
 public class Solution {
     public boolean hasCycle(ListNode head) {
