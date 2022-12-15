@@ -43,6 +43,8 @@
   1. [Combination Sum](./Recursion/CombinationSum.md)
 
 ## LinkedList
+  #### Easy
+  1. [Design Linked List](./LinkedList/Easy/SingleLinkedList.md)
 
   #### Medium
   1. [Rotate List](./LinkedList/RotateList.md)
