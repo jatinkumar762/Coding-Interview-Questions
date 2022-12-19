@@ -49,6 +49,7 @@
 
   #### Medium
   1. [Rotate List](./LinkedList/RotateList.md)
+  2. [Find the starting point of the loop](./LinkedList/Medium/StartingPointLoop.md)
 
 ## Array
   ### Easy
