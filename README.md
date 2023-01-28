@@ -189,3 +189,7 @@
   5. [Longest Increasing Subsequence](./DynamicProgramming/LongestIncreasingSubsequence.md)
   6. [Max length chain](./DynamicProgramming/Maxlengthchain.md)
 
+## Heap
+  ### Easy
+  1. [Implementation of a Heap of a Heap](./Heap/Easy/HeapImplementation.md)
+
