@@ -60,6 +60,18 @@ class MinHeap
             index = (index-1)/2;
         }
     }
+
+    public int remove(){
+      if(size==0){
+        throw new RuntimeException("Not allowed");
+      }
+      int tmp = data[size-1];
+      data[size-1] = data[0];
+      data[0] = tmp;
+      size-=1;
+      heapify(0);
+      return data[size];
+    }
 }
 
 
@@ -72,6 +84,9 @@ class GFG {
 		minHeap.print();
 		System.out.println();
 		minHeap.add(-10);
+		minHeap.print();
+    System.out.println();
+		System.out.println("Removed Elelement: "+minHeap.remove());
 		minHeap.print();
 	}
 }
