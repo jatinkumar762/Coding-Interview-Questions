@@ -86,8 +86,8 @@ class GFG {
 		minHeap.add(-10);
 		minHeap.print();
     System.out.println();
-		System.out.println("Removed Elelement: "+minHeap.remove());
-		minHeap.print();
+    System.out.println("Removed Elelement: "+minHeap.remove());
+    minHeap.print();
 	}
 }
 ```
