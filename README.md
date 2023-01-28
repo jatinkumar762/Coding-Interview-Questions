@@ -191,5 +191,5 @@
 
 ## Heap
   ### Easy
-  1. [Implementation of a Heap of a Heap](./Heap/Easy/HeapImplementation.md)
+  1. [Implementation of a Heap](./Heap/Easy/HeapImplementation.md)
 
