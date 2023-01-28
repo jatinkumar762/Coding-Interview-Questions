@@ -8,9 +8,11 @@ class MinHeap
 {
     private int[] data;
     private int size;
+    private int maxSize;
     MinHeap(int size){
         this.size = size;
-        data = new int[size];
+        this.maxSize = size + 5;
+        data = new int[maxSize];
         for(int i=0;i<size;i++){
             data[i] = (int) (Math.random()*10);
         }
@@ -43,6 +45,21 @@ class MinHeap
             heapify(i);
         }
     }
+    
+    public void add(int ele){
+        if(size+1>maxSize){
+            throw new RuntimeException("Not allowed");
+        }
+        size = size+1;
+        data[size-1] = ele;
+        int index = size-1;
+        while(data[index]<data[(index-1)/2] && index>0){
+            int tmp = data[(index-1)/2];
+            data[(index-1)/2] = data[index];
+            data[index] = tmp;
+            index = (index-1)/2;
+        }
+    }
 }
 
 
@@ -52,6 +69,9 @@ class GFG {
 		minHeap.print();
 		minHeap.buildHeap();
 		System.out.println();
+		minHeap.print();
+		System.out.println();
+		minHeap.add(-10);
 		minHeap.print();
 	}
 }
