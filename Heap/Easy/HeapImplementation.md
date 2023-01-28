@@ -76,18 +76,18 @@ class MinHeap
 
 
 class GFG {
-	public static void main (String[] args) {
-        MinHeap minHeap = new MinHeap(10);
-        minHeap.print();
-        minHeap.buildHeap();
-        System.out.println();
-        minHeap.print();
-        System.out.println();
-        minHeap.add(-10);
-        minHeap.print();
-        System.out.println();
-        System.out.println("Removed Elelement: "+minHeap.remove());
-        minHeap.print();
-	}
+  public static void main (String[] args) {
+      MinHeap minHeap = new MinHeap(10);
+      minHeap.print();
+      minHeap.buildHeap();
+      System.out.println();
+      minHeap.print();
+      System.out.println();
+      minHeap.add(-10);
+      minHeap.print();
+      System.out.println();
+      System.out.println("Removed Elelement: "+minHeap.remove());
+      minHeap.print();
+  }
 }
 ```
