@@ -157,6 +157,7 @@
 ## Binary Tree
   ### Medium
    1. [ZigZag Tree Traversal](./BinaryTree/ZigZagTreeTraversal.md)
+   2. [Preorder, Inorder, and Postorder Traversal](./BinaryTree/)
     
   ### Hard
 
