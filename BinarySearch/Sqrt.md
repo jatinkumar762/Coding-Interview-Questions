@@ -2,7 +2,9 @@
 
 #### Approach-1 (Basic)
 
-- Note - take care of int range limit, bcz of it wrong error will come
+1. take care of int range limit, bcz of it wrong error will come
+2. if a is result then $a^2≤x<(a+1)^2$
+ 
 
 ```java
 class Solution {
