@@ -35,7 +35,7 @@
   4. [Minimum Swaps to Sort](./SearchingAndSorting/MinimumSwapsToSort.md)+
   5. [Print all subarrays with 0 sum](https://www.geeksforgeeks.org/print-all-subarrays-with-0-sum/)
 
-## Binar Search
+## Binary Search
   ### Easy
   1. [Sqrt(x)](./BinarySearch/Sqrt.md)
 
