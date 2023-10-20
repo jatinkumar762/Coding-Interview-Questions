@@ -7,6 +7,9 @@
 <a href='https://github.com/jatinkumar762/ProgrammingInterviewQuestions#string'><img src='https://img.shields.io/badge/String-Problems-red' /></a>
 <a href='https://github.com/jatinkumar762/ProgrammingInterviewQuestions#array'><img src='https://img.shields.io/badge/Array-Problems-yellow' /></a>
 
+# Leetcode Top 150 Problems - [Link](./LeetCode/Top%20Interview%20150/README.md)
+
+
 ## Sorting Problems
   1. [QuickSort implementation in java](QuickSort.java)
   2. [HeapSort implementation in java](HeapSort.java)
