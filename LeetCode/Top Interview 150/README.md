@@ -7,3 +7,6 @@
 2. [Remove Element]()
 3. [Remove Duplicates From Sorted Array]()
 4. [Majority Element]()
+
+
+### Medium
