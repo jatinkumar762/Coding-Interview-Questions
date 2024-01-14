@@ -41,6 +41,7 @@
 ## Binary Search
   ### Easy
   1. [Sqrt(x)](./BinarySearch/Sqrt.md)
+  2. [Nth Root of a Number using Binary Search](./BinarySearch/NthRoot.md)
 
   ### Medium
 
