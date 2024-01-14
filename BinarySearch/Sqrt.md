@@ -23,3 +23,9 @@ class Solution {
     }
 }
 ```
+
+#### Approach-2 (Binary Search)
+
+```java
+mid = low+(high-low)/2;
+```

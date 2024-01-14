@@ -42,6 +42,10 @@
   ### Easy
   1. [Sqrt(x)](./BinarySearch/Sqrt.md)
 
+  ### Medium
+
+  ### Hard
+
 ## Maths Problem
   ### Easy
   1. [Missing Number](./Maths/Missing%20Number.md)
