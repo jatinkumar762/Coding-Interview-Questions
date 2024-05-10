@@ -84,29 +84,34 @@ class Solution {
 * LRN 
     - NRL -> and reverse the output array 
 
+
+<b>Note -</b> if i use, LinkedList instead of ArrayList, then i can reduce so much run timn of a program.
+
 ```java
 class Solution {
     public List<Integer> postorderTraversal(TreeNode root) {
         
-        List<Integer> result = new ArrayList<>();
+        //List<Integer> result = new ArrayList<>();
+        List<Integer> result = new LinkedList<>();
         Stack<TreeNode> stack = new Stack<>();
 
         while(root!=null || stack.size()>0){
 
             while(root!=null){
-                result.add(root.val);
-                stack.push(root);
-                root = root.right;
+                //result.add(root.val);
+                result.addFirst(root.val); // Reverse the process of preorder
+                stack.push(root); 
+                root = root.right; // Reverse the process of preorder
             }
 
             root = stack.pop();
 
             if(root!=null){
-                root = root.left;
+                root = root.left; // Reverse the process of preorder
             }
         }
 
-        Collections.reverse(result);
+        //Collections.reverse(result);
 
         return result;
     }
