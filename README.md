@@ -173,6 +173,7 @@
   ### Medium
    1. [ZigZag Tree Traversal](./BinaryTree/ZigZagTreeTraversal.md)
    2. [Preorder, Inorder, and Postorder Traversal](./BinaryTree/Medium/PreInPostTraversal.md)
+   3. [Binary Tree Level Order Traversal](./BinaryTree/Medium/LevelOrderTraversalBT.md)
     
   ### Hard
 
