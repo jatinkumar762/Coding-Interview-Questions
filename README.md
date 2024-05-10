@@ -170,6 +170,10 @@
   11. 🔥 [01 Matrix](./StackAndQueue/Medium/01%20Matrix.md)
 
 ## Binary Tree
+
+  ### Easy
+  1. [Maximum depth of binary tree](./BinaryTree/Easy/MaximumDepth.md)
+
   ### Medium
    1. [ZigZag Tree Traversal](./BinaryTree/ZigZagTreeTraversal.md)
    2. [Preorder, Inorder, and Postorder Traversal](./BinaryTree/Medium/PreInPostTraversal.md)
