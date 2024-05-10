@@ -1,4 +1,37 @@
 
+## Pre-Order Traversal
+
+```java
+class Solution {
+    public List<Integer> preorderTraversal(TreeNode root) {
+        
+        Stack<TreeNode> stack = new Stack<>();
+        List<Integer> result = new ArrayList<>();
+
+
+        while(root!=null || stack.size()>0){
+
+            while(root!=null){
+                result.add(root.val);
+                stack.push(root);
+                root = root.left;
+            }
+
+            root = stack.pop();
+
+            if(root!=null){
+                root = root.right;
+            }
+
+        }
+
+        return result;
+    }
+}
+```
+
+
+
 
 ## In-Order Traversal
 
