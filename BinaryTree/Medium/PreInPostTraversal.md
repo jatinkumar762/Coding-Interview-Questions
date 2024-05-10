@@ -85,7 +85,7 @@ class Solution {
     - NRL -> and reverse the output array 
 
 
-<b>Note -</b> if i use, LinkedList instead of ArrayList, then i can reduce so much run timn of a program.
+<b>Note -</b> if i use, LinkedList instead of ArrayList, then i can reduce so much run time of the program.
 
 ```java
 class Solution {
