@@ -175,13 +175,14 @@
   1. [Maximum depth of binary tree](./BinaryTree/Easy/MaximumDepth.md)
   2. [Balanced Binary Tree](./BinaryTree/Easy/BalancedBinaryTree.md)
   3. [Diameter of Binary Tree](./BinaryTree/Easy/DiameterBinaryTree.md)
-  4. [Binary Tree Maximum Path Sum](./BinaryTree/Medium/BinaryTreeMaximumPathSum.md)
+  4. [Same Tree](./BinaryTree/Easy/SameTree.md)
 
 
   ### Medium
    1. [ZigZag Tree Traversal](./BinaryTree/ZigZagTreeTraversal.md)
    2. [Preorder, Inorder, and Postorder Traversal](./BinaryTree/Medium/PreInPostTraversal.md)
    3. [Binary Tree Level Order Traversal](./BinaryTree/Medium/LevelOrderTraversalBT.md)
+   4. [Binary Tree Maximum Path Sum](./BinaryTree/Medium/BinaryTreeMaximumPathSum.md)
     
   ### Hard
 
