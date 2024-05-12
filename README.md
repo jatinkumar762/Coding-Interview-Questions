@@ -174,6 +174,7 @@
   ### Easy
   1. [Maximum depth of binary tree](./BinaryTree/Easy/MaximumDepth.md)
   2. [Balanced Binary Tree](./BinaryTree/Easy/BalancedBinaryTree.md)
+  3. [Diameter of Binary Tree](./BinaryTree/Easy/DiameterBinaryTree.md)
 
   ### Medium
    1. [ZigZag Tree Traversal](./BinaryTree/ZigZagTreeTraversal.md)
