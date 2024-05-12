@@ -1,3 +1,75 @@
+
+https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/
+
+#### Optmized Code
+
+```java
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+
+class Solution {
+    public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
+        
+        //true->right to left, false->left to right
+        boolean leftToRight = true;
+
+        List<List<Integer>> result = new ArrayList<>();
+
+        if(root==null)
+            return result;
+
+        Queue<TreeNode> queue = new LinkedList<>();
+
+        queue.add(root);
+
+        while(!queue.isEmpty()){
+
+            int size = queue.size();
+            List<Integer> levelResult = new LinkedList<>();
+            
+            for(int i=0;i<size;i++) {
+
+                TreeNode tmp = queue.poll();
+
+                if(leftToRight){
+                    levelResult.add(tmp.val);
+                } else {
+                    levelResult.add(0, tmp.val);
+                }
+                
+                if(tmp.left!=null){
+                    queue.add(tmp.left);
+                }
+                if(tmp.right!=null){
+                    queue.add(tmp.right);
+                }
+            }
+            result.add(levelResult);
+            leftToRight = !leftToRight;
+        }
+
+        return result;
+    }
+}
+```
+
+---
+
+
+
 ```java
 
 //User function Template for Java
