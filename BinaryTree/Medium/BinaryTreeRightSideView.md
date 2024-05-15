@@ -57,3 +57,38 @@ class Solution {
     }
 }
 ```
+
+### Optimized Approach
+
+The core idea of this algorithm:
+
+1. Each depth of the tree only select one node.
+2. View depth is current size of result list.
+
+```java
+class Solution {
+    
+    private List<Integer> result = new ArrayList<Integer>();
+
+    public List<Integer> rightSideView(TreeNode root) {
+        
+        if(root==null) return result;
+
+        rightView(root, 0);
+
+        return result;
+    }
+
+    private void rightView(TreeNode root, int currDepth){
+
+        if(root == null) return;
+
+        if(result.size() == currDepth){
+            result.add(root.val);
+        }
+
+        rightView(root.right, currDepth+1);
+        rightView(root.left, currDepth+1);
+    }
+}
+```
