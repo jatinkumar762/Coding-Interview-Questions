@@ -65,6 +65,8 @@ The core idea of this algorithm:
 1. Each depth of the tree only select one node.
 2. View depth is current size of result list.
 
+To get the left and right view of a Binary Tree, we perform a depth-first traversal of the Binary Tree while keeping track of the level of each node. For both the left and right view, we’ll ensure that only the first node encountered at each level is added to the result vector.
+
 ```java
 class Solution {
     
