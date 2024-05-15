@@ -4,6 +4,8 @@
 * We need to use BFS approach, level by level order traversal, Need to use the concept of Horizontal distance
 * Here DFS will not work
 
+Note: We can use pair class also instead of NodeIndex </br>
+<b>Queue<Pair<Node, Integer>> q = new LinkedList<>(); </b>
 
 ```java
 class NodeIndex{

@@ -1,6 +1,9 @@
 1. https://takeuforward.org/data-structure/bottom-view-of-a-binary-tree/
 2. https://www.geeksforgeeks.org/problems/bottom-view-of-binary-tree/0
 
+Note: We can use pair class also instead of NodeIndex </br>
+<b>Queue<Pair<Node, Integer>> q = new LinkedList<>(); </b>
+
 We use a map data structure to store the nodes corresponding to each vertical level of the tree as the map automatically sorts the elements based on their ascending value. Against each vertical level, the node lowest in the tree at that vertical level is added by traversing the tree level order wise (BFS).
 
 ```java
