@@ -183,6 +183,8 @@
    2. [Preorder, Inorder, and Postorder Traversal](./BinaryTree/Medium/PreInPostTraversal.md)
    3. [Binary Tree Level Order Traversal](./BinaryTree/Medium/LevelOrderTraversalBT.md)
    4. [Binary Tree Maximum Path Sum](./BinaryTree/Medium/BinaryTreeMaximumPathSum.md)
+   5. [Boundary Traversal of binary tree]
+   6. [Top View of Binary Tree](./BinaryTree/Medium/TopViewBinaryTree.md)
     
   ### Hard
 
