@@ -193,7 +193,8 @@
 
 ## Binary Search Tree
   ### Easy
-  1. [Check for BST](./BST/checkBST.md)
+  1. [Check for BST](./BST/Easy/checkBST.md)
+  2. [Search in a Binary Search Tree](./BST/Easy/SearchInsideBinarySearchTree.md)
 
   ### Medium
   1. [Predecessor and Successor](./BST/PredecessorandSuccessor.md)
