@@ -185,6 +185,7 @@
    4. [Binary Tree Maximum Path Sum](./BinaryTree/Medium/BinaryTreeMaximumPathSum.md)
    5. [Boundary Traversal of binary tree]
    6. [Top View of Binary Tree](./BinaryTree/Medium/TopViewBinaryTree.md)
+   7. [Bottom View of Binary Tree](./BinaryTree/Medium/BottomViewBinaryTree.md)
     
   ### Hard
 
