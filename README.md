@@ -196,6 +196,7 @@
   1. [Check for BST](./BST/Easy/checkBST.md)
   2. [Search in a Binary Search Tree](./BST/Easy/SearchInsideBinarySearchTree.md)
   3. [Floor Binary Search Tree](./BST/Easy/FloorBST.md)
+  4. [Ceil Binary Search Tree](./BST/Easy/CeilBST.md)
 
   ### Medium
   1. [Predecessor and Successor](./BST/PredecessorandSuccessor.md)
