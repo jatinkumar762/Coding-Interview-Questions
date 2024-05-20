@@ -201,6 +201,7 @@
 
   ### Medium
   1. [Predecessor and Successor](./BST/PredecessorandSuccessor.md)
+  2. [Delete Node in a BST](./BST/Medium/DeleteNodeBST.md)
 
 ## Backtracking
   ### Medium
