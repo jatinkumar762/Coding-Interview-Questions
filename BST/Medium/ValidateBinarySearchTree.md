@@ -28,3 +28,22 @@ class Solution {
     }
 }
 ```
+
+* faster and less memory
+
+```java
+class Solution {
+    public boolean isValidBST(TreeNode root) {
+        return rec(root, Long.MIN_VALUE, Long.MAX_VALUE);
+
+    }
+
+    private boolean rec(TreeNode root, long LB, long RB) {
+      if (root == null) return true;
+
+      if (root.val <= LB || root.val >= RB) return false;
+
+      return rec(root.left, LB, root.val) && rec(root.right, root.val, RB);  
+    }
+}
+```
