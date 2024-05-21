@@ -203,6 +203,7 @@
   1. [Predecessor and Successor](./BST/PredecessorandSuccessor.md)
   2. [Delete Node in a BST](./BST/Medium/DeleteNodeBST.md)
   3. [Kth Smallest Element in a BST](./BST/Medium/KthElementBST.md)
+  4. [Validate Binary Search Tree](./BST/Medium/ValidateBinarySearchTree.md)
 
 ## Backtracking
   ### Medium
