@@ -240,4 +240,5 @@
 ## Greedy Alogirthms
   ### Easy
   1. [Assign Cookies](./Greedy%20Algorithms/Easy/Assign%20Cookies.md)
+  2. [Fractional Knapsack]
 
