@@ -237,3 +237,7 @@
   ### Easy
   1. [Count Occurences of Anagrams](./Sliding%20Window/CountOccurencesofAnagrams.md)
 
+## Greedy Alogirthms
+  ### Easy
+  1. [Assign Cookies](./Greedy%20Algorithms/Easy/Assign%20Cookies.md)
+
