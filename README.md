@@ -243,3 +243,6 @@
   2. [Fractional Knapsack](./Greedy%20Algorithms/Easy/FractionalKnapsack.md)
   3. [Lemonade Change](./Greedy%20Algorithms/Easy/LemonadeChange.md)
 
+  ### Medium
+  1. 🔥[Valid Parenthesis String](./Greedy%20Algorithms/Medium/ValidParenthesisString.md)
+
