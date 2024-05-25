@@ -235,9 +235,9 @@
 
 ## Sliding Window
   ### Easy
-  1. [Count Occurences of Anagrams](./Sliding%20Window/CountOccurencesofAnagrams.md)
+  1. [Count Occurrences of Anagrams](./Sliding%20Window/CountOccurencesofAnagrams.md)
 
-## Greedy Alogirthms
+## Greedy Algorithms
   ### Easy
   1. [Assign Cookies](./Greedy%20Algorithms/Easy/Assign%20Cookies.md)
   2. [Fractional Knapsack](./Greedy%20Algorithms/Easy/FractionalKnapsack.md)
