@@ -1,6 +1,11 @@
 https://leetcode.com/problems/find-k-closest-elements/description/
 https://www.youtube.com/watch?v=J8yLD-x7fBI&list=PL_z_8CaSLPWdtY9W22VjnPxG30CXNZpI9&index=5
 
+Note -> if given array is already sorted
+
+
+*** if given array is not sorted
+
 #### Approach-1 Sorting
 
 #### Approach-2 Max Heap
