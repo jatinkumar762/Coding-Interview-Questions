@@ -28,6 +28,7 @@ class Solution {
          * return root;
          */
 
+        
         while (root != null) {
 
             if (root.val > p.val && root.val > q.val) {
@@ -38,6 +39,23 @@ class Solution {
                 return root;
             }
         }
+        
+
+        /*
+            //multiplication will be +ve only
+            // if root greater than both p and q
+            // if root smaller than both p and q
+            while ((root.val - p.val) * (root.val - q.val) > 0){
+                //this solution will not work
+                //bcz of integer overflow
+                root = p.val < root.val ? root.left : root.right;
+            }
+            
+            //root = [0,-1000000000,1000000000]
+            //p = -1000000000
+            //q = 1000000000
+        */
+
 
         return root;
     }
