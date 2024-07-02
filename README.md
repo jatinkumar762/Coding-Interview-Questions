@@ -238,6 +238,7 @@
   1. [Find K Closest Elements](./Heap/Medium/KClosestElements.md)
   2. [Kth Largest Element in an Array](./Heap/Medium/KthLargestElement.md)
   3. [K largest elements](./Heap/Medium/K_LargestElements.md)
+  4. [Sort a K Sorted Array](./Heap/Medium/SortKSortedArray.md)
 
 
 ## Sliding Window
