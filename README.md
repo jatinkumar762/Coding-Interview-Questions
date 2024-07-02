@@ -6,6 +6,7 @@
 <a href='https://github.com/jatinkumar762/ProgrammingInterviewQuestions#sorting-problems'><img src='https://img.shields.io/badge/Sorting-Problems-green' /></a>
 <a href='https://github.com/jatinkumar762/ProgrammingInterviewQuestions#string'><img src='https://img.shields.io/badge/String-Problems-red' /></a>
 <a href='https://github.com/jatinkumar762/ProgrammingInterviewQuestions#array'><img src='https://img.shields.io/badge/Array-Problems-yellow' /></a>
+<a href='https://github.com/jatinkumar762/ProgrammingInterviewQuestions#heap'><img src='https://img.shields.io/badge/Heap-Problems-pink' /></a>
 
 # Leetcode Top 150 Problems - [Link](./LeetCode/Top%20Interview%20150/README.md)
 
