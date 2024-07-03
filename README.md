@@ -240,6 +240,7 @@
   2. [Kth Largest Element in an Array](./Heap/Medium/KthLargestElement.md)
   3. [K largest elements](./Heap/Medium/K_LargestElements.md)
   4. [Sort a K Sorted Array](./Heap/Medium/SortKSortedArray.md)
+  5. [Top K Frequent Elements](./Heap/Medium/TopKFrequentElements.md)
 
 
 ## Sliding Window
