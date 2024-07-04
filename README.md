@@ -249,6 +249,9 @@
   2. [Max Sum Subarray of size K](./SlidingWindow/Easy/MaxSumSubarraySizeK.md)
   3. [First negative in every window of size k](./SlidingWindow/Easy/FirstNegativeEveryWindowSizeK.md)
 
+  ### Medium
+  1. 🔥[Sliding Window Maximum/K Sized Subarray Maximum](./SlidingWindow/Medium/KSizedSubarrayMaximum.md)
+
 ## Greedy Algorithms
   ### Easy
   1. [Assign Cookies](./Greedy%20Algorithms/Easy/Assign%20Cookies.md)
