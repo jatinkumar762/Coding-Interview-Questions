@@ -251,6 +251,7 @@
 
   ### Medium
   1. 🔥[Sliding Window Maximum/K Sized Subarray Maximum](./SlidingWindow/Medium/KSizedSubarrayMaximum.md)
+  2. 🔥[Longest Sub-Array with Sum K](./SlidingWindow/Medium/LongestSubArraySumK.md)
 
 ## Greedy Algorithms
   ### Easy
