@@ -245,9 +245,9 @@
 
 ## Sliding Window
   ### Easy
-  1. [Count Occurrences of Anagrams](./Sliding%20Window/CountOccurencesofAnagrams.md)
-  2. [Max Sum Subarray of size K](./Sliding%20Window/Easy/MaxSumSubarraySizeK.md)
-  3. [First negative in every window of size k](./Sliding%20Window/Easy/FirstNegativeEveryWindowSizeK.md)
+  1. [Count Occurrences of Anagrams](./SlidingWindow/Easy/CountOccurencesofAnagrams.md)
+  2. [Max Sum Subarray of size K](./SlidingWindow/Easy/MaxSumSubarraySizeK.md)
+  3. [First negative in every window of size k](./SlidingWindow/Easy/FirstNegativeEveryWindowSizeK.md)
 
 ## Greedy Algorithms
   ### Easy
