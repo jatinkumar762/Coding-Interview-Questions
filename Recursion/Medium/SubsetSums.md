@@ -1,5 +1,7 @@
 1. https://www.geeksforgeeks.org/problems/subset-sums2234/1
 
+### Approach-1 Bit Manipulation
+
 ```java
 class Solution {
     ArrayList<Integer> subsetSums(ArrayList<Integer> arr, int n) {
@@ -22,3 +24,6 @@ class Solution {
     }
 }
 ```
+
+### Approach-2 Using Recursion
+
