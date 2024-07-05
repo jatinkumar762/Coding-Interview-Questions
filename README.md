@@ -57,6 +57,9 @@
 ## Recursion
   1. [Combination Sum](./Recursion/CombinationSum.md)
 
+  #### Medium
+  1. [Subset Sums](./Recursion/Medium/SubsetSums.md)
+
 ## LinkedList
   #### Easy
   1. [Design Linked List](./LinkedList/Easy/SingleLinkedList.md)
