@@ -27,3 +27,26 @@ class Solution {
 
 ### Approach-2 Using Recursion
 
+```java
+void subSetSumHelper(int index, int sum, ArrayList<Integer> arr, int N, ArrayList<Integer> subSetSum){
+        
+    if(index==N){
+        subSetSum.add(sum);
+        return;
+    }
+    
+    subSetSumHelper(index+1, sum+arr.get(index), arr, N, subSetSum);
+    
+    subSetSumHelper(index+1, sum, arr, N, subSetSum);
+}
+
+ArrayList<Integer> subsetSums(ArrayList<Integer> arr, int n) {
+    // code here
+    
+    ArrayList<Integer> result = new ArrayList<Integer>();
+    
+    subSetSumHelper(0, 0, arr, n, result);
+    
+    return result;
+}
+```
