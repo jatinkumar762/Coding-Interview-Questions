@@ -15,6 +15,7 @@ class Solution {
         
         //System.out.println(Arrays.toString(arr));
         // will try max and min of the complete array
+        //after sorting min diff will be between neighbour towers
         for(int i=1;i<n;i++){
             
             //tower height negative not posible
