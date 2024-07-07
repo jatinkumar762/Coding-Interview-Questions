@@ -13,7 +13,8 @@ class Solution {
         max = arr[n-1];
         res = max-min;
         
-        //System.out.println(Arrays.toString(arr)); 
+        //System.out.println(Arrays.toString(arr));
+        // will try max and min of the complete array
         for(int i=1;i<n;i++){
             
             //tower height negative not posible
