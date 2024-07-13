@@ -61,6 +61,7 @@
   #### Medium
   1. [Subset Sums](./Recursion/Medium/SubsetSums.md)
   2. [Power (x,n)](./Recursion/Medium/PowerX^N.md)
+  3. [Count Good Numbers](./Recursion/Medium/CountGoodNumbers.md)
 
 ## LinkedList
   #### Easy
