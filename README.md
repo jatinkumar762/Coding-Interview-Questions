@@ -116,6 +116,7 @@
    11. [Print Anagrams Together](./String/Easy/Print%20Anagrams%20Together.md)
    12. [Isomorphic Strings](./String/Easy/Isomorphic%20Strings.md)
    13. [Remove outermost Paranthesis](./String/RemoveOutermostParanthesis.md)
+   14. [String to Integer (atoi)](./String/Easy/StringToInteger.md)
 
    #### Medium
    1. [Valid Substring](./String/ValidSubstring.md)
