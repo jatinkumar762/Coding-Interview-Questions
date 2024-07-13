@@ -1,6 +1,6 @@
 https://leetcode.com/problems/powx-n/
 
-#### TLE Solution
+#### Time Limit Exceeded Solution
 
 ```java
 class Solution {
@@ -22,3 +22,6 @@ class Solution {
     }
 }
 ```
+
+x = 0.00001
+n = 2147483647
