@@ -47,6 +47,8 @@ class Solution {
     }
 }
 ```
+11 -> 1 0 1 1
+      8 4 2 1
 
 7^11
 
@@ -55,6 +57,8 @@ class Solution {
     7^2 * (7^4, 2)
               |
            (7^8, 1)
+              |
+            return 7^8
 
 
 #### Efficient Solution
