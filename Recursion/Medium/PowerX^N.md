@@ -26,23 +26,34 @@ class Solution {
 x = 0.00001
 n = 2147483647
 
-#### Recursive Solution - TLE
+#### Efficient Recursive Solution
+
+```java
+class Solution {
+    public double myPow(double x, int n) {
+        
+        if(n==0)
+            return 1;
+        
+        if(n==1)
+            return x;
+        
+        if(n<0){
+            return 1/x * myPow(1/x, -(n + 1));
+        }
+        
+        return ((n%2)==0)? myPow(x*x, n/2) : x * myPow(x*x, n/2);
+        
+    }
+}
+```
+
+#### Efficient Solution
 
 ```java
 class Solution {
 
-    private double calPower(double x, int n){
-        
-        if(n==0)
-            return 1;
-        if(n==1)
-            return x;
-        if(n==2)
-            return x*x;
-
-        
-        return calPower(x, (n/2)) * calPower(x, n - (n/2));
-    }
+    private boolean negative;
 
     public double myPow(double x, int n) {
         
@@ -50,10 +61,33 @@ class Solution {
 
         if(n==0)
             return 1;
+        
+        double result = 1;
+        
+        negative = n<0?true:false;
+        
+        /*
+          integer overflow can happen
+          when Integer.MIN_VALUE;
+          n = Math.abs(n);
+          x = 2.00000
+          n = -2147483648, Integer.MIN_VALUE
+        */
 
-        double result = calPower(x, Math.abs(n));
+        long N = (long)(n);
+        if(negative){
+            N  = -1*N;
+        }
 
-        return n>0 ? result : (1/result);
+        while(N>0){
+            if((N&1)!=0){
+                result*=x;
+            }
+            x=x*x;
+            N=N/2;
+        }
+        return negative ? (1/result):result;
     }
 }
 ```
+
