@@ -57,6 +57,7 @@
 ## Recursion
   1. [Combination Sum](./Recursion/CombinationSum.md)
   2. [Reverse a Stack](./Recursion/Easy/ReverseStack.md)
+  3. [Sort a stack](./Recursion/Easy/SortStack.md)
 
   #### Medium
   1. [Subset Sums](./Recursion/Medium/SubsetSums.md)
