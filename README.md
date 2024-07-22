@@ -69,6 +69,7 @@
   7. [Combination Sum III](./Recursion/Medium/CombinationSum-III.md)
   8. [Letter Combinations of a Phone Number](./Recursion/Medium/LetterCombinationsPhoneNumber.md)
   9. [Subsets II](./Recursion/Medium/Subsets-II.md)
+  10. [Permutations](./Recursion/Medium/Permutations.md)
 
 ## LinkedList
   #### Easy
