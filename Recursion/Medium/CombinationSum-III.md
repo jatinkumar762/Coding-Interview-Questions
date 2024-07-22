@@ -27,8 +27,14 @@ class Solution {
     }
 
     public List<List<Integer>> combinationSum3(int k, int n) {
-        K = k;
-        findCombinationSum(1, n, new ArrayList<>());
+
+        //min number using k digits is (k*(k+1))/2 - sum of k natural numbers
+        //eg k=3 [1,2,3]
+        if (n >= (k * (k + 1)) / 2) {
+            K = k;
+            findCombinationSum(1, n, new ArrayList<>());
+
+        }
         return result;
     }
 }
