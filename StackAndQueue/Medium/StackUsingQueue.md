@@ -6,33 +6,35 @@ class MyStack {
     Queue<Integer> q1;
     Queue<Integer> q2;
     int top;
+
     public MyStack() {
         q1 = new LinkedList<Integer>();
         q2 = new LinkedList<Integer>();
     }
-    
+
     public void push(int x) {
         q1.add(x);
         top = x;
     }
-    
+
     public int pop() {
-        while(q1.size()>1){
+        while (q1.size() > 1) {
             top = q1.remove();
             q2.add(top);
         }
         int res = q1.remove();
+        Queue<Integer> tmp = q1;
         q1 = q2;
-        q2 = new LinkedList<Integer>();
+        q2 = tmp;
         return res;
     }
-    
+
     public int top() {
         return top;
     }
-    
+
     public boolean empty() {
-        return q1.size()==0 && q2.size()==0;
+        return q1.size() == 0;
     }
 }
 
