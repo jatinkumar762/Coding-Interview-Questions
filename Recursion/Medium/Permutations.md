@@ -1,6 +1,6 @@
 https://leetcode.com/problems/permutations/description/
 
-#### Approach-1 Non-Optimized
+#### Approach-1 taking 0ms time
 
 ```java
 class Solution {
@@ -10,10 +10,22 @@ class Solution {
 
     private void findPermute(int index, int[] nums) {
 
+        /*
+        bcz of this - taking so much time
         if (index == N) {
             result.add(convertToList(nums));
             return;
         }
+        */
+        if (index == N) {
+            List<Integer> ds = new ArrayList<>();
+            for (int i = 0; i < nums.length; i++) {
+                ds.add(nums[i]);
+            }
+            result.add(ds);
+            return;
+        }
+
 
         for (int i = index; i < N; i++) {
 
@@ -44,3 +56,5 @@ class Solution {
     }
 }
 ```
+
+#### Approach-2 
