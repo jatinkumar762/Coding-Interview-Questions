@@ -66,7 +66,7 @@
   4. [Subsets](./Recursion/Medium/SubSets.md)
   5. [Combination Sum](./Recursion/Medium/CombinationSum.md)
   6. [Combination Sum II](./Recursion/Medium/CombinationSum-II.md)
-  7. 
+  7. [Combination Sum III](./Recursion/Medium/CombinationSum-III.md)
 
 ## LinkedList
   #### Easy
