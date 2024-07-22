@@ -164,6 +164,10 @@
   5. [Diagonal Traverse](./Matrix/DiagonalTraverse.md)
 
 ## Stacks & Queues
+  #### Basic
+  1. [Implement Stack using array]()
+  2. [Implement Queue using array]() 
+
   #### Easy
   1. [Implement Circular Queue](./StackAndQueue/Easy/ImplementCircularQueue.md)
   2. [BFS - Number of Islands](./StackAndQueue/Easy/BFS%20-%20Number%20of%20Islands.md)
@@ -172,7 +176,8 @@
   5. [Expression contains redundant bracket or not](https://www.geeksforgeeks.org/expression-contains-redundant-bracket-not/)
   6. [Daily Temperatures](./StackAndQueue/Easy/DailyTemperatures.md)
   7. [Implement Queue using Stacks](./StackAndQueue/Easy/ImplementQueueUsingStacks.md)
-  8. [Keys and Rooms](./StackAndQueue/Easy/KeysAndRooms.md)
+  8. [Implement Stack using Queues](./StackAndQueue/Medium/StackUsingQueue.md)
+  9. [Keys and Rooms](./StackAndQueue/Easy/KeysAndRooms.md)
 
   #### Medium
   1. 🔥 [BFS - Open the Lock](./StackAndQueue/Medium/Open%20the%20Lock.md)
@@ -183,9 +188,8 @@
   6. 🔥 [Validate Stack Sequences](./StackAndQueue/Medium/ValidateStackSequences.md)
   7. 🔥 [Valid Substring](./StackAndQueue/Medium/ValidSubstring.md)
   8. [Inorder Traversal (Iterative)](./StackAndQueue/Medium/InorderTraversal.md)
-  9. 🔥 [Decode String](./StackAndQueue/Medium/DecodeString.md)
-  10. [Implement Stack using Queues](./StackAndQueue/Medium/StackUsingQueue.md)
-  11. 🔥 [01 Matrix](./StackAndQueue/Medium/01%20Matrix.md)
+  9. 🔥 [Decode String](./StackAndQueue/Medium/DecodeString.md) 
+  10. 🔥 [01 Matrix](./StackAndQueue/Medium/01%20Matrix.md)
 
 ## Binary Tree
 
