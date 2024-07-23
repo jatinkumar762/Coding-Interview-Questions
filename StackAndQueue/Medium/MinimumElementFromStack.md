@@ -87,7 +87,7 @@ class MinStack {
         return stack.peek().getValue();
     }
 }
- ```
+```
 
 Case-1
 ["MinStack","push","push","push","push","getMin","pop","getMin","pop","getMin","pop","getMin"]
