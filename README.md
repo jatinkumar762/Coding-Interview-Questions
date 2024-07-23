@@ -8,6 +8,7 @@
 <a href='https://github.com/jatinkumar762/ProgrammingInterviewQuestions?tab=readme-ov-file#array'><img src='https://img.shields.io/badge/Array-Problems-yellow' /></a>
 <a href='https://github.com/jatinkumar762/ProgrammingInterviewQuestions?tab=readme-ov-file#heap'><img src='https://img.shields.io/badge/Heap-Problems-pink' /></a>
 <a href='https://github.com/jatinkumar762/ProgrammingInterviewQuestions?tab=readme-ov-file#recursion'><img src='https://img.shields.io/badge/Recursion-Problems-orange' /></a>
+<a href='https://github.com/jatinkumar762/ProgrammingInterviewQuestions?tab=readme-ov-file#stacks--queues'><img src='https://img.shields.io/badge/Stack&Queues-Problems-blue' /></a>
 
 # Leetcode Top 150 Problems - [Link](./LeetCode/Top%20Interview%20150/README.md)
 
