@@ -1,5 +1,7 @@
 [Min Stack](https://leetcode.com/problems/min-stack/)
 
+#### Approach-1
+
 ```java
 class MinStack {
 
@@ -50,6 +52,41 @@ class MinStack {
  * int param_3 = obj.top();
  * int param_4 = obj.getMin();
  */
+ ```
+
+ #### Approach-2
+
+ ```java
+class MinStack {
+
+    Stack<Pair<Integer, Integer>> stack;
+    int min;
+
+    public MinStack() {
+        stack = new Stack<>();
+    }
+
+    public void push(int val) {
+        if (stack.isEmpty()) {
+            stack.add(new Pair(val, val));
+            return;
+        }
+        min = Math.min(stack.peek().getValue(), val);
+        stack.add(new Pair(val, min));
+    }
+
+    public void pop() {
+        stack.pop();
+    }
+
+    public int top() {
+        return stack.peek().getKey();
+    }
+
+    public int getMin() {
+        return stack.peek().getValue();
+    }
+}
  ```
 
 Case-1
