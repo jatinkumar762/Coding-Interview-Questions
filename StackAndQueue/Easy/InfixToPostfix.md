@@ -1,6 +1,71 @@
+https://www.geeksforgeeks.org/problems/infix-to-postfix-1587115620/1
+
+```java
+class Solution {
+    // Function to convert an infix expression to a postfix expression.
+    
+    private static Map<Character, Integer> charPriorityMap = new HashMap<>(){{
+     put('+', 1);
+     put('-', 1);
+     put('*', 2);
+     put('/', 2);
+     put('(', 0);
+     put(')', 10);
+     put('^', 3);
+    }};
+    
+    public static String infixToPostfix(String exp) {
+        // Your code here
+        
+        StringBuilder res = new StringBuilder("");
+        
+        char[] expArray = exp.toCharArray();
+        
+        Stack<Character> stack = new Stack<>();
+        
+        for(char ch:expArray){
+            
+           if(ch=='+' || ch=='-' || ch == '*' || ch=='/' || ch == '^') {
+               
+               if(stack.isEmpty()) {
+                   stack.push(ch);
+               } else {
+                   while(!stack.isEmpty() && (charPriorityMap.get(stack.peek()) >=  charPriorityMap.get(ch))){
+                       res.append(stack.pop());
+                   }
+                   stack.push(ch);
+               }
+               
+           }
+           else if(ch == '('){
+               stack.push(ch);
+           }
+           else if(ch == ')'){
+               while(!stack.isEmpty() && stack.peek()!='('){
+                   res.append(stack.pop());
+               }
+               if(!stack.isEmpty() && stack.peek()=='('){
+                 stack.pop();
+               }
+           }
+           else {
+                res.append(ch);
+           }
+           
+        }
+        
+        while(!stack.isEmpty()){
+             res.append(stack.pop());
+        }
+        
+        return new String(res);
+    }
+}
+```
+
+---
+
 [https://www.geeksforgeeks.org/stack-set-2-infix-to-postfix/](https://www.geeksforgeeks.org/stack-set-2-infix-to-postfix/)
-
-
 ```java
 class Solution {
     
