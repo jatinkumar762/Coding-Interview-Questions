@@ -1,5 +1,7 @@
 https://www.geeksforgeeks.org/problems/prefix-to-infix-conversion/1
 
+* whenever we want to convert prefix expression -> traverse from right to left
+
 ```java
 class Solution {
     
