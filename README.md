@@ -197,6 +197,7 @@
   2. [Prefix to Infix Conversion](./StackAndQueue/Easy/PrefixToInfix.md)
   3. [Prefix to Postfix Conversion](./StackAndQueue/Easy/PrefixToPostfix.md)
   4. [Postfix to Prefix Conversion](./StackAndQueue/Easy/PostfixToPrefix.md)
+  5. [Postfix to Infix Conversion](./StackAndQueue/Easy/PostfixToInfix.md)
 
 ## Binary Tree
 
