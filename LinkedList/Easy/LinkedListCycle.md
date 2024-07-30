@@ -1,4 +1,4 @@
-[https://leetcode.com/problems/linked-list-cycle/description/](https://leetcode.com/problems/linked-list-cycle/description/)
+https://leetcode.com/problems/linked-list-cycle/
 
 #### Approach 1: Hash Table
 
@@ -7,20 +7,16 @@
 ```java
 public class Solution {
     public boolean hasCycle(ListNode head) {
-        if (head == null) {
-            return false;
-        }
+        
+        ListNode slow=head, fast=head;
 
-        ListNode slow = head;
-        ListNode fast = head.next;
-        while (slow != fast) {
-            if (fast == null || fast.next == null) {
-                return false;
-            }
+        while(fast!=null && fast.next!=null){
             slow = slow.next;
             fast = fast.next.next;
+            if(slow==fast) return true;
         }
-        return true;
+        
+        return false;
     }
 }
 ```
