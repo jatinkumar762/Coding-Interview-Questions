@@ -78,6 +78,8 @@
   #### Easy
   1. [Design Linked List](./LinkedList/Easy/SingleLinkedList.md)
   2. [Linked List Cycle](./LinkedList/Easy/LinkedListCycle.md)
+  3. [Reverse a DLL](./LinkedList/Easy/ReverseDLL.md)
+  4. [Middle of the Linked List](./LinkedList/Easy/MiddleLinkedList.md)
 
   #### Medium
   1. [Rotate List](./LinkedList/RotateList.md)
