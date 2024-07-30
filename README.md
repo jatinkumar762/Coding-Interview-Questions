@@ -80,6 +80,7 @@
   2. [Linked List Cycle](./LinkedList/Easy/LinkedListCycle.md)
   3. [Reverse a DLL](./LinkedList/Easy/ReverseDLL.md)
   4. [Middle of the Linked List](./LinkedList/Easy/MiddleLinkedList.md)
+  5. [Reverse Linked List](./LinkedList/Easy/ReverseLinkedList.md)
 
   #### Medium
   1. [Rotate List](./LinkedList/RotateList.md)
