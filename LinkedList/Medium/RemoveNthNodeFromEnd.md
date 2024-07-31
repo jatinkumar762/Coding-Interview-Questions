@@ -80,3 +80,33 @@ class Solution {
     }
 }
 ```
+
+* More Optimized
+
+```java
+class Solution {
+
+    public ListNode removeNthFromEnd(ListNode head, int n) {
+
+        ListNode prev = head, fast = head;
+    
+        while (n > 0) {
+            fast = fast.next;
+            n -= 1;
+        }
+
+        if(fast==null){
+            return head.next;
+        }
+
+        while(fast.next!=null){
+            fast = fast.next;
+            prev = prev.next;
+        }
+
+        prev.next = prev.next.next;
+
+        return head;
+    }
+}
+```
