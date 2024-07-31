@@ -1,32 +1,39 @@
 
-[https://leetcode.com/problems/linked-list-cycle-ii/description/](https://leetcode.com/problems/linked-list-cycle-ii/description/)
+https://leetcode.com/problems/linked-list-cycle-ii/description/
 
 ```java
 public class Solution {
-    private ListNode findIntersection(ListNode head){
-        ListNode slow=head;
-        ListNode fast=head;
-        while(fast!=null && fast.next!=null){
-            //for every 1 step of slow
-            // we are moving 2 step of fast
-            // this makes 2 times in equation, bcz begining is same
+    public ListNode detectCycle(ListNode head) {
+
+        // m + k = multiple of n
+        // m - start point to loop start point
+        // k - loop start point to meeting point of slow and fast
+        // n - length of loop
+
+        ListNode slow = head, fast = head;
+
+        while (fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;
-            if(slow==fast)
-                return slow; 
+
+            if (slow == fast) {
+                // suppose they are meeting at k distance (from loop starting point)
+                break;
+            }
         }
-        return null;
-    }
-    public ListNode detectCycle(ListNode head) {
-        ListNode node = findIntersection(head);
-        if(node==null)
-            return null;     
-        ListNode start = head;  
-        while(start!=node){
-         start = start.next;
-         node = node.next;
-        }   
-        return start;
+
+        if (fast == null || fast.next == null) {
+            return null;
+        }
+
+        slow = head;
+
+        while (slow != fast) {
+            slow = slow.next;
+            fast = fast.next;
+        }
+
+        return slow;
     }
 }
 ```

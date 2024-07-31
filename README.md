@@ -84,7 +84,8 @@
 
   #### Medium
   1. [Rotate List](./LinkedList/RotateList.md)
-  2. [Find the starting point of the loop](./LinkedList/Medium/StartingPointLoop.md)
+  2. [Find first node of loop in a linked list](./LinkedList/Medium/StartingPointLoop.md)
+  3. []
 
 ## Array
   ### Easy
