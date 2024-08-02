@@ -88,7 +88,7 @@
   3. [Segregate even and odd nodes in a Linked List](./LinkedList/Medium/OddEvenLinkedList.md)
   4. [Remove Nth Node From End of List]()
   5. [Add 2 numbers in LL](./LinkedList/Medium/Add2NumbersLL.md)
-  6. [Add 1 to a Linked List Number]()
+  6. [Add 1 to a Linked List Number](./LinkedList/Medium/Add1LinkedList.md)
 
 
   #### Doubly LinkedList
