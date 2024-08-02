@@ -87,6 +87,7 @@
   2. [Find first node of loop in a linked list](./LinkedList/Medium/StartingPointLoop.md)
   3. [Segregate even and odd nodes in a Linked List](./LinkedList/Medium/OddEvenLinkedList.md)
   4. [Remove Nth Node From End of List]()
+  5. [Add 2 numbers in LL](./LinkedList/Medium/Add2NumbersLL.md)
 
 
   #### Doubly LinkedList
