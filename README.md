@@ -91,6 +91,7 @@
 
   #### Doubly LinkedList
   1. [Delete all occurrences of a given key in a doubly linked list](./LinkedList/DLL/DeleteAllOccurrencesOfKey.md)
+  2. [Find pairs with given sum in doubly linked list](./LinkedList/DLL/FindPairSumDLL.md)
 
 ## Array
   ### Easy
