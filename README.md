@@ -89,6 +89,7 @@
   4. [Remove Nth Node From End of List]()
   5. [Add 2 numbers in LL](./LinkedList/Medium/Add2NumbersLL.md)
   6. [Add 1 to a Linked List Number](./LinkedList/Medium/Add1LinkedList.md)
+  7. [Delete the Middle Node of a Linked List](./LinkedList/Medium/DeleteMiddleNodeLinkedList.md)
 
 
   #### Doubly LinkedList
