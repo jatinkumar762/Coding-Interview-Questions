@@ -88,6 +88,10 @@
   3. [Segregate even and odd nodes in a Linked List](./LinkedList/Medium/OddEvenLinkedList.md)
   4. [Remove Nth Node From End of List]()
 
+
+  #### Doubly LinkedList
+  1. [Delete all occurrences of a given key in a doubly linked list](./LinkedList/DLL/DeleteAllOccurrencesOfKey.md)
+
 ## Array
   ### Easy
   1. [Max and Min with minimum number of comparison](https://www.geeksforgeeks.org/maximum-and-minimum-in-an-array/)
