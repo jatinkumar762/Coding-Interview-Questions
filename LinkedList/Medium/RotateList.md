@@ -1,4 +1,4 @@
-[Problem](https://leetcode.com/problems/rotate-list/)
+https://leetcode.com/problems/rotate-list/
 
 * Method-1
 
@@ -24,39 +24,34 @@ To rotate a linked list by k, we can first make the linked list circular and the
  */
 class Solution {
     public ListNode rotateRight(ListNode head, int k) {
-        
-        if(k==0)
+
+        if (head == null) {
             return head;
-        
-        int len=0;
+        }
+
         ListNode tmp = head;
-        while(tmp!=null){
-            len+=1;
+        int len = 1;
+        while (tmp.next != null) {
+            len += 1;
             tmp = tmp.next;
         }
-        
-        if(len==0)
-            return head;
-        
-        k = k%len;
-        
-        if(k==0)
-            return head;
-        
-        tmp = head;
-        for(int i=1;i<len-k;i++){
-            tmp=tmp.next;
-        }
-        
-        ListNode newHead = tmp.next;
-        tmp.next = null;
-        
-        tmp = newHead;
-        while(tmp.next!=null){
-            tmp=tmp.next;
-        }
+
+        // will make circular
         tmp.next = head;
-        
+
+        // at this node, will set next pointer to null
+        int tailIndex = len - (k % len) - 1;
+
+        while (tailIndex > 0) {
+            head = head.next;
+            tailIndex -= 1;
+        }
+
+        // before making tail node next pointer null
+        // will get newHead node
+        ListNode newHead = head.next;
+        head.next = null;
+
         return newHead;
     }
 }

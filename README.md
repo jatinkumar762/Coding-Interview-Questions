@@ -83,7 +83,7 @@
   5. [Reverse Linked List](./LinkedList/Easy/ReverseLinkedList.md)
 
   #### Medium
-  1. [Rotate List](./LinkedList/RotateList.md)
+  1. [Rotate List](./LinkedList/Medium/RotateList.md)
   2. [Find first node of loop in a linked list](./LinkedList/Medium/StartingPointLoop.md)
   3. [Segregate even and odd nodes in a Linked List](./LinkedList/Medium/OddEvenLinkedList.md)
   4. [Remove Nth Node From End of List]()
