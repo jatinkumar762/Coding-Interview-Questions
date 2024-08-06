@@ -205,6 +205,7 @@
   9. 🔥 [Decode String](./StackAndQueue/Medium/DecodeString.md) 
   10. 🔥 [01 Matrix](./StackAndQueue/Medium/01%20Matrix.md)
   11. [Online Stock Span](./StackAndQueue/Medium/OnlineStockSpan.md)
+  12. [Next Greater Element II](./StackAndQueue/Medium/NextGreaterElementII.md)
 
   #### Prefix/Infix/Postfix
   1. [Convert Infix to Postfix](./StackAndQueue/Easy/InfixToPostfix.md)
