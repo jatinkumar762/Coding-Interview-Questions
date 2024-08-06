@@ -206,6 +206,7 @@
   10. 🔥 [01 Matrix](./StackAndQueue/Medium/01%20Matrix.md)
   11. [Online Stock Span](./StackAndQueue/Medium/OnlineStockSpan.md)
   12. [Next Greater Element II](./StackAndQueue/Medium/NextGreaterElementII.md)
+  13. [Number of NGEs to the right](./StackAndQueue/Medium/NumberofNGEsRight.md)
 
   #### Prefix/Infix/Postfix
   1. [Convert Infix to Postfix](./StackAndQueue/Easy/InfixToPostfix.md)
