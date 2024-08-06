@@ -12,6 +12,39 @@ Time Complexity: O(n2).
 Space Complexity: O(n). 
   Since extra space of size n is required.
 
+```java
+class Solution {
+    // Function to find if there is a celebrity in the party or not.
+    
+    int[] inDegree;
+    int[] outDegree;
+    
+    public int celebrity(int mat[][]) {
+        // code here
+        int N = mat.length;
+        
+        inDegree = new int[N];
+        outDegree = new int[N];
+        
+        for(int i=0;i<N;i++){
+            for(int j=0;j<N;j++){
+                if(i!=j && mat[i][j]==1){
+                    inDegree[j]+=1;
+                    outDegree[i]+=1;
+                }
+            }
+        }
+        
+        for(int i=0;i<N;i++){
+            if( inDegree[i]==(N-1) && outDegree[i]==0){
+                return i;
+            }
+        }
+        
+        return -1;
+    }
+}
+```
 
 #### Method-2: Uses elimination technique 
 
