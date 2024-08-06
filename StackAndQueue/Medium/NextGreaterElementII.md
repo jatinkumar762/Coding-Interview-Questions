@@ -1,5 +1,12 @@
 https://leetcode.com/problems/next-greater-element-ii/description/
 
+
+Instead of creating Double length array, we can use two loops
+
+Loop once, we can get the Next Greater Number of a normal array.
+Loop twice, we can get the Next Greater Number of a circular array
+
+
 ```java
 class Solution {
     public int[] nextGreaterElements(int[] nums) {
