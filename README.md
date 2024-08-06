@@ -204,6 +204,7 @@
   8. [Inorder Traversal (Iterative)](./StackAndQueue/Medium/InorderTraversal.md)
   9. 🔥 [Decode String](./StackAndQueue/Medium/DecodeString.md) 
   10. 🔥 [01 Matrix](./StackAndQueue/Medium/01%20Matrix.md)
+  11. [Online Stock Span](./StackAndQueue/Medium/OnlineStockSpan.md)
 
   #### Prefix/Infix/Postfix
   1. [Convert Infix to Postfix](./StackAndQueue/Easy/InfixToPostfix.md)
