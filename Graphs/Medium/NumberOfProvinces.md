@@ -38,3 +38,38 @@ class Solution {
     }
 }
 ```
+
+#### DFS Approach
+
+```java
+class Solution {
+
+    int count = 0;
+    int n;
+    boolean[] visited;
+
+    public int findCircleNum(int[][] isConnected) {
+
+        n = isConnected.length;
+        visited = new boolean[n];
+        Arrays.fill(visited, false);
+
+        for (int i = 0; i < n; i++) {
+            if (!visited[i]) {
+                count += 1;
+                dfs(isConnected, i);
+            }
+        }
+        return count;
+    }
+
+    private void dfs(int[][] isConnected, int node){
+        visited[node] = true;
+        for(int j=0;j<n;j++){
+            if(node!=j && !visited[j] && isConnected[node][j]==1){
+                dfs(isConnected, j);
+            }
+        }
+    }
+}
+```
