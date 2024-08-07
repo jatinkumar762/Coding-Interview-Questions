@@ -302,6 +302,7 @@
   4. [Longest K unique characters substring](./SlidingWindow/Medium/LongestKUniqueCharactersSubstring.md)
 
 ## Greedy Algorithms
+
   ### Easy
   1. [Assign Cookies](./Greedy%20Algorithms/Easy/Assign%20Cookies.md)
   2. [Fractional Knapsack](./Greedy%20Algorithms/Easy/FractionalKnapsack.md)
@@ -309,4 +310,14 @@
 
   ### Medium
   1. 🔥[Valid Parenthesis String](./Greedy%20Algorithms/Medium/ValidParenthesisString.md)
+
+## Graphs
+
+  ### Easy
+
+
+  ### Medium
+  1. [Island Perimeter](./Graphs/Medium/IslandPerimeter.md)
+
+
 
