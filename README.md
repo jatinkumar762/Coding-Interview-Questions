@@ -316,6 +316,8 @@
   ### Easy
   1. [DFS - Adjacency Matrix Representation](./Graphs/Easy/DFS_AdjacencyMatrixRepresentation.md)
   2. [DFS - Adjacency List Representation](./Graphs/Easy/DFS_AdjacencyListRepresentation.md)
+  3. [BFS - Adjacency Matrix Representation](./Graphs/Easy/BFS_AdjacencyMatrixRepresentation.md)
+  4. [BFS - Adjacency List Representation](./Graphs/Easy/BFS_AdjacencyListRepresentation.md)
 
   ### Medium
   1. [Island Perimeter](./Graphs/Medium/IslandPerimeter.md)
