@@ -304,17 +304,17 @@
 ## Greedy Algorithms
 
   ### Easy
-  1. [Assign Cookies](./Greedy%20Algorithms/Easy/Assign%20Cookies.md)
-  2. [Fractional Knapsack](./Greedy%20Algorithms/Easy/FractionalKnapsack.md)
-  3. [Lemonade Change](./Greedy%20Algorithms/Easy/LemonadeChange.md)
+  1. [Assign Cookies](./GreedyAlgorithms/Easy/Assign%20Cookies.md)
+  2. [Fractional Knapsack](./GreedyAlgorithms/Easy/FractionalKnapsack.md)
+  3. [Lemonade Change](./GreedyAlgorithms/Easy/LemonadeChange.md)
 
   ### Medium
-  1. 🔥[Valid Parenthesis String](./Greedy%20Algorithms/Medium/ValidParenthesisString.md)
+  1. 🔥[Valid Parenthesis String](./GreedyAlgorithms/Medium/ValidParenthesisString.md)
 
 ## Graphs
 
   ### Easy
-
+  1. [Adjacency Matrix Representation](./Graphs/Easy/AdjacencyMatrixRepresentation.md)
 
   ### Medium
   1. [Island Perimeter](./Graphs/Medium/IslandPerimeter.md)
