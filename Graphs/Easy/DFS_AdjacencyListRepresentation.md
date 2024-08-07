@@ -48,3 +48,39 @@ while(!stack.isEmpty()){
 }
 */
 ```
+
+#### Approach-2 Using Recursion
+
+```java
+class Solution {
+    ArrayList<Integer> result = new ArrayList<>();
+    
+    // Function to return a list containing the DFS traversal of the graph.
+    public ArrayList<Integer> dfsOfGraph(int V, ArrayList<ArrayList<Integer>> adj) {
+        // Code here
+        boolean[] visited = new boolean[V];
+        
+        dfs(adj, 0, visited);
+        
+        return result;
+    }
+    
+    private void dfs(ArrayList<ArrayList<Integer>> adj, int node, boolean[] visited){
+        
+        if(visited[node]){
+            return;
+        }
+        
+        visited[node] = true;
+        
+        result.add(node);
+        
+        for(int near : adj.get(node)){
+            if(visited[near]==false){
+                dfs(adj, near, visited);
+            }
+        } 
+        
+    }
+}
+```
