@@ -114,3 +114,48 @@ class Solution {
 }
 ```
 * Note - here DFS is faster than BFS by 1 ms
+
+
+#### If 2 matrix represented by List
+
+https://www.geeksforgeeks.org/problems/number-of-provinces/1
+
+```java
+class Solution {
+    
+    static int count;
+    static int N;
+    static int numProvinces(ArrayList<ArrayList<Integer>> adj, int V) {
+        // code here
+        boolean[] visited = new boolean[V];
+        Arrays.fill(visited, false);
+        N = V;
+        count = 0;
+        
+        for(int i=0;i<N;i++){
+            if(!visited[i]){
+                count+=1;
+                dfs(adj, i, visited);
+            }
+        }
+        return count;
+    }
+    
+    
+    static void dfs(ArrayList<ArrayList<Integer>> adj, int node, boolean[] visited){
+        
+        if(visited[node]){
+            return;
+        }
+        
+        visited[node] = true;
+        
+        for(int j=0;j<N;j++){
+            if(adj.get(node).get(j)==1 && visited[j]==false){
+                dfs(adj, j, visited);
+            }
+        } 
+        
+    }
+}
+```
