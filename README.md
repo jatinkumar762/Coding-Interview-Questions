@@ -322,6 +322,7 @@
   ### Medium
   1. [Island Perimeter](./Graphs/Medium/IslandPerimeter.md)
   2. [Number of Provinces](./Graphs/Medium/NumberOfProvinces.md)
+  3. [Rotting Oranges](./Graphs/Medium/RottingOranges.md)
 
 
 
