@@ -323,7 +323,7 @@
   1. [Island Perimeter](./Graphs/Medium/IslandPerimeter.md)
   2. [Number of Provinces](./Graphs/Medium/NumberOfProvinces.md)
   3. [Rotting Oranges](./Graphs/Medium/RottingOranges.md)
-  4. [Detect Cycle in an Undirected Graph - BFS & DFS Approach]()
+  4. [Detect Cycle in an Undirected Graph - BFS & DFS Approach](./Graphs/Medium/DetectCycleUndirectedGraph.md)
 
 
 
