@@ -21,6 +21,7 @@ class Solution {
             }
         }
 
+        //multi source bfs
         bfs(grid);
 
         for (int i = 0; i < R; i++) {
