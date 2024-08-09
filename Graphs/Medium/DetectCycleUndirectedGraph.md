@@ -52,8 +52,45 @@ class Solution {
 }
 ```
 
-#### Approach-1 Using DFS
+#### Approach-2 Using DFS
 
 ```java
-
+class Solution {
+    // Function to detect cycle in an undirected graph.
+    boolean[] visited;
+    public boolean isCycle(int V, ArrayList<ArrayList<Integer>> adj) {
+        // Code here
+        
+        visited = new boolean[V];
+        Arrays.fill(visited, false);
+        
+        for(int i=0;i<V;i++){
+            if(visited[i]==false){
+                if(dfs(adj, i, -1)){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+    
+    private boolean dfs(ArrayList<ArrayList<Integer>> adj, int node, int parent){
+        
+        visited[node] = true;
+        
+        for(int i=0; i<adj.get(node).size(); i++){ 
+            if(visited[adj.get(node).get(i)]==false){
+                if(dfs(adj, adj.get(node).get(i), node)){
+                    return true;
+                }
+            } else {
+                if(adj.get(node).get(i)!=parent){
+                    return true;
+                }
+            }
+        }
+        
+        return false;
+    }
+}
 ```
