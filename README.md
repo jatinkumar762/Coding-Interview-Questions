@@ -325,6 +325,8 @@
   3. [Rotting Oranges](./Graphs/Medium/RottingOranges.md)
   4. [Detect Cycle in an Undirected Graph - BFS & DFS Approach](./Graphs/Medium/DetectCycleUndirectedGraph.md)
   5. [01 Matrix](./Graphs/Medium/01%20Matrix.md)
+  6. [Number of Enclaves](./Graphs/Medium/NumberOfEnclaves.md)
+  7. [Surrounded Regions](./Graphs/Medium/SurroundedRegions.md)
 
 
 
