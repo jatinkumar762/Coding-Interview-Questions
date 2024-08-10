@@ -2,7 +2,7 @@ https://leetcode.com/problems/number-of-enclaves/description/
 
 * multi source BFS
 
-#### Approach-1
+#### Approach-1 8ms
 ```java
 class Node {
     int r;
@@ -62,7 +62,7 @@ class Solution {
 }
 ```
 
-#### Approach-2 if we don't want to use 2 time grid traversal
+#### Approach-2 if we don't want to use 2 time grid traversal - 8ms
 
 ```java
 class Node {
@@ -121,7 +121,9 @@ class Solution {
 ```
 
 
-#### Approach-3 DFS Solution
+#### Approach-3 DFS Solution - 9ms
+
+* if i use Arrays.stream operation to count -> time will increase to 12ms
 
 ```java
 class Solution {
@@ -135,7 +137,16 @@ class Solution {
                 }
             }
         }
-        return Arrays.stream(grid).mapToInt(row -> Arrays.stream(row).sum()).sum();
+        //return Arrays.stream(grid).mapToInt(row -> Arrays.stream(row).sum()).sum();
+        int count=0;
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (grid[i][j] == 1) {
+                   count+=1;
+                }
+            }
+        }
+        return count;
     }
     
     private void dfs(int[][] grid, int i, int j) {
