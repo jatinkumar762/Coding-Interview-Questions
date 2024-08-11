@@ -1,5 +1,14 @@
 https://leetcode.com/problems/is-graph-bipartite/description/
 
+How to identify Bipartite Graph?
+To identify whether a given graph is bipartite, you can use the following algorithm:
+
+1. Choose any vertex in the graph and assign it to one of the two sets, say X.
+2. Assign all of its neighbors to the other set, say Y.
+3. For each vertex in set Y, assign its neighbors to set X, and for each vertex in set X, assign its neighbors to set Y.
+4. Repeat step 3 until all vertices have been assigned to a set.
+5. Check if any two adjacent vertices are in the same set. If yes, then the graph is not bipartite. Otherwise, it is bipartite.
+
 
 #### Approach-1 Using BFS
 
