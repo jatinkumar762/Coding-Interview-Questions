@@ -1,0 +1,67 @@
+https://leetcode.com/problems/is-graph-bipartite/description/
+
+
+#### Approach-1 Using BFS
+
+```java
+class Node {
+    int v;
+    Character flag;
+
+    Node(int v, Character flag) {
+        this.v = v;
+        this.flag = flag;
+    }
+}
+
+class Solution {
+    public boolean isBipartite(int[][] graph) {
+
+        Set<Integer> setX = new HashSet<>();
+        Set<Integer> setY = new HashSet<>();
+        Queue<Node> queue = new LinkedList<>();
+        boolean[] visited = new boolean[graph.length];
+
+        //isolated vertex can be possible
+        //[[],[2,4,6],[1,4,8,9],[7,8],[1,2,8,9],[6,9],[1,5,7,8,9],[3,6,9],[2,3,4,6,9],[2,4,5,6,7,8]]
+        for (int v = 0; v < graph.length; v++) {
+
+            if (!visited[v]) {
+
+                setX.add(v);
+                visited[v] = true;
+                queue.add(new Node(v, 'X'));
+
+                while (queue.size() > 0) {
+
+                    Node node = queue.poll();
+                    Character nextFlag = (node.flag == 'X') ? 'Y' : 'X';
+                    int vertex = node.v;
+
+                    for (int i = 0; i < graph[vertex].length; i++) {
+
+                        if (!visited[graph[vertex][i]]) {
+                            queue.add(new Node(graph[vertex][i], nextFlag));
+                            visited[graph[vertex][i]] = true;
+                            if (nextFlag == 'Y') {
+                                setY.add(graph[vertex][i]);
+                            } else {
+                                setX.add(graph[vertex][i]);
+                            }
+                        } else {
+                            if (nextFlag == 'X' && setY.contains(graph[vertex][i])) {
+                                return false;
+                            } else if (nextFlag == 'Y' && setX.contains(graph[vertex][i])) {
+                                return false;
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+
+        return true;
+    }
+}
+```

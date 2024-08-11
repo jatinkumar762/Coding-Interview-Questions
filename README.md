@@ -328,6 +328,7 @@
   5. [01 Matrix](./Graphs/Medium/01%20Matrix.md)
   6. [Number of Enclaves](./Graphs/Medium/NumberOfEnclaves.md)
   7. [Surrounded Regions](./Graphs/Medium/SurroundedRegions.md)
+  8. [Is Graph Bipartite?](./Graphs/Medium/IsGraphBipartite.md)
 
 
 
