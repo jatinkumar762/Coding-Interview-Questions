@@ -74,3 +74,41 @@ class Solution {
     }
 }
 ```
+
+
+#### More Short code
+
+```java
+class Solution {
+    public boolean isBipartite(int[][] graph) {
+
+        Queue<Integer> queue = new LinkedList<>();
+        int[] color = new int[graph.length];
+
+        //isolated vertex can be possible
+        //[[],[2,4,6],[1,4,8,9],[7,8],[1,2,8,9],[6,9],[1,5,7,8,9],[3,6,9],[2,3,4,6,9],[2,4,5,6,7,8]]
+        for (int v = 0; v < graph.length; v++) {
+
+            if (color[v]==0) {
+
+                queue.add(v);
+                color[v] = 1;   // GroupA: 1; GroupB: -1.
+
+                while (!queue.isEmpty()) {
+                    int curr = queue.poll();
+                    for (int next : graph[curr]) {
+                        if (color[next]==0) { //means node is not visited
+                            queue.add(next);
+                            color[next] = -1*color[curr]; // Color it with a different color;
+                        } else if(color[next]!=-color[curr]) {
+                            return false;
+                        }
+                    }
+                }
+            }
+        }
+
+        return true;
+    }
+}
+```
