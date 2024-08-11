@@ -330,6 +330,7 @@
   7. [Surrounded Regions](./Graphs/Medium/SurroundedRegions.md)
   8. [Is Graph Bipartite?](./Graphs/Medium/IsGraphBipartite.md)
   9. [Detect Cycle in a Directed Graph - DFS](./Graphs/Medium/DirectedGraphCycle_DFS.md)
+  10. [Topological Sort Algorithm](./Graphs/Medium/TopologicalSortAlgorithm.md)
 
 
 
