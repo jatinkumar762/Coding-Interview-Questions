@@ -53,3 +53,9 @@ class Solution
     } 
 }
 ```
+
+Time Complexity: O(V+E)
+
+* To determine the in-degree of each node, we will have to iterate through all the edges of the graph. O(E)
+* Next, look for nodes with in-degrees equal to 0 - O(V)
+* For each node with an in-degree equal to zero, we remove it from the graph and decrement the in-degrees of the nodes it connected to. - O(E)
