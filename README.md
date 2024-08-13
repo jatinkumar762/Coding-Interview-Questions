@@ -332,6 +332,6 @@
   9. [Detect Cycle in a Directed Graph - DFS](./Graphs/Medium/DirectedGraphCycle_DFS.md)
   10. [Topological Sort Algorithm](./Graphs/Medium/TopologicalSortAlgorithm.md)
   11. [Kahn's Algorithm](./Graphs/Medium/KahnAlgorithm.md)
-
+  12. [Cycle Detection in Directed Graph (BFS)]()
 
 
