@@ -36,3 +36,27 @@ class Solution {
     }
 }
 ```
+
+Take an in-degree array which will keep track of 
+
+1) Traverse the array of edges and simply increase the counter of the destination node by 1. 
+
+```
+for each node in Nodes
+    indegree[node] = 0;
+for each edge(src,dest) in Edges
+    indegree[dest]++
+```
+Time Complexity: O(V+E)
+
+2) Traverse the list for every node and then increment the in-degree of all the nodes connected to it by 1. 
+
+```
+for each node in Nodes
+    If (list[node].size()!=0) then
+    for each dest in list
+        indegree[dest]++;
+```
+Time Complexity: The outer for loop will be executed V number of times and the inner for loop will be executed E number of times, Thus overall time complexity is O(V+E).
+
+The overall time complexity of the algorithm is O(V+E) 
