@@ -8,12 +8,12 @@ class Solution {
 
     public int shortestPathBinaryMatrix(int[][] grid) {
 
-        if (grid[0][0] != 0) {
-            return -1;
-        }
-
         Rows = grid.length;
         Cols = grid[0].length;
+
+        if (grid[0][0] != 0 || grid[Rows - 1][Cols - 1] != 0) {
+            return -1;
+        }
 
         int[][] dist = new int[Rows][Cols];
         boolean[][] visited = new boolean[Rows][Cols];
@@ -28,6 +28,11 @@ class Solution {
 
         while (!queue.isEmpty()) {
             int[] curr = queue.poll();
+
+            if (curr[0] == Rows - 1 && curr[1] == Cols - 1) {
+                return dist[Rows - 1][Cols - 1];
+            }
+
             for (int[] dir : directions) {
                 int newX = curr[0] + dir[0];
                 int newY = curr[1] + dir[1];
@@ -40,11 +45,7 @@ class Solution {
             }
         }
 
-        if(!visited[Rows - 1][Cols - 1]){
-            return -1;
-        }
-
-        return dist[Rows - 1][Cols - 1];
+        return -1;
     }
 }
 ```
