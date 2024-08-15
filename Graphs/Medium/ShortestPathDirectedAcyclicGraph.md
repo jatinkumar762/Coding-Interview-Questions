@@ -1,5 +1,20 @@
 https://www.geeksforgeeks.org/problems/shortest-path-in-undirected-graph/1
 
+
+**Test Case-**
+
+6 7
+0 1 2
+0 4 1
+4 5 4
+4 2 2
+1 2 3
+2 3 6
+5 3 1
+
+**Output:** 0 2 3 6 1 5
+
+
 #### Approach-1 DFS (Similar to Topological Sort)
 
 ```java
