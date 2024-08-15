@@ -69,3 +69,22 @@ class Solution
     }
 }
 ```
+
+**Limitations/Negatives of Dijkstra's Algorithm**
+
+1. **Non-Negative Weights Requirement:**
+
+* Dijkstra's algorithm does not work with graphs that contain negative weight edges. The algorithm assumes that once a node's shortest path is determined, it cannot be improved. Negative weight edges can invalidate this assumption, leading to incorrect results.
+
+*  In such cases, other algorithms like the **Bellman-Ford algorithm** may be more appropriate.
+
+2. **Single-Source Shortest Path:**
+
+* The algorithm only finds the shortest path from a single source node to all other nodes. If you need shortest paths from multiple sources, you have to run the algorithm multiple times.  
+
+3. **Time Complexity:**
+
+* The time complexity is O(ElogV) where E is the number of edges and V is the number of vertices. This is because, for each vertex, we need to traverse all its adjacent vertices and update their distances, which takes O(E) time. Also, we use a Priority Queue which takes O(logV) time for each insertion and deletion.
+
+4. **Space Complexity:** -  O(V)
+
