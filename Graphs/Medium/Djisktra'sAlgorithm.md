@@ -28,6 +28,16 @@ https://www.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-mat
 
 
 ```java
+class Node{
+    int vertex;
+    int dist;
+    
+    Node(int vertex, int dist){
+        this.vertex = vertex;
+        this.dist = dist;
+    }
+}
+
 class Solution
 {
     //Function to find the shortest distance of all the vertices
@@ -36,6 +46,7 @@ class Solution
     {
         int[] dist = new int[V];
         Arrays.fill(dist, Integer.MAX_VALUE);
+        boolean[] visited = new boolean[V]; 
         
         // Write your code here
         Comparator<Node> nodeSort = new Comparator<Node>(){
@@ -57,8 +68,10 @@ class Solution
         
         while(!minHeap.isEmpty()){
             Node node = minHeap.poll();
+            visited[node.vertex] = true;
+            
             for(ArrayList<Integer> nbr : adj.get(node.vertex)){
-                if((node.dist + nbr.get(1)) < dist[nbr.get(0)]){
+                if(!visited[nbr.get(0)] && (node.dist + nbr.get(1)) < dist[nbr.get(0)]){
                  dist[nbr.get(0)] = node.dist + nbr.get(1);
                  minHeap.add(new Node(nbr.get(0), dist[nbr.get(0)]));
                 }
