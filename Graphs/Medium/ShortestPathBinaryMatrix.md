@@ -57,7 +57,7 @@ class Solution {
 }
 ```
 
-#### another bfs approach - taking same time
+#### More Optimized code of above - faster
 
 ```java
 class Solution {
@@ -72,40 +72,28 @@ class Solution {
             return -1;
         }
 
-        boolean[][] visited = new boolean[Rows][Cols];
-        int dist = 0;
-
         Queue<int[]> queue = new LinkedList<>();
-        queue.add(new int[] { 0, 0 });
-        visited[0][0] = true;
+        queue.add(new int[] { 0, 0, 1});
 
         int[][] directions = new int[][] { { -1, -1 }, { -1, 0 }, { -1, 1 }, { 0, -1 }, { 0, 1 }, { 1, -1 }, { 1, 0 },
                 { 1, 1 } };
 
         while (!queue.isEmpty()) {
+            int[] curr = queue.poll();
 
-            int size = queue.size();
-            dist += 1;
+            if(curr[0]==Rows-1 && curr[1]==Cols-1){
+                return curr[2];
+            }
 
-            for (int i = 0; i < size; i++) {
-                int[] curr = queue.poll();
-
-                if (curr[0] == Rows - 1 && curr[1] == Cols - 1) {
-                    return dist;
-                }
-
-                for (int[] dir : directions) {
-                    int newX = curr[0] + dir[0];
-                    int newY = curr[1] + dir[1];
-                    if (newX >= 0 && newX < Rows && newY >= 0 && newY < Cols && grid[newX][newY] == 0
-                            && !visited[newX][newY]) {
-                        queue.add(new int[] { newX, newY });
-                        visited[newX][newY] = true;
-                    }
+            for (int[] dir : directions) {
+                int newX = curr[0] + dir[0];
+                int newY = curr[1] + dir[1];
+                if (newX >= 0 && newX < Rows && newY >= 0 && newY < Cols && grid[newX][newY] == 0) {
+                    queue.add(new int[] { newX, newY, curr[2] + 1});
+                    grid[newX][newY] = 1;
                 }
             }
         }
-
         return -1;
     }
 }
