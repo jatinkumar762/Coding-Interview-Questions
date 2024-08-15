@@ -60,6 +60,8 @@ class Solution {
 }
 ```
 
+* Dijkstra's algorithm is necessary for graphs that can contain cycles because they can't be topologically sorted. 
+
 #### Approach-2 Dijktras
 
 ```java
