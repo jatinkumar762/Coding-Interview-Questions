@@ -2,6 +2,12 @@ https://leetcode.com/problems/shortest-path-in-binary-matrix/description/
 
 https://www.youtube.com/watch?v=YnxUdAO7TAo
 
+* If we want to find a possible path, DFS will be more efficient. Because DFS will return a possible path if found, while it may not the shortest path.
+
+* BFS will try every possible path at the same time.
+
+* If we want to find the shortest of all possible paths, BFS is more efficient. It's impossible for DFS to determine which is the shortest before trying all possible paths.
+
 #### Approach-1 BFS Solution
 ```java
 class Solution {
