@@ -28,3 +28,9 @@ class Solution {
     }
 }
 ```
+
+#### Complexity
+
+**Time Complexity:** O(V + E) where V is the total number of vertices and E is the total number of edges as we are traversing every vertex so V and also exploring each edge of all vertices so resultant sum is E.
+
+**Space Complexity:** O(V) where V is the total number of vertices as the maximum size of queue and resultant vector is V. 
