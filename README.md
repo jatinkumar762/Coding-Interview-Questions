@@ -319,6 +319,7 @@
   3. [BFS - Adjacency Matrix Representation](./Graphs/Easy/BFS_AdjacencyMatrixRepresentation.md)
   4. [BFS - Adjacency List Representation](./Graphs/Easy/BFS_AdjacencyListRepresentation.md)
   5. [Flood Fill](./Graphs/Easy/FloodFill.md)
+  6. [Connected Components](./Graphs/Easy/ConnectedComponents.md)
 
   ### Medium
   1. [Island Perimeter](./Graphs/Medium/IslandPerimeter.md)
