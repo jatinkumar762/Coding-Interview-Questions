@@ -1,7 +1,9 @@
 https://takeuforward.org/graph/connected-components-in-graphs/
 https://www.geeksforgeeks.org/connected-components-in-an-undirected-graph/
 
-#### Problem: Connected Components in an Undirected Graph
+## Problem: Connected Components in an Undirected Graph
+
+#### Approach-1: USing DFS/BFS
 
 ```java
 // Java program to print connected components in
@@ -81,4 +83,10 @@ class Graph {
 		g.connectedComponents();
 	}
 }
+```
+
+#### Approach-2: Using Disjoint Set Union
+
+```java
+
 ```
