@@ -4,7 +4,7 @@ https://takeuforward.org/graph/connected-components-in-graphs/
 
 - https://www.geeksforgeeks.org/connected-components-in-an-undirected-graph/
 
-- https://neetcode.io/problems/count-connected-components
+- https://neetcode.io/problems/count-connected-components (https://www.youtube.com/watch?v=8f1XPm4WOUc)
 
 #### Approach-1: USing DFS/BFS
 
