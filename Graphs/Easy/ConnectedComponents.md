@@ -1,8 +1,10 @@
 https://takeuforward.org/graph/connected-components-in-graphs/
 
-https://www.geeksforgeeks.org/connected-components-in-an-undirected-graph/
-
 ## Problem: Connected Components in an Undirected Graph
+
+- https://www.geeksforgeeks.org/connected-components-in-an-undirected-graph/
+
+- https://neetcode.io/problems/count-connected-components
 
 #### Approach-1: USing DFS/BFS
 
