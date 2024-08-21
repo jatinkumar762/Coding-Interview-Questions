@@ -71,3 +71,8 @@ public class Main {
     }
 }
 ```
+
+**TimeComplexity:** 
+
+* both find and union operations running in nearly constant time, specifically O(α(n)), where 𝛼 is the inverse Ackermann function, which grows very slowly.
+
