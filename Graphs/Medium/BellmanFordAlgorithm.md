@@ -32,6 +32,11 @@ https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/
 
 * A graph which takes more than n-1 edges for any path, its not possible
 
+**Note:**
+
+1. the Bellman-Ford algorithm is typically applied to directed graphs. 
+2. If you want to apply Bellman-Ford to an undirected graph, you can treat it as a directed graph by replacing each undirected edge with two directed edges, one in each direction
+
 
 https://www.geeksforgeeks.org/problems/distance-from-the-source-bellman-ford-algorithm/1
 
