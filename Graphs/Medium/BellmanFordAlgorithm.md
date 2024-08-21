@@ -36,6 +36,8 @@ https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/
 
 1. the Bellman-Ford algorithm is typically applied to directed graphs. 
 2. If you want to apply Bellman-Ford to an undirected graph, you can treat it as a directed graph by replacing each undirected edge with two directed edges, one in each direction
+3. **Negative Weight Cycles:** In an undirected graph, if an edge has a negative weight, it can easily create a negative weight cycle when treated as bidirectional, making it less common to use Bellman-Ford directly on undirected graphs without first converting them to directed form.
+
 
 
 https://www.geeksforgeeks.org/problems/distance-from-the-source-bellman-ford-algorithm/1
