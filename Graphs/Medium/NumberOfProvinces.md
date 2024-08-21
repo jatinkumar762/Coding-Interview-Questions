@@ -1,4 +1,5 @@
-
+* DFS is faster than all - 1ms
+* BFS and Disjoint set union - 2ms
 
 #### Wrong Approach - Incorrect Code
 
@@ -156,6 +157,77 @@ class Solution {
             }
         } 
         
+    }
+}
+```
+
+
+## Disjoint Set Union by size
+
+* will be helpful, when list of edges given to us
+
+```java
+class Solution {
+    int[] parent;
+    int[] size;
+
+    private int find(int v) {
+        if (parent[v] != v) {
+            parent[v] = find(parent[v]);
+        }
+        return parent[v];
+    }
+
+    private void union(int parentX, int parentY) {
+
+        // int parentX = find(x);
+        // int parentY = find(y);
+
+        // if(parentX!=parentY){
+        if (size[parentX] >= size[parentY]) {
+            parent[parentY] = parentX;
+            size[parentX] += size[parentY];
+        } else {
+            parent[parentX] = parentY;
+            size[parentY] += size[parentX];
+        }
+        // }
+    }
+
+    public int findCircleNum(int[][] isConnected) {
+
+        int V = isConnected.length;
+        parent = new int[V];
+
+        for (int i = 0; i < V; i++) {
+            parent[i] = i;
+        }
+
+        size = new int[V];
+        Arrays.fill(size, 1);
+
+        int total = V;
+
+        for (int i = 0; i < V; i++) {
+            // int parentX = find(i);
+            // wrong here, bcz even if parent updated of i, after merge with j
+            // will not reflect in another j, latest paret of i
+            for (int j = 0; j < V; j++) {
+                if (i != j && isConnected[i][j] == 1) {
+                    int parentX = find(i);
+                    int parentY = find(j);
+                    if (parentX != parentY) {
+                        total -= 1;
+                        union(parentX, parentY);
+                    }
+
+                    //to avoid re-compute this edge
+                    isConnected[j][i] = 0;
+                }
+            }
+        }
+
+        return total;
     }
 }
 ```
