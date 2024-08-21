@@ -231,3 +231,67 @@ class Solution {
     }
 }
 ```
+
+**little change - modified union**
+
+```java
+class Solution {
+    int[] parent;
+    int[] size;
+
+    private int find(int v) {
+        if (parent[v] != v) {
+            parent[v] = find(parent[v]);
+        }
+        return parent[v];
+    }
+
+    private int union(int x, int y) {
+
+        int parentX = find(x);
+        int parentY = find(y);
+
+        if (parentX == parentY) {
+            return 0;
+        }
+
+        if (size[parentX] >= size[parentY]) {
+            parent[parentY] = parentX;
+            size[parentX] += size[parentY];
+        } else {
+            parent[parentX] = parentY;
+            size[parentY] += size[parentX];
+        }
+        return 1;
+    }
+
+    public int findCircleNum(int[][] isConnected) {
+
+        int V = isConnected.length;
+        parent = new int[V];
+
+        for (int i = 0; i < V; i++) {
+            parent[i] = i;
+        }
+
+        size = new int[V];
+        Arrays.fill(size, 1);
+
+        int total = V;
+
+        for (int i = 0; i < V; i++) {
+            for (int j = 0; j < V; j++) {
+                if (i != j && isConnected[i][j] == 1) {
+                    if (union(i, j) == 1) {
+                        total -= 1;
+                    }
+                    // to avoid re-compute this edge
+                    isConnected[j][i] = 0;
+                }
+            }
+        }
+
+        return total;
+    }
+}
+```
