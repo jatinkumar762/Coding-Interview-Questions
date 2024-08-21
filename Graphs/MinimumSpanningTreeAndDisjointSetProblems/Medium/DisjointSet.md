@@ -44,6 +44,49 @@ class DisjointSetUnion {
 }
 ```
 
+**Union by size**
+
+```java
+class DisjointSetUnion {
+    private int[] parent;
+    private int[] size;
+
+    // Constructor: initializes the DSU with n elements
+    public DisjointSetUnion(int n) {
+        parent = new int[n];
+        size = new int[n];
+        for (int i = 0; i < n; i++) {
+            parent[i] = i;  // Each element is its own parent initially
+            size[i] = 1;    // Each set initially contains one element
+        }
+    }
+
+    // Find operation with path compression
+    public int find(int x) {
+        if (parent[x] != x) {
+            parent[x] = find(parent[x]);  // Path compression
+        }
+        return parent[x];
+    }
+
+    // Union operation based on size
+    public void union(int x, int y) {
+        int rootX = find(x);
+        int rootY = find(y);
+
+        if (rootX != rootY) {
+            if (size[rootX] > size[rootY]) {
+                parent[rootY] = rootX;    // Attach the smaller tree under the larger tree
+                size[rootX] += size[rootY]; // Update the size of the rootX tree
+            } else {
+                parent[rootX] = rootY;
+                size[rootY] += size[rootX]; // Update the size of the rootY tree
+            }
+        }
+    }
+}
+```
+
 **Example Usage**
 
 ```java
