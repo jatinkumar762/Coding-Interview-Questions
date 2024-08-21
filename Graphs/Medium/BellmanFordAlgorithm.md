@@ -30,3 +30,48 @@ https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/
 3. If a graph contains a negative-weight cycle reachable from the source vertex, the algorithm can detect it after N-1 iterations, since the negative cycle disrupts the shortest path lengths.
 4. In summary, relaxing edges N-1 times in the Bellman-Ford algorithm guarantees that the algorithm has explored all possible paths of length up to N-1, which is the maximum possible length of a shortest path in a graph with N vertices
 
+* A graph which takes more than n-1 edges for any path, its not possible
+
+
+https://www.geeksforgeeks.org/problems/distance-from-the-source-bellman-ford-algorithm/1
+
+```java
+class Solution {
+    static int[] bellman_ford(int V, ArrayList<ArrayList<Integer>> edges, int S) {
+        // Write your code here
+        
+        int max_dis = 100000000;
+        int[] distance = new int[V];
+        Arrays.fill(distance, max_dis);
+        distance[S] = 0;
+        
+        //relax edge v-1 times
+        for(int i=1;i<V;i++){
+            for(ArrayList<Integer> edge:edges){
+                int u = edge.get(0);
+                int v = edge.get(1);
+                int w = edge.get(2);
+                //distance[u]!=max_dis why need this check?
+                //bcz in case of negative weight, sum will be less than max_dis
+                if(distance[u]!=max_dis && distance[v] > distance[u] + w){
+                    distance[v] = distance[u]+w;
+                }
+            }
+        }
+        
+        //Vth iteration
+        //check if negative cycle exist
+        for(ArrayList<Integer> edge:edges){
+            int u = edge.get(0);
+            int v = edge.get(1);
+            int w = edge.get(2);
+            if(distance[u]!=max_dis && distance[v] > distance[u] + w) {
+                //negative cycle exist
+                return new int[]{-1};
+            }
+        }
+        return distance;
+    }
+}
+```
+
