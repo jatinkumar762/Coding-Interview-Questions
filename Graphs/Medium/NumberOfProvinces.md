@@ -295,3 +295,18 @@ class Solution {
     }
 }
 ```
+
+**Note - another approach for find**
+
+```java
+public int find(int v){
+    int res = v;
+
+    while(parent[res]!=res){
+        parent[res] = parent[parent[res]];
+        res = parent[res];
+    }
+
+    return res;
+}
+```
