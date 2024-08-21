@@ -311,7 +311,7 @@
   ### Medium
   1. 🔥[Valid Parenthesis String](./GreedyAlgorithms/Medium/ValidParenthesisString.md)
 
-## Graphs
+# Graphs
 
   ### Easy
   1. [DFS - Adjacency Matrix Representation](./Graphs/Easy/DFS_AdjacencyMatrixRepresentation.md)
@@ -339,5 +339,13 @@
   15. [Shortest path in Directed Acyclic Graph](./Graphs/Medium/ShortestPathDirectedAcyclicGraph.md)
   16. [Shortest Path in Binary Matrix](./Graphs/Medium/ShortestPathBinaryMatrix.md)
   17. [Bellman Ford Algorithm](./Graphs/Medium/BellmanFordAlgorithm.md)
+
+  ## MinimumSpanningTree/DisjointSet Problems
+
+  ### Medium
+
+  1. [Disjoint Set | Union by Rank and Path](./Graphs/MinimumSpanningTreeAndDisjointSetProblems/Medium/DisjointSet.md)
+
+
 
 
