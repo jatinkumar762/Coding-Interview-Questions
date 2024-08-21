@@ -90,6 +90,9 @@ class Graph {
 
 #### Approach-2: Using Disjoint Set Union
 
+* similar problem - https://leetcode.com/problems/number-of-provinces/description/
+* [Solution](../Medium/NumberOfProvinces.md)
+
 ```java
 
 ```
