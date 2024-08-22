@@ -100,3 +100,45 @@ class FloydWarshall {
 - **Small to Medium-Sized Graphs**: Suitable for graphs where the number of vertices isn't too large due to its cubic time complexity.
 
 The Floyd-Warshall algorithm is a robust and straightforward approach for solving the all-pairs shortest path problem, especially when negative weights are involved and the graph is not too large.
+
+
+https://www.geeksforgeeks.org/problems/implementing-floyd-warshall2042/1
+
+```java
+class Solution
+{
+    public void shortest_distance(int[][] matrix)
+    {
+        // Code here
+        int V = matrix[0].length;
+        int max_value = 1000000000;
+        //if i use Integer.MAX_VALUE
+        //then overflow issue will happen
+        
+        for(int i=0;i<V;i++){
+            for(int j=0;j<V;j++){
+                if(matrix[i][j]==-1){
+                    matrix[i][j] = max_value;
+                }
+            }
+        }
+        
+        
+        for(int k=0;k<V;k++){
+            for(int i=0;i<V;i++){
+                for(int j=0;j<V;j++){
+                    matrix[i][j] = Math.min(matrix[i][j], matrix[i][k]+matrix[k][j]);
+                }
+            }
+        }
+        
+        for(int i=0;i<V;i++){
+            for(int j=0;j<V;j++){
+                if(matrix[i][j]==max_value){
+                    matrix[i][j] = -1;
+                }
+            }
+        }
+    }
+}
+```
