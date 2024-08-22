@@ -86,22 +86,17 @@ class FloydWarshall {
 }
 ```
 
-### Explanation
-
-1. **Initialization**: The algorithm begins by copying the input graph into a `dist[][]` matrix. The graph is represented as an adjacency matrix where each entry `graph[i][j]` holds the weight of the edge from vertex `i` to vertex `j`. If there is no edge, the entry is set to `INF` (a very large number).
-
-2. **Main Iteration**: The triple nested loop iterates over all possible intermediate vertices \(k\), and for each pair of vertices \(i, j\), it checks if the path through \(k\) is shorter than the direct path from \(i\) to \(j\).
-
-3. **Final Output**: After processing, the `dist[][]` matrix contains the shortest distances between all pairs of vertices, and this matrix is printed.
-
 ### Time Complexity
 
-- The time complexity of the Floyd-Warshall algorithm is \(O(V^3)\), where \(V\) is the number of vertices. This cubic time complexity makes it less efficient than other algorithms like Dijkstra's when applied to large graphs, but it is more versatile as it computes all pairs shortest paths and can handle negative weights.
+- The time complexity of the Floyd-Warshall algorithm is $(O(V^3))$, where $(V)$ is the number of vertices. 
+- This cubic time complexity makes it less efficient than other algorithms like Dijkstra's when applied to large graphs, but it is more versatile as it computes all pairs shortest paths and can handle negative weights.
 
 ### Use Cases
 
 - **All-Pairs Shortest Paths**: When you need to compute the shortest paths between all pairs of vertices, particularly in dense graphs.
-- **Handling Negative Weights**: The algorithm can handle negative edge weights, but not negative weight cycles. If a negative weight cycle is detected (e.g., if `dist[i][i]` becomes negative for any vertex \(i\)), the graph contains such a cycle, and no solution exists.
+
+- **Handling Negative Weights**: The algorithm can handle negative edge weights, but not negative weight cycles. If a negative weight cycle is detected (e.g., if `dist[i][i]` becomes negative for any vertex $(i)$, the graph contains such a cycle, and no solution exists.
+
 - **Small to Medium-Sized Graphs**: Suitable for graphs where the number of vertices isn't too large due to its cubic time complexity.
 
 The Floyd-Warshall algorithm is a robust and straightforward approach for solving the all-pairs shortest path problem, especially when negative weights are involved and the graph is not too large.
