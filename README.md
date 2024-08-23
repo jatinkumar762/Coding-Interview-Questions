@@ -344,8 +344,9 @@
   ## MinimumSpanningTree/DisjointSet Problems
 
   ### Medium
-
-  1. [Disjoint Set | Union by Rank and Path](./Graphs/MinimumSpanningTreeAndDisjointSetProblems/Medium/DisjointSet.md)
+  
+  - [x] [Minimum Spanning Tree](./Graphs/MinimumSpanningTreeAndDisjointSetProblems/Medium/MinimumSpanningTree.md)
+  - [x] [Disjoint Set | Union by Rank and Path](./Graphs/MinimumSpanningTreeAndDisjointSetProblems/Medium/DisjointSet.md)
 
 
 
