@@ -22,6 +22,61 @@
 
 &rarr; this algorithm uses priority_queue to store the vertices sorted by their minimum edge weight currently. 
 
+#### Problem
+
+* https://www.geeksforgeeks.org/problems/minimum-spanning-tree/1
+
+```java
+class Edge{
+    int u;
+    int v;
+    int weight;
+    
+    Edge(int u, int v, int w){
+        this.u = u;
+        this.v = v;
+        this.weight = w;
+    }
+}
+
+class Solution {
+    static int spanningTree(int V, int E, List<List<int[]>> adj) {
+        // Code Here.
+        
+        int sum = 0;
+        boolean[] visited = new boolean[V];
+        
+        Comparator<Edge> edgeComparator = new Comparator<Edge>(){
+            @Override
+            public int compare(Edge e1, Edge e2){
+                return Integer.compare(e1.weight, e2.weight);
+            }
+        };
+        
+        PriorityQueue<Edge> pq = new PriorityQueue<Edge>(edgeComparator);
+        pq.add(new Edge(0, 0, 0));
+        
+        while(!pq.isEmpty()){
+            
+            Edge edge = pq.poll();
+            int vertex = edge.v;
+            
+            if(visited[vertex]){
+                continue;
+            }
+            
+            for(int[] e : adj.get(vertex)){
+                pq.add(new Edge(vertex, e[0], e[1]));
+            }
+            visited[vertex] = true;
+            sum += edge.weight;
+        }
+        
+        return sum;
+    }
+}
+```
+
 #### Reference:
 
 - https://www.geeksforgeeks.org/what-is-minimum-spanning-tree-mst/
