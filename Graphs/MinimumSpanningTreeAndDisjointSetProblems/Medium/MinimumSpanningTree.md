@@ -87,6 +87,9 @@ class Solution {
 
 &rarr; However, because the number of edges E can be at most V^2 (in a dense graph), and since log(E) is at most log(V^2) = 2 log(V), we can simplify the time complexity to O(E log V) in most cases where V is the number of vertices. This matches the standard time complexity for Prim's algorithm using a priority queue (min-heap).
 
+&rarr; **Dense graph** is a graph in which the number of edges is close to the maximal number of edges. **Sparse graph** is a graph in which the number of edges is close to the minimal number of edges. Sparse graph can be a disconnected graph.
+
+
 #### Reference:
 
 - https://www.geeksforgeeks.org/what-is-minimum-spanning-tree-mst/
