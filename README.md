@@ -352,7 +352,6 @@
 
 # Tries
 
-  ## Theory
   - [x] [Implement TRIE | INSERT | SEARCH | STARTSWITH](./Trie/Trie.md)
 
 
