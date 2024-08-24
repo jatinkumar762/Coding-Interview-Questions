@@ -15,3 +15,30 @@
 * Each node contains an array or a map of children, where each child corresponds to a letter of the alphabet (or character set).
 * A special flag (often a boolean) in each node indicates whether that node corresponds to the end of a valid word.
 
+### Operations on Trie
+
+1. **Insertion:**
+
+* To insert a word into a Trie, start at the root node and iterate through the characters of the word.
+* For each character, check if there is a corresponding child node. If not, create a new node.
+* Move to the child node and continue with the next character.
+* After inserting all characters, mark the last node as the end of the word.
+
+2. **Search:**
+
+* To search for a word, start at the root and follow the path corresponding to each character of the word.
+* If you reach a node corresponding to the last character of the word, check if it's marked as the end of a word.
+* If you can follow the path and the last node is marked as the end, the word exists in the Trie. Otherwise, it doesn’t.
+
+3. **Prefix Search:**
+
+* Similar to searching for a word, but you only need to check if you can follow the path for all characters of the prefix. If yes, then the prefix exists in the Trie.
+
+4. **Deletion (Optional):**
+
+### Applications of Tries
+
+* **Autocomplete:** Used in search engines and text editors for suggesting possible completions of a word as you type.
+* **Spell Checking:** Tries can efficiently check if a word exists in a dictionary and suggest corrections.
+* **IP Routing:** Used in network routers to store and search IP address prefixes.
+* **Longest Prefix Matching:** Useful in scenarios where you need to find the longest prefix that matches a given query.
