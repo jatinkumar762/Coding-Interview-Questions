@@ -85,6 +85,8 @@ class Solution {
 * Inserting/Extracting an edge into the priority queue (pq.add()/pq.poll()) has a time complexity of O(log E).
 * Since there are O(E) edges and each edge might be inserted and removed once, the priority queue operations contribute O(E log E) to the time complexity.
 
+&rarr; However, because the number of edges E can be at most V^2 (in a dense graph), and since log(E) is at most log(V^2) = 2 log(V), we can simplify the time complexity to O(E log V) in most cases where V is the number of vertices. This matches the standard time complexity for Prim's algorithm using a priority queue (min-heap).
+
 #### Reference:
 
 - https://www.geeksforgeeks.org/what-is-minimum-spanning-tree-mst/
