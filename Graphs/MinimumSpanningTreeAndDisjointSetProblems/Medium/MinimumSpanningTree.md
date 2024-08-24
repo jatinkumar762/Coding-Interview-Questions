@@ -66,7 +66,9 @@ class Solution {
             }
             
             for(int[] e : adj.get(vertex)){
-                pq.add(new Edge(vertex, e[0], e[1]));
+                if(!visited[e[0]]){
+                    pq.add(new Edge(vertex, e[0], e[1]));
+                }
             }
             visited[vertex] = true;
             sum += edge.weight;
@@ -76,6 +78,13 @@ class Solution {
     }
 }
 ```
+
+#### TimeComplexity:  `O(E log E)`
+
+1. Priority Queue Operations:
+
+* In the worst case, the priority queue could hold up to O(E) edges.
+* Inserting/Extracting an edge into the priority queue (pq.add()/pq.poll()) has a time complexity of O(log E).
 
 #### Reference:
 
