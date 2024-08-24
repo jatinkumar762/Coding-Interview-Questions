@@ -340,7 +340,7 @@
   - [x] [Shortest Path in Binary Matrix](./Graphs/Medium/ShortestPathBinaryMatrix.md)
   - [x] [Bellman Ford Algorithm](./Graphs/Medium/BellmanFordAlgorithm.md)
   - [x] [Floyd Warshall Algorithm](./Graphs/Medium/FloydWarshallAlgorithm.md)
-  - [x] [Bridges in Graph](./Graphs/Medium/BridgesInGraph.md)
+  - [ ] [Bridges in Graph](./Graphs/Medium/BridgesInGraph.md)
 
   ## MinimumSpanningTree/DisjointSet Problems
 
