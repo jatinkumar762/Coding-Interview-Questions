@@ -345,7 +345,7 @@
 
   ### Medium
   
-  - [x] [Minimum Spanning Tree](./Graphs/MinimumSpanningTreeAndDisjointSetProblems/Medium/MinimumSpanningTree.md)
+  - [x] [Minimum Spanning Tree | Prim’s Minimum Spanning Tree Algorithm](./Graphs/MinimumSpanningTreeAndDisjointSetProblems/Medium/MinimumSpanningTree.md)
   - [x] [Disjoint Set | Union by Rank and Path](./Graphs/MinimumSpanningTreeAndDisjointSetProblems/Medium/DisjointSet.md)
 
 
