@@ -36,6 +36,81 @@
 
 4. **Deletion (Optional):**
 
+* **Problem:** https://leetcode.com/problems/implement-trie-prefix-tree/
+
+#### Approach-1 little slower
+
+```java
+/*
+class Test{
+    int a;
+    boolean b;
+}
+
+public class MyClass {
+  public static void main(String args[]) {
+    Test test = new Test();
+    System.out.println(test.a); //0
+    System.out.println(test.b); // false
+  }
+}
+*/
+
+
+class TrieNode {
+    Map<Character, TrieNode> children = new HashMap<>();
+    boolean isEndOfWord;
+}
+
+class Trie {
+
+    private final TrieNode root;
+
+    public Trie() { 
+        root = new TrieNode();
+    }
+    
+    public void insert(String word) {
+        TrieNode node = root;
+        for(char ch : word.toCharArray()){
+            node = node.children.computeIfAbsent(ch, k -> new TrieNode());
+        }
+        node.isEndOfWord = true;
+    }
+    
+    public boolean search(String word) {
+        TrieNode node = root;
+        for(char ch : word.toCharArray()){
+            node = node.children.get(ch);
+            if(node==null){
+                return false;
+            }
+        }
+        return node.isEndOfWord; //if last node
+    }
+    
+    public boolean startsWith(String prefix) {
+        TrieNode node = root;
+        for(char ch : prefix.toCharArray()){
+            node = node.children.get(ch);
+            if(node==null){
+                return false;
+            }
+        }
+        return true; //completely traversed the prefix
+    }
+}
+
+/**
+ * Your Trie object will be instantiated and called as such:
+ * Trie obj = new Trie();
+ * obj.insert(word);
+ * boolean param_2 = obj.search(word);
+ * boolean param_3 = obj.startsWith(prefix);
+ */
+```
+
+
 ### Applications of Tries
 
 * **Autocomplete:** Used in search engines and text editors for suggesting possible completions of a word as you type.
