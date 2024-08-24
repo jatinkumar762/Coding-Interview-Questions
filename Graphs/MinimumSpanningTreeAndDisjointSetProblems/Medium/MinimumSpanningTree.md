@@ -81,10 +81,9 @@ class Solution {
 
 #### TimeComplexity:  `O(E log E)`
 
-1. Priority Queue Operations:
-
 * In the worst case, the priority queue could hold up to O(E) edges.
 * Inserting/Extracting an edge into the priority queue (pq.add()/pq.poll()) has a time complexity of O(log E).
+* Since there are O(E) edges and each edge might be inserted and removed once, the priority queue operations contribute O(E log E) to the time complexity.
 
 #### Reference:
 
