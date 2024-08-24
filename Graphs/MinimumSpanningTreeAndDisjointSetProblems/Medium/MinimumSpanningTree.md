@@ -9,9 +9,18 @@
 * The total cost (or weight) of the spanning tree is defined as the sum of the edge weights of all the edges of the spanning tree.
 * There can be many possible spanning trees for a graph.
 
-#### Prim’s Minimum Spanning Tree Algorithm
+### Prim’s Minimum Spanning Tree Algorithm
 
+* a greedy algorithm
+* designed for undirected graphs only.
 
+**Steps:**
+
+* It starts by selecting an arbitrary vertex and then adding it to the MST.
+* Then, it repeatedly checks for the minimum edge weight that connects one vertex of MST to another vertex that is not yet in the MST. 
+* This process is continued until all the vertices are included in the MST. 
+
+&rarr; this algorithm uses priority_queue to store the vertices sorted by their minimum edge weight currently. 
 
 #### Reference:
 
