@@ -350,6 +350,14 @@
   - [x] [Kruskal’s Minimum Spanning Tree Algorithm](./Graphs/MinimumSpanningTreeAndDisjointSetProblems/Medium/Kruskal’sMinimumSpanningTreeAlgorithm.md)
   - [x] [Disjoint Set | Union by Rank and Path](./Graphs/MinimumSpanningTreeAndDisjointSetProblems/Medium/DisjointSet.md)
 
+# Tries
+
+  ## Theory
+  - [x] [Implement TRIE | INSERT | SEARCH | STARTSWITH](./Trie/Trie.md)
+
+
+
+
 
 
 
