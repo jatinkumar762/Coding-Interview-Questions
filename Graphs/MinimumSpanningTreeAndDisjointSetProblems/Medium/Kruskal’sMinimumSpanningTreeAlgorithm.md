@@ -111,7 +111,9 @@ class Solution {
 #### Time Complexity:
 
 &rarr; **Sorting the edges:** O(E log E), where E is the number of edges.
+
 &rarr; **Union-Find operations:** for each edge we are doing this operation, so `O(E α(V))` time, where α is the inverse Ackermann function and V is the number of vertices.
+
 &rarr; **Overall Time Complexity:** `O(E log E)` bcz O(E log E) > O(E α(V))
 
 **Note:** Since E can be up to V² in a dense graph, Kruskal's algorithm is particularly efficient for sparse graphs.
@@ -119,5 +121,7 @@ class Solution {
 #### Advantages of Kruskal's Algorithm
 
 &rarr; **Efficiency:** Especially efficient for sparse graphs.
+
 &rarr; **Simplicity:** Conceptually straightforward and easy to implement.
+
 &rarr; **Flexibility:** Works well even when the graph is disconnected; it will produce a Minimum Spanning Forest.
