@@ -107,3 +107,11 @@ class Solution {
     }
 }
 ```
+
+#### Time Complexity:
+
+&rarr; **Sorting the edges:** O(E log E), where E is the number of edges.
+&rarr; **Union-Find operations:** for each edge we are doing this operation, so `O(E α(V))` time, where α is the inverse Ackermann function and V is the number of vertices.
+&rarr; **Overall Time Complexity:** `O(E log E)` bcz O(E log E) > O(E α(V))
+
+**Note:** Since E can be up to V² in a dense graph, Kruskal's algorithm is particularly efficient for sparse graphs.
