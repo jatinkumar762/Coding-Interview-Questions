@@ -6,6 +6,68 @@ https://leetcode.com/problems/number-of-operations-to-make-network-connected/
 
 * if only edge given in input -> Disjoint set union
 
+**Efficient Code:** 3ms
+
+```java
+class Solution {
+
+    private int[] parent;
+    private int[] size;
+
+    private int find(int v) {
+        if (parent[v] != v) {
+            parent[v] = find(parent[v]);
+        }
+        return parent[v];
+    }
+
+    private boolean union(int v1, int v2) {
+        int pV1 = find(v1);
+        int pV2 = find(v2);
+
+        if (pV1 == pV2) {
+            return false;
+        }
+
+        if (size[pV1] >= size[pV2]) {
+            parent[pV2] = pV1;
+            size[pV1] += size[pV2];
+        } else {
+            parent[pV1] = pV2;
+            size[pV2] += size[pV1];
+        }
+        return true;
+    }
+
+    public int makeConnected(int n, int[][] connections) {
+        parent = new int[n];
+        size = new int[n];
+
+        for (int i = 0; i < n; i++) {
+            parent[i] = i;
+            size[i] = 1;
+        }
+
+        int edges = connections.length;
+        if(edges < n-1){
+            return -1;
+        }
+        //else we have sufficient edges to connect n vertices: e>=(n-1)
+
+        int components = n;
+        for (int e = 0; e < edges; e++) {
+            if (union(connections[e][0], connections[e][1])) {
+                components-=1;
+            }
+        }
+
+        return components-1;
+    }
+}
+```
+
+****little in-efficient Code:** 7ms
+
 ```java
 class Solution {
 
