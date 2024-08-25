@@ -4,6 +4,8 @@ https://leetcode.com/problems/number-of-operations-to-make-network-connected/
 
 #### Approach-1 Disjoint Set Union method 
 
+* if only edge given in input -> Disjoint set union
+
 ```java
 class Solution {
 
