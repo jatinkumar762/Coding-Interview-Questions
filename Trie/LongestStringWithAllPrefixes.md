@@ -92,6 +92,43 @@ class Solution {
 }
 ```
 
+#### Approach-2 Recursive Approach
+
+```java
+class Solution {
+    
+    public static String longestStringWithAllPrefix(TrieNode root, String pre)
+    {
+        if (root == null) {
+            return pre;
+        }
+        
+        String longest = pre;
+        for (int i = 0; i < 26; i++) {
+            if (root.children[i] != null && root.children[i].isEndOfWord == true) {
+
+                String s = pre + (char)(i + 'a');
+                String curr = longestStringWithAllPrefix(root.children[i], s);
+                if (curr.length() > longest.length()) {
+                    longest = curr;
+                }
+            }
+        }
+        return longest;
+    }
+    
+    public static String longestString(int n, String[] arr) {
+        // code here
+        Trie trie = new Trie();
+        
+        for(String word : arr){
+            trie.insert(word);
+        }
+        
+        return longestStringWithAllPrefix(trie.root, "");
+    }
+}
+```
 
 #### Reference
 
