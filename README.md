@@ -355,6 +355,7 @@
   - [x] [Implement TRIE | INSERT | SEARCH | STARTSWITH](./Trie/Trie.md)
   - [x] [Implement TRIE-ii Prefix-tree](./Trie/Trie-ii.md)
   - [x] [Longest String with All Prefixes](./Trie/LongestStringWithAllPrefixes.md)
+  - [x] [Count of distinct substrings](./Trie/CountofDistinctSubstrings.md)
 
 
 
