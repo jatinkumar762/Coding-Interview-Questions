@@ -70,3 +70,8 @@ class Solution {
     }
 }
 ```
+
+#### Approach-2 Using DFS
+
+* Use DFS to determine the number of isolated computer clusters.
+
