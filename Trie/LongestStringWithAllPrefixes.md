@@ -91,3 +91,8 @@ class Solution {
     }
 }
 ```
+
+
+#### Reference
+
+* https://www.geeksforgeeks.org/longest-valid-word-with-all-prefixes/
