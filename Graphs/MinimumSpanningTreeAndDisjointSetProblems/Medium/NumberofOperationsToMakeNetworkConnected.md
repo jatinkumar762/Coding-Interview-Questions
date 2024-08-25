@@ -1,5 +1,7 @@
 https://leetcode.com/problems/number-of-operations-to-make-network-connected/
 
+* Hint: As long as there are at least (n - 1) connections, there is definitely a way to connect all computers.
+
 #### Approach-1 Disjoint Set Union method 
 
 ```java
