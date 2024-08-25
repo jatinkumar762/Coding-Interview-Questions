@@ -1,4 +1,12 @@
 https://www.naukri.com/code360/problems/implement-trie_1387095
+https://leetcode.com/problems/implement-trie-ii-prefix-tree/
+
+The LeetCode problem "Implement Trie II (Prefix Tree)" asks you to implement a Trie (prefix tree) that supports the following operations:
+
+1. Insert a Word: Add a word to the Trie.
+2. Count Words Equal To: Return the number of words in the Trie that match a given word exactly.
+3. Count Words Starting With: Return the number of words in the Trie that start with a given prefix.
+4. Erase a Word: Remove a word from the Trie.
 
 ```java
 import java.util.* ;
