@@ -15,3 +15,49 @@ Characteristics:
 
 5. **Maximum degree is bounded by the size of the smaller set:** The maximum degree of a vertex in a bipartite graph is equal to the size of the smaller set.
 
+
+```java
+class Solution
+{
+    public boolean isBipartite(int V, ArrayList<ArrayList<Integer>>adj)
+    {
+        // Code here
+        boolean[] visited = new boolean[V];
+        int[] color = new int[V];
+        
+        for(int i=0;i<V;i++) {
+            
+            if(!visited[i]) {
+                visited[i] = true;
+                color[i] = 1;
+                
+                Queue<Integer> pq = new LinkedList<Integer>();
+                pq.add(i);
+                
+                while(!pq.isEmpty()){
+                    
+                    int vertex = pq.poll();
+                    
+                    for(Integer nbr : adj.get(vertex)){
+                        if(!visited[nbr]){
+                            visited[nbr] = true;
+                            color[nbr] = -1 * color[vertex];
+                            pq.add(nbr);
+                        } else {
+                            if(color[nbr]==color[vertex]){
+                                return false;
+                            }
+                        }
+                    }
+                    
+                }
+            }
+        }
+        return true;
+    }
+}
+```
+
+#### Reference:
+
+* https://www.geeksforgeeks.org/what-is-bipartite-graph/
