@@ -7,7 +7,7 @@ https://www.geeksforgeeks.org/problems/topological-sort/1
 
 #### Use Cases:
 
-Topological sorting is useful in scenarios like **task scheduling**, **resolving dependencies in build systems**, and **ordering of steps in a workflow where certain tasks must be completed before others**.
+Topological sorting is useful in scenarios like **task scheduling**, **resolving dependencies in build systems**, and **ordering of steps in a workflow** where certain tasks must be completed before others.
 
 #### Approach-1 Using DFS
 
