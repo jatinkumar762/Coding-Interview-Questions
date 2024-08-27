@@ -338,7 +338,7 @@
   - [x] [Bellman Ford Algorithm](./Graphs/Medium/BellmanFordAlgorithm.md)
   - [x] [Floyd Warshall Algorithm](./Graphs/Medium/FloydWarshallAlgorithm.md)
   - [ ] [Bridges in Graph](./Graphs/Medium/BridgesInGraph.md)
-  - [ ] [Bipartite Graph](./Graphs/Medium/BipartiteGraph.md)
+  - [x] [Bipartite Graph](./Graphs/Medium/BipartiteGraph.md)
 
   ## Topo Sort and Problems
 
