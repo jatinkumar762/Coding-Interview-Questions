@@ -331,9 +331,6 @@
   - [x] [Surrounded Regions](./Graphs/Medium/SurroundedRegions.md)
   - [x] [Is Graph Bipartite?](./Graphs/Medium/IsGraphBipartite.md)
   - [x] [Detect Cycle in a Directed Graph - DFS](./Graphs/Medium/DirectedGraphCycle_DFS.md)
-  - [x] [Topological Sort Algorithm](./Graphs/Medium/TopologicalSortAlgorithm.md)
-  - [x] [Kahn's Algorithm](./Graphs/Medium/KahnAlgorithm.md)
-  - [x] [Cycle Detection in Directed Graph (BFS)](./Graphs/Medium/DirectedGraphCycle_BFS.md)
   - [x] [Shortest path in Undirected Graph](./Graphs/Medium/ShortestPathUndirectedGraph.md)
   - [x] [Djisktra's Algorithm](./Graphs/Medium/Djisktra'sAlgorithm.md)
   - [x] [Shortest path in Directed Acyclic Graph](./Graphs/Medium/ShortestPathDirectedAcyclicGraph.md)
@@ -342,6 +339,14 @@
   - [x] [Floyd Warshall Algorithm](./Graphs/Medium/FloydWarshallAlgorithm.md)
   - [ ] [Bridges in Graph](./Graphs/Medium/BridgesInGraph.md)
   - [ ] [Bipartite Graph](./Graphs/Medium/BipartiteGraph.md)
+
+  ## Topo Sort and Problems
+
+  - [x] [Topological Sort Algorithm](./Graphs/Medium/TopologicalSortAlgorithm.md)
+  - [x] [Kahn's Algorithm](./Graphs/Medium/KahnAlgorithm.md)
+  - [x] [Cycle Detection in Directed Graph (BFS)](./Graphs/Medium/DirectedGraphCycle_BFS.md)
+
+
 
   ## MinimumSpanningTree/DisjointSet Problems
 
