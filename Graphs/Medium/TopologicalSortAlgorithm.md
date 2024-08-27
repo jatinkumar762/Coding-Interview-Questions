@@ -5,8 +5,15 @@ https://www.geeksforgeeks.org/problems/topological-sort/1
 * Not every graph can have a topological ordering. A graph which contains a cycle cannot have a valid ordering
 * only Directed Acyclic graph (DAG) can have valid topological ordering
 
+#### Use Cases:
+
+Topological sorting is useful in scenarios like **task scheduling**, **resolving dependencies in build systems**, and **ordering of steps in a workflow where certain tasks must be completed before others**.
 
 #### Approach-1 Using DFS
+
+* The idea is to perform DFS on the graph and push nodes to a stack as they finish their recursive calls. 
+* Finally, popping from the stack gives the topological order
+
 ```java
 class Solution
 {
