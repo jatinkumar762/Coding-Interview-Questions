@@ -345,6 +345,7 @@
   - [x] [Topological Sort Algorithm](./Graphs/Medium/TopologicalSortAlgorithm.md)
   - [x] [Kahn's Algorithm](./Graphs/Medium/KahnAlgorithm.md)
   - [x] [Cycle Detection in Directed Graph (BFS)](./Graphs/Medium/DirectedGraphCycle_BFS.md)
+  - [x] [Course Schedule-I](./Graphs/Medium/Course%20Schedule-I.md)
 
 
 
