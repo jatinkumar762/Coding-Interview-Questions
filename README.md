@@ -340,7 +340,7 @@
   - [ ] [Bridges in Graph](./Graphs/Medium/BridgesInGraph.md)
   - [x] [Bipartite Graph](./Graphs/Medium/BipartiteGraph.md)
 
-  ## Topo Sort and Problems
+  ### Topo Sort and Problems
 
   - [x] [Topological Sort Algorithm](./Graphs/Medium/TopologicalSortAlgorithm.md)
   - [x] [Kahn's Algorithm](./Graphs/Medium/KahnAlgorithm.md)
@@ -349,7 +349,7 @@
   - [x] [Course Schedule-II](./Graphs/Medium/Course%20Schedule-II.md)
 
 
-  ## MinimumSpanningTree/DisjointSet Problems
+  ### MinimumSpanningTree/DisjointSet Problems
 
   - [x] [Minimum Spanning Tree | Prim’s Minimum Spanning Tree Algorithm](./Graphs/MinimumSpanningTreeAndDisjointSetProblems/Medium/MinimumSpanningTree.md)
   - [x] [Kruskal’s Minimum Spanning Tree Algorithm](./Graphs/MinimumSpanningTreeAndDisjointSetProblems/Medium/Kruskal’sMinimumSpanningTreeAlgorithm.md)
