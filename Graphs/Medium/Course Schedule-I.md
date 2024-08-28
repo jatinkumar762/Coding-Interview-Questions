@@ -28,8 +28,6 @@ class Solution {
 
         count = 0;
 
-        //using toposort dfs will be difficult to detect loop
-
         Queue<Integer> queue = new LinkedList<>();
 
         for(int i=0;i<numCourses;i++){
@@ -69,7 +67,6 @@ class Solution {
 
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         
-        int[] inDegree = new int[numCourses];
         visited = new boolean[numCourses];
         recStack = new boolean[numCourses];
 
@@ -83,7 +80,6 @@ class Solution {
             int b = prerequisites[i][1];
             //edge b -> a
             adj.get(b).add(a);
-            inDegree[a]+=1;
         }
 
         //using dfs will be difficult to detect loop

@@ -25,7 +25,6 @@ class Solution {
             inDegree[a]+=1;
         }
 
-        //using dfs will be difficult to detect loop
         int[] result = new int[numCourses];
         int count=0; 
 
@@ -57,6 +56,78 @@ class Solution {
         } else {
             return new int[]{};
         }
+    }
+}
+```
+
+#### Approach-2 DFS Solution
+
+```java
+class Solution {
+
+    ArrayList<ArrayList<Integer>> adj;
+    boolean[] visited;
+    boolean[] recStack;
+    int[] result;
+    int count;
+
+    public int[] findOrder(int numCourses, int[][] prerequisites) {
+        
+
+        visited = new boolean[numCourses];
+        recStack = new boolean[numCourses];
+        result = new int[numCourses];
+        count = numCourses-1;
+
+        adj = new ArrayList<>();
+        for(int i=0;i<numCourses;i++){
+            adj.add(new ArrayList<Integer>());
+        }
+
+        for(int i=0;i<prerequisites.length;i++){
+            int a = prerequisites[i][0];
+            int b = prerequisites[i][1];
+            //edge b -> a
+            adj.get(b).add(a);
+        }
+
+        for(int i=0;i<numCourses;i++){
+            if(!visited[i]){
+                if(dfs(i)){
+                    return new int[]{}; //loop exist
+                    //means topo sort wont be possible
+                }
+            }
+        }
+
+        //if no loop
+        return result; 
+    }
+
+    boolean dfs(int vertex){
+
+        //loop present
+        if(visited[vertex] && recStack[vertex]){
+            return true;
+        }
+
+        if(visited[vertex]){
+            return false;
+        }
+
+        visited[vertex] = true;
+        recStack[vertex] = true;
+
+        for(int nbr : adj.get(vertex)){
+            if(dfs(nbr)){
+                return true;
+            }
+        }
+
+        recStack[vertex] = false;
+        result[count--] = vertex;
+
+        return false;
     }
 }
 ```
