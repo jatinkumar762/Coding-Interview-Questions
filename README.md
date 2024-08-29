@@ -275,6 +275,7 @@
   4. [Longest Common Substring](./DynamicProgramming/LongestCommonSubstring.md)
   5. [Longest Increasing Subsequence](./DynamicProgramming/LongestIncreasingSubsequence.md)
   6. [Max length chain](./DynamicProgramming/Maxlengthchain.md)
+  7. [Coin Change_Minimum Coins to Make Sum-I](./DynamicProgramming/Medium/CoinChange_MinimumCoinsToMakeSum.md)
 
 ## Heap
   ### Easy
