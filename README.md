@@ -309,6 +309,7 @@
   - [x] [Fractional Knapsack](./GreedyAlgorithms/Easy/FractionalKnapsack.md)
   - [x] [Lemonade Change](./GreedyAlgorithms/Easy/LemonadeChange.md)
   - [x] [Minimum number of Coins](./GreedyAlgorithms/Easy/Greedy_MinimumNumberOfCoins.md)
+  - [x] [N meetings in one room](./GreedyAlgorithms/Easy/N_Meetings_In_One_Room.md)
 
   ### Medium
   - [x] 🔥[Valid Parenthesis String](./GreedyAlgorithms/Medium/ValidParenthesisString.md)
