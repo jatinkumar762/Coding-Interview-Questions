@@ -313,6 +313,7 @@
 
   ### Medium
   - [x] 🔥[Valid Parenthesis String](./GreedyAlgorithms/Medium/ValidParenthesisString.md)
+  - [x] [Jump Game](./GreedyAlgorithms/Medium/JumpGame.md)
 
 # Graphs
 
