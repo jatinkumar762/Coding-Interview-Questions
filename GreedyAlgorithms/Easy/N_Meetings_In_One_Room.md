@@ -38,9 +38,10 @@ class Meeting implements Comparable<Meeting> {
         //short version of above commented code
         int res = Integer.compare(this.end, m2.end); //1->swap, -1/0 no swap
         
-        if(res==0){
-            res = Integer.compare(this.start, m2.start);
-        }
+        //not needed
+        // if(res==0){
+        //     res = Integer.compare(this.start, m2.start);
+        // }
     
         return res;
     }
