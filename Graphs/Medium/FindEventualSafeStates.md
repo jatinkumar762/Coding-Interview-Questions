@@ -56,6 +56,9 @@ class Solution {
             return false;
         }
 
+        //if i remove above two if conditions will work
+        //will give TLE
+
         visited[vertex] = true;
         path[vertex] = true;
 
