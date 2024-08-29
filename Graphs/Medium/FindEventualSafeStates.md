@@ -1,8 +1,10 @@
 https://leetcode.com/problems/find-eventual-safe-states/description/
 
+https://www.geeksforgeeks.org/problems/eventual-safe-states/0
+
 #### Approach
 
-* those vertex who part of loop, will not be safe nodes
+* those vertex who are part of loop, will not be safe nodes
 * those vertex who has path to unsafe node, will not be safe nodes
 
 
