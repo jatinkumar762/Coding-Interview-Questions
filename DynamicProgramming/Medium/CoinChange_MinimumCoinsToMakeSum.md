@@ -81,4 +81,6 @@ public class coin
 }
 ```
 
-TimeComplexity: O(m^sum)
+Time Complexity: O(m^sum)
+
+Space Complexity: The space complexity is O(sum) due to the maximum depth of the recursion tree, which can go as deep as sum.
