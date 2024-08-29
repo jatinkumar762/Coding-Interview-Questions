@@ -347,6 +347,7 @@
   - [x] [Cycle Detection in Directed Graph (BFS)](./Graphs/Medium/DirectedGraphCycle_BFS.md)
   - [x] [Course Schedule-I](./Graphs/Medium/Course%20Schedule-I.md)
   - [x] [Course Schedule-II](./Graphs/Medium/Course%20Schedule-II.md)
+  - [x] [Find Eventual Safe States](./Graphs/Medium/FindEventualSafeStates.md)
 
 
   ### MinimumSpanningTree/DisjointSet Problems
