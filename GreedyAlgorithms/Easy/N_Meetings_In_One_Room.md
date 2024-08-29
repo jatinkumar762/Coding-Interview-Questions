@@ -3,8 +3,8 @@ https://www.geeksforgeeks.org/problems/n-meetings-in-one-room-1587115620/1
 
 #### Approach
 
-* we can sort the meeting based on their end time -> those who end first will first in order
-* if end time is same, then we can sort them based on start time -> those who start late will first in order
+* we can sort the meeting based on their end time -> those who end first will first in order -> can accommodate more meetings
+* ~~if end time is same, then we can sort them based on start time -> those who start late will first in order~~
 * the above approach will help in max meetings
 
 
