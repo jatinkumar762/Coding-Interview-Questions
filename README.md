@@ -304,13 +304,13 @@
 ## Greedy Algorithms
 
   ### Easy
-  [x] [Assign Cookies](./GreedyAlgorithms/Easy/Assign%20Cookies.md)
-  [x] [Fractional Knapsack](./GreedyAlgorithms/Easy/FractionalKnapsack.md)
-  [x] [Lemonade Change](./GreedyAlgorithms/Easy/LemonadeChange.md)
-  [x] [Minimum number of Coins](./GreedyAlgorithms/Easy/Greedy_MinimumNumberOfCoins.md)
+  - [x] [Assign Cookies](./GreedyAlgorithms/Easy/Assign%20Cookies.md)
+  - [x] [Fractional Knapsack](./GreedyAlgorithms/Easy/FractionalKnapsack.md)
+  - [x] [Lemonade Change](./GreedyAlgorithms/Easy/LemonadeChange.md)
+  - [x] [Minimum number of Coins](./GreedyAlgorithms/Easy/Greedy_MinimumNumberOfCoins.md)
 
   ### Medium
-  1. 🔥[Valid Parenthesis String](./GreedyAlgorithms/Medium/ValidParenthesisString.md)
+  - [x] 🔥[Valid Parenthesis String](./GreedyAlgorithms/Medium/ValidParenthesisString.md)
 
 # Graphs
 
