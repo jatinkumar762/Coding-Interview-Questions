@@ -90,7 +90,7 @@ class Solution {
 }
 ```
 
-#### Approach-2 BFS Solution - topo sort
+#### Approach-2 BFS Solution -> topo sort | 24ms
 
 * Kahn algorithm, work based on indegree zero
 * terminal node is outdegree zero
@@ -98,7 +98,54 @@ class Solution {
 * sort the result, because it can be in any order
 
 ```java
+class Solution {
 
+    public List<Integer> eventualSafeNodes(int[][] graph) {
+
+        int N = graph.length;
+        List<Integer> result = new ArrayList<>();
+        int[] inDegree = new int[N];
+
+        // reverse the graph
+        List<List<Integer>> adj = new ArrayList<>();
+        for (int i = 0; i < N; i++) {
+            adj.add(new ArrayList<Integer>());
+        }
+
+        for (int i = 0; i < N; i++) {
+            for (int nbr : graph[i]) {
+                adj.get(nbr).add(i);
+                inDegree[i] += 1;
+            }
+        }
+
+        Queue<Integer> queue = new LinkedList<>();
+        for (int i = 0; i < N; i++) {
+            if (inDegree[i] == 0) {
+                queue.add(i);
+            }
+        }
+
+        while (!queue.isEmpty()) {
+
+            int vertex = queue.poll();
+            result.add(vertex);
+
+            for (Integer nbr : adj.get(vertex)) {
+                inDegree[nbr] -= 1;
+                if (inDegree[nbr] == 0) {
+                    queue.add(nbr);
+                }
+            }
+
+        }
+
+        Collections.sort(result);
+
+        return result;
+    }
+
+}
 ```
 
 
