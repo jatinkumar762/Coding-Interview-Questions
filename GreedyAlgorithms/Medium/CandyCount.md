@@ -56,3 +56,9 @@ class Solution {
     }
 }
 ```
+
+
+#### Approach-2 
+
+* Slope technique
+* https://www.youtube.com/watch?v=IIqVFvKE6RY
