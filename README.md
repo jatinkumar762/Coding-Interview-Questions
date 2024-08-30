@@ -310,7 +310,7 @@
   - [x] [Lemonade Change](./GreedyAlgorithms/Easy/LemonadeChange.md)
   - [x] [Minimum number of Coins](./GreedyAlgorithms/Easy/Greedy_MinimumNumberOfCoins.md)
   - [x] [N meetings in one room](./GreedyAlgorithms/Easy/N_Meetings_In_One_Room.md)
-  - [x] [Shortest Job first]()
+  - [x] [Shortest Job first](./GreedyAlgorithms/Easy/ShortestJobFirst.md)
 
   ### Medium
   - [x] 🔥[Valid Parenthesis String](./GreedyAlgorithms/Medium/ValidParenthesisString.md)
@@ -319,6 +319,7 @@
   - [x] [Minimum number of platforms](./GreedyAlgorithms/Medium/MinimumPlatforms.md)
   - [x] [Job Sequencing Problem](./GreedyAlgorithms/Medium/JobSequencingProblem.md)
   - [x] [Candy Count](./GreedyAlgorithms/Medium/CandyCount.md)
+  - [x] [Merge Intervals](./GreedyAlgorithms/Medium/MergeIntervals.md)
 
 # Graphs
 
