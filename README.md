@@ -317,6 +317,7 @@
   - [x] [Jump Game-II](./GreedyAlgorithms/Medium/JumpGame-II.md)
   - [x] [Minimum number of platforms](./GreedyAlgorithms/Medium/MinimumPlatforms.md)
   - [x] [Job Sequencing Problem](./GreedyAlgorithms/Medium/JobSequencingProblem.md)
+  - [x] [Candy Count](./GreedyAlgorithms/Medium/CandyCount.md)
 
 # Graphs
 
