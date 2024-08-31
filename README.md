@@ -319,6 +319,7 @@
   - [x] [Minimum number of platforms](./GreedyAlgorithms/Medium/MinimumPlatforms.md)
   - [x] [Job Sequencing Problem](./GreedyAlgorithms/Medium/JobSequencingProblem.md)
   - [x] [Candy Count](./GreedyAlgorithms/Medium/CandyCount.md)
+  - [x] [Insert Interval](./GreedyAlgorithms/Medium/InsertInterval.md)
   - [x] [Merge Intervals](./GreedyAlgorithms/Medium/MergeIntervals.md)
 
 # Graphs
