@@ -302,6 +302,7 @@
   - [x] 🔥[Longest Sub-Array with Sum K](./SlidingWindow/Medium/LongestSubArraySumK.md)
   - [x] [Subarray Sum Equals K](./SlidingWindow/Medium/SubarraySumEqualsK.md)
   - [x] [Longest K unique characters substring](./SlidingWindow/Medium/LongestKUniqueCharactersSubstring.md)
+  - [x] [Max Consecutive Ones III](./SlidingWindow/Medium/MaxConsecutiveOnes-III.md)
 
 ## Greedy Algorithms
 
