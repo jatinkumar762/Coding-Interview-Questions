@@ -36,3 +36,36 @@ class Solution {
     }
 }
 ```
+
+**little optimization**
+
+```java
+class Solution {
+    public int totalFruit(int[] fruits) {
+
+        Map<Integer, Integer> basket = new HashMap<>();
+        int N = fruits.length;
+        int max = 0, start = 0;
+
+        for (int end = 0; end < N; end++) {
+
+            basket.put(fruits[end], basket.getOrDefault(fruits[end], 0) + 1);
+
+            if (basket.size() > 2) {
+
+                if (basket.get(fruits[start]) <= 1) {
+                    basket.remove(fruits[start]);
+                } else {
+                    basket.put(fruits[start], basket.get(fruits[start]) - 1);
+                }
+
+                start++;
+            } else {
+                max = Math.max(max, end - start + 1);
+            }
+        }
+
+        return max;
+    }
+}
+```
