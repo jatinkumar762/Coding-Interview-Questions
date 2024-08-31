@@ -321,6 +321,7 @@
   - [x] [Candy Count](./GreedyAlgorithms/Medium/CandyCount.md)
   - [x] [Insert Interval](./GreedyAlgorithms/Medium/InsertInterval.md)
   - [x] [Merge Intervals](./GreedyAlgorithms/Medium/MergeIntervals.md)
+  - [x] [Non-overlapping Intervals](./GreedyAlgorithms/Medium/Non-overlappingIntervals.md)
 
 # Graphs
 
