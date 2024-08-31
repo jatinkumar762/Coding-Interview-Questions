@@ -292,15 +292,15 @@
 
 ## Sliding Window
   ### Easy
-  1. [Count Occurrences of Anagrams](./SlidingWindow/Easy/CountOccurencesofAnagrams.md)
-  2. [Max Sum Subarray of size K](./SlidingWindow/Easy/MaxSumSubarraySizeK.md)
-  3. [First negative in every window of size k](./SlidingWindow/Easy/FirstNegativeEveryWindowSizeK.md)
+  - [x] [Count Occurrences of Anagrams](./SlidingWindow/Easy/CountOccurencesofAnagrams.md)
+  - [x] [Max Sum Subarray of size K](./SlidingWindow/Easy/MaxSumSubarraySizeK.md)
+  - [x] [First negative in every window of size k](./SlidingWindow/Easy/FirstNegativeEveryWindowSizeK.md)
 
   ### Medium
-  1. 🔥[Sliding Window Maximum/K Sized Subarray Maximum](./SlidingWindow/Medium/KSizedSubarrayMaximum.md)
-  2. 🔥[Longest Sub-Array with Sum K](./SlidingWindow/Medium/LongestSubArraySumK.md)
-  3. [Subarray Sum Equals K](./SlidingWindow/Medium/SubarraySumEqualsK.md)
-  4. [Longest K unique characters substring](./SlidingWindow/Medium/LongestKUniqueCharactersSubstring.md)
+  - [x] 🔥[Sliding Window Maximum/K Sized Subarray Maximum](./SlidingWindow/Medium/KSizedSubarrayMaximum.md)
+  - [x] 🔥[Longest Sub-Array with Sum K](./SlidingWindow/Medium/LongestSubArraySumK.md)
+  - [x] [Subarray Sum Equals K](./SlidingWindow/Medium/SubarraySumEqualsK.md)
+  - [x] [Longest K unique characters substring](./SlidingWindow/Medium/LongestKUniqueCharactersSubstring.md)
 
 ## Greedy Algorithms
 
