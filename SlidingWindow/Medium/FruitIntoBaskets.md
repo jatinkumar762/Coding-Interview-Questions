@@ -2,6 +2,9 @@ https://leetcode.com/problems/fruit-into-baskets/description/
 
 #### Approach-1 2 pointers
 
+* this approach will work for max bucket k
+* here k=2
+
 ```java
 class Solution {
     public int totalFruit(int[] fruits) {
