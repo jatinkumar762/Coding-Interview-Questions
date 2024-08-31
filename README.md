@@ -297,6 +297,7 @@
   - [x] [First negative in every window of size k](./SlidingWindow/Easy/FirstNegativeEveryWindowSizeK.md)
 
   ### Medium
+  - [x] [Longest Substring Without Repeating Characters]()
   - [x] 🔥[Sliding Window Maximum/K Sized Subarray Maximum](./SlidingWindow/Medium/KSizedSubarrayMaximum.md)
   - [x] 🔥[Longest Sub-Array with Sum K](./SlidingWindow/Medium/LongestSubArraySumK.md)
   - [x] [Subarray Sum Equals K](./SlidingWindow/Medium/SubarraySumEqualsK.md)
