@@ -49,3 +49,46 @@ class Solution {
 ```
 
 **Time Complexity** -> $O(N^2)$
+
+#### Sliding Window Approach
+
+```java
+class Solution {
+    public int characterReplacement(String s, int k) {
+
+        int len = s.length();
+        int maxLen = 0;
+
+        // other characters are replaced by max freq character
+        // bcz this will take less changes
+        // ((j-i+1) - maxFreq) <= 2
+        // maxLen = ((j-i+1) - maxFreq)
+
+        int[] freq = new int[26];
+        char[] charArr = s.toCharArray();
+
+        int left = 0, right = 0, maxFreq = 0;
+
+        for (; right < len; right++) {
+
+            freq[charArr[right] - 'A']++;
+            maxFreq = Math.max(maxFreq, freq[charArr[right] - 'A']);
+
+            while ((right - left + 1) - maxFreq > k) {
+                freq[charArr[left] - 'A']--;
+
+                for (int i = 0; i < 26; i++) {
+                    maxFreq = Math.max(maxFreq, freq[i]);
+                }
+
+                left++;
+            }
+
+            maxLen = Math.max(maxLen, right - left + 1);
+        }
+        return maxLen;
+    }
+}
+```
+
+**Time Complexity** -> $O(N+N)*26$
