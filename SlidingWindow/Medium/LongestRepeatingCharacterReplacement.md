@@ -77,6 +77,7 @@ class Solution {
             while ((right - left + 1) - maxFreq > k) {
                 freq[charArr[left] - 'A']--;
 
+                maxFreq = 0;
                 for (int i = 0; i < 26; i++) {
                     maxFreq = Math.max(maxFreq, freq[i]);
                 }
@@ -92,3 +93,14 @@ class Solution {
 ```
 
 **Time Complexity** -> $O(N+N)*26$
+
+#### Optimization of above solution
+
+* we want to maximize maxLen
+* suppose if we find maxLen is 3, then next can be 4, 5, etc....
+* will update left pointer only if ((len - maxFreq) > k) -> means both right and left are increasing by 1 -> same window size
+* if < k, then only right pointer will increase, to maximize len
+
+```java
+
+```
