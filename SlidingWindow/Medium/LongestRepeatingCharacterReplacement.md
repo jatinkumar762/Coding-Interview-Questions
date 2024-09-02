@@ -102,5 +102,43 @@ class Solution {
 * if < k, then only right pointer will increase, to maximize len
 
 ```java
+class Solution {
+    public int characterReplacement(String s, int k) {
 
+        int len = s.length();
+        int maxLen = 0;
+
+        // other characters are replaced by max freq character
+        // bcz this will take less changes
+        // ((j-i+1) - maxFreq) <= 2
+        // maxLen = ((j-i+1) - maxFreq)
+
+        int[] freq = new int[26];
+        char[] charArr = s.toCharArray();
+
+        int left = 0, right = 0, maxFreq = 0;
+
+        for (; right < len; right++) {
+
+            freq[charArr[right] - 'A']++;
+            maxFreq = Math.max(maxFreq, freq[charArr[right] - 'A']);
+
+            if ((right - left + 1) - maxFreq > k) {
+                freq[charArr[left] - 'A']--;
+                maxFreq = 0;
+                for (int i = 0; i < 26; i++) {
+                    maxFreq = Math.max(maxFreq, freq[i]);
+                }
+                left++;
+            } else {
+                maxLen = Math.max(maxLen, right - left + 1);
+            }
+        }
+        return maxLen;
+    }
+}
 ```
+
+* removed while loop
+
+**Time Complexity** -> $O(N)*26$
