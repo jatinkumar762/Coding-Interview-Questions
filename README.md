@@ -304,7 +304,7 @@
   - [x] [Longest K unique characters substring](./SlidingWindow/Medium/LongestKUniqueCharactersSubstring.md)
   - [x] [Max Consecutive Ones III](./SlidingWindow/Medium/MaxConsecutiveOnes-III.md)
   - [x] [Fruit Into Baskets](./SlidingWindow/Medium/FruitIntoBaskets.md)
-  - [ ] [Longest Repeating Character Replacement](./SlidingWindow/Medium/LongestRepeatingCharacterReplacement.md)
+  - [x] [Longest Repeating Character Replacement](./SlidingWindow/Medium/LongestRepeatingCharacterReplacement.md)
   - [ ] [Binary Subarrays With Sum](./SlidingWindow/Medium/BinarySubarraysWithSum.md)
   - [ ] [Count Number of Nice Subarrays](./SlidingWindow/Medium/CountNumberOfNiceSubarrays.md)
   - [ ] [Number of Substrings Containing All Three Characters](./SlidingWindow/Medium/NumberOfSubstringsContainingAllThreeCharacters.md)
