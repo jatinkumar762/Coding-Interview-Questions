@@ -8,23 +8,15 @@ class Solution {
 
         char[] charArr = s.toCharArray();
         int len = s.length();
-        int count = 0, a, b, c;
+        int count = 0;
 
         for (int i = 0; i < len; i++) {
-            a = 0;
-            b = 0;
-            c = 0;
+            int[] freq = { 0, 0, 0 };
             for (int j = i; j < len; j++) {
 
-                if (charArr[j] == 'a') {
-                    a++;
-                } else if (charArr[j] == 'b') {
-                    b++;
-                } else if (charArr[j] == 'c') {
-                    c++;
-                }
+                freq[charArr[j] - 'a']++;
 
-                if (a > 0 && b > 0 && c > 0) {
+                if (freq[0] > 0 && freq[1] > 0 && freq[2] > 0) {
                     count += 1 + (len - 1 - j);
                     // bcz remaining will also satify
                     // abc -> abca, abcab, abcabc
