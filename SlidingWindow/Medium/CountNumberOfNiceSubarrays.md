@@ -42,6 +42,8 @@ class Solution {
 }
 ```
 
+**Time Complexity: $2*O(N+N)$**
+
 #### Sliding Window Approach - 2 (6 ms)
 
 * https://www.youtube.com/watch?v=4zNK0rhFfcA
