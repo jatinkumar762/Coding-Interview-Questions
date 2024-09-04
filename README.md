@@ -307,7 +307,8 @@
   - [x] [Longest Repeating Character Replacement](./SlidingWindow/Medium/LongestRepeatingCharacterReplacement.md)
   - [x] [Binary Subarrays With Sum](./SlidingWindow/Medium/BinarySubarraysWithSum.md)
   - [x] [Count Number of Nice Subarrays](./SlidingWindow/Medium/CountNumberOfNiceSubarrays.md)
-  - [ ] [Number of Substrings Containing All Three Characters](./SlidingWindow/Medium/NumberOfSubstringsContainingAllThreeCharacters.md)
+  - [x] [Number of Substrings Containing All Three Characters](./SlidingWindow/Medium/NumberOfSubstringsContainingAllThreeCharacters.md)
+  - [x] [Maximum Points You Can Obtain from Cards](./SlidingWindow/Medium/MaximumPointsYouCanObtainFromCards.md)
 
 ## Greedy Algorithms
 
