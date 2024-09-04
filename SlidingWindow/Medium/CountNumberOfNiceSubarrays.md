@@ -1,6 +1,6 @@
 https://leetcode.com/problems/count-number-of-nice-subarrays/description/
 
-#### Sliding Window
+#### Sliding Window (10 ms)
 
 * similar to problem - https://leetcode.com/problems/binary-subarrays-with-sum/description/
 
@@ -42,7 +42,7 @@ class Solution {
 }
 ```
 
-#### Sliding Window Approach - 2
+#### Sliding Window Approach - 2 (6 ms)
 
 * https://www.youtube.com/watch?v=4zNK0rhFfcA
 
