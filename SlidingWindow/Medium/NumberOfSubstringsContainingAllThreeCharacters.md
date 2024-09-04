@@ -80,3 +80,7 @@ class Solution {
     }
 }
 ```
+
+**Optimization**
+
+* there is no use of maxIndex in calculation, can remove
