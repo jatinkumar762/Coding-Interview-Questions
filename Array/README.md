@@ -13,6 +13,7 @@
   - [x] [Largest subarray with 0 sum](./Medium/LargestSubarrayWith0Sum.md)
   - [x] [Longest Sub-Array with Sum K](./Medium/LongestSub-ArrayWithSumK.md)
   - [x] [Majority Element - Boyer-Moore Voting Algorithm](./Medium/Boyer-MooreVotingAlgorithm.md)
+  - [x] [Majority Element II](./Medium/MajorityElement-II.md)
   - [x] [Next Permutation](./Medium/NextPermutation.md)
   - [x] [Kth smallest element](./Medium/kthSmallestElement.md)
   - [x] [Rotate Array](./Medium/RotateArray.md)
