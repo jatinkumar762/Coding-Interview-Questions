@@ -110,7 +110,7 @@
   ## Medium
   - [x] [3Sum](./Array/Medium/3Sum.md)
   - [x] [Largest subarray with 0 sum](./Array/Medium/LargestSubarrayWith0Sum.md)
-  - [x] [Longest Sub-Array with Sum K]()
+  - [x] [Longest Sub-Array with Sum K](./Array/Medium/LongestSub-ArrayWithSumK.md)
   - [x] [Next Permutation](./Array/Medium/NextPermutation.md)
   - [x] [Kth smallest element](./Array/Medium/kthSmallestElement.md)
   - [x] [Rotate Array](./Array/Medium/RotateArray.md)
