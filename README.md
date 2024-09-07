@@ -99,11 +99,11 @@
 # Array
   ## Easy
   - [x] [Max and Min with minimum number of comparison](https://www.geeksforgeeks.org/maximum-and-minimum-in-an-array/)
-  - [x] [Peak Element](./Array/PeakElement.md)
-  - [x] [Find Union and Intersection of two arrays](./Array/UnionAndIntersection.md)
-  - [x] [CommonElements in Three Sorted Arrays](./Array/CommonElements.md)
-  - [x] [Alternate positive and negative numbers](./Array/AlternatePositiveNegative.md)
-  - [x] [Three way partitioning](./Array/ThreeWayPartitioning.md)
+  - [x] [Peak Element](./Array/Easy/PeakElement.md)
+  - [x] [Find Union and Intersection of two arrays](./Array/Easy/UnionAndIntersection.md)
+  - [x] [CommonElements in Three Sorted Arrays](./Array/Easy/CommonElements.md)
+  - [x] [Alternate positive and negative numbers](./Array/Easy/AlternatePositiveNegative.md)
+  - [x] [Three way partitioning](./Array/Easy/ThreeWayPartitioning.md)
   - [x] [Find Pivot Index](./Array/Easy/FindPivotIndex.md)
   - [x] [Max Consecutive Ones II](./Array/Easy/MaxConsecutiveOnesII.md)
 
