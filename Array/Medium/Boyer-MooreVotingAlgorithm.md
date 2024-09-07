@@ -31,3 +31,44 @@ https://leetcode.com/problems/majority-element/description/
 **Step 2:** Candidate Verification
 
 * After traversing the array, you’ll end up with a candidate. In this step, verify if it is indeed the majority element by counting its occurrences.
+
+```java
+class Solution {
+    public int majorityElement(int[] nums) {
+
+        int majorityElement = -1, count = 0, n = nums.length;
+
+        for (int i = 0; i < n; i++) {
+
+            if (count == 0) {
+                majorityElement = nums[i];
+                count = 1;
+            } else if (majorityElement == nums[i]) {
+                count++;
+            } else {
+                count--;
+            }
+        }
+        
+        //in problem says -> You may assume that the majority element always exists in the array.
+        // so need to verify element using below code
+
+        return majorityElement;
+
+        /*
+        count = 0;
+        for (int i = 0; i < n; i++) {
+            if (nums[i] == majorityElement) {
+                count++;
+            }
+        }
+
+        if (count > (int) (n / 2)) {
+            return majorityElement;
+        }
+
+        return -1;
+        */
+    }
+}
+```
