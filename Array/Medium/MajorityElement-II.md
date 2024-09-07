@@ -70,11 +70,10 @@ class Solution {
 class Solution {
     public List<Integer> majorityElement(int[] nums) {
         
-        List<Integer> result = new ArrayList<Integer>();
+        int ele1 = -1, ele2 = -1; // Initialize potential candidates
+        int count1 = 0, count2=0; // Initialize their respective counts
         
-        int ele1 = -1, ele2 = -1;
-        int count1 = 0, count2=0;
-        
+        // Step 1: Find potential majority elements (at most 2)
         for(int i=0;i<nums.length;i++){
             
             if(ele1==nums[i]){
@@ -93,6 +92,7 @@ class Solution {
             }
         }
 
+        // Step 2: Verify the candidates
         count1 = 0; count2=0;
         for(int num : nums){
             if(num==ele1){
@@ -101,6 +101,10 @@ class Solution {
                 count2+=1;
             }
         }
+
+        // Step 3: Add valid candidates to the result
+        List<Integer> result = new ArrayList<>();
+
         if(count1>(nums.length/3))
             result.add(ele1);
          if(count2>(nums.length/3))
