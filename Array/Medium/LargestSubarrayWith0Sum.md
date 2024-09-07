@@ -49,6 +49,9 @@ class GfG {
 
 #### Using Hashmap and Prefix Sum
 
+* Check if the current prefix sum has been seen before, it means a subarray with zero sum exists between the previous index (where this prefix sum was first seen) and the current index.
+* Keep track of the maximum length of any zero-sum subarray found.
+
 ```java
 class GfG
 {
@@ -80,4 +83,4 @@ class GfG
 }
 ```
 
-O(n) Time and O(n) Space
+**Complexity :** O(n) Time and O(n) Space
