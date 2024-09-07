@@ -96,39 +96,7 @@
   1. [Delete all occurrences of a given key in a doubly linked list](./LinkedList/DLL/DeleteAllOccurrencesOfKey.md)
   2. [Find pairs with given sum in doubly linked list](./LinkedList/DLL/FindPairSumDLL.md)
 
-# Array
-  ## Easy
-  - [x] [Max and Min with minimum number of comparison](https://www.geeksforgeeks.org/maximum-and-minimum-in-an-array/)
-  - [x] [Peak Element](./Array/Easy/PeakElement.md)
-  - [x] [Find Union and Intersection of two arrays](./Array/Easy/UnionAndIntersection.md)
-  - [x] [CommonElements in Three Sorted Arrays](./Array/Easy/CommonElements.md)
-  - [x] [Alternate positive and negative numbers](./Array/Easy/AlternatePositiveNegative.md)
-  - [x] [Three way partitioning](./Array/Easy/ThreeWayPartitioning.md)
-  - [x] [Find Pivot Index](./Array/Easy/FindPivotIndex.md)
-  - [x] [Max Consecutive Ones II](./Array/Easy/MaxConsecutiveOnesII.md)
-
-  ## Medium
-  - [x] [3Sum](./Array/Medium/3Sum.md)
-  - [x] [Largest subarray with 0 sum](./Array/Medium/LargestSubarrayWith0Sum.md)
-  - [x] [Longest Sub-Array with Sum K](./Array/Medium/LongestSub-ArrayWithSumK.md)
-  - [x] [Next Permutation](./Array/Medium/NextPermutation.md)
-  - [x] [Kth smallest element](./Array/Medium/kthSmallestElement.md)
-  - [x] [Rotate Array](./Array/Medium/RotateArray.md)
-  - [x] [Maximum Subarray or Kadane's Algorithm](./Array/Medium/MaximumSubarray.md)
-  - [x] [Minimize the Heights](./Array/Medium/MinimizeHeights.md)
-  - [x] [Minimum number of jumps](./Array/Medium/MinimumNumberOfJumps.md)
-  - [x] [Count Inversions](./Array/Medium/CountInversions.md)
-  - [x] [Best time to buy and Sell stock](./Array/Medium/Buy_Sell_Stock.md)
-  - [x] [Count pairs with given sum](./Array/Medium/CountPairsWithGivenSum.md)
-  - [x] [Factorials of large numbers](./Array/Medium/Factorial_Large_Number.md)
-  - [x] [Maximum Product Subarray](./Array/Medium/MaximumProductSubarray.md)
-  - [x] [House Robber](./Array/Medium/HouseRober.md)
-  - [x] [Product of Array Except Self](./Array/Medium/Product_of_Array_Except_Self.md)
-  - [x] [Longest consecutive subsequence](./Array/Medium/Longest_consecutive_subsequence.md)
-  - [x] [Trapping Rain Water](./Array/Medium/TrappingRainWater.md)
-  - [x] [Median of 2 sorted arrays of equal size](./Array/Medium/Median_2_Array_Equal_Size.md)
-  - [x] [Median of 2 sorted arrays of different size](./Array/Medium/Median_2_Array_Different_Size.md)
-  - [x] [Not a subset sum](./Array/Medium/NotaSubsetSum.md)
+## [Array Problems](./Array/README.md) 
 
 ## String
    #### Easy
