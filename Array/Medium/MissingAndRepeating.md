@@ -1,5 +1,7 @@
 https://www.geeksforgeeks.org/problems/find-missing-and-repeating2512/1
 
+#### In-Place Approach - Optimal 
+
 ```java
 class Solve {
     
@@ -25,3 +27,11 @@ class Solve {
     }
 }
 ```
+
+#### Using Visited Array
+
+* Create a temp array visited[] of size n+1 with all initial values as false. Note that array values go upto n, that is why we have taken size as n+1.
+* Traverse the input array arr[], and do the following for each arr[i]
+    * if(visited[arr[i]] == false), set visited[arr[i]) = true;
+    * if(visited[arr[i]] == true) output “arr[i]” //repeating number
+* Traverse visited[] and output ‘i’ corresponding to the element of array visited[] having value as false. (This is the missing number)
