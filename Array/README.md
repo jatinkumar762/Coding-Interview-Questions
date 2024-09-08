@@ -7,6 +7,7 @@
   - [x] [Three way partitioning](./Easy/ThreeWayPartitioning.md)
   - [x] [Find Pivot Index](./Easy/FindPivotIndex.md)
   - [x] [Max Consecutive Ones II](./Easy/MaxConsecutiveOnesII.md)
+  - [x] [Pascal's Triangle](./Easy/Pascal'sTriangle.md)
 
   ## Medium
   - [x] [3Sum](./Medium/3Sum.md)
