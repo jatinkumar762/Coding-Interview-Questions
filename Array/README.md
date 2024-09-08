@@ -17,6 +17,7 @@
   - [x] [Majority Element II](./Medium/MajorityElement-II.md)
   - [x] [Missing And Repeating](./Medium/MissingAndRepeating.md)
   - [x] [Merge two sorted arrays without extra space](./Medium/MergeTwoSortedArrays.md)
+  - [x] [Dutch National Flag Problem - Sort an array of 0's 1's and 2's](./Medium/DutchNationalFlagProblem.md)
   - [x] [Next Permutation](./Medium/NextPermutation.md)
   - [x] [Kth smallest element](./Medium/kthSmallestElement.md)
   - [x] [Rotate Array](./Medium/RotateArray.md)
