@@ -58,3 +58,7 @@ class Solution {
     }
 }
 ```
+
+**Time Complexity:** O(n), because the algorithm makes a single pass through the array.
+
+**Space Complexity:** O(1), because it uses only a fixed amount of extra space.
