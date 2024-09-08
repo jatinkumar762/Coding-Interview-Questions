@@ -7,6 +7,26 @@ https://leetcode.com/problems/sort-colors/description/
 
 #### Approach-2 In Single pass
 
+* Dutch Partitioning Problem, is a classic algorithmic problem that involves sorting an array with three distinct values. 
+* The Dutch National Flag Problem can be solved efficiently using a single pass through the array with a three-way partitioning technique.
+
+**Approach**
+
+1. Initialization: Define three pointers:
+    * low: This pointer tracks the boundary for the 0s.
+    * mid: This pointer scans through the array.
+    * high: This pointer tracks the boundary for the 2s.  
+
+2. Processing:
+    * Start with low at the beginning of the array, mid also at the beginning, and high at the end of the array.
+    * Iterate through the array with the mid pointer:
+        * If the element at mid is 0, swap it with the element at low and increment both low and mid.
+        * If the element at mid is 1, just move the mid pointer forward.
+        * If the element at mid is 2, swap it with the element at high and decrement high. Do not move mid forward in this case because the element swapped from high needs to be processed.
+
+3. Termination:
+    * Continue this process until mid exceeds high.
+
 ```java
 class Solution {
     
