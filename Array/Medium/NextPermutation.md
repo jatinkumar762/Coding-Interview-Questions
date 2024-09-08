@@ -39,4 +39,44 @@ class Solution{
     }
 }
 ```
-![Test case](./images/NextPermutation.png)
+![Test case](../images/NextPermutation.png)
+
+**Wrong Approach**
+
+```java
+class Solution {
+
+    // [2, 3, 1, 0] -> [3, 0, 1, 2]
+    // [2, 1, 4, 3] -> [2, 3, 1, 4]
+    // [4,2,0,2,3,2,0] -> [4,2,0,3,0,2,2]
+    public void nextPermutation(int[] nums) {
+
+        int n = nums.length, i=0, j=0;
+        boolean found = false;
+
+        for (i = n - 1; i >= 1; i--) {
+            for (j = i - 1; j >= 0; j--) {
+                if (nums[j] < nums[i]) {
+                    int tmp = nums[j];
+                    nums[j] = nums[i];
+                    nums[i] = tmp;
+
+                    found = true;
+                    break;
+                }
+            }
+            if (found) {
+                break;
+            }
+        }
+
+        if (found) {
+            Arrays.sort(nums, j + 1, n);
+        } else {
+            Arrays.sort(nums);
+        }
+    }
+}
+```
+
+
