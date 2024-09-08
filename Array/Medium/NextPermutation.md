@@ -1,41 +1,70 @@
-[Problem](https://practice.geeksforgeeks.org/problems/next-permutation5226/1#)
+https://leetcode.com/problems/next-permutation/description/
 
 ```java
-class Solution{
-    static List<Integer> nextPermutation(int N, int arr[]){
-        // code here
-        List<Integer> result = new ArrayList<Integer>();
-        
-        if(arr.length>1)
-        {
-            int i,j;
-            for(i=arr.length-2;i>=0;i--){
-                if(arr[i]<arr[i+1])
-                    break;
-            }
-            if(i<0){
-                Arrays.sort(arr);
-            }
-            else{
-                
-                int maxIndex = i+1;
-                for(j=i+1;j<arr.length;j++){
-                    if(arr[j]>arr[i] && arr[j]<arr[maxIndex]){
-                        maxIndex=j;
-                    }
-                }
-                
-                Integer tmp = arr[maxIndex];
-                arr[maxIndex] = arr[i];
-                arr[i] = tmp;
-                
-                Arrays.sort(arr, i+1, arr.length);
+class Solution {
+
+    // [2, 3, 1, 0] -> [3, 0, 1, 2]
+    // [2, 1, 4, 3] -> [2, 3, 1, 4]
+    // [4,2,0,2,3,2,0] -> [4,2,0,3,0,2,2]
+    // [1,3,2] -> [2,1,3]
+    public void nextPermutation(int[] nums) {
+
+        int n = nums.length, j = 0, k = 0;
+        boolean found = false;
+
+        for (j = n - 2; j >= 0; j--) {
+            if (nums[j] < nums[j + 1]) {
+                break;
             }
         }
-        for(Integer ele : arr){
-            result.add(ele);
+
+        if (j == -1) {
+            // Arrays.sort(nums);
+
+            // array is in descending order - just reverse the array
+            // reverse will take less time
+            reverse(nums, 0, n - 1);
+            return;
         }
-        return result;
+
+        // find next min
+
+        /* below code will take less comparison
+        int minIndex = j + 1;
+        for (k = j + 1; k < n; k++) {
+            if (nums[k] > nums[j] && nums[k] < nums[minIndex]) {
+                minIndex = k;
+            }
+        }
+        */
+
+        // bcz from j+1 to n -> array is in descending order
+        for (k = n - 1; k > j; k--) {
+            if (nums[k] > nums[j]) {
+                break;
+            }
+        }
+
+        // System.out.println(j + " " + minIndex);
+
+        swap(nums, j, k);
+
+        // Arrays.sort(nums, j + 1, n);
+        reverse(nums, j + 1, n - 1);
+    }
+
+    private void swap(int[] nums, int i, int j) {
+        int tmp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = tmp;
+    }
+
+    public void reverse(int a[], int low, int high) {
+        while (low < high) {
+            swap(a, low, high);
+            low++;
+            high--;
+        }
     }
 }
 ```
