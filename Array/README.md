@@ -8,6 +8,7 @@
   - [x] [Find Pivot Index](./Easy/FindPivotIndex.md)
   - [x] [Max Consecutive Ones II](./Easy/MaxConsecutiveOnesII.md)
   - [x] [Pascal's Triangle](./Easy/Pascal'sTriangle.md)
+  - [x] [Rearrange Array Elements by Sign](./Easy/RearrangeArrayElementsbySign.md)
 
   ## Medium
   - [x] [3Sum](./Medium/3Sum.md)
