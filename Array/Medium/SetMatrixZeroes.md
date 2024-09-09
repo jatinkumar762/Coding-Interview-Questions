@@ -1,5 +1,10 @@
 https://leetcode.com/problems/set-matrix-zeroes/description/
 
+**Note:**
+
+* in question, they asked &rarr; Could you devise a constant space solution?
+
+
 #### Approach-1 Marking future 0 index with some value
 
 * -2^31 <= matrix[i][j] <= 2^31 - 1 (full int number range)
