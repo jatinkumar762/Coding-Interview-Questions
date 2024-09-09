@@ -64,6 +64,32 @@ class Solution {
 **Note :**
 
 * if we want to traverse array from left side, we need to consider min
+* $1ms$
+
+```java
+class Solution {
+    public int maxProfit(int[] prices) {
+
+        if (prices.length <= 1)
+            return 0;
+
+        int len = prices.length;
+        int minPrice = prices[0];
+        int profit = 0;
+
+        for (int j = 1; j < len; j++) {
+            if (prices[j] < minPrice) {
+                minPrice = prices[j];
+            } else {
+                profit += prices[j] - minPrice;
+                minPrice = prices[j];
+            }
+        }
+        return profit;
+
+    }
+}
+```
 
 **Approach-2** &rarr; $1ms$
 
