@@ -1,5 +1,5 @@
 
-[Problem-1](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+### https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 
 **Approach-1**
 * if traverse array from right side
@@ -29,7 +29,11 @@ class Solution {
 }
 ```
 
-[Problem-2](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
+---
+
+### https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
+
+**Approach-1** &rarr; $0ms$
 
 ```java
 class Solution {
@@ -57,4 +61,37 @@ class Solution {
 }
 ```
 
-[Problem-3](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)
+**Approach-2** &rarr; $1ms$
+
+* the buying day will be the last continuous day that the price is smallest.
+* Then, the selling day will be the last continuous day that the price is biggest.
+
+```java
+class Solution {
+    public int maxProfit(int[] prices) {
+        int n = prices.length;
+        int max = 0, min = 0, res = 0, i = 0;
+
+        // for each we find max value its right side
+        while (i < n-1) {
+            min = prices[i];
+            while (i < n - 1 && prices[i] >= prices[i + 1]) {
+                min = prices[i+1];
+                i++;
+            }
+            max = prices[i];
+            while (i < n - 1 && prices[i] <= prices[i + 1]) {
+                max = prices[i+1];
+                i++;
+            }
+
+            res += max - min;
+        }
+        return res;
+    }
+}
+```
+
+---
+
+### https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/
