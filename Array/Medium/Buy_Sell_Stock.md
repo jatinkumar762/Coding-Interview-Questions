@@ -61,6 +61,10 @@ class Solution {
 }
 ```
 
+**Note :**
+
+* if we want to traverse array from left side, we need to consider min
+
 **Approach-2** &rarr; $1ms$
 
 * the buying day will be the last continuous day that the price is smallest.
