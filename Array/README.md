@@ -9,6 +9,7 @@
   - [x] [Max Consecutive Ones II](./Easy/MaxConsecutiveOnesII.md)
   - [x] [Pascal's Triangle](./Easy/Pascal'sTriangle.md)
   - [x] [Rearrange Array Elements by Sign](./Easy/RearrangeArrayElementsbySign.md)
+  - [x] [Find missing number in an array](./Easy/Find_missing_number_in_an_array.md)
 
   ## Medium
   - [x] [3Sum](./Medium/3Sum.md)
