@@ -40,3 +40,4 @@
   - [x] [Median of 2 sorted arrays of different size](./Medium/Median_2_Array_Different_Size.md)
   - [x] [Not a subset sum](./Medium/NotaSubsetSum.md)
   - [x] [Set Matrix Zeroes](./Medium/SetMatrixZeroes.md)
+  - [x] [Rotate Matrix by 90 degrees](./Medium/Rotate_Matrix_by_90_degrees.md)
