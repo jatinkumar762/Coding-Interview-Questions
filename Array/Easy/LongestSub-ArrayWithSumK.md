@@ -1,6 +1,6 @@
 https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1
 
-#### Approach-1 Using Hashing (Helpful when both -ve and +ve numbers present)
+#### Approach-1 Using Hashing - Prefix Sum (Helpful when both -ve and +ve numbers present)
 
 ```java
 class Solution{
@@ -32,4 +32,12 @@ class Solution{
         return longest;
     }
 }
+```
+
+#### Approach-2 Using 2 pointers (if only +ve numbers present)
+
+* sliding window
+
+```java
+
 ```
