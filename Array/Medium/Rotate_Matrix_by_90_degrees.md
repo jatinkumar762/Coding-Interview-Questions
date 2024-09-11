@@ -1,6 +1,6 @@
 https://leetcode.com/problems/rotate-image/
 
-#### By taking extra space
+#### Approach-1 By taking extra space
 
 if we do observation, we find 
 
@@ -47,4 +47,10 @@ class Solution {
         }
     }
 }
+```
+
+#### Approach-2 rotate the image in-place
+
+```java
+
 ```

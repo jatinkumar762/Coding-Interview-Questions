@@ -41,3 +41,4 @@
   - [x] [Not a subset sum](./Medium/NotaSubsetSum.md)
   - [x] [Set Matrix Zeroes](./Medium/SetMatrixZeroes.md)
   - [x] [Rotate Matrix by 90 degrees](./Medium/Rotate_Matrix_by_90_degrees.md)
+  - [x] [Spiral Matrix](./Medium/SpiralMatrix.md)
