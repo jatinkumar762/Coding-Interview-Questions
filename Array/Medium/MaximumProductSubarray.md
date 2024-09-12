@@ -38,31 +38,41 @@ class Solution {
 
 #### Method-2: 2-iterations
 
+* if no of negative elements is even -> multiplication of all numbers will be +ve
+    - multiplication of two -ve numbers always +ve
+* if no of negative elements is odd -> multiplication of all numbers will be -ve
+* if any number is 0, then product will become 0
+
+
+
+
 ```java
 class Solution {
     public int maxProduct(int[] nums) {
-        
-        int res = 1;
-        int maxRes = Integer.MIN_VALUE;
-        
-        for(int i=0;i<nums.length;i++){
-            res = res*nums[i];
-            if(maxRes<res){
-                maxRes = res;
+
+        int product = 1;
+        int maxProduct = Integer.MIN_VALUE;
+
+        for (int i = 0; i < nums.length; i++) {
+            product = product * nums[i];
+            if (maxProduct < product) {
+                maxProduct = product;
             }
-            if(res==0)
-                res=1;
+            if (product == 0)
+                product = 1;
         }
-        res=1;
-        for(int i=nums.length-1;i>=0;i--){
-            res = res*nums[i];
-            if(maxRes<res){
-                maxRes = res;
+
+        product = 1;
+
+        for (int i = nums.length - 1; i >= 0; i--) {
+            product = product * nums[i];
+            if (maxProduct < product) {
+                maxProduct = product;
             }
-            if(res==0)
-                res=1;
+            if (product == 0)
+                product = 1;
         }
-        return maxRes;
+        return maxProduct;
     }
 }
 ```
