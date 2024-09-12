@@ -44,8 +44,6 @@ class Solution {
 * if any number is 0, then product will become 0
 
 
-
-
 ```java
 class Solution {
     public int maxProduct(int[] nums) {
