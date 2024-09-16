@@ -25,6 +25,7 @@
   - [x] [Kth smallest element](./Medium/kthSmallestElement.md)
   - [x] [Rotate Array](./Medium/RotateArray.md)
   - [x] [Maximum Subarray or Kadane's Algorithm](./Medium/MaximumSubarray.md)
+  - [x] [Maximum Score from Subarray Minimums](./Medium/MaximumScorefromSubarrayMinimums.md)
   - [x] [Minimize the Heights](./Medium/MinimizeHeights.md)
   - [x] [Minimum number of jumps](./Medium/MinimumNumberOfJumps.md)
   - [x] [Count Inversions](./Medium/CountInversions.md)
