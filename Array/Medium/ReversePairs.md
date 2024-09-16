@@ -28,7 +28,8 @@ class Solution {
 
 #### Approach-2 - Optimized
 
-
+    $i$             $j$
+[6, 13, 21, 25]   [1, 2, 3, 4, 4, 5, 9, 11, 13]
 
 ```java
 class Solution {
