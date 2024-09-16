@@ -106,8 +106,7 @@ class Solution {
             count += countReversePairs(arr, left, mid, right);
 
             // Merge the sorted halves
-            //merge(arr, left, mid, right);
-            Arrays.sort(arr, left, right+1); 
+            merge(arr, left, mid, right);
         }
         return count;
     }
