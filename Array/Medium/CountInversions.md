@@ -4,6 +4,8 @@ https://www.geeksforgeeks.org/inversion-count-in-array-using-merge-sort/
 
 ![Count Inversion](../images/CountInversion.png)
 
+![Merge Sort Steps](../images/MergeSortSteps.png)
+
 ```java
 class Solution {
     // arr[]: Input Array
