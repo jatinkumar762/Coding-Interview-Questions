@@ -1,7 +1,11 @@
 https://practice.geeksforgeeks.org/problems/inversion-of-array-1587115620/1
 
+https://www.geeksforgeeks.org/inversion-count-in-array-using-merge-sort/
+
+![Count Inversion](../images/CountInversion.png)
+
 ```java
-cclass Solution {
+class Solution {
     // arr[]: Input Array
     // N : Size of the Array arr[]
     // Function to count inversions in the array.
