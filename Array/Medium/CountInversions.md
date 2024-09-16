@@ -1,61 +1,86 @@
-[Problem](https://practice.geeksforgeeks.org/problems/inversion-of-array-1587115620/1)
+https://practice.geeksforgeeks.org/problems/inversion-of-array-1587115620/1
 
 ```java
-class Solution
-{
+cclass Solution {
     // arr[]: Input Array
     // N : Size of the Array arr[]
-    //Function to count inversions in the array.
-    static long merge(long arr[],int low,int mid,int end){
-        int n1 = mid - low + 1;
-        int n2 = end - mid;
+    // Function to count inversions in the array.
+    
+    static long merge(long[] arr, int left, int mid, int right) {
         
-        long[] arr1 = new long[n1];
-        long[] arr2 = new long[n2];
+        long count = 0L;
         
-        for(int i=0;i<n1;i++){
-            arr1[i] = arr[low+i];
-        }
-        for(int i=0;i<n2;i++){
-            arr2[i] = arr[mid+1+i];
-        }
-        
-        long inversionCount = 0L;
-        int k=low,i=0,j=0;
-        while(i<n1 && j<n2){
-            if(arr1[i]<=arr2[j]){
-                arr[k++]=arr1[i++];
+        int n1 = mid - left + 1; // Size of the first subarray
+        int n2 = right - mid;    // Size of the second subarray
+
+        // Create temporary arrays
+        long[] L = new long[n1];
+        long[] R = new long[n2];
+
+        // Copy data to temporary arrays L[] and R[]
+        for (int i = 0; i < n1; i++)
+            L[i] = arr[left + i];
+
+        for (int i = 0; i < n2; i++)
+            R[i] = arr[mid + 1 + i];
+
+        // Merge the temporary arrays back into arr[]
+        int i = 0; // Initial index of the first subarray
+        int j = 0; // Initial index of the second subarray
+        int k = left; // Initial index of the merged subarray
+
+        while (i < n1 && j < n2) {
+            if (L[i] <= R[j]) {
+                arr[k] = L[i];
+                i++;
+            } else {
+                arr[k] = R[j];
+                j++;
+                
+                //[2,4] [1]
+                count+=(mid-(left+i)+1);
             }
-            else{
-                arr[k++]=arr2[j++];
-                inversionCount += (mid+1-(low+i));
-            }
+            k++;
         }
-        while(i<n1){
-            arr[k++]=arr1[i++];
+
+        // Copy the remaining elements of L[], if any
+        while (i < n1) {
+            arr[k++] = L[i++];
         }
-        while(j<n2){
-            arr[k++]=arr2[j++];
+
+        // Copy the remaining elements of R[], if any
+        while (j < n2) {
+            arr[k++] = R[j++];
         }
-        return inversionCount;
+        
+        return count;
     }
     
-    static long mergeSort(long arr[], int low,int end){
-        long res = 0L; 
-        if(low<end){
-            int mid = (low+end)/2;
-            res += mergeSort(arr, low, mid);
-            res += mergeSort(arr, mid+1, end);
-            res += merge(arr, low, mid, end);
+    static long mergesort(long[] arr, int left, int right) {
+        
+        long count = 0L;
+        if (left < right) {
+            int mid = (left + right) / 2;
+
+            // Sort the first and second halves
+            count+=mergesort(arr, left, mid);
+            count+=mergesort(arr, mid + 1, right);
+
+            // Merge the sorted halves
+            count+=merge(arr, left, mid, right);
         }
-        return res;
+        return count;
     }
     
-    static long inversionCount(long arr[], long N)
-    {
+    static long inversionCount(long arr[]) {
         // Your Code Here
-        long res = mergeSort(arr, 0, arr.length-1);
-        return res;
+        
+        long count = 0L;
+        int len = arr.length;
+        
+        count = mergesort(arr, 0, len-1);
+        
+        return count;
     }
 }
 ```
