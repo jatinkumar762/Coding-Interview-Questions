@@ -29,6 +29,7 @@
   - [x] [Minimize the Heights](./Medium/MinimizeHeights.md)
   - [x] [Minimum number of jumps](./Medium/MinimumNumberOfJumps.md)
   - [x] [Count Inversions](./Medium/CountInversions.md)
+  - [x] [Reverse Pairs](./Medium/ReversePairs.md)
   - [x] [Best time to buy and Sell stock](./Medium/Buy_Sell_Stock.md)
   - [x] [Count pairs with given sum](./Medium/CountPairsWithGivenSum.md)
   - [x] [Factorials of large numbers](./Medium/Factorial_Large_Number.md)
