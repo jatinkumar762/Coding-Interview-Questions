@@ -52,7 +52,7 @@
   - [x] [Sqrt(x)](./BinarySearch/Sqrt.md)
   - [x] [Nth Root of a Number using Binary Search](./BinarySearch/NthRoot.md)
   - [x] [Peak Element in array](./BinarySearch/Easy/PeakElementArray.md)
-  - [x] [Search single element in a sorted array]()
+  - [x] [Single Element in a Sorted Array](./BinarySearch/Medium/SingleElement_in_a_SortedArray.md)
 
   ### Medium
   - [x] [Minimum in a Sorted and Rotated](./BinarySearch/Medium/Minimum_in_a_Sorted_and_Rotated.md)
