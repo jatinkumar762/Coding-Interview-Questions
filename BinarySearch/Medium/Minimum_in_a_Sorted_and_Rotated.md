@@ -1,5 +1,7 @@
 https://www.geeksforgeeks.org/problems/minimum-element-in-a-sorted-and-rotated-array3611/1
 
+https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/
+
 ```java
 class Solution {
     public int findMin(int[] arr) {
