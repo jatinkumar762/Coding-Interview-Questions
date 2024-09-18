@@ -1,5 +1,7 @@
 https://www.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1
 
+* the floor of x is the largest element in the array smaller than or equal to x
+
 ```java
 class Solution {
 
