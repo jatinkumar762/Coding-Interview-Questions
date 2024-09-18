@@ -48,6 +48,7 @@
   - [x] [Floor/Ceil in Sorted Array](./BinarySearch/Easy/FloorCeilSortedArray.md)
   - [x] [Search Insert Position](./BinarySearch/Easy/SearchInsertPosition.md)
   - [x] [Find First and Last Position of Element in Sorted Array](./BinarySearch/Easy/FindFirstAndLastPositionofElementSortedArray.md)
+  - [x] [Number of occurrence](/BinarySearch/Easy/Number_of_occurrence.md)
   - [x] [Sqrt(x)](./BinarySearch/Sqrt.md)
   - [x] [Nth Root of a Number using Binary Search](./BinarySearch/NthRoot.md)
   - [x] [Peak Element in array](./BinarySearch/Easy/PeakElementArray.md)
