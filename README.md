@@ -57,6 +57,7 @@
   ### Medium
   - [x] [Minimum in a Sorted and Rotated](./BinarySearch/Medium/Minimum_in_a_Sorted_and_Rotated.md)
   - [x] [Search in Rotated Sorted Array](./BinarySearch/Medium/SearchinRotatedSortedArray.md)
+  - [x] [Find Kth Rotation](./BinarySearch/Medium/Find_Kth_Rotation.md)
 
   ### Hard
 
