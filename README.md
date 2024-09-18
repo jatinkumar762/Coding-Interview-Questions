@@ -43,10 +43,11 @@
 
 ## Binary Search
   ### Easy
-  1. [Sqrt(x)](./BinarySearch/Sqrt.md)
-  2. [Nth Root of a Number using Binary Search](./BinarySearch/NthRoot.md)
-  3. [Peak Element in array](./BinarySearch/Easy/PeakElementArray.md)
-  4. [Search single element in a sorted array]()
+  - [x] [Binary Search](./BinarySearch/Easy/BinarySearch.md)
+  - [x] [Sqrt(x)](./BinarySearch/Sqrt.md)
+  - [x] [Nth Root of a Number using Binary Search](./BinarySearch/NthRoot.md)
+  - [x] [Peak Element in array](./BinarySearch/Easy/PeakElementArray.md)
+  - [x] [Search single element in a sorted array]()
 
   ### Medium
 
