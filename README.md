@@ -46,6 +46,7 @@
   - [x] [Binary Search](./BinarySearch/Easy/BinarySearch.md)
   - [x] [Floor in a Sorted Array](./BinarySearch/Easy/FloorInSortedArray.md)
   - [x] [Floor/Ceil in Sorted Array](./BinarySearch/Easy/FloorCeilSortedArray.md)
+  - [x] [Search Insert Position](./BinarySearch/Easy/SearchInsertPosition.md)
   - [x] [Sqrt(x)](./BinarySearch/Sqrt.md)
   - [x] [Nth Root of a Number using Binary Search](./BinarySearch/NthRoot.md)
   - [x] [Peak Element in array](./BinarySearch/Easy/PeakElementArray.md)
