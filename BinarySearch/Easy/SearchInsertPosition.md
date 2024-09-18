@@ -14,7 +14,7 @@ class Solution {
 
         while (start <= end) {
 
-            mid = start + (end - start) / 2;
+            mid = start + (end - start) / 2; //to avoid overflow.
 
             if (nums[mid] == target) {
                 return mid;
@@ -32,3 +32,9 @@ class Solution {
     }
 }
 ```
+
+nums = [1], target = 0
+
+nums = [3], target = 5
+
+nums = [1, 2, 5], target = 3
