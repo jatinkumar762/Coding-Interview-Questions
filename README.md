@@ -297,6 +297,7 @@
   ### Easy
   - [x] [Introduction to DP](./DynamicProgramming/Easy/Introduction_to_DP.md)
   - [x] [Climbing Stairs](./DynamicProgramming/Easy/ClimbingStairs.md)
+  - [x] [Geek Jump](./DynamicProgramming/Easy/GeekJump.md)
   - [x] [Perfect Square](./DynamicProgramming/Easy/PerfectSquare.md)
 
   ### Medium
