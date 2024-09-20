@@ -294,16 +294,17 @@
 
 ## Dynamic Programming
   ### Easy
-  1. [Perfect Square](./DynamicProgramming/Easy/PerfectSquare.md)
+  - [x] [Introduction to DP](./DynamicProgramming/Easy/Introduction_to_DP.md)
+  - [x] [Perfect Square](./DynamicProgramming/Easy/PerfectSquare.md)
 
   ### Medium
-  1. [Longest Palindrome in a String](./DynamicProgramming/LongPalSub.md)
-  2. [Minimum Operations](./DynamicProgramming/MinimumOperations.md)
-  3. [Minimum number of Coins](./DynamicProgramming/MinimumNumberOfCoins.md)
-  4. [Longest Common Substring](./DynamicProgramming/LongestCommonSubstring.md)
-  5. [Longest Increasing Subsequence](./DynamicProgramming/LongestIncreasingSubsequence.md)
-  6. [Max length chain](./DynamicProgramming/Maxlengthchain.md)
-  7. [Coin Change_Minimum Coins to Make Sum-I](./DynamicProgramming/Medium/CoinChange_MinimumCoinsToMakeSum.md)
+  - [x] [Longest Palindrome in a String](./DynamicProgramming/LongPalSub.md)
+  - [x] [Minimum Operations](./DynamicProgramming/MinimumOperations.md)
+  - [x] [Minimum number of Coins](./DynamicProgramming/MinimumNumberOfCoins.md)
+  - [x] [Longest Common Substring](./DynamicProgramming/LongestCommonSubstring.md)
+  - [x] [Longest Increasing Subsequence](./DynamicProgramming/LongestIncreasingSubsequence.md)
+  - [x] [Max length chain](./DynamicProgramming/Maxlengthchain.md)
+  - [x] [Coin Change_Minimum Coins to Make Sum-I](./DynamicProgramming/Medium/CoinChange_MinimumCoinsToMakeSum.md)
 
 ## Heap
   ### Easy
