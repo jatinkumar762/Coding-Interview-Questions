@@ -2,7 +2,6 @@ https://www.geeksforgeeks.org/problems/introduction-to-dp/1
 
 **Problem:** $nth$ Fibonacci number.
 
-
 ```java
 class Solution {
     //0 1 1 2 3 5
@@ -62,5 +61,26 @@ class Solution {
         
         return res[n];
     }
+}
+```
+
+**Note:** Optimized Code for Bottom up
+
+```java
+ static long bottomUp(int n) {
+        
+    if(n<=1){
+        return n;
+    }
+    
+    long prevprev = 0L, prev = 1L, res = 0L;
+    
+    for(int i=2;i<=n;i++){
+        res = (prevprev +prev)%modulo;
+        prevprev = prev;
+        prev = res;
+    }
+    
+    return res;
 }
 ```
