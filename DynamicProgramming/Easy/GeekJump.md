@@ -32,3 +32,47 @@ class Solution{
     }
 }
 ```
+
+#### Top-Down Approach - StackOverflow error 
+
+* left skewed tree - one jump
+
+```java
+class Solution{
+    
+    int[] dp;
+    
+    public int calculateMinEnergy(int[] arr, int index, int N)
+    {
+        if(index==0){
+            dp[index] = 0;
+            return dp[index];
+        }
+        
+        if(dp[index]!=-1){
+            return dp[index];
+        }
+        
+        int e1 = Integer.MAX_VALUE, e2 = Integer.MAX_VALUE;
+        
+        e1 = Math.abs(arr[index] - arr[index-1]) + calculateMinEnergy(arr, index-1, N);
+        
+        if(index-2>=0){
+            e2 = Math.abs(arr[index] - arr[index-2]) + calculateMinEnergy(arr, index-2, N);
+        }
+        
+        dp[index] = e1 < e2 ? e1 : e2;
+        
+        return dp[index];
+    }
+    
+    public int minimumEnergy(int arr[],int N){
+        //code here
+        dp = new int[N];
+        
+        Arrays.fill(dp, -1);
+        
+        return calculateMinEnergy(arr, N-1, N);
+    }
+}
+```
