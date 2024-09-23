@@ -104,8 +104,6 @@ class Solution{
         //code here
         dp = new int[N];
         
-        Arrays.fill(dp, -1);
-        
         dp[0] = 0;
         
         int i;
@@ -124,6 +122,44 @@ class Solution{
         }
         
         return dp[N-1];
+    }
+}
+```
+
+#### Space Optimization
+
+```java
+class Solution{
+    
+    
+    public int minimumEnergy(int arr[],int N){
+        //code here
+        
+        int prev1 = 0, prev2 = 0, res = 0;
+        
+        
+        for(int i=1;i<N;i++){
+            
+            if(i==1){
+                res = prev1 + Math.abs(arr[i] - arr[i-1]);
+                
+                prev2 = prev1;
+                prev1 = res;
+                
+                continue;
+            }
+            
+            int e1 = prev1 + Math.abs(arr[i] - arr[i-1]);
+            
+            int e2 = prev2 + Math.abs(arr[i] - arr[i-2]);
+            
+            res = e1 < e2 ? e1 : e2;
+            
+            prev2 = prev1;
+            prev1 = res;
+        }
+        
+        return res;
     }
 }
 ```
