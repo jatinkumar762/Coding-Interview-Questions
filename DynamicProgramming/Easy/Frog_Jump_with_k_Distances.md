@@ -48,3 +48,35 @@ class Solution {
 ```
 
 #### Bottom-Up
+
+```java
+class Solution {
+    
+    int[] dp;
+       
+    public int minimizeCost(int arr[], int k) {
+        // code here
+        int N = arr.length;
+        
+        dp = new int[N];
+        
+        dp[0] = 0;
+        
+        for(int i=1;i<N;i++){
+            
+            int res = Integer.MAX_VALUE, cost = Integer.MAX_VALUE;
+
+            for(int j=1;j<=k;j++) {
+                if(i-j>=0){
+                    cost = dp[i-j] + Math.abs(arr[i] - arr[i-j]);
+                }
+                res = res < cost ? res : cost;
+            }
+            
+            dp[i] = res;
+        }
+        
+        return dp[N-1];
+    }
+}
+```
