@@ -33,9 +33,17 @@ class Solution{
 }
 ```
 
-#### Top-Down Approach - StackOverflow error 
+#### Top-Down Approach (Memorization) - StackOverflow error 
 
 * left skewed tree - one jump
+* right child is - 2 jumps
+
+                5
+            4       3
+        3       2
+    2       1
+1
+
 
 ```java
 class Solution{
@@ -76,3 +84,48 @@ class Solution{
     }
 }
 ```
+
+**Time Complexity:** &rarr; $O(N)$
+
+**Space Complexity:** &rarr; $O(N)$
+
+
+#### Bottom-Up Approach (Tabulation)
+
+* we can infer, bottom-up from top-down
+* bottom goes till index-0, dp[0] = 0
+
+```java
+class Solution{
+    
+    int[] dp;
+    
+    public int minimumEnergy(int arr[],int N){
+        //code here
+        dp = new int[N];
+        
+        Arrays.fill(dp, -1);
+        
+        dp[0] = 0;
+        
+        int i;
+        for(i=1;i<N;i++){
+            
+            if(i==1){
+                dp[i] = dp[i-1] + Math.abs(arr[i] - arr[i-1]);
+                continue;
+            }
+            
+            int e1 = dp[i-1] + Math.abs(arr[i] - arr[i-1]);
+            
+            int e2 = dp[i-2] + Math.abs(arr[i] - arr[i-2]);
+            
+            dp[i] = e1 < e2 ? e1: e2;
+        }
+        
+        return dp[N-1];
+    }
+}
+```
+
+
