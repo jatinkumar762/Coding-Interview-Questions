@@ -299,6 +299,7 @@
   - [x] [Climbing Stairs](./DynamicProgramming/Easy/ClimbingStairs.md)
   - [x] [Geek Jump](./DynamicProgramming/Easy/GeekJump.md)
   - [x] [Frog Jump with k Distances](./DynamicProgramming/Easy/Frog_Jump_with_k_Distances.md)
+  - [x] [House Robber](./DynamicProgramming/Easy/HouseRobber.md)
   - [x] [Perfect Square](./DynamicProgramming/Easy/PerfectSquare.md)
 
   ### Medium
