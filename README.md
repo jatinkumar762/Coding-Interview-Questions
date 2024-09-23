@@ -294,13 +294,13 @@
   7. [Palindrome Partitioning](./Backtracking/PalindromePartitioning.md)
 
 ## Dynamic Programming
-  ### Easy
-  - [x] [Introduction to DP](./DynamicProgramming/Easy/Introduction_to_DP.md)
-  - [x] [Climbing Stairs](./DynamicProgramming/Easy/ClimbingStairs.md)
-  - [x] [Geek Jump](./DynamicProgramming/Easy/GeekJump.md)
-  - [x] [Frog Jump with k Distances](./DynamicProgramming/Easy/Frog_Jump_with_k_Distances.md)
-  - [x] [House Robber](./DynamicProgramming/Easy/HouseRobber.md)
-  - [x] [Perfect Square](./DynamicProgramming/Easy/PerfectSquare.md)
+  ### 1D DP
+  - [x] [Introduction to DP](./DynamicProgramming/1D_DP/Introduction_to_DP.md)
+  - [x] [Climbing Stairs](./DynamicProgramming/1D_DP/ClimbingStairs.md)
+  - [x] [Geek Jump](./DynamicProgramming/1D_DP/GeekJump.md)
+  - [x] [Frog Jump with k Distances](./DynamicProgramming/1D_DP/Frog_Jump_with_k_Distances.md)
+  - [x] [House Robber](./DynamicProgramming/1D_DP/HouseRobber.md)
+  - [x] [Perfect Square](./DynamicProgramming/1D_DP/PerfectSquare.md)
 
   ### Medium
   - [x] [Longest Palindrome in a String](./DynamicProgramming/LongPalSub.md)
