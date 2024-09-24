@@ -170,3 +170,38 @@ class Solution {
     }
 }
 ```
+
+**Space Optimization**
+
+```java
+class Solution {
+
+    public int rob(int[] nums) {
+
+        int N = nums.length;
+
+        if (N == 1) {
+            return nums[0];
+        } else if (N == 2) {
+            return nums[0] < nums[1] ? nums[1] : nums[0];
+        }
+
+        int prev2 = nums[0];
+        int prev = nums[1] > nums[0] ? nums[1] : nums[0];
+
+        for (int i = 2; i < N; i++) {
+
+            int notTake = prev;
+
+            int take = nums[i] + prev2;
+
+            int max = take > notTake ? take : notTake;
+
+            prev2 = prev;
+            prev = max;
+        }
+
+        return prev;
+    }
+}
+```
