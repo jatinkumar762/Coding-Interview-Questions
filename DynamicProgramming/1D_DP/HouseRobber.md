@@ -85,3 +85,52 @@ class Solution {
     }
 }
 ```
+
+---
+
+### Top-Down Approach (Similar to generate subsequence)
+
+```java
+class Solution {
+
+    int[] dp;
+
+    private int robHouse(int[] nums, int index) {
+
+        if(index < 0){
+            return 0;
+        }
+
+        if (index == 0) {
+            dp[index] = nums[0];
+            return dp[index];
+        }
+
+        if (dp[index] != -1) {
+            return dp[index];
+        }
+
+
+        int take = nums[index] + robHouse(nums, index-2);
+
+        int notTake = robHouse(nums, index-1);
+        
+        dp[index] = take > notTake ? take : notTake;
+
+        return dp[index];
+    }
+
+    public int rob(int[] nums) {
+
+        int N = nums.length;
+
+        dp = new int[N];
+
+        Arrays.fill(dp, -1);
+
+        return robHouse(nums, N - 1);
+    }
+}
+```
+
+### Bottom-Up Approach
