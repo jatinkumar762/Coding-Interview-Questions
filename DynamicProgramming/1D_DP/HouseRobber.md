@@ -134,3 +134,39 @@ class Solution {
 ```
 
 ### Bottom-Up Approach
+
+[2, 1, 1, 2] &rarr; 4
+
+```java
+class Solution {
+
+    int[] dp;
+
+    public int rob(int[] nums) {
+
+        int N = nums.length;
+
+        if (N == 1) {
+            return nums[0];
+        } else if (N == 2) {
+            return nums[0] < nums[1] ? nums[1] : nums[0];
+        }
+
+        dp = new int[N];
+
+        dp[0] = nums[0];
+        dp[1] = nums[1] > nums[0] ? nums[1] : nums[0]; //max rob between index [0 .. 1]
+
+        for (int i = 2; i < N; i++) {
+
+            int notTake = dp[i - 1];
+
+            int take = nums[i] + dp[i - 2];
+
+            dp[i] = take > notTake ? take : notTake;
+        }
+
+        return dp[N - 1];
+    }
+}
+```
