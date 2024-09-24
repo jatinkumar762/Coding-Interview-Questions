@@ -302,6 +302,8 @@
   - [x] [House Robber](./DynamicProgramming/1D_DP/HouseRobber.md)
   - [x] [Perfect Square](./DynamicProgramming/1D_DP/PerfectSquare.md)
 
+  ### 2D/3D DP and DP on Grids
+
   ### Medium
   - [x] [Longest Palindrome in a String](./DynamicProgramming/LongPalSub.md)
   - [x] [Minimum Operations](./DynamicProgramming/MinimumOperations.md)
