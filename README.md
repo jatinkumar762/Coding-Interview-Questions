@@ -303,6 +303,7 @@
   - [x] [Perfect Square](./DynamicProgramming/1D_DP/PerfectSquare.md)
 
   ### 2D/3D DP and DP on Grids
+  - [x] [Geek's Training - 2D_DP](./DynamicProgramming/2D&3D_DP_and_DP_on_Grids/Geek's%20Training%20-%202D_DP.md)
 
   ### Medium
   - [x] [Longest Palindrome in a String](./DynamicProgramming/LongPalSub.md)
