@@ -110,3 +110,18 @@ class Solution {
     }
 }
 ```
+
+**Time Complexity:**
+
+* in worst case, there can be O(N*4) states &rarr; means f(index, lastActivity)
+
+  - at each stage we are doing $O(3) work
+
+* so time complexity &rarr; $O((N*4)*3) 
+
+**Space Complexity:**
+
+* O(N) - Recursion Stack 
+* O(N*4) - dp
+* total &rarr; $O(4N) + O(N)$ &rarr; $O(N)$
+
