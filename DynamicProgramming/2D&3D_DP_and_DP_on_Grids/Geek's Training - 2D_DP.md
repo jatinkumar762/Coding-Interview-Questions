@@ -125,3 +125,5 @@ class Solution {
 * O(N*4) - dp
 * total &rarr; $O(4N) + O(N)$ &rarr; $O(N)$
 
+### Bottom-Up Approach
+
