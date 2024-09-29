@@ -1,5 +1,12 @@
 https://leetcode.com/problems/unique-paths-ii/description/
 
+**Test Cases:**
+
+1. [[1,0]] &rarr; 0
+
+2. [[0,0],[0,1]] &rarr; 0
+
+
 ### Recursive
 
 ```java
