@@ -155,6 +155,34 @@ class Solution {
 
 * we can see current result, depends on prev row and prev col &rarr; so we can do space optimization
 
+```java
+class Solution {
+
+    public int uniquePaths(int m, int n) {
+
+        int[] prev = new int[n];
+        int[] tmp;
+
+        for (int i = 0; i < m; i++) {
+
+            tmp = new int[n];
+
+            for (int j = 0; j < n; j++) {
+                //first row has all 1
+                if (i == 0 || j == 0) {
+                    tmp[j] = 1;
+                } else {
+                    tmp[j] = tmp[j - 1] + prev[j];
+                }
+            }
+
+            prev = tmp;
+        }
+
+        return prev[n - 1];
+    }
+}
+```
 
 
 
