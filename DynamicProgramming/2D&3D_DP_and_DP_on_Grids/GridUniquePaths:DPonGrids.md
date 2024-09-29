@@ -46,3 +46,48 @@ class Solution {
 
 
 ### Top-Down Approach
+
+```java
+class Solution {
+
+    int[][] dp;
+
+    public int countUniquePath(int r, int c) {
+
+        if (r == 0 && c == 0) {
+            return 1;
+        } else if (r == -1 || c == -1) { // outside grid
+            return 0;
+        }
+
+        if (dp[r][c] != -1) {
+            return dp[r][c];
+        }
+
+        int leftPath = countUniquePath(r, c - 1);
+
+        int downPath = countUniquePath(r - 1, c);
+
+        return dp[r][c] = leftPath + downPath;
+    }
+
+    public int uniquePaths(int m, int n) {
+
+        dp = new int[m][n];
+
+        for (int[] row : dp) {
+            Arrays.fill(row, -1);
+        }
+
+        return dp[m - 1][n - 1] = countUniquePath(m-1, n-1);
+    }
+}
+```
+
+**Time-Complexity**
+
+* $O(m*n)$ - each grid element visit once
+
+**Space-Complexity**
+
+* $O(m-1)$ + $O(n-1)$ + $O(m*n)
