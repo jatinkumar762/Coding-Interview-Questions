@@ -151,4 +151,10 @@ class Solution {
 }
 ```
 
+**Note: Space Optimization**
+
+* we can see current result, depends on prev row and prev col &rarr; so we can do space optimization
+
+
+
 
