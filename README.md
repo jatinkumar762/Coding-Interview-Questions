@@ -305,6 +305,7 @@
   ### 2D/3D DP and DP on Grids
   - [x] [Geek's Training - 2D_DP](./DynamicProgramming/2D&3D_DP_and_DP_on_Grids/Geek's%20Training%20-%202D_DP.md)
   - [x] [Grid Unique Paths : DP on Grids](./DynamicProgramming/2D&3D_DP_and_DP_on_Grids/GridUniquePaths:DPonGrids.md)
+  - [x] [Unique Paths II](./DynamicProgramming/2D&3D_DP_and_DP_on_Grids/UniquePaths-II.md)
 
   ### Medium
   - [x] [Longest Palindrome in a String](./DynamicProgramming/LongPalSub.md)
