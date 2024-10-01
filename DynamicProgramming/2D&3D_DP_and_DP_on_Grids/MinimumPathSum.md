@@ -125,3 +125,40 @@ class Solution {
     }
 }
 ```
+
+### SPace-Optimization
+
+**java
+class Solution {
+
+    int[][] dp;
+
+    public int minPathSum(int[][] grid) {
+
+        int r = grid.length;
+        int c = grid[0].length;
+
+        int[] prev = new int[c];
+        int[] curr = new int[c];
+
+        int up, left;
+
+        for (int i = 0; i < r; i++) {
+            for (int j = 0; j < c; j++) {
+                if (i == 0 && j == 0) {
+                    curr[j] = grid[i][j];
+                } else if (i == 0) {
+                    curr[j] = grid[i][j] + curr[j - 1];
+                } else if (j == 0) {
+                    curr[j] = grid[i][j] + prev[j];
+                } else {
+                    curr[j] = (prev[j] < curr[j - 1] ? prev[j] : curr[j - 1]) + grid[i][j];
+                }
+            }
+            prev = curr;
+        }
+
+        return prev[c - 1];
+    }
+}
+```
