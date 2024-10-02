@@ -104,14 +104,54 @@ class Solution {
 
 **Time-Complexity:** 
 
-1. $O(rows*cols)$
+$O(rows*cols)$ - max states
 
-2. $O(cols * 3^rows)
+**Space-Complexity:** 
 
-**Space-Complexity:** $O(rows*cols)$ - dp table + $(rows)$ - recursive stack
+$O(rows*cols)$ - dp table + $(rows)$ - recursive stack
 
 ### Bottom-Up
 
 ```java
+class Solution {
 
+    int Rows;
+    int Cols;
+    int[][] dp;
+
+    public int minFallingPathSum(int[][] matrix) {
+
+        Rows = matrix.length;
+        Cols = matrix[0].length;
+
+        dp = new int[Rows][Cols];
+
+        for (int j = 0; j < Cols; j++) {
+            dp[0][j] = matrix[0][j];
+        }
+
+        int down, leftDig, rightDig;
+        for (int i = 1; i < Rows; i++) {
+            for (int j = 0; j < Cols; j++) {
+
+                down = dp[i - 1][j];
+
+                leftDig = j > 0 ? dp[i - 1][j - 1] : Integer.MAX_VALUE;
+                rightDig = j + 1 < Cols ? dp[i - 1][j + 1] : Integer.MAX_VALUE;
+
+                dp[i][j] = matrix[i][j] + Math.min(down, Math.min(leftDig, rightDig));
+            }
+        }
+
+        int min = Integer.MAX_VALUE;
+
+        for (int j = 0; j < Cols; j++) {
+            min = min < dp[Rows - 1][j] ? min : dp[Rows - 1][j];
+        }
+
+        return min;
+    }
+}
 ```
+
+**Note:** Space Optimization possible using prev and current row
