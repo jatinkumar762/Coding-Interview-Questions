@@ -321,7 +321,7 @@
 ## Heap
   ### Easy
   - [x] [Implementation of a Heap](./Heap/Easy/HeapImplementation.md)
-  - [x] 
+  - [x] []
 
   ### Medium
   - [x] [Find K Closest Elements](./Heap/Medium/KClosestElements.md)
@@ -398,7 +398,7 @@
   - [x] [Shortest Path in Binary Matrix](./Graphs/Medium/ShortestPathBinaryMatrix.md)
   - [x] [Bellman Ford Algorithm](./Graphs/Medium/BellmanFordAlgorithm.md)
   - [x] [Floyd Warshall Algorithm](./Graphs/Medium/FloydWarshallAlgorithm.md)
-  - [ ] [Bridges in Graph](./Graphs/Medium/BridgesInGraph.md)
+  - [x] [Bridges in Graph](./Graphs/Medium/BridgesInGraph.md)
   - [x] [Bipartite Graph](./Graphs/Medium/BipartiteGraph.md)
 
   ### Topo Sort and Problems
