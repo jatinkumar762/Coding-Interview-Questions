@@ -15,32 +15,32 @@
 
 
 ## Sorting Problems
-  1. [QuickSort implementation in java](QuickSort.java)
-  2. [HeapSort implementation in java](HeapSort.java)
-  3. [MergeSort implementation in java](MergeSort.java)
-  4. [Selection Sort](./SearchingAndSorting/Sorting/Selection%20Sort.md)
-  5. [Bubble Sort](./SearchingAndSorting/Sorting/BubbleSort.md)
-  6. [Insertion Sort](./SearchingAndSorting/Sorting/InsertionSort.md)
-  7. [Sort an array of 0s, 1s and 2s | Dutch National Flag problem]()
+  - [x] [QuickSort implementation in java](QuickSort.java)
+  - [x] [HeapSort implementation in java](HeapSort.java)
+  - [x] [MergeSort implementation in java](MergeSort.java)
+  - [x] [Selection Sort](./SearchingAndSorting/Sorting/Selection%20Sort.md)
+  - [x] [Bubble Sort](./SearchingAndSorting/Sorting/BubbleSort.md)
+  - [x] [Insertion Sort](./SearchingAndSorting/Sorting/InsertionSort.md)
+  - [x] [Sort an array of 0s, 1s and 2s | Dutch National Flag problem]()
 
   ### Non-Comparison based Sorts
-  1. [Counting Sort](./SearchingAndSorting/Sorting/CountingSort.md)
-  2. []()
+  - [x] [Counting Sort](./SearchingAndSorting/Sorting/CountingSort.md)
+  - [x] []()
 
 ## Searching and Sorting Problems
   ### Easy
-  1. [Find first and last positions of an element in a sorted array](./SearchingAndSorting/FirstAndLastOccurence.md)
-  2. [Sort an array according to count of set bits](./SearchingAndSorting/SortArraySetBitsCount.md)
-  3. [Smallest factorial number](./SearchingAndSorting/Smallest%20factorial%20number.md)
-  4. [Rearrange numbers with constant extra space](./SearchingAndSorting/Easy/RearrangeNumbers.md)
-  5. [Merge Sorted Array](./SearchingAndSorting/Easy/MergeSortedArray.md)
+  - [x] [Find first and last positions of an element in a sorted array](./SearchingAndSorting/FirstAndLastOccurence.md)
+  - [x] [Sort an array according to count of set bits](./SearchingAndSorting/SortArraySetBitsCount.md)
+  - [x] [Smallest factorial number](./SearchingAndSorting/Smallest%20factorial%20number.md)
+  - [x] [Rearrange numbers with constant extra space](./SearchingAndSorting/Easy/RearrangeNumbers.md)
+  - [x] [Merge Sorted Array](./SearchingAndSorting/Easy/MergeSortedArray.md)
 
   ### Medium
-  1. [Search in Rotated Sorted Array](./SearchingAndSorting/SearchinRotatedSortedArray.md)
-  2. [Boyer-Moore Majority Voting Algorithm/ Majority Element](./SearchingAndSorting/Majority%20Element.md)
-  3. [Count triplets with sum smaller than X](./SearchingAndSorting/Count%20triplets.md)
-  4. [Minimum Swaps to Sort](./SearchingAndSorting/MinimumSwapsToSort.md)
-  5. [Print all subarrays with 0 sum](https://www.geeksforgeeks.org/print-all-subarrays-with-0-sum/)
+  - [x] [Search in Rotated Sorted Array](./SearchingAndSorting/SearchinRotatedSortedArray.md)
+  - [x] [Boyer-Moore Majority Voting Algorithm/ Majority Element](./SearchingAndSorting/Majority%20Element.md)
+  - [x] [Count triplets with sum smaller than X](./SearchingAndSorting/Count%20triplets.md)
+  - [x] [Minimum Swaps to Sort](./SearchingAndSorting/MinimumSwapsToSort.md)
+  - [x] [Print all subarrays with 0 sum](https://www.geeksforgeeks.org/print-all-subarrays-with-0-sum/)
 
 ## Binary Search
   ### Easy
@@ -65,47 +65,47 @@
 
 ## Maths Problem
   ### Easy
-  1. [Missing Number](./Maths/Missing%20Number.md)
+  - [x] [Missing Number](./Maths/Missing%20Number.md)
 
 ## Recursion
-  1. [Combination Sum](./Recursion/CombinationSum.md)
-  2. [Reverse a Stack](./Recursion/Easy/ReverseStack.md)
-  3. [Sort a stack](./Recursion/Easy/SortStack.md)
+  - [x] [Combination Sum](./Recursion/CombinationSum.md)
+  - [x] [Reverse a Stack](./Recursion/Easy/ReverseStack.md)
+  - [x] [Sort a stack](./Recursion/Easy/SortStack.md)
 
   #### Medium
-  1. [Subset Sums](./Recursion/Medium/SubsetSums.md)
-  2. [Power (x,n)](./Recursion/Medium/PowerX^N.md)
-  3. [Count Good Numbers](./Recursion/Medium/CountGoodNumbers.md)
-  4. [Subsets](./Recursion/Medium/SubSets.md)
-  5. [Combination Sum](./Recursion/Medium/CombinationSum.md)
-  6. [Combination Sum II](./Recursion/Medium/CombinationSum-II.md)
-  7. [Combination Sum III](./Recursion/Medium/CombinationSum-III.md)
-  8. [Letter Combinations of a Phone Number](./Recursion/Medium/LetterCombinationsPhoneNumber.md)
-  9. [Subsets II](./Recursion/Medium/Subsets-II.md)
-  10. [Permutations](./Recursion/Medium/Permutations.md)
-  11. [Permutations II](./Recursion/Medium/Permutations-II.md)
+  - [x] [Subset Sums](./Recursion/Medium/SubsetSums.md)
+  - [x] [Power (x,n)](./Recursion/Medium/PowerX^N.md)
+  - [x] [Count Good Numbers](./Recursion/Medium/CountGoodNumbers.md)
+  - [x] [Subsets](./Recursion/Medium/SubSets.md)
+  - [x] [Combination Sum](./Recursion/Medium/CombinationSum.md)
+  - [x] [Combination Sum II](./Recursion/Medium/CombinationSum-II.md)
+  - [x] [Combination Sum III](./Recursion/Medium/CombinationSum-III.md)
+  - [x] [Letter Combinations of a Phone Number](./Recursion/Medium/LetterCombinationsPhoneNumber.md)
+  - [x] [Subsets II](./Recursion/Medium/Subsets-II.md)
+  - [x] [Permutations](./Recursion/Medium/Permutations.md)
+  - [x] [Permutations II](./Recursion/Medium/Permutations-II.md)
 
 ## LinkedList
   #### Easy
-  1. [Design Linked List](./LinkedList/Easy/SingleLinkedList.md)
-  2. [Linked List Cycle](./LinkedList/Easy/LinkedListCycle.md)
-  3. [Reverse a DLL](./LinkedList/Easy/ReverseDLL.md)
-  4. [Middle of the Linked List](./LinkedList/Easy/MiddleLinkedList.md)
-  5. [Reverse Linked List](./LinkedList/Easy/ReverseLinkedList.md)
+  - [x] [Design Linked List](./LinkedList/Easy/SingleLinkedList.md)
+  - [x] [Linked List Cycle](./LinkedList/Easy/LinkedListCycle.md)
+  - [x] [Reverse a DLL](./LinkedList/Easy/ReverseDLL.md)
+  - [x] [Middle of the Linked List](./LinkedList/Easy/MiddleLinkedList.md)
+  - [x] [Reverse Linked List](./LinkedList/Easy/ReverseLinkedList.md)
 
   #### Medium
-  1. [Rotate List](./LinkedList/Medium/RotateList.md)
-  2. [Find first node of loop in a linked list](./LinkedList/Medium/StartingPointLoop.md)
-  3. [Segregate even and odd nodes in a Linked List](./LinkedList/Medium/OddEvenLinkedList.md)
-  4. [Remove Nth Node From End of List]()
-  5. [Add 2 numbers in LL](./LinkedList/Medium/Add2NumbersLL.md)
-  6. [Add 1 to a Linked List Number](./LinkedList/Medium/Add1LinkedList.md)
-  7. [Delete the Middle Node of a Linked List](./LinkedList/Medium/DeleteMiddleNodeLinkedList.md)
+  - [x] [Rotate List](./LinkedList/Medium/RotateList.md)
+  - [x] [Find first node of loop in a linked list](./LinkedList/Medium/StartingPointLoop.md)
+  - [x] [Segregate even and odd nodes in a Linked List](./LinkedList/Medium/OddEvenLinkedList.md)
+  - [x] [Remove Nth Node From End of List]()
+  - [x] [Add 2 numbers in LL](./LinkedList/Medium/Add2NumbersLL.md)
+  - [x] [Add 1 to a Linked List Number](./LinkedList/Medium/Add1LinkedList.md)
+  - [x] [Delete the Middle Node of a Linked List](./LinkedList/Medium/DeleteMiddleNodeLinkedList.md)
 
 
   #### Doubly LinkedList
-  1. [Delete all occurrences of a given key in a doubly linked list](./LinkedList/DLL/DeleteAllOccurrencesOfKey.md)
-  2. [Find pairs with given sum in doubly linked list](./LinkedList/DLL/FindPairSumDLL.md)
+  - [x] [Delete all occurrences of a given key in a doubly linked list](./LinkedList/DLL/DeleteAllOccurrencesOfKey.md)
+  - [x] [Find pairs with given sum in doubly linked list](./LinkedList/DLL/FindPairSumDLL.md)
 
 ## [Array Problems](./Array/README.md) 
 
@@ -197,101 +197,101 @@
 
 ## Matrix
   #### Easy
-  1. [Common elements in all rows of a given matrix](https://www.geeksforgeeks.org/common-elements-in-all-rows-of-a-given-matrix/)
+  - [x] [Common elements in all rows of a given matrix](https://www.geeksforgeeks.org/common-elements-in-all-rows-of-a-given-matrix/)
 
   #### Medium
-  1. [Spirally traversing a matrix](./Matrix/SpirallyTraversingMatrix.md)
-  2. [Search a 2D Matrix](./Matrix/Search2DMatrix.md)
-  3. [Row with max 1s](./Matrix/Row_with_max_1s.md)
-  4. [Sort the given 2D Matrix](./Matrix/Sort_2d_Matrix.md)
-  5. [Diagonal Traverse](./Matrix/DiagonalTraverse.md)
+  - [x] [Spirally traversing a matrix](./Matrix/SpirallyTraversingMatrix.md)
+  - [x] [Search a 2D Matrix](./Matrix/Search2DMatrix.md)
+  - [x] [Row with max 1s](./Matrix/Row_with_max_1s.md)
+  - [x] [Sort the given 2D Matrix](./Matrix/Sort_2d_Matrix.md)
+  - [x] [Diagonal Traverse](./Matrix/DiagonalTraverse.md)
 
 ## Stacks & Queues
   #### Basic
-  1. [Implement Stack using array]()
-  2. [Implement Queue using array]() 
+  - [x] [Implement Stack using array]()
+  - [x] [Implement Queue using array]() 
 
   #### Easy
-  1. [Implement Circular Queue](./StackAndQueue/Easy/ImplementCircularQueue.md)
-  2. [BFS - Number of Islands](./StackAndQueue/Easy/BFS%20-%20Number%20of%20Islands.md)
-  3. [Valid Parentheses](./StackAndQueue/Easy/ValidParentheses.md)
-  4. 
-  5. [Expression contains redundant bracket or not](https://www.geeksforgeeks.org/expression-contains-redundant-bracket-not/)
-  6. [Daily Temperatures](./StackAndQueue/Easy/DailyTemperatures.md)
-  7. [Implement Queue using Stacks](./StackAndQueue/Easy/ImplementQueueUsingStacks.md)
-  8. [Implement Stack using Queues](./StackAndQueue/Medium/StackUsingQueue.md)
-  9. [Keys and Rooms](./StackAndQueue/Easy/KeysAndRooms.md)
+  - [x] [Implement Circular Queue](./StackAndQueue/Easy/ImplementCircularQueue.md)
+  - [x] [BFS - Number of Islands](./StackAndQueue/Easy/BFS%20-%20Number%20of%20Islands.md)
+  - [x] [Valid Parentheses](./StackAndQueue/Easy/ValidParentheses.md)
+  - [x] 
+  - [x] [Expression contains redundant bracket or not](https://www.geeksforgeeks.org/expression-contains-redundant-bracket-not/)
+  - [x] [Daily Temperatures](./StackAndQueue/Easy/DailyTemperatures.md)
+  - [x] [Implement Queue using Stacks](./StackAndQueue/Easy/ImplementQueueUsingStacks.md)
+  - [x] [Implement Stack using Queues](./StackAndQueue/Medium/StackUsingQueue.md)
+  - [x] [Keys and Rooms](./StackAndQueue/Easy/KeysAndRooms.md)
 
   #### Medium
-  1. 🔥 [BFS - Open the Lock](./StackAndQueue/Medium/Open%20the%20Lock.md)
-  2. [Next Greater Element](./StackAndQueue/Medium/NextGreaterElement.md)
-  3. [The Celebrity Problem](./StackAndQueue/Medium/TheCelebrityProblem.md)
-  4. [Design a stack with operations on middle element](./StackAndQueue/Medium/StackMiddleElement.md)
-  5. [Get minimum element from stack in O(1) time](./StackAndQueue/Medium/MinimumElementFromStack.md)
-  6. 🔥 [Validate Stack Sequences](./StackAndQueue/Medium/ValidateStackSequences.md)
-  7. 🔥 [Valid Substring](./StackAndQueue/Medium/ValidSubstring.md)
-  8. [Inorder Traversal (Iterative)](./StackAndQueue/Medium/InorderTraversal.md)
-  9. 🔥 [Decode String](./StackAndQueue/Medium/DecodeString.md) 
-  10. 🔥 [01 Matrix](./StackAndQueue/Medium/01%20Matrix.md)
-  11. [Online Stock Span](./StackAndQueue/Medium/OnlineStockSpan.md)
-  12. [Next Greater Element II](./StackAndQueue/Medium/NextGreaterElementII.md)
-  13. [Number of NGEs to the right](./StackAndQueue/Medium/NumberofNGEsRight.md)
+  - [x] 🔥 [BFS - Open the Lock](./StackAndQueue/Medium/Open%20the%20Lock.md)
+  - [x] [Next Greater Element](./StackAndQueue/Medium/NextGreaterElement.md)
+  - [x] [The Celebrity Problem](./StackAndQueue/Medium/TheCelebrityProblem.md)
+  - [x] [Design a stack with operations on middle element](./StackAndQueue/Medium/StackMiddleElement.md)
+  - [x] [Get minimum element from stack in O(1) time](./StackAndQueue/Medium/MinimumElementFromStack.md)
+  - [x] 🔥 [Validate Stack Sequences](./StackAndQueue/Medium/ValidateStackSequences.md)
+  - [x] 🔥 [Valid Substring](./StackAndQueue/Medium/ValidSubstring.md)
+  - [x] [Inorder Traversal (Iterative)](./StackAndQueue/Medium/InorderTraversal.md)
+  - [x] 🔥 [Decode String](./StackAndQueue/Medium/DecodeString.md) 
+  - [x] 🔥 [01 Matrix](./StackAndQueue/Medium/01%20Matrix.md)
+  - [x] [Online Stock Span](./StackAndQueue/Medium/OnlineStockSpan.md)
+  - [x] [Next Greater Element II](./StackAndQueue/Medium/NextGreaterElementII.md)
+  - [x] [Number of NGEs to the right](./StackAndQueue/Medium/NumberofNGEsRight.md)
 
   #### Prefix/Infix/Postfix
-  1. [Convert Infix to Postfix](./StackAndQueue/Easy/InfixToPostfix.md)
-  2. [Prefix to Infix Conversion](./StackAndQueue/Easy/PrefixToInfix.md)
-  3. [Prefix to Postfix Conversion](./StackAndQueue/Easy/PrefixToPostfix.md)
-  4. [Postfix to Prefix Conversion](./StackAndQueue/Easy/PostfixToPrefix.md)
-  5. [Postfix to Infix Conversion](./StackAndQueue/Easy/PostfixToInfix.md)
-  6. [Convert Infix to Prefix](./StackAndQueue/Easy/InfixToPrefix.md)
+  - [x] [Convert Infix to Postfix](./StackAndQueue/Easy/InfixToPostfix.md)
+  - [x] [Prefix to Infix Conversion](./StackAndQueue/Easy/PrefixToInfix.md)
+  - [x] [Prefix to Postfix Conversion](./StackAndQueue/Easy/PrefixToPostfix.md)
+  - [x] [Postfix to Prefix Conversion](./StackAndQueue/Easy/PostfixToPrefix.md)
+  - [x] [Postfix to Infix Conversion](./StackAndQueue/Easy/PostfixToInfix.md)
+  - [x] [Convert Infix to Prefix](./StackAndQueue/Easy/InfixToPrefix.md)
 
 ## Binary Tree
 
   ### Easy
-  1. [Maximum depth of binary tree](./BinaryTree/Easy/MaximumDepth.md)
-  2. [Balanced Binary Tree](./BinaryTree/Easy/BalancedBinaryTree.md)
-  3. [Diameter of Binary Tree](./BinaryTree/Easy/DiameterBinaryTree.md)
-  4. [Same Tree](./BinaryTree/Easy/SameTree.md)
+  - [x] [Maximum depth of binary tree](./BinaryTree/Easy/MaximumDepth.md)
+  - [x] [Balanced Binary Tree](./BinaryTree/Easy/BalancedBinaryTree.md)
+  - [x] [Diameter of Binary Tree](./BinaryTree/Easy/DiameterBinaryTree.md)
+  - [x] [Same Tree](./BinaryTree/Easy/SameTree.md)
 
 
   ### Medium
-   1. [ZigZag Tree Traversal](./BinaryTree/ZigZagTreeTraversal.md)
-   2. [Preorder, Inorder, and Postorder Traversal](./BinaryTree/Medium/PreInPostTraversal.md)
-   3. [Binary Tree Level Order Traversal](./BinaryTree/Medium/LevelOrderTraversalBT.md)
-   4. [Binary Tree Maximum Path Sum](./BinaryTree/Medium/BinaryTreeMaximumPathSum.md)
-   5. [Boundary Traversal of binary tree]
-   6. [Top View of Binary Tree](./BinaryTree/Medium/TopViewBinaryTree.md)
-   7. [Bottom View of Binary Tree](./BinaryTree/Medium/BottomViewBinaryTree.md)
-   8. [Binary Tree Right Side View](./BinaryTree/Medium/BinaryTreeRightSideView.md)
-   9. [Symmetric Tree](./BinaryTree/Medium/SymmetricTree.md)
-   10. [Lowest Common Ancestor of a Binary Tree](./BinaryTree/Medium/LowestCommonAncestor.md)
+   - [x] [ZigZag Tree Traversal](./BinaryTree/ZigZagTreeTraversal.md)
+   - [x] [Preorder, Inorder, and Postorder Traversal](./BinaryTree/Medium/PreInPostTraversal.md)
+   - [x] [Binary Tree Level Order Traversal](./BinaryTree/Medium/LevelOrderTraversalBT.md)
+   - [x] [Binary Tree Maximum Path Sum](./BinaryTree/Medium/BinaryTreeMaximumPathSum.md)
+   - [x] [Boundary Traversal of binary tree]
+   - [x] [Top View of Binary Tree](./BinaryTree/Medium/TopViewBinaryTree.md)
+   - [x] [Bottom View of Binary Tree](./BinaryTree/Medium/BottomViewBinaryTree.md)
+   - [x] [Binary Tree Right Side View](./BinaryTree/Medium/BinaryTreeRightSideView.md)
+   - [x] [Symmetric Tree](./BinaryTree/Medium/SymmetricTree.md)
+   - [x] [Lowest Common Ancestor of a Binary Tree](./BinaryTree/Medium/LowestCommonAncestor.md)
     
   ### Hard
 
 ## Binary Search Tree
   ### Easy
-  1. [Check for BST](./BST/Easy/checkBST.md)
-  2. [Search in a Binary Search Tree](./BST/Easy/SearchInsideBinarySearchTree.md)
-  3. [Floor Binary Search Tree](./BST/Easy/FloorBST.md)
-  4. [Ceil Binary Search Tree](./BST/Easy/CeilBST.md)
-  5. [Insert a given Node in Binary Search Tree](./BST/Easy/InsertNodeBST.md)
+  - [x] [Check for BST](./BST/Easy/checkBST.md)
+  - [x] [Search in a Binary Search Tree](./BST/Easy/SearchInsideBinarySearchTree.md)
+  - [x] [Floor Binary Search Tree](./BST/Easy/FloorBST.md)
+  - [x] [Ceil Binary Search Tree](./BST/Easy/CeilBST.md)
+  - [x] [Insert a given Node in Binary Search Tree](./BST/Easy/InsertNodeBST.md)
 
   ### Medium
-  1. [Predecessor and Successor](./BST/PredecessorandSuccessor.md)
-  2. [Delete Node in a BST](./BST/Medium/DeleteNodeBST.md)
-  3. [Kth Smallest Element in a BST](./BST/Medium/KthElementBST.md)
-  4. [Validate Binary Search Tree](./BST/Medium/ValidateBinarySearchTree.md)
-  5. [Lowest Common Ancestor of a Binary Search Tree](./BST/Medium/LowestCommonAncestorBinarySearchTree.md)
+  - [x] [Predecessor and Successor](./BST/PredecessorandSuccessor.md)
+  - [x] [Delete Node in a BST](./BST/Medium/DeleteNodeBST.md)
+  - [x] [Kth Smallest Element in a BST](./BST/Medium/KthElementBST.md)
+  - [x] [Validate Binary Search Tree](./BST/Medium/ValidateBinarySearchTree.md)
+  - [x] [Lowest Common Ancestor of a Binary Search Tree](./BST/Medium/LowestCommonAncestorBinarySearchTree.md)
 
 ## Backtracking
   ### Medium
-  1. [Permutations](./Backtracking/Permutations.md)
-  2. [Permutations II](./Backtracking/Permutations_2.md)
-  3. [Subsets](./Backtracking/Subsets.md)
-  4. [Subsets II](./Backtracking/Subsets_2.md)
-  5. [Combination Sum](./Backtracking/CombinationSum.md)
-  6. [Combination Sum II](./Backtracking/CombinationSum_2.md)
-  7. [Palindrome Partitioning](./Backtracking/PalindromePartitioning.md)
+  - [x] [Permutations](./Backtracking/Permutations.md)
+  - [x] [Permutations II](./Backtracking/Permutations_2.md)
+  - [x] [Subsets](./Backtracking/Subsets.md)
+  - [x] [Subsets II](./Backtracking/Subsets_2.md)
+  - [x] [Combination Sum](./Backtracking/CombinationSum.md)
+  - [x] [Combination Sum II](./Backtracking/CombinationSum_2.md)
+  - [x] [Palindrome Partitioning](./Backtracking/PalindromePartitioning.md)
 
 ## Dynamic Programming
   ### 1D DP
@@ -320,15 +320,15 @@
 
 ## Heap
   ### Easy
-  1. [Implementation of a Heap](./Heap/Easy/HeapImplementation.md)
-  2. 
+  - [x] [Implementation of a Heap](./Heap/Easy/HeapImplementation.md)
+  - [x] 
 
   ### Medium
-  1. [Find K Closest Elements](./Heap/Medium/KClosestElements.md)
-  2. [Kth Largest Element in an Array](./Heap/Medium/KthLargestElement.md)
-  3. [K largest elements](./Heap/Medium/K_LargestElements.md)
-  4. [Sort a K Sorted Array](./Heap/Medium/SortKSortedArray.md)
-  5. [Top K Frequent Elements](./Heap/Medium/TopKFrequentElements.md)
+  - [x] [Find K Closest Elements](./Heap/Medium/KClosestElements.md)
+  - [x] [Kth Largest Element in an Array](./Heap/Medium/KthLargestElement.md)
+  - [x] [K largest elements](./Heap/Medium/K_LargestElements.md)
+  - [x] [Sort a K Sorted Array](./Heap/Medium/SortKSortedArray.md)
+  - [x] [Top K Frequent Elements](./Heap/Medium/TopKFrequentElements.md)
 
 
 ## Sliding Window
