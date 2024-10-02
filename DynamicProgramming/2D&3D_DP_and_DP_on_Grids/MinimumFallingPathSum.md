@@ -101,3 +101,17 @@ class Solution {
     }
 }
 ```
+
+**Time-Complexity:** 
+
+1. $O(rows*cols)$
+
+2. $O(cols * 3^rows)
+
+**Space-Complexity:** $O(rows*cols)$ - dp table + $(rows)$ - recursive stack
+
+### Bottom-Up
+
+```java
+
+```
