@@ -310,6 +310,9 @@
   - [x] [Minimum Falling Path Sum](./DynamicProgramming/2D&3D_DP_and_DP_on_Grids/MinimumFallingPathSum.md)
   - [ ] [3-d DP : Chocolates Pickup](./DynamicProgramming/2D&3D_DP_and_DP_on_Grids/3-dDP:ChocolatesPickup.md)
 
+  ### DP on Subsequences
+  - [x] [Subset Sum Problem](./DynamicProgramming/DP_on_Subsequences/SubsetSumProblem.md)
+
   ### Medium
   - [x] [Longest Palindrome in a String](./DynamicProgramming/LongPalSub.md)
   - [x] [Minimum Operations](./DynamicProgramming/MinimumOperations.md)
