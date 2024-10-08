@@ -90,3 +90,47 @@ class Solution{
 
 **Space Complexity:** $O(n*sum) + O(n)$
 
+### Tabulation
+
+```java
+class Solution{
+    
+    static Boolean isSubsetSum(int N, int arr[], int sum){
+        // code here
+        
+        boolean[][] dp = new boolean[N][sum+1];
+        
+        //initialize base case
+        
+        //when sum = 0
+        for(int i=0;i<N;i++){
+            dp[i][0] = true;
+        }
+        
+        if(arr[0]<=sum){
+            dp[0][arr[0]] = true;
+        }
+        
+        for(int i = 1; i < N; i++){
+            for(int j = 1; j <= sum; j++){
+    
+                if(arr[i] <= j) {
+                    // take or not-take
+                    dp[i][j] = (dp[i-1][j-arr[i]] || dp[i-1][j]);
+                }
+                else {
+                    dp[i][j] = dp[i-1][j]; //not take
+                }
+               
+            }
+        }
+        
+        return dp[N-1][sum];
+    }
+}
+```
+
+**Time Complexity:** $O(n*sum)$
+
+**Space Complexity:** $O(n*sum)$
+
