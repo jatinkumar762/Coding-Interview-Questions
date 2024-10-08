@@ -134,3 +134,5 @@ class Solution{
 
 **Space Complexity:** $O(n*sum)$
 
+**Note:** Space Optimization possible, we prev and curr row maintain &rarr; To-Do
+
