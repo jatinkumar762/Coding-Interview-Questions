@@ -97,3 +97,40 @@ class Solution{
 	}
 }
 ```
+
+### Bottom-Up approach (Tabulation) 
+
+```java
+class Solution{
+    
+    int modulo = 1000000007;
+    int[][] dp;
+    
+    
+	public int perfectSum(int arr[],int n, int sum) 
+	{ 
+	    dp = new int[n+1][sum+1];
+	    
+	    //base case initialization
+	    for(int i = 0; i < n; i++){
+	       dp[i][0] = 1; //empty subset
+	    }
+	    
+	    for(int i = 1; i<=n; i++){
+	        for(int j = 0; j<=sum; j++){
+	            int not_take = dp[i-1][j]; //not take
+	            
+	            int take = 0;
+	            if(arr[i-1]<=j){
+	                take = dp[i-1][j-arr[i-1]]; //take
+	            }
+	            
+	            dp[i][j] = (not_take + take)%modulo;
+	        }
+	    }
+	    
+	    return dp[n][sum];
+	}
+
+}
+```
