@@ -315,6 +315,7 @@
   - [ ] [Partition Equal Subset Sum](./DynamicProgramming/DP_on_Subsequences/PartitionEqualSubsetSum.md)
   - [ ] [Partition Array Into Two Arrays to Minimize Sum Difference](./DynamicProgramming/DP_on_Subsequences/PartitionArrayIntoTwoArraystoMinimizeSumDifference.md)
   - [x] [Perfect Sum Problem](./DynamicProgramming/DP_on_Subsequences/PerfectSumProblem.md)
+  - [x] [Partitions with Given Difference](./DynamicProgramming/DP_on_Subsequences/PartitionswithGivenDifference.md)
 
   ### Medium
   - [x] [Longest Palindrome in a String](./DynamicProgramming/LongPalSub.md)
