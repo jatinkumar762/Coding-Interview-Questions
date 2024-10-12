@@ -317,6 +317,7 @@
   - [x] [Perfect Sum Problem](./DynamicProgramming/DP_on_Subsequences/PerfectSumProblem.md)
   - [x] [Partitions with Given Difference](./DynamicProgramming/DP_on_Subsequences/PartitionswithGivenDifference.md)
   - [x] [Coin Change](./DynamicProgramming/DP_on_Subsequences/CoinChange.md)
+  - [x] [Target Sum](./DynamicProgramming/DP_on_Subsequences/TargetSum.md)
 
   ### Medium
   - [x] [Longest Palindrome in a String](./DynamicProgramming/LongPalSub.md)
