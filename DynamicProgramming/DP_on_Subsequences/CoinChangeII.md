@@ -43,6 +43,30 @@ class Solution {
 }
 ```
 
+**another way to write**
+
+```java
+private int countCombinations(int[] coins, int index, int amount) {
+    // Base case: exact amount is achieved
+    if (amount == 0) {
+        return 1;
+    }
+    // Base case: negative amount or no coins left
+    if (amount < 0 || index < 0) {
+        return 0;
+    }
+    
+    // Count combinations by excluding the coin
+    int excludeCoin = countCombinations(coins, index - 1, amount);
+    
+    // Count combinations by including the coin
+    int includeCoin = countCombinations(coins, index, amount - coins[index]);
+    
+    // Total combinations
+    return excludeCoin + includeCoin;
+}
+```
+
 ### Top-Down (Memorization)
 
 ```java
