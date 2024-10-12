@@ -316,6 +316,7 @@
   - [ ] [Partition Array Into Two Arrays to Minimize Sum Difference](./DynamicProgramming/DP_on_Subsequences/PartitionArrayIntoTwoArraystoMinimizeSumDifference.md)
   - [x] [Perfect Sum Problem](./DynamicProgramming/DP_on_Subsequences/PerfectSumProblem.md)
   - [x] [Partitions with Given Difference](./DynamicProgramming/DP_on_Subsequences/PartitionswithGivenDifference.md)
+  - [x] [Coin Change](./DynamicProgramming/DP_on_Subsequences/CoinChange.md)
 
   ### Medium
   - [x] [Longest Palindrome in a String](./DynamicProgramming/LongPalSub.md)
