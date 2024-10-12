@@ -173,3 +173,10 @@ class Solution {
     }
 }
 ```
+
+**Time Complexity:** $O(coins * amount)$
+
+**Space Complexity:** $O(coins * amount)$
+
+
+**Note:** We can do further space optimization using prev and current arr maintain
