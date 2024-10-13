@@ -319,6 +319,7 @@
   - [x] [Coin Change](./DynamicProgramming/DP_on_Subsequences/CoinChange.md)
   - [x] [Target Sum](./DynamicProgramming/DP_on_Subsequences/TargetSum.md)
   - [x] [Coin Change II](./DynamicProgramming/DP_on_Subsequences/CoinChangeII.md)
+  - [x] [Knapsack with Duplicate Items](./DynamicProgramming/DP_on_Subsequences/KnapsackwithDuplicateItems.md)
 
   ### Medium
   - [x] [Longest Palindrome in a String](./DynamicProgramming/LongPalSub.md)
