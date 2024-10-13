@@ -23,7 +23,7 @@ class Solution{
         
         int notTake = calMaxProfit(wt, val, index-1, W);
         
-        int take = 0;
+        int take = Integer.MIN_VALUE;
         
         if(wt[index]<=W){
             take = val[index] + calMaxProfit(wt, val, index, W-wt[index]);
@@ -73,7 +73,7 @@ class Solution{
         
         int notTake = calMaxProfit(wt, val, index-1, W);
         
-        int take = 0;
+        int take = Integer.MIN_VALUE;
         
         if(wt[index]<=W){
             take = val[index] + calMaxProfit(wt, val, index, W-wt[index]);
