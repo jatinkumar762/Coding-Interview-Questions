@@ -320,6 +320,7 @@
   - [x] [Target Sum](./DynamicProgramming/DP_on_Subsequences/TargetSum.md)
   - [x] [Coin Change II](./DynamicProgramming/DP_on_Subsequences/CoinChangeII.md)
   - [x] [Knapsack with Duplicate Items](./DynamicProgramming/DP_on_Subsequences/KnapsackwithDuplicateItems.md)
+  - [x] [Rod Cutting](./DynamicProgramming/DP_on_Subsequences/RodCutting.md)
 
   ### Medium
   - [x] [Longest Palindrome in a String](./DynamicProgramming/LongPalSub.md)
