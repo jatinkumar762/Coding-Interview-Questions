@@ -327,6 +327,7 @@
   - [x] [Print Longest Common Subsequence](./DynamicProgramming/DP_on_Strings/PrintLongestCommonSubsequence.md)
   - [x] [Longest Common Substring](./DynamicProgramming/DP_on_Strings/LongestCommonSubstring.md)
   - [x] [Longest Palindromic Subsequence](./DynamicProgramming/DP_on_Strings/LongestPalindromicSubsequence.md)
+  - [x] [Minimum insertions to make string palindrome](./DynamicProgramming/DP_on_Strings/Minimum_insertions_to_make_string_palindrome.md)
 
   ### Medium
   - [x] [Longest Palindrome in a String](./DynamicProgramming/LongPalSub.md)
