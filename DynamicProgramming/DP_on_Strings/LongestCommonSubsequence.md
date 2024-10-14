@@ -30,6 +30,10 @@ class Solution {
 }
 ```
 
+**Time Complexity:** $O(2^N) * O(2^M)$
+
+**Space Complexity:** $O(N) + O(M)$
+
 ### Top-Down (Memorization)
 
 ```java
@@ -75,6 +79,10 @@ class Solution {
 }
 ```
 
+**Time Complexity:** $O(N * M)$
+
+**Space Complexity:** $O(N * M) + O(N) + O(M)$ dp & recursion stack
+
 ### Bottom-Up (Tabulation)
 
 ```java
@@ -117,3 +125,7 @@ class Solution {
     }
 }
 ```
+
+**Time Complexity:** $O(N * M)$
+
+**Space Complexity:** $O(N * M)$

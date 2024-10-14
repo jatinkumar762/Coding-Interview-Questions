@@ -324,6 +324,7 @@
 
   ### DP on Strings
   - [x] [Longest Common Subsequence](./DynamicProgramming/DP_on_Strings/LongestCommonSubsequence.md)
+  - 
 
   ### Medium
   - [x] [Longest Palindrome in a String](./DynamicProgramming/LongPalSub.md)
