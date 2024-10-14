@@ -330,6 +330,7 @@
   - [x] [Minimum insertions to make string palindrome](./DynamicProgramming/DP_on_Strings/Minimum_insertions_to_make_string_palindrome.md)
   - [x] [Delete Operation for Two Strings](./DynamicProgramming/DP_on_Strings/DeleteOperationforTwoStrings.md)
   - [x] [Shortest Common Supersequence](./DynamicProgramming/DP_on_Strings/ShortestCommonSupersequence.md)
+  - [x] [Edit Distance](./DynamicProgramming/DP_on_Strings/EditDistance.md)
 
   ### Medium
   - [x] [Longest Palindrome in a String](./DynamicProgramming/LongPalSub.md)
