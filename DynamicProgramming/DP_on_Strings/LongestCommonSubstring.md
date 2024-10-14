@@ -67,3 +67,43 @@ class Solution {
     
 }
 ```
+
+**Note:** Space Optimization possible using curr and prev
+
+```java
+class Solution {
+    public int longestCommonSubstr(String str1, String str2) {
+        // code here
+        char[] text1Arr = str1.toCharArray();
+        char[] text2Arr = str2.toCharArray();
+
+        int len1 = str1.length();
+        int len2 = str2.length();
+        
+        
+        int[] prev = new int[len2+1];
+        
+        int max = 0;
+        for (int i = 1; i <= len1; i++) {
+            
+            int[] curr = new int[len2+1];
+            
+            for (int j = 1; j <= len2; j++) {
+                
+                if (text1Arr[i - 1] == text2Arr[j - 1]) {
+                    curr[j] = 1 + prev[j - 1];
+                } else {
+                    curr[j] = 0; //wont consider previous substring
+                }
+                
+                max = Math.max(curr[j], max);
+            }
+            
+            prev = curr;
+        }
+
+        return max;
+    }
+    
+}
+```
