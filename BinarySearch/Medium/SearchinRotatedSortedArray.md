@@ -36,8 +36,10 @@ class Solution {
         int mid;
 
         if (target > nums[end]) {
-            end = pivot;
+            //means it exist in left side of pivot
+            end = pivot-1;
         } else {
+            //means it exist in right side of pivot
             start = pivot;
         }
 
