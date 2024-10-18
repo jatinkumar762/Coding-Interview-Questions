@@ -52,21 +52,21 @@ class Solution {
             if ((mid & 1) == 0) { // even index
 
                 if (nums[mid] == nums[mid + 1]) {
-                  //exist in first part
+                  //first part is correct
                     start = mid + 2;
                 } else {
-                  //exist in second part
-                  //this index can also be result - even index
+                  //second part is correct
+                  //this index can also be result - even index (non duplicate occurs at even index)
                     end = mid;
                 }
 
             } else {
 
                 if (nums[mid] == nums[mid - 1]) {
-                  //exist in first part
+                  //first part is correct
                     start = mid + 1;
                 } else {
-                  //exist in second part
+                  //second part is correct
                     end = mid - 1;
                   //why mid-1, bcz our single element is on even index
                   //we can shorter
