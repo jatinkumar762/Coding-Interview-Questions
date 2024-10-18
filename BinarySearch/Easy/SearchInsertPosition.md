@@ -33,8 +33,8 @@ class Solution {
 }
 ```
 
-nums = [1], target = 0
+nums = [1], target = 0 &rarr; 0
 
-nums = [3], target = 5
+nums = [3], target = 5 &rarr; 1
 
-nums = [1, 2, 5], target = 3
+nums = [1, 2, 5], target = 3 &rarr; 2
