@@ -6,6 +6,8 @@ https://www.geeksforgeeks.org/problems/row-with-max-1s0023/1
 
 ### Approach-2 - Binary Search
 
+* first occurrence of 1 // floor(1) // ceil(0)
+
 ```java
 class Solution {
     public int rowWithMax1s(int arr[][]) {
