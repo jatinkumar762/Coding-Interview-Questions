@@ -7,8 +7,8 @@ https://leetcode.com/problems/find-peak-element/description/
 #### Approach-2 Using Binary Search
 
 1. check if the middle element is the peak element or not. 
-2. If the middle element is not the peak element, then check if the element on the right side is greater than the middle element then there is always a peak element on the right side. 
-3. If the element on the left side is greater than the middle element then there is always a peak element on the left side. 
+2. If the middle element is not the peak element, then check if the element on the right side is greater than the middle element then there is always a peak element on the right side. arr[mid] < arr[mid+1]
+3. If the element on the left side is greater than the middle element then there is always a peak element on the left side.  arr[mid-1] < arr[mid]
 
 **Note** that both left and right sides might have peak elements, we just we need to return any peak element. So we can safely either go to left or right
 
