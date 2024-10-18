@@ -50,8 +50,6 @@
   - [x] [Search Insert Position](./BinarySearch/1-D_Array/SearchInsertPosition.md)
   - [x] [Find First and Last Position of Element in Sorted Array](./BinarySearch/1-D_Array/FindFirstAndLastPositionofElementSortedArray.md)
   - [x] [Number of occurrence](/BinarySearch/1-D_Array/Number_of_occurrence.md)
-  - [x] [Sqrt(x)](./BinarySearch/Sqrt.md)
-  - [x] [Nth Root of a Number using Binary Search](./BinarySearch/NthRoot.md)
   - [x] [Peak Element in array](./BinarySearch/1-D_Array/PeakElementArray.md)
   - [x] [Single Element in a Sorted Array](./BinarySearch/1-D_Array/SingleElement_in_a_SortedArray.md)
   - [x] [Search in Rotated Sorted Array](./BinarySearch/1-D_Array/SearchinRotatedSortedArray.md)
@@ -60,7 +58,9 @@
   - [x] [Find out how many times the array has been rotated](./BinarySearch/1-D_Array/Find_Kth_Rotation.md)
   - [x] [Find Peak Element](./BinarySearch/1-D_Array/FindPeakElement.md)
 
-  ### Medium
+  ### BS on Result
+  - [x] [Sqrt(x)](./BinarySearch/BS_on_Result/Sqrt.md)
+  - [x] [Nth Root of a Number using Binary Search](./BinarySearch/BS_on_Result/NthRoot.md)
   
 
   ### Hard
