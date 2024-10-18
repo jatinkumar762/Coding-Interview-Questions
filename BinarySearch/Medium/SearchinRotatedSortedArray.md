@@ -97,3 +97,52 @@ class Solution {
     }
 }
 ```
+
+### More Optimized Approach
+
+```java
+class Solution {
+
+    public int search(int[] nums, int target) {
+
+        int left = 0;
+        int right = nums.length - 1;
+        int mid;
+
+        while (left <= right) {
+
+            mid = left + (right - left) / 2;
+
+            if (nums[mid] == target) {
+                return mid;
+            }
+
+            //one part will be sorted
+            if (nums[mid] <= nums[right]) {
+                // right half is sorted
+                if (target > nums[mid] && target <= nums[right]) {
+                    //target==mid already checked
+                    // traget present in sorted block
+                    left = mid + 1;
+                } else {
+                    // traget present in non-sorted block
+                    right = mid - 1;
+                }
+            } else {
+                
+                //left half is sorted
+                if (target >= nums[left] && target < nums[mid]) {
+                    // traget present in sorted block
+                   right = mid - 1;
+                } else {
+                    // traget present in non-sorted block
+                    left = mid + 1;
+                }
+            }
+        }
+
+        return -1;
+
+    }
+}
+```
