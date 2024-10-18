@@ -43,24 +43,25 @@
   - [x] [Print all subarrays with 0 sum](https://www.geeksforgeeks.org/print-all-subarrays-with-0-sum/)
 
 ## Binary Search
-  ### Easy
-  - [x] [Binary Search](./BinarySearch/Easy/BinarySearch.md)
-  - [x] [Floor in a Sorted Array](./BinarySearch/Easy/FloorInSortedArray.md)
-  - [x] [Floor/Ceil in Sorted Array](./BinarySearch/Easy/FloorCeilSortedArray.md)
-  - [x] [Search Insert Position](./BinarySearch/Easy/SearchInsertPosition.md)
-  - [x] [Find First and Last Position of Element in Sorted Array](./BinarySearch/Easy/FindFirstAndLastPositionofElementSortedArray.md)
-  - [x] [Number of occurrence](/BinarySearch/Easy/Number_of_occurrence.md)
+  ### 1-D_Array
+  - [x] [Binary Search](./BinarySearch/1-D_Array/BinarySearch.md)
+  - [x] [Floor in a Sorted Array](./BinarySearch/1-D_Array/FloorInSortedArray.md)
+  - [x] [Floor/Ceil in Sorted Array](./BinarySearch/1-D_Array/FloorCeilSortedArray.md)
+  - [x] [Search Insert Position](./BinarySearch/1-D_Array/SearchInsertPosition.md)
+  - [x] [Find First and Last Position of Element in Sorted Array](./BinarySearch/1-D_Array/FindFirstAndLastPositionofElementSortedArray.md)
+  - [x] [Number of occurrence](/BinarySearch/1-D_Array/Number_of_occurrence.md)
   - [x] [Sqrt(x)](./BinarySearch/Sqrt.md)
   - [x] [Nth Root of a Number using Binary Search](./BinarySearch/NthRoot.md)
-  - [x] [Peak Element in array](./BinarySearch/Easy/PeakElementArray.md)
-  - [x] [Single Element in a Sorted Array](./BinarySearch/Medium/SingleElement_in_a_SortedArray.md)
+  - [x] [Peak Element in array](./BinarySearch/1-D_Array/PeakElementArray.md)
+  - [x] [Single Element in a Sorted Array](./BinarySearch/1-D_Array/SingleElement_in_a_SortedArray.md)
+  - [x] [Search in Rotated Sorted Array](./BinarySearch/1-D_Array/SearchinRotatedSortedArray.md)
+  - [x] [Search in Rotated Sorted Array II](./BinarySearch/1-D_Array/SearchinRotatedSortedArrayII.md)
+  - [x] [Minimum in a Sorted and Rotated](./BinarySearch/1-D_Array/Minimum_in_a_Sorted_and_Rotated.md)
+  - [x] [Find out how many times the array has been rotated](./BinarySearch/1-D_Array/Find_Kth_Rotation.md)
+  - [x] [Find Peak Element](./BinarySearch/1-D_Array/FindPeakElement.md)
 
   ### Medium
-  - [x] [Search in Rotated Sorted Array](./BinarySearch/Medium/SearchinRotatedSortedArray.md)
-  - [x] [Search in Rotated Sorted Array II](./BinarySearch/Medium/SearchinRotatedSortedArrayII.md)
-  - [x] [Minimum in a Sorted and Rotated](./BinarySearch/Medium/Minimum_in_a_Sorted_and_Rotated.md)
-  - [x] [Find out how many times the array has been rotated](./BinarySearch/Medium/Find_Kth_Rotation.md)
-  - [x] [Find Peak Element](./BinarySearch/Medium/FindPeakElement.md)
+  
 
   ### Hard
 
