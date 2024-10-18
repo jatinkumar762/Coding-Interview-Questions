@@ -1,8 +1,46 @@
 https://www.geeksforgeeks.org/problems/ceil-the-floor2802/1
 
-&rarr; in above gfg problem, given array is not sorted
+**Optimized way to writing Binary Search**
+
+```java
+public class CeilInSortedArray {
+    public static Integer findCeil(int[] arr, int target) {
+        int low = 0, high = arr.length - 1;
+        Integer ceil = null; // Use Integer to allow for null value
+
+        while (low <= high) {
+            int mid = (low + high) / 2;
+
+            if (arr[mid] == target) {
+                return arr[mid]; // Found exact match
+            } else if (arr[mid] < target) {
+                low = mid + 1; // Search in right half
+            } else {
+                ceil = arr[mid]; // Update ceil
+                high = mid - 1; // Search in left half
+            }
+        }
+
+        return ceil; // Returns null if no ceil is found
+    }
+
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 8, 10, 10, 12};
+        int target = 9;
+        Integer ceil = findCeil(arr, target);
+        
+        if (ceil != null) {
+            System.out.println("Ceil of " + target + " is: " + ceil);
+        } else {
+            System.out.println("No ceil found for " + target);
+        }
+    }
+}
+```
 
 #### Approach-1 Sort + Binary Search - O(NLogN) + 2 * O(LogN)
+
+&rarr; in above gfg problem, given array is not sorted
 
 ```java
 class Solution {
