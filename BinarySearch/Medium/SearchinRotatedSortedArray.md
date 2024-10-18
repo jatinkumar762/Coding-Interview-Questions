@@ -1,5 +1,25 @@
 https://leetcode.com/problems/search-in-rotated-sorted-array/description/
 
+first find pivot point 
+
+Example:
+
+arr     &rarr; [5, 6, 0, 1, 2, 3, 4]
+
+ind     &rarr;  0  1  2  3  4  5  6
+
+mid = 3
+
+after this low -> 0 and high = 2
+
+step 2:
+
+arr     &rarr; [5, 6, 0]
+
+ind     &rarr;  0  1  2
+
+
+
 ```java
 class Solution {
 
