@@ -56,9 +56,9 @@
   - [x] [Single Element in a Sorted Array](./BinarySearch/Medium/SingleElement_in_a_SortedArray.md)
 
   ### Medium
-  - [x] [Minimum in a Sorted and Rotated](./BinarySearch/Medium/Minimum_in_a_Sorted_and_Rotated.md)
   - [x] [Search in Rotated Sorted Array](./BinarySearch/Medium/SearchinRotatedSortedArray.md)
   - [x] [Search in Rotated Sorted Array II](./BinarySearch/Medium/SearchinRotatedSortedArrayII.md)
+  - [x] [Minimum in a Sorted and Rotated](./BinarySearch/Medium/Minimum_in_a_Sorted_and_Rotated.md)
   - [x] [Find Kth Rotation](./BinarySearch/Medium/Find_Kth_Rotation.md)
   - [x] [Find Peak Element](./BinarySearch/Medium/FindPeakElement.md)
 
