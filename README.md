@@ -59,7 +59,7 @@
   - [x] [Search in Rotated Sorted Array](./BinarySearch/Medium/SearchinRotatedSortedArray.md)
   - [x] [Search in Rotated Sorted Array II](./BinarySearch/Medium/SearchinRotatedSortedArrayII.md)
   - [x] [Minimum in a Sorted and Rotated](./BinarySearch/Medium/Minimum_in_a_Sorted_and_Rotated.md)
-  - [x] [Find Kth Rotation](./BinarySearch/Medium/Find_Kth_Rotation.md)
+  - [x] [Find out how many times the array has been rotated](./BinarySearch/Medium/Find_Kth_Rotation.md)
   - [x] [Find Peak Element](./BinarySearch/Medium/FindPeakElement.md)
 
   ### Hard
