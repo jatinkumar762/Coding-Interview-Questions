@@ -64,6 +64,7 @@
 
   ### BS_on_2D-Arrays
   - [x] [Find the row with maximum number of 1's](./BinarySearch/BS_on_2D-Arrays/Row_with_max_1s.md)
+  - [x] [Search a 2D Matrix](./BinarySearch/BS_on_2D-Arrays/Searcha2DMatrix.md)
   
 
   ### Hard
