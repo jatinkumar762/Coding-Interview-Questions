@@ -27,5 +27,49 @@ class Solution {
 #### Approach-2 (Binary Search)
 
 ```java
-mid = low+(high-low)/2;
+class Solution {
+    public int mySqrt(int x) {
+        
+        int low = 0;
+        int high = x;
+        int mid = 0, result = 0;
+    
+        while (low <= high) {
+            
+            mid = low + (high-low) / 2;
+            
+            //type cast is necessary
+            //otherwise int * int -> int (out of range issue)
+            long midSquared = (long)mid * mid;
+    
+            if (midSquared == x) {
+                return mid; // Exact square root found
+            } else if (midSquared < x) {
+                result = mid;
+                low = mid+1; // Move the lower bound up
+            } else {
+                high = mid-1; // Move the upper bound down
+            }
+        }
+        
+        return result;
+    }
+}
+```
+
+**we can modify binary search like this also**
+
+```java
+mid = low + (high-low) / 2;
+long res1 = (long)mid*mid;
+long res2 =  (long)(mid+1)*(mid+1);
+
+if (res1 <= x && res2>x) {
+    return mid; // Exact square root found
+} else if (res1 < x) {
+    result = mid;
+    low = mid+1; // Move the lower bound up
+} else {
+    high = mid-1; // Move the upper bound down
+}
 ```
