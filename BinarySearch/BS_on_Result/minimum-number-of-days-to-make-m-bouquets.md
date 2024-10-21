@@ -126,3 +126,29 @@ class Solution {
     }
 }
 ```
+
+**More Optimized code to check boquet possible**
+
+```java
+ private boolean canMakeBoquets(int day, int[] bloomDay, int m, int k, int n) {
+    int count = 0;
+    int boquets = 0;
+    for (int i = 0; i < n; i++) {
+        if (bloomDay[i] <= day) {
+            // can use flowers
+            count++;
+        } else {
+            boquets += count / k;
+            count = 0;
+            if (boquets == m) {
+                return true;
+            }
+        }
+    }
+    if (count > 0) {
+        boquets += count / k;
+    }
+
+    return boquets >= m;
+}
+```
