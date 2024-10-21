@@ -62,6 +62,7 @@
   - [x] [Sqrt(x)](./BinarySearch/BS_on_Result/Sqrt.md)
   - [x] [Nth Root of a Number using Binary Search](./BinarySearch/BS_on_Result/NthRoot.md)
   - [x] [Koko Eating Bananas](./BinarySearch/BS_on_Result/KokoEatingBananas.md)
+  - [x] [Minimum Number of Days to Make m Bouquets](./BinarySearch/BS_on_Result/minimum-number-of-days-to-make-m-bouquets.md)
 
   ### BS_on_2D-Arrays
   - [x] [Find the row with maximum number of 1's](./BinarySearch/BS_on_2D-Arrays/Row_with_max_1s.md)
