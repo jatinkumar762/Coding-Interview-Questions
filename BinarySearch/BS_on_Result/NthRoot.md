@@ -2,13 +2,11 @@
 
 The idea for this approach is to use binary search to find an integer equal to ‘M’ when multiplied by itself ‘N’ times.
 
-The exponential function is an increasing function (i.e., monotonic), and thus, using binary search, we will try out different possible square roots; let’s suppose we are currently on ‘X’, then we will find 
-
-If ‘XN’ is greater than ‘M’, then we must reduce the higher bound of our search space.
-If ‘XN’ is less than ‘M’, then we must increase the lower bound of our search space.
-If ‘XN’ equals ‘M’, we found our ‘N’th root.
+* If $X^N$ is greater than `M`, then we must reduce the higher bound of our search space.
+* If $X^N$ is less than `M`, then we must increase the lower bound of our search space.
+* If $X^N$ equals `M`, we found our `Nth` root.
  
-To find the value of ‘XN’, we can use a loop, which will iterate ‘N’ times.
+To find the value of $X^N$, we can use a loop, which will iterate `N` times.
 
  
 The steps are as follows:-
