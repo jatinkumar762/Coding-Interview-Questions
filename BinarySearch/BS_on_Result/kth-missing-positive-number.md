@@ -29,3 +29,35 @@ class Solution {
     }
 }
 ```
+
+### Approach-2 
+
+```java
+public class KthMissingPositiveNumber {
+    public static int findKthPositive(int[] arr, int k) {
+        int missingCount = 0;
+        int current = 1;
+        int index = 0;
+
+        while (missingCount < k) {
+            if (index < arr.length && arr[index] == current) {
+                index++;
+            } else {
+                missingCount++;
+                if (missingCount == k) {
+                    return current;
+                }
+            }
+            current++;
+        }
+
+        return -1; // This line should never be reached if k is valid
+    }
+
+    public static void main(String[] args) {
+        int[] arr = {2, 3, 4, 7, 11};
+        int k = 5;
+        System.out.println(findKthPositive(arr, k)); // Output: 9
+    }
+}
+```
