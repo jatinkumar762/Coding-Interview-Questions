@@ -1,7 +1,7 @@
 https://leetcode.com/problems/kth-missing-positive-number/description/
 
 
-### Approach-1 linear $O(N)$ 
+### Approach-1 linear $O(N)$ - 1ms
 
 ```java
 class Solution {
@@ -59,5 +59,55 @@ public class KthMissingPositiveNumber {
         int k = 5;
         System.out.println(findKthPositive(arr, k)); // Output: 9
     }
+}
+```
+
+### Approach-3 Binary Search - $O(LogN)$ - 0ms
+
+```java
+class Solution {
+    public int findKthPositive(int[] arr, int k) {
+
+       int left = 0, right = arr.length - 1;
+        
+        // Binary search to find the point where missing count reaches k
+        while (left <= right) {
+
+            int mid = left + (right - left) / 2;
+
+            // Calculate how many positive numbers are missing up to arr[mid]
+            int missingCount = arr[mid] - (mid + 1);
+
+            //why mid+1 
+            //in correct array
+            //at 0th index -> 1, 1st index -> 2, 2nd index -> 3
+            
+            // If missingCount is less than k, move to the right
+            if (missingCount < k) {
+                left = mid + 1;
+            } else { // Move to the left
+                right = mid - 1;
+            }
+        }
+
+        //after above steps
+        //right = left -1
+
+        //missing count on right index < k
+        //missing count on left index >=k
+        
+        // The number of missing numbers up to arr[right]:
+        int missingCount = right >= 0 ? arr[right] - (right + 1) : 0;
+
+        //WHY (k - missingCount)? -> bcz till right index we already have missing count
+        //remaning missing will be -> (k - missingCount)
+
+        // The k-th missing number will be after the last number in the array + (k - missingCount)
+        return (right >= 0 ? arr[right]: 0) + (k - missingCount);
+    }
+
+    // [5, 6, 7] k=4
+    // after bs -> right = -1 and left = 0
+    //
 }
 ```
