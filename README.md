@@ -43,7 +43,7 @@
   - [x] [Print all subarrays with 0 sum](https://www.geeksforgeeks.org/print-all-subarrays-with-0-sum/)
 
 ## Binary Search
-  ### 1-D_Array
+  ### 1-D Array
   - [x] [Binary Search](./BinarySearch/1-D_Array/BinarySearch.md)
   - [x] [Floor in a Sorted Array](./BinarySearch/1-D_Array/FloorInSortedArray.md)
   - [x] [Floor/Ceil in Sorted Array](./BinarySearch/1-D_Array/FloorCeilSortedArray.md)
@@ -67,8 +67,9 @@
   - [x] [Capacity To Ship Packages Within D Days](./BinarySearch/BS_on_Result/capacity-to-ship-packages-within-d-days.md)
   - [x] [Median of Two Sorted Arrays](./BinarySearch/BS_on_Result/median-of-two-sorted-arrays.md)
   - [x] [K-th element of two Sorted Arrays](./BinarySearch/BS_on_Result/k-th-element-of-two-sorted-array.md)
+  - [x] [Kth Missing Positive Number](./BinarySearch/BS_on_Result/kth-missing-positive-number.md)
 
-  ### BS_on_2D-Arrays
+  ### BS on 2D-Arrays
   - [x] [Find the row with maximum number of 1's](./BinarySearch/BS_on_2D-Arrays/Row_with_max_1s.md)
   - [x] [Search a 2D Matrix](./BinarySearch/BS_on_2D-Arrays/Searcha2DMatrix.md)
   - [x] [Search a 2D Matrix II](./BinarySearch/BS_on_2D-Arrays/Search_a_2D_Matrix-II.md)
