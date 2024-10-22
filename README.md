@@ -66,6 +66,7 @@
   - [x] [Find the Smallest Divisor Given a Threshold](./BinarySearch/BS_on_Result/find-the-smallest-divisor-given-a-threshold.md)
   - [x] [Capacity To Ship Packages Within D Days](./BinarySearch/BS_on_Result/capacity-to-ship-packages-within-d-days.md)
   - [x] [Median of Two Sorted Arrays](./BinarySearch/BS_on_Result/median-of-two-sorted-arrays.md)
+  - [x] [K-th element of two Sorted Arrays](./BinarySearch/BS_on_Result/k-th-element-of-two-sorted-array.md)
 
   ### BS_on_2D-Arrays
   - [x] [Find the row with maximum number of 1's](./BinarySearch/BS_on_2D-Arrays/Row_with_max_1s.md)
