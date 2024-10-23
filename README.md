@@ -189,6 +189,7 @@
    - [x] [Remove outermost Paranthesis](./String/RemoveOutermostParanthesis.md)
    - [x] [String to Integer (atoi)](./String/Easy/StringToInteger.md)
    - [x] [Sort Characters By Frequency](./String/Medium/SortCharactersByFrequency.md)
+   - [x] [Maximum Nesting Depth of Paranthesis](./String/Easy/MaximumNestingDepthofParanthesis.md)
 
    ### Medium
    - [x] [Valid Substring](./String/ValidSubstring.md)
