@@ -52,6 +52,38 @@ class Solution {
 
 ### Approach - 2 NestedMap
 
-```java
+* faster than approach-1
 
+```java
+class Solution {
+    public String frequencySort(String s) {
+
+        Map<Character, Integer> charToFreqMap = new HashMap<>();
+
+        for (Character c : s.toCharArray()) {
+            charToFreqMap.put(c, charToFreqMap.getOrDefault(c, 0) + 1);
+        }
+
+        TreeMap<Integer, List<Character>> freqToListCharMap = new TreeMap<>(Collections.reverseOrder());
+
+        for (Map.Entry<Character, Integer> entry : charToFreqMap.entrySet()) {
+            if (!freqToListCharMap.containsKey(entry.getValue())) {
+                freqToListCharMap.put(entry.getValue(), new ArrayList<>());
+            }
+            freqToListCharMap.get(entry.getValue()).add(entry.getKey());
+        }
+
+        StringBuilder res = new StringBuilder("");
+        for (Map.Entry<Integer, List<Character>> entry : freqToListCharMap.entrySet()) {
+
+            for (char ch : entry.getValue()) {
+                for (int i = 1; i <= entry.getKey(); i++) {
+                    res.append(ch);
+                }
+            }
+        }
+
+        return res.toString();
+    }
+}
 ```
