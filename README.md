@@ -183,7 +183,7 @@
    - [x] [Letter Combinations of a Phone Number](./String/LetterCombinationPhoneNumber.md)
    - [x] [Longest Repeating Subsequence](./String/LongestRepeatingSubsequence.md)
    - [x] [Word Search](./String/Easy/WordSearch.md)
-   - [x] [Roman Number to Integer](./String/Easy/RomanNumbertoInteger.md)
+   - [x] [Roman Number to Integer and vice versa](./String/Easy/RomanNumbertoInteger.md)
    - [x] [Print Anagrams Together](./String/Easy/Print%20Anagrams%20Together.md)
    - [x] [Isomorphic Strings](./String/Easy/Isomorphic%20Strings.md)
    - [x] [Remove outermost Paranthesis](./String/RemoveOutermostParanthesis.md)
