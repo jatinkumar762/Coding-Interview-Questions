@@ -42,3 +42,98 @@ min dist. 4&emsp;C1&emsp;&emsp;&emsp;&emsp;C2&emsp;&emsp;&emsp;&emsp;C3&emsp;&em
 * why started from 0 index, bcz we want to put max cows 
 
 min cows can possible is 2, so max distance if cows=2, in above example (10 - 0) &rarr; 10 
+
+
+```java
+class Solution {
+    public static int solve(int n, int k, int[] stalls) {
+        
+        Arrays.sort(stalls);
+        
+        int maxDist = stalls[n-1] - stalls[0];
+        
+        int result = -1;
+        
+        for(int i = 1; i <= maxDist; i++){
+  
+            if(isAssignmentPossible(stalls, i, k, n)){
+                result = i;
+            } else {
+                break;
+            }
+        }
+        
+        return result;
+    }
+    
+    private static boolean isAssignmentPossible(int[] stalls, int minDist, int cows, int n){
+        
+        int count = 1, lastAssigned = stalls[0];
+        
+        for(int i = 1; i < n; i++){
+            
+            if(stalls[i] - lastAssigned >= minDist){
+                count++;
+                lastAssigned = stalls[i];
+            }
+            
+            if(count == cows){
+                return true;
+            }
+            
+        }
+        
+        return false;
+    }
+}
+```
+
+### Optimized above solution using binary search
+
+```java
+class Solution {
+    public static int solve(int n, int k, int[] stalls) {
+        
+        Arrays.sort(stalls);
+        
+        int minDist = 1, midDist;
+        int maxDist = stalls[n-1] - stalls[0];
+        
+        int result = -1;
+        
+        while(minDist<=maxDist) {
+            
+            midDist = minDist + (maxDist - minDist)/2;
+            
+            if(isAssignmentPossible(stalls, midDist, k, n)){
+                result = midDist;
+                minDist = midDist + 1;
+            } else {
+                maxDist = midDist - 1;
+            }
+        }
+        
+        return result;
+    }
+    
+    private static boolean isAssignmentPossible(int[] stalls, int minDist, int cows, int n){
+        
+        int count = 1, lastAssigned = stalls[0];
+        
+        for(int i = 1; i < n; i++){
+            
+            if(stalls[i] - lastAssigned >= minDist){
+                count++;
+                lastAssigned = stalls[i];
+            }
+            
+            if(count == cows){
+                return true;
+            }
+            
+        }
+        
+        return false;
+    }
+}
+```
