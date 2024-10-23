@@ -188,6 +188,7 @@
    - [x] [Isomorphic Strings](./String/Easy/Isomorphic%20Strings.md)
    - [x] [Remove outermost Paranthesis](./String/RemoveOutermostParanthesis.md)
    - [x] [String to Integer (atoi)](./String/Easy/StringToInteger.md)
+   - [x] [Sort Characters By Frequency](./String/Medium/SortCharactersByFrequency.md)
 
    ### Medium
    - [x] [Valid Substring](./String/ValidSubstring.md)
