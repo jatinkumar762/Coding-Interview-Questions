@@ -23,3 +23,22 @@ similarly other combinations possible, where can put cow at different indexes
 after all combination, we need to find max of all combinations
 
 Max ( comb-1, comb2, ...)
+
+
+### Approach-1
+
+arr[] = [0, 3, 4, 7, 9, 10] & cows = 4
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;0&emsp;&emsp;3&emsp;&emsp;4&emsp;&emsp;7&emsp;&emsp;9&emsp;&emsp;10
+
+min dist. 1&emsp;C1&emsp;&ensp;C2&emsp;&ensp;C3&emsp;&ensp;C4
+
+min dist. 2&emsp;C1&emsp;&ensp;C2&emsp;&emsp;&emsp;&emsp;&ensp;C3&emsp;C4
+
+min dist. 3&emsp;C1&emsp;&ensp;C2&emsp;&emsp;&emsp;&emsp;&ensp;C3&emsp;&emsp;&emsp;&emsp;C4
+
+min dist. 4&emsp;C1&emsp;&emsp;&emsp;&emsp;C2&emsp;&emsp;&emsp;&emsp;C3&emsp;&emsp;&emsp;&emsp;&rarr; unable to put C4, above 3 min dist among cows not possible
+
+* why started from 0 index, bcz we want to put max cows 
+
+min cows can possible is 2, so max distance if cows=2, in above example (10 - 0) &rarr; 10 
