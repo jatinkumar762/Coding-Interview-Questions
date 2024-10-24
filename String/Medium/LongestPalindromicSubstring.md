@@ -82,6 +82,10 @@ class Solution {
 
 **Time Complexity:** $O(N^2)$
 
+### Approach-3 Dynamic Programming
+
+![DP Table](./DP%20-%20Longest%20Palindromic%20Substring.png)
+
 
 
 
