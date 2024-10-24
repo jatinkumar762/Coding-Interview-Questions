@@ -43,3 +43,35 @@ class Solution {
     }
 }
 ```
+
+### Approach-2 Using in-built function split
+
+```java
+public class ReverseWords {
+
+    public static String reverseWords(String s) {
+        // Trim the string to remove leading and trailing spaces
+        s = s.trim();
+        // Split the string into words using whitespace as a delimiter
+        String[] words = s.split("\\s+");
+        // StringBuilder to build the reversed string
+        StringBuilder reversed = new StringBuilder();
+
+        // Append the words in reverse order
+        for (int i = words.length - 1; i >= 0; i--) {
+            reversed.append(words[i]);
+            if (i != 0) {
+                reversed.append(" "); // Add space between words
+            }
+        }
+
+        return reversed.toString();
+    }
+
+    public static void main(String[] args) {
+        String inputString = "Hello world from ChatGPT";
+        String result = reverseWords(inputString);
+        System.out.println(result);  // Output: "ChatGPT from world Hello"
+    }
+}
+```
