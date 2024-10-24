@@ -144,3 +144,8 @@ class Solution {
 **Space Complexity:** $O(N^2)$ for the DP table.
 
 
+### ToDo - Manacher's Algorithm
+
+* Manacher's Algorithm is an efficient algorithm to find the longest palindromic substring in linear time, $O(n)$.
+
+
