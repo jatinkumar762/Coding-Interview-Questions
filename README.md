@@ -207,7 +207,7 @@
    - [x] [Longest Common Subsequence](./String/Medium/longest%20common%20subsequence.md)
    - [x] [Smallest distinct window](./String/Medium/SmallestDistinctWindow.md)
    - [x] [Transform One String to Another using Minimum Number of Given Operation](./String/Medium/TransformStringMinOperations.md)
-   - [x] [Count number of substrings](./String/Medium/CountNumberofSubstrings.md)
+   - [x] [Count number of substrings k distinct characters](./String/Medium/CountNumberofSubstrings.md)
    - [x] [Longest Palindromic Substring](./String/Medium/LongestPalindromicSubstring.md)
    - [x] [Reverse Words in a String](./String/Medium/ReverseWordsinaString.md)
 
