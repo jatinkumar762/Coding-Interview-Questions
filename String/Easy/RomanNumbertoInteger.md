@@ -37,5 +37,40 @@ class Solution {
 
         return total;
     }
-};
+}
+```
+
+### Integer to Roman
+
+* https://leetcode.com/problems/integer-to-roman/description/
+
+```java
+class Solution {
+    public String intToRoman(int num) {
+        // Arrays to hold the Roman numerals and their corresponding integer values
+        String[] romanNumerals = {
+                "M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"
+        };
+        int[] values = {
+                1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1
+        };
+
+        StringBuilder romanString = new StringBuilder("");
+        int quotient;
+
+        for (int i = 0; i < values.length && num > 0; i++) {
+
+            if (values[i] <= num) {
+
+                quotient = num / values[i];
+
+                num = num % values[i];
+
+                romanString.append(romanNumerals[i].repeat(quotient));
+            }
+        }
+
+        return romanString.toString();
+    }
+}
 ```
