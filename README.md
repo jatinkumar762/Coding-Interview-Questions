@@ -207,6 +207,7 @@
    - [x] [Longest Common Subsequence](./String/Medium/longest%20common%20subsequence.md)
    - [x] [Smallest distinct window](./String/Medium/SmallestDistinctWindow.md)
    - [x] [Transform One String to Another using Minimum Number of Given Operation](./String/Medium/TransformStringMinOperations.md)
+   - [x] [Count number of substrings](./String/Medium/CountNumberofSubstrings.md)
 
    ### Hard
    - [x] [Minimum characters to be added at front to make string palindrome](./String/Hard/AddCharactersFrontMakeStringPalindrome.md)
