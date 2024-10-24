@@ -74,3 +74,15 @@ class Solution {
     }
 }
 ```
+
+**another way**
+
+```java
+ for (int i = 0; i < values.length && num > 0; i++) {
+    while (num >= values[i]) {
+        romanString.append(romanNumerals[i]);
+        num -= values[i];
+    }
+
+}
+```
