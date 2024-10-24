@@ -86,6 +86,57 @@ class Solution {
 
 ![DP Table](./DP%20-%20Longest%20Palindromic%20Substring.png)
 
+```java
+class Solution {
+    public String longestPalindrome(String s) {
 
+        int n = s.length();
+        char[] arr = s.toCharArray();
+
+        boolean[][] dp = new boolean[n][n];
+
+        int maxLen = 1, maxIndex = 0;
+
+        // length 1 strings
+        for (int i = 0; i < n; i++) {
+            dp[i][i] = true;
+        }
+
+        // length 2 strings
+        for (int i = 0; i < n - 1; i++) {
+            if (arr[i] == arr[i + 1]) {
+                maxLen = 2;
+                maxIndex = i;
+                dp[i][i + 1] = true;
+            }
+        }
+
+        // max length can go till original string len
+
+        for (int l = 3; l <= n; l++) {
+            for (int i = 0; i < n - l + 1; i++) {
+                // Ending index
+                int j = i + l - 1;
+                if (arr[i] == arr[j] && dp[i + 1][j - 1]) {
+                    dp[i][j] = true;
+
+                    if (maxLen < l) {
+                        maxLen = l;
+                        maxIndex = i;
+                    }
+                }
+            }
+        }
+
+        StringBuilder res = new StringBuilder("");
+
+        for (int index = maxIndex; index < (maxIndex + maxLen); index++) {
+            res.append(arr[index]);
+        }
+
+        return res.toString();
+    }
+}
+```
 
 
