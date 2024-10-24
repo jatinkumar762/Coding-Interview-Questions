@@ -7,7 +7,7 @@ https://leetcode.com/problems/longest-palindromic-substring/description/
 
 **Time Complexity:** $O(N^2)*O(N)$
 
-### Approach-2 Expand Around Center
+### Approach-2 Expand Around Center - 96ms
 
 * from each index, will go its right and left dir to check palindrome
 * two cases in it
@@ -82,7 +82,7 @@ class Solution {
 
 **Time Complexity:** $O(N^2)$
 
-### Approach-3 Dynamic Programming
+### Approach-3 Dynamic Programming - 61 ms
 
 ![DP Table](./DP%20-%20Longest%20Palindromic%20Substring.png)
 
