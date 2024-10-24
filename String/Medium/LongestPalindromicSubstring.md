@@ -139,4 +139,8 @@ class Solution {
 }
 ```
 
+**Time Complexity:** $O(N^2)$ where n is the length of the string, due to the nested loops filling the DP table.
+
+**Space Complexity:** $O(N^2)$ for the DP table.
+
 
