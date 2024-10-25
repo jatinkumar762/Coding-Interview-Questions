@@ -109,6 +109,7 @@
   - [x] [Word Search in grid of characters](./Recursion/Other/WordSearch.md)
   - [x] [N-Queens](./Recursion/Other/N-Queens.md)
   - [x] [Word Break](./Recursion/Other/Word%20Break.md)
+  - [ ] [Palindrome Partitioning](./Recursion/Other/PalindromePartitioning.md)
 
 ## LinkedList
   #### Easy
