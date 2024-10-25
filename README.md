@@ -101,6 +101,9 @@
   - [x] [Permutations](./Recursion/Medium/Permutations.md)
   - [x] [Permutations II](./Recursion/Medium/Permutations-II.md)
 
+  #### SubSequence Pattern
+  - [x] [Generate all binary strings without consecutive 1s](./Recursion/SubSequence%20Pattern/generate-binary-strings-without-consecutive-1s.md)
+
 ## LinkedList
   #### Easy
   - [x] [Design Linked List](./LinkedList/Easy/SingleLinkedList.md)
