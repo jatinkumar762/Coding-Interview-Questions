@@ -106,8 +106,9 @@
   - [x] [Subsets](./Recursion/SubSequence%20Pattern/SubSets.md)
 
   #### Other
-  - [x] [Word Search](./Recursion/Other/WordSearch.md)
+  - [x] [Word Search in grid of characters](./Recursion/Other/WordSearch.md)
   - [x] [N-Queens](./Recursion/Other/N-Queens.md)
+  - [x] [Word Break](./Recursion/Other/Word%20Break.md)
 
 ## LinkedList
   #### Easy
