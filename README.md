@@ -88,6 +88,7 @@
   - [x] [Sort a stack](./Recursion/Easy/SortStack.md)
 
   #### Medium
+  - [x] [Recursive Implementation of atoi](./Recursion/Medium/RecursiveImplementationofAtoI.md)
   - [x] [Subset Sums](./Recursion/Medium/SubsetSums.md)
   - [x] [Power (x,n)](./Recursion/Medium/PowerX^N.md)
   - [x] [Count Good Numbers](./Recursion/Medium/CountGoodNumbers.md)
