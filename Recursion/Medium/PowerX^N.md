@@ -75,12 +75,10 @@ class Solution {
         if(n==0)
             return 1;
         
-        double result = 1;
-        
-        negative = n<0?true:false;
+        boolean negative = n<0?true:false;
         
         /*
-          integer overflow can happen
+          integer overflow can happen if we do n = -1 * n
           when Integer.MIN_VALUE;
           n = Math.abs(n);
           x = 2.00000
@@ -89,15 +87,16 @@ class Solution {
 
         long N = (long)(n);
         if(negative){
-            N  = -1*N;
+            N  = -1 * N;
         }
 
-        while(N>0){
-            if((N&1)!=0){
-                result*=x;
+        double result = 1;
+        while (N > 0) {
+            if ((N & 1) != 0) { // when N==1 or N == odd 
+                result *= x;
             }
-            x=x*x;
-            N=N/2;
+            x = x * x;
+            N = N / 2;
         }
         return negative ? (1/result):result;
     }
@@ -125,6 +124,6 @@ OR we can also write this as
 Now, 7^8 × 7^2 × 7^1 == 7^11 as 7^(8 + 2 + 1) == 7^11
 NOTE: We have not considered 74 in this case as the 4th place bit is OFF
 
-So, 78 × 72 × 71 == 5764801 × 49 × 7 == 1977326743 <-- Desired Output
+So, 7^8 × 7^2 × 7^1 == 5764801 × 49 × 7 == 1977326743 <-- Desired Output
 Now, applying logic keeping this concept in mind
 
