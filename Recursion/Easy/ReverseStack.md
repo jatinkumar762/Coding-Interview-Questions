@@ -34,3 +34,9 @@ class Solution
     }
 }
 ```
+
+stack &rarr; [3, 4, 5]
+
+3, [4, 5] &rarr; 4, [5] &rarr; 5
+
+[5, 4, 3] &larr; [5, 4] &larr; 5
