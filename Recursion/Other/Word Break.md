@@ -67,7 +67,7 @@ class Solution {
                 }
                 */
 
-                dp[i] = dict && ((i + j) < len ? dp[i + j] : true);
+                dp[i] = (i + j) < len ? dp[i + j] : true;
 
                 if (dp[i]) {
                     break;
