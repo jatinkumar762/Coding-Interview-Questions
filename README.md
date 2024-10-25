@@ -107,6 +107,7 @@
 
   #### Other
   - [x] [Word Search](./Recursion/Other/WordSearch.md)
+  - [x] [N-Queens](./Recursion/Other/N-Queens.md)
 
 ## LinkedList
   #### Easy
