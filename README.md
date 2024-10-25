@@ -89,8 +89,8 @@
 
   #### Medium
   - [x] [Recursive Implementation of atoi](./Recursion/Medium/RecursiveImplementationofAtoI.md)
-  - [x] [Subset Sums](./Recursion/Medium/SubsetSums.md)
   - [x] [Power (x,n)](./Recursion/Medium/PowerX^N.md)
+  - [x] [Subset Sums](./Recursion/Medium/SubsetSums.md)
   - [x] [Count Good Numbers](./Recursion/Medium/CountGoodNumbers.md)
   - [x] [Subsets](./Recursion/Medium/SubSets.md)
   - [x] [Combination Sum](./Recursion/Medium/CombinationSum.md)
