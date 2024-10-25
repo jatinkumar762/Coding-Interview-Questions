@@ -92,7 +92,6 @@
   - [x] [Power (x,n)](./Recursion/Medium/PowerX^N.md)
   - [x] [Subset Sums](./Recursion/Medium/SubsetSums.md)
   - [x] [Count Good Numbers](./Recursion/Medium/CountGoodNumbers.md)
-  - [x] [Subsets](./Recursion/Medium/SubSets.md)
   - [x] [Combination Sum](./Recursion/Medium/CombinationSum.md)
   - [x] [Combination Sum II](./Recursion/Medium/CombinationSum-II.md)
   - [x] [Combination Sum III](./Recursion/Medium/CombinationSum-III.md)
@@ -104,6 +103,7 @@
   #### SubSequence Pattern
   - [x] [Generate all binary strings without consecutive 1s](./Recursion/SubSequence%20Pattern/generate-binary-strings-without-consecutive-1s.md)
   - [x] [Generate Parentheses](./Recursion/SubSequence%20Pattern/GenerateParentheses.md)
+  - [x] [Subsets](./Recursion/SubSequence%20Pattern/SubSets.md)
 
 ## LinkedList
   #### Easy
