@@ -74,3 +74,12 @@ class Solution {
 
 }
 ```
+
+### Approach-2 
+
+```
+// Check for overflow/underflow
+if (total > (Integer.MAX_VALUE - digit) / 10) {
+    return sign == 1 ? Integer.MAX_VALUE : Integer.MIN_VALUE; // Return appropriate bound
+}
+```
