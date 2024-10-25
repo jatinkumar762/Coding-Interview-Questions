@@ -5,6 +5,7 @@ class Solution
 { 
     static void reverse_insert(Stack<Integer> s, int tmp){
         
+        //will make recursive call until stack empty
         if(s.isEmpty()){
             s.push(tmp);
             return;
@@ -20,7 +21,7 @@ class Solution
     
     static void reverse(Stack<Integer> s)
     {
-        // add your code here
+
         if(s.isEmpty() || s.size()==1){
             return;
         }

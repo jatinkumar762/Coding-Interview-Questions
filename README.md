@@ -84,8 +84,8 @@
 
 ## Recursion
   - [x] [Combination Sum](./Recursion/CombinationSum.md)
-  - [x] [Reverse a Stack](./Recursion/Easy/ReverseStack.md)
   - [x] [Sort a stack](./Recursion/Easy/SortStack.md)
+  - [x] [Reverse a Stack](./Recursion/Easy/ReverseStack.md)
 
   #### Medium
   - [x] [Recursive Implementation of atoi](./Recursion/Medium/RecursiveImplementationofAtoI.md)
