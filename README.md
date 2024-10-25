@@ -103,6 +103,7 @@
 
   #### SubSequence Pattern
   - [x] [Generate all binary strings without consecutive 1s](./Recursion/SubSequence%20Pattern/generate-binary-strings-without-consecutive-1s.md)
+  - [x] [Generate Parentheses](./Recursion/SubSequence%20Pattern/GenerateParentheses.md)
 
 ## LinkedList
   #### Easy
