@@ -31,3 +31,5 @@ class Solution {
   
 }
 ```
+
+**Time Complexity:** $O(2^N)$
