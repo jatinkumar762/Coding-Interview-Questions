@@ -81,3 +81,5 @@ class Solution {
 * because after placing a queen in one row, it cannot be placed in the same column in subsequent rows.
 * The isSafe method checks for conflicts, which helps prune the search space significantly. Despite this, in the worst case, the algorithm may still check a large number of placements.
 * The worst-case time complexity is $O(N!)$
+
+**Space Complexity:** $O(N^2) + O(N)$ table + rec stack
