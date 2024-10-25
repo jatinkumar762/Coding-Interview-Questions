@@ -105,6 +105,9 @@
   - [x] [Generate Parentheses](./Recursion/SubSequence%20Pattern/GenerateParentheses.md)
   - [x] [Subsets](./Recursion/SubSequence%20Pattern/SubSets.md)
 
+  #### Other
+  - [x] [Word Search](./Recursion/Other/WordSearch.md)
+
 ## LinkedList
   #### Easy
   - [x] [Design Linked List](./LinkedList/Easy/SingleLinkedList.md)
