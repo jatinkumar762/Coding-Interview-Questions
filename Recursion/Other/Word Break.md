@@ -56,6 +56,9 @@ class Solution {
 
                 boolean dict = wordDict.contains(s.substring(i, i + j));
 
+                if (!dict) {
+                    continue;
+                }
                 /*
                 if ((i + j) < len) {
                     dp[i] = dict && dp[i + j];
@@ -76,5 +79,42 @@ class Solution {
 
         return dp[0];
     }
+}
+```
+
+### Dynamic Programming - (Left to Right)
+
+```java
+class Solution {
+    public boolean wordBreak(String s, List<String> wordDict) {
+
+        int len = s.length();
+
+        if (len == 0) {
+            return true;
+        }
+
+        boolean[] dp = new boolean[len];
+
+        for (int i = 0; i < len; i++) {
+            for (int j = i; j >= 0; j--) {
+
+                boolean dict = wordDict.contains(s.substring(j, i + 1));
+
+                if (!dict) {
+                    continue;
+                }
+
+                dp[i] = j > 0 ? dp[j - 1] : true;
+
+                if (dp[i]) {
+                    break;
+                }
+            }
+        }
+
+        return dp[len - 1];
+    }
+
 }
 ```
