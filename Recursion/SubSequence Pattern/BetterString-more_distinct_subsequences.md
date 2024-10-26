@@ -49,6 +49,8 @@ class Solution {
 
 * https://www.youtube.com/watch?v=9UEHPiK53BA&ab_channel=Pepcoding
 
+
+
 ```java
 class Solution {
     public static String betterString(String str1, String str2) {
@@ -91,3 +93,31 @@ class Solution {
 ```
 
 ![Example](./Count%20Distinct%20Subsequences%20Dynamic%20Programming.png)
+
+
+Example - abcbb
+
+| {} | a | b | c | b | b |
+|----|---|---|---|---|---|
+| 0  | 1 | 2 | 3 | 4 | 5 |
+| 1  | 2 | 4 | 8 | (8*2)-2 = 14 | (14 * 2) - 8 = 20 |  
+
+at index 4 &rarr; dp[4] = dp[3] - dp[1] - (last occurrence of b index - 1)
+
+bcz we index-4 b, combine with till index - 1, will give duplicate result
+
+will combine index-4 b, with rest elements to get distinct subsequences till index 4
+
+---
+
+similarly, dp[5] = dp[4] * 2 - dp[3]
+
+here last occurrence of b is at 4-index
+
+to not consider duplicates, if i don't combine index-5 b with subsequences till index-3, duplicates will not considered 
+
+index-5, will get combined with distinct 6 subsequences on index-4
+
+(14 - 8) = 6, bcz if combine with 8 &rarr; will give duplicate
+
+total if we do count till index-5 &rarr; 14 previous + 6 (new combining with previous) = 20 &larr; (14 * 2 - 8)
