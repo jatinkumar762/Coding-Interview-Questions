@@ -314,16 +314,6 @@
   - [x] [Validate Binary Search Tree](./BST/Medium/ValidateBinarySearchTree.md)
   - [x] [Lowest Common Ancestor of a Binary Search Tree](./BST/Medium/LowestCommonAncestorBinarySearchTree.md)
 
-## Backtracking
-  ### Medium
-  - [x] [Permutations](./Backtracking/Permutations.md)
-  - [x] [Permutations II](./Backtracking/Permutations_2.md)
-  - [x] [Subsets](./Backtracking/Subsets.md)
-  - [x] [Subsets II](./Backtracking/Subsets_2.md)
-  - [x] [Combination Sum](./Backtracking/CombinationSum.md)
-  - [x] [Combination Sum II](./Backtracking/CombinationSum_2.md)
-  - [x] [Palindrome Partitioning](./Backtracking/PalindromePartitioning.md)
-
 ## Dynamic Programming
   ### 1D DP
   - [x] [Introduction to DP](./DynamicProgramming/1D_DP/Introduction_to_DP.md)
