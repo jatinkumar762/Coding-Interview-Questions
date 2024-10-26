@@ -77,5 +77,35 @@ class Solution {
 TimeComplexity - O(N×2^N) to generate all subsets and then copy them into the output list.
 Each element has 2 possibilities to take or not
 
-#### Approach 3: Binary String
+#### Approach 3: Binary Representation of Numbers from 0 to 2^n – 1
+
+```java
+class Solution {
+
+    public List<List<Integer>> subsets(int[] nums) {
+
+        List<List<Integer>> result = new ArrayList<>();
+
+        int N = nums.length;
+
+        // 2^N
+        int totalSubSequences = 1 << N;
+
+        for (int i = 0; i < totalSubSequences; i++) {
+
+            List<Integer> tmp = new ArrayList<>();
+
+            for (int j = 0; j < N; j++) {
+                if ((i & (1 << j)) != 0) {
+                    tmp.add(nums[j]);
+                }
+            }
+
+            result.add(tmp);
+        }
+
+        return result;
+    }
+}
+```
 
