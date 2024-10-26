@@ -2,6 +2,8 @@ https://www.geeksforgeeks.org/problems/better-string/1
 
 https://leetcode.com/problems/distinct-subsequences-ii/
 
+**Theory:** https://www.geeksforgeeks.org/count-distinct-subsequences/
+
 ### Approach-1 
 
 * will give TLE
@@ -121,3 +123,26 @@ index-5, will get combined with distinct 6 subsequences on index-4
 (14 - 8) = 6, bcz if combine with 8 &rarr; will give duplicate
 
 total if we do count till index-5 &rarr; 14 previous + 6 (new combining with previous) = 20 &larr; (14 * 2 - 8)
+
+{} (empty)
+{a}
+{b}
+{c}
+{a, b}
+{a, c}
+{b, c}
+{a, b, c}
+
+{b, b}
+{a, b, b}
+{a, c, b}
+{b, c, b}
+{a, b, c, b}
+
+{b, b, c}
+{b, a, b}
+{c, b, b}
+{a, b, c, b}
+{b, a}
+{a, b, b, c}
+{b, a, b, c}
