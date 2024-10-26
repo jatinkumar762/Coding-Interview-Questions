@@ -104,7 +104,7 @@
   - [x] [Generate all binary strings without consecutive 1s](./Recursion/SubSequence%20Pattern/generate-binary-strings-without-consecutive-1s.md)
   - [x] [Generate Parentheses](./Recursion/SubSequence%20Pattern/GenerateParentheses.md)
   - [x] [Print all subsequences/Power Set/Subsets](./Recursion/SubSequence%20Pattern/SubSets.md)
-  - [x] [Better String - more distinct subsequences](./Recursion/SubSequence%20Pattern/BetterString-more_distinct_subsequences.md)
+  - [x] [Better String - Count distinct subsequences](./Recursion/SubSequence%20Pattern/BetterString-more_distinct_subsequences.md)
 
   #### Other
   - [x] [Word Search in grid of characters](./Recursion/Other/WordSearch.md)
