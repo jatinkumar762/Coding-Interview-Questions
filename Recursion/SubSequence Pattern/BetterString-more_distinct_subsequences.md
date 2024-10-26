@@ -1,5 +1,7 @@
 https://www.geeksforgeeks.org/problems/better-string/1
 
+https://leetcode.com/problems/distinct-subsequences-ii/
+
 ### Approach-1 
 
 * will give TLE
@@ -45,6 +47,8 @@ class Solution {
 
 ### Approach-2 Using Dynamic Programming
 
+* https://www.youtube.com/watch?v=9UEHPiK53BA&ab_channel=Pepcoding
+
 ```java
 class Solution {
     public static String betterString(String str1, String str2) {
@@ -85,3 +89,5 @@ class Solution {
     }
 }
 ```
+
+![Example](./Count%20Distinct%20Subsequences%20Dynamic%20Programming.png)
