@@ -253,12 +253,12 @@
   - [x] [Implement Circular Queue](./StackAndQueue/Easy/ImplementCircularQueue.md)
   - [x] [Valid Parentheses](./StackAndQueue/Easy/ValidParentheses.md)
   - [x] [Get minimum element from stack in O(1) time](./StackAndQueue/Medium/MinimumElementFromStack.md)
-  - [x] [BFS - Number of Islands](./StackAndQueue/Easy/BFS%20-%20Number%20of%20Islands.md)
   - [x] [Expression contains redundant bracket or not](https://www.geeksforgeeks.org/expression-contains-redundant-bracket-not/)
   - [x] [Daily Temperatures](./StackAndQueue/Easy/DailyTemperatures.md)
   - [x] [Keys and Rooms](./StackAndQueue/Easy/KeysAndRooms.md)
 
   #### Medium
+  - [x] [BFS - Number of Islands](./StackAndQueue/Easy/BFS%20-%20Number%20of%20Islands.md)
   - [x] 🔥 [BFS - Open the Lock](./StackAndQueue/Medium/Open%20the%20Lock.md)
   - [x] [Next Greater Element](./StackAndQueue/Medium/NextGreaterElement.md)
   - [x] [The Celebrity Problem](./StackAndQueue/Medium/TheCelebrityProblem.md)
