@@ -48,7 +48,10 @@ class MyStack {
  */
  ```
 
- #### Follow-up: Can you implement the stack using only one queue?
- * Push - O(N)
- * Pop - o(1)
- * invert the order of queue elements when pushing a new element
+ ### Follow-up: Can you implement the stack using only one queue?
+
+[Implement a stack using single queue](https://www.geeksforgeeks.org/implement-a-stack-using-single-queue/)
+
+* Push - O(N)
+* Pop - o(1)
+* invert the order of queue elements when pushing a new element
