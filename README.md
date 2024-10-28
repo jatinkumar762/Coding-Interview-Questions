@@ -260,7 +260,6 @@
   #### Medium
   - [x] [BFS - Number of Islands](./StackAndQueue/Medium/BFS%20-%20Number%20of%20Islands.md)
   - [x] 🔥 [BFS - Open the Lock](./StackAndQueue/Medium/Open%20the%20Lock.md)
-  - [x] [Next Greater Element](./StackAndQueue/Medium/NextGreaterElement.md)
   - [x] [The Celebrity Problem](./StackAndQueue/Medium/TheCelebrityProblem.md)
   - [x] [Design a stack with operations on middle element](./StackAndQueue/Medium/StackMiddleElement.md)
   - [x] 🔥 [Validate Stack Sequences](./StackAndQueue/Medium/ValidateStackSequences.md)
@@ -269,7 +268,6 @@
   - [x] 🔥 [Decode String](./StackAndQueue/Medium/DecodeString.md) 
   - [x] 🔥 [01 Matrix](./StackAndQueue/Medium/01%20Matrix.md)
   - [x] [Online Stock Span](./StackAndQueue/Medium/OnlineStockSpan.md)
-  - [x] [Next Greater Element II](./StackAndQueue/Medium/NextGreaterElementII.md)
   - [x] [Number of NGEs to the right](./StackAndQueue/Medium/NumberofNGEsRight.md)
 
   #### Prefix/Infix/Postfix
@@ -279,6 +277,11 @@
   - [x] [Postfix to Prefix Conversion](./StackAndQueue/Easy/PostfixToPrefix.md)
   - [x] [Postfix to Infix Conversion](./StackAndQueue/Easy/PostfixToInfix.md)
   - [x] [Convert Infix to Prefix](./StackAndQueue/Easy/InfixToPrefix.md)
+
+  #### Monotonic Stack/Queue Problems
+  - [x] [Next Greater Element](./StackAndQueue/MonotonicStackQueueProblems/NextGreaterElement.md)
+  - [x] [Next Greater Element II](./StackAndQueue/MonotonicStackQueueProblems/NextGreaterElementII.md)
+
 
 ## Binary Tree
 
