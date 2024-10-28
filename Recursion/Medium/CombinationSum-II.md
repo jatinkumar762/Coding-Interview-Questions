@@ -23,9 +23,15 @@ class Solution {
         }
 
         for (int i = start; i < N; i++) {
+            
+            //[2, 2, 3, 4] target = 5 
             if(i>start && candidates[i]==candidates[i-1]) continue;
+            
             tmp.add(candidates[i]);
+
+            //i+1 -> given each number in candidates may only be used once in the combination.
             findCombinationSum(i + 1, candidates, target - candidates[i], tmp);
+
             tmp.remove(tmp.size() - 1);
         }
     }
