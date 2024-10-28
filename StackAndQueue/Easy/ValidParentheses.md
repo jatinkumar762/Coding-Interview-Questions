@@ -46,3 +46,56 @@ class Solution
     }
 }
 ```
+
+### Approach-2 Using Stack library
+
+```java
+class Solution {
+    public boolean isValid(String s) {
+
+        int len = s.length();
+
+        if (len % 2 != 0)
+            return false;
+
+        Stack<Character> stack = new Stack<>();
+
+        for (char ch : s.toCharArray()) {
+
+            if (ch == '(' || ch == '{' || ch == '[') {
+                stack.push(ch);
+                continue;
+            }
+
+            if (stack.isEmpty()) {
+                return false;
+            }
+
+            char pop = stack.pop();
+
+            if (!match(pop, ch)) {
+                return false;
+            }
+        }
+
+        return stack.isEmpty() ? true : false;
+    }
+
+    private boolean match(char c1, char c2) {
+
+        switch (c1) {
+            case '{' -> {
+                return c2 == '}' ? true : false;
+            }
+            case '(' -> {
+                return c2 == ')' ? true : false;
+            }
+            case '[' -> {
+                return c2 == ']' ? true : false;
+            }
+        }
+
+        return false;
+    }
+}
+```
