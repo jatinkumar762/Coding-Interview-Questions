@@ -52,6 +52,50 @@ class MyStack {
 
 [Implement a stack using single queue](https://www.geeksforgeeks.org/implement-a-stack-using-single-queue/)
 
-* Push - O(N)
-* Pop - o(1)
+* Push - $O(N)$
+* Pop - $O(1)$
 * invert the order of queue elements when pushing a new element
+
+```java
+class MyStack {
+
+    Queue<Integer> queue;
+
+    public MyStack() {
+        queue = new LinkedList<Integer>();
+    }
+
+    public void push(int x) {
+
+        int size = queue.size();
+
+        queue.add(x);
+
+        for (int i = 0; i < size; i++) {
+            int tmp = queue.remove();
+            queue.add(tmp);
+        }
+    }
+
+    public int pop() {
+        return queue.remove();
+    }
+
+    public int top() {
+        return queue.peek();
+    }
+
+    public boolean empty() {
+        return queue.isEmpty();
+    }
+}
+
+/**
+ * Your MyStack object will be instantiated and called as such:
+ * MyStack obj = new MyStack();
+ * obj.push(x);
+ * int param_2 = obj.pop();
+ * int param_3 = obj.top();
+ * boolean param_4 = obj.empty();
+ */
+```
