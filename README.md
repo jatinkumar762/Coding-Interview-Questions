@@ -95,8 +95,8 @@
   - [x] [Combination Sum](./Recursion/Medium/CombinationSum.md)
   - [x] [Combination Sum II](./Recursion/Medium/CombinationSum-II.md)
   - [x] [Combination Sum III](./Recursion/Medium/CombinationSum-III.md)
-  - [x] [Letter Combinations of a Phone Number](./Recursion/Medium/LetterCombinationsPhoneNumber.md)
   - [x] [Subsets II](./Recursion/Medium/Subsets-II.md)
+  - [x] [Letter Combinations of a Phone Number](./Recursion/Medium/LetterCombinationsPhoneNumber.md)
   - [x] [Permutations](./Recursion/Medium/Permutations.md)
   - [x] [Permutations II](./Recursion/Medium/Permutations-II.md)
 
