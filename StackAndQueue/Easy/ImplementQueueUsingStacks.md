@@ -49,3 +49,10 @@ class MyQueue {
  * boolean param_4 = obj.empty();
  */
  ```
+
+ **Note: Amortized Analysis**
+
+The transfer from stack1 to stack2 happens at most once for each element throughout the sequence of operations, leading to the $O(n)$ total time for n operations. Thus, each operation is $O(1)$ on average.
+
+
+**Amortized analysis** is a technique used in computer science to analyze the average time complexity of operations over a sequence of operations, rather than looking at the worst-case time complexity of individual operations
