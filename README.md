@@ -246,14 +246,15 @@
   - [x] [Implement Queue using array](./StackAndQueue/Basic/implement-queue-using-array.md) 
 
   #### Easy
+  - [x] [Implement Queue using Stacks](./StackAndQueue/Easy/ImplementQueueUsingStacks.md)
+  - [x] [Implement Stack using Queues](./StackAndQueue/Medium/StackUsingQueue.md)
+  - [x] [Implement Stack using Linked List](./StackAndQueue/Easy/implement-stack-using-linked-list.md)
   - [x] [Implement Circular Queue](./StackAndQueue/Easy/ImplementCircularQueue.md)
   - [x] [BFS - Number of Islands](./StackAndQueue/Easy/BFS%20-%20Number%20of%20Islands.md)
   - [x] [Valid Parentheses](./StackAndQueue/Easy/ValidParentheses.md)
   - [x] []
   - [x] [Expression contains redundant bracket or not](https://www.geeksforgeeks.org/expression-contains-redundant-bracket-not/)
   - [x] [Daily Temperatures](./StackAndQueue/Easy/DailyTemperatures.md)
-  - [x] [Implement Queue using Stacks](./StackAndQueue/Easy/ImplementQueueUsingStacks.md)
-  - [x] [Implement Stack using Queues](./StackAndQueue/Medium/StackUsingQueue.md)
   - [x] [Keys and Rooms](./StackAndQueue/Easy/KeysAndRooms.md)
 
   #### Medium
