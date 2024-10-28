@@ -243,7 +243,7 @@
 ## Stacks & Queues
   #### Basic
   - [x] [Implement Stack using array](./StackAndQueue/Basic/ImplementStackUsingArray.md)
-  - [x] [Implement Queue using array]() 
+  - [x] [Implement Queue using array](./StackAndQueue/Basic/implement-queue-using-array.md) 
 
   #### Easy
   - [x] [Implement Circular Queue](./StackAndQueue/Easy/ImplementCircularQueue.md)
