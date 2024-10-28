@@ -27,6 +27,10 @@ class Solution {
             //[2, 2, 3, 4] target = 5 
             if(i>start && candidates[i]==candidates[i-1]) continue;
             
+            if(candidates[i] > target){
+                break;
+            }
+
             tmp.add(candidates[i]);
 
             //i+1 -> given each number in candidates may only be used once in the combination.
