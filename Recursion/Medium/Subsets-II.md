@@ -47,18 +47,11 @@ class Solution {
     private void calSubSet(int index, int[] nums, List<Integer> tmp) {
 
         if (index == N) {
+            //storing result in set
             result.add(new ArrayList<>(tmp));
             return;
         }
 
-        // for (int i = index; i < N; i++) {
-        // if (i != index && (nums[i] == nums[i - 1])) {
-        // continue;
-        // }
-        // tmp.add(nums[index]);
-        // calSubSet(i + 1, nums, tmp);
-        // tmp.remove(tmp.size() - 1);
-        // }
         tmp.add(nums[index]);
         calSubSet(index + 1, nums, tmp);
         tmp.remove(tmp.size() - 1);
