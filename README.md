@@ -242,7 +242,7 @@
 
 ## Stacks & Queues
   #### Basic
-  - [x] [Implement Stack using array]()
+  - [x] [Implement Stack using array](./StackAndQueue/Basic/ImplementStackUsingArray.md)
   - [x] [Implement Queue using array]() 
 
   #### Easy
