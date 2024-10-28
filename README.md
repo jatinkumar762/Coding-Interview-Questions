@@ -249,6 +249,7 @@
   - [x] [Implement Queue using Stacks](./StackAndQueue/Easy/ImplementQueueUsingStacks.md)
   - [x] [Implement Stack using Queues](./StackAndQueue/Medium/StackUsingQueue.md)
   - [x] [Implement Stack using Linked List](./StackAndQueue/Easy/implement-stack-using-linked-list.md)
+  - [x] [Implement Queue using Linked List](./StackAndQueue/Easy/implement-queue-using-linked-list.md)
   - [x] [Implement Circular Queue](./StackAndQueue/Easy/ImplementCircularQueue.md)
   - [x] [BFS - Number of Islands](./StackAndQueue/Easy/BFS%20-%20Number%20of%20Islands.md)
   - [x] [Valid Parentheses](./StackAndQueue/Easy/ValidParentheses.md)
