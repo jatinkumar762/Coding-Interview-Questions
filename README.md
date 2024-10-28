@@ -105,6 +105,7 @@
   - [x] [Generate Parentheses](./Recursion/SubSequence%20Pattern/GenerateParentheses.md)
   - [x] [Print all subsequences/Power Set/Subsets](./Recursion/SubSequence%20Pattern/SubSets.md)
   - [x] [Better String - Count distinct subsequences](./Recursion/SubSequence%20Pattern/BetterString-more_distinct_subsequences.md)
+  - [x] [Perfect Sum Problem](./Recursion/SubSequence%20Pattern/PerfectSumProblem.md)
 
   #### Other
   - [x] [Word Search in grid of characters](./Recursion/Other/WordSearch.md)
