@@ -106,6 +106,7 @@
   - [x] [Print all subsequences/Power Set/Subsets](./Recursion/SubSequence%20Pattern/SubSets.md)
   - [x] [Better String - Count distinct subsequences](./Recursion/SubSequence%20Pattern/BetterString-more_distinct_subsequences.md)
   - [x] [Count all subsequences with sum K - Perfect Sum Problem](./Recursion/SubSequence%20Pattern/PerfectSumProblem.md)
+  - [x] [Check if there exists a subsequence with sum K](./Recursion/SubSequence%20Pattern/check-if-there-exists-a-subsequence-with-sum-k.md)
 
   #### Other
   - [x] [Word Search in grid of characters](./Recursion/Other/WordSearch.md)
