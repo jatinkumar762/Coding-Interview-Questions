@@ -279,6 +279,9 @@
   - [x] [Convert Infix to Prefix](./StackAndQueue/Easy/InfixToPrefix.md)
 
   #### Monotonic Stack/Queue Problems
+
+  * Monotonic &rarr; elements are in specific order (increasing/decreasing/any other order)
+
   - [x] [Next Greater Element](./StackAndQueue/MonotonicStackQueueProblems/NextGreaterElement.md)
   - [x] [Next Greater Element II](./StackAndQueue/MonotonicStackQueueProblems/NextGreaterElementII.md)
 
