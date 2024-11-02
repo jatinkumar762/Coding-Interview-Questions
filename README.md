@@ -286,6 +286,7 @@
   - [x] [Next Greater Element II](./StackAndQueue/MonotonicStackQueueProblems/NextGreaterElementII.md)
   - [x] [Nearest Smaller Element](./StackAndQueue/MonotonicStackQueueProblems/NearestSmallerElement.md)
   - [x] [Number of NGEs to the right](./StackAndQueue/MonotonicStackQueueProblems/NumberofNGEsRight.md)
+  - [x] [Sum of Subarray Minimums](./StackAndQueue/MonotonicStackQueueProblems/SumofSubarrayMinimums.md)
 
 
 ## Binary Tree
