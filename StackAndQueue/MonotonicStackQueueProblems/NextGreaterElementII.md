@@ -1,10 +1,9 @@
 https://leetcode.com/problems/next-greater-element-ii/description/
 
 
-Instead of creating Double length array, we can use two loops
-
-Loop once, we can get the Next Greater Number of a normal array.
-Loop twice, we can get the Next Greater Number of a circular array
+* Instead of creating Double length array, we can use two loops
+* Loop once, we can get the Next Greater Number of a normal array.
+* Loop twice, we can get the Next Greater Number of a circular array
 
 
 #### Approach-1 18ms 
@@ -28,7 +27,7 @@ class Solution {
             }
 
             if(!stack.isEmpty()){
-                //duplicate possible
+                //duplicate possible, so can't store against elements of nums
                 //based on index storing corresponding result
                 res[i%N] = stack.peek();
             }
