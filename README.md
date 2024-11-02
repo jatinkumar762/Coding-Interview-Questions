@@ -284,6 +284,7 @@
 
   - [x] [Next Greater Element](./StackAndQueue/MonotonicStackQueueProblems/NextGreaterElement.md)
   - [x] [Next Greater Element II](./StackAndQueue/MonotonicStackQueueProblems/NextGreaterElementII.md)
+  - [x] [Nearest Smaller Element](./StackAndQueue/MonotonicStackQueueProblems/NearestSmallerElement.md)
 
 
 ## Binary Tree
