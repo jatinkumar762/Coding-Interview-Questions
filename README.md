@@ -268,7 +268,7 @@
   - [x] 🔥 [Decode String](./StackAndQueue/Medium/DecodeString.md) 
   - [x] 🔥 [01 Matrix](./StackAndQueue/Medium/01%20Matrix.md)
   - [x] [Online Stock Span](./StackAndQueue/Medium/OnlineStockSpan.md)
-  - [x] [Number of NGEs to the right](./StackAndQueue/Medium/NumberofNGEsRight.md)
+  
 
   #### Prefix/Infix/Postfix
   - [x] [Convert Infix to Postfix](./StackAndQueue/Easy/InfixToPostfix.md)
@@ -285,6 +285,7 @@
   - [x] [Next Greater Element](./StackAndQueue/MonotonicStackQueueProblems/NextGreaterElement.md)
   - [x] [Next Greater Element II](./StackAndQueue/MonotonicStackQueueProblems/NextGreaterElementII.md)
   - [x] [Nearest Smaller Element](./StackAndQueue/MonotonicStackQueueProblems/NearestSmallerElement.md)
+  - [x] [Number of NGEs to the right](./StackAndQueue/MonotonicStackQueueProblems/NumberofNGEsRight.md)
 
 
 ## Binary Tree
