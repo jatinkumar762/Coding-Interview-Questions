@@ -148,3 +148,35 @@ class Solution {
     }
 }
 ```
+
+### Approach-3 4ms 
+
+* Short of Approach-2 code
+
+```java
+class Solution {
+    public long subArrayRanges(int[] nums) {
+
+        long sum = 0;
+        int n = nums.length;
+        
+        for(int i = 0; i < n; i++) {
+            int left = i;
+            int right = i;
+            while(left > 0 && nums[left - 1] <= nums[i]) left--;
+            while(right < n - 1 && nums[right + 1] < nums[i]) right++;
+            
+            sum += (long)(nums[i] * (long)(right - i + 1) * (long)(i - left + 1));
+            
+            left = i;
+            right = i;
+            while(left > 0 && nums[left - 1] >= nums[i]) left--;
+            while(right < n - 1 &&nums [right + 1] > nums[i]) right++;
+            
+            sum -= (long)(nums[i] * (long)(right - i + 1) * (long)(i - left + 1));
+        }
+        
+        return sum;
+    }
+}
+```
