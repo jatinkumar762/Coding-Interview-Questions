@@ -35,6 +35,7 @@ https://www.geeksforgeeks.org/number-nges-right/
 ```java
 class Solution {
     
+    //Note: The top level class cannot be static in java, to create a static class we must create a nested class and then make it static.
     static class Pair<K, V> {
         K first;
         V second;
