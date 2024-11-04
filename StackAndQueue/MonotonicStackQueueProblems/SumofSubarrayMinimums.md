@@ -165,7 +165,7 @@ class Solution {
         }
     }
 
-    void findNextSmall(int[] arr, int[] prevSmallIndex, int N) {
+    void findNextSmall(int[] arr, int[] nextSmallIndex, int N) {
 
         Stack<Integer> stack = new Stack<Integer>();
 
@@ -177,7 +177,7 @@ class Solution {
 
             int index = stack.isEmpty() ? N : stack.peek();
 
-            prevSmallIndex[i] = index;
+            nextSmallIndex[i] = index;
 
             stack.push(i);
         }
