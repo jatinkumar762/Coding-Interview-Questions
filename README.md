@@ -288,6 +288,7 @@
   - [x] [Number of NGEs to the right](./StackAndQueue/MonotonicStackQueueProblems/NumberofNGEsRight.md)
   - [x] [Sum of Subarray Minimums](./StackAndQueue/MonotonicStackQueueProblems/SumofSubarrayMinimums.md)
   - [x] [Trapping Rain Water](./StackAndQueue/MonotonicStackQueueProblems/TrappingRainWater.md)
+  - [x] [Sum of Subarray Ranges](./StackAndQueue/MonotonicStackQueueProblems/SumofSubarrayRanges.md)
 
 ## Binary Tree
 
