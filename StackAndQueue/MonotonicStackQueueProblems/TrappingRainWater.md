@@ -37,3 +37,41 @@ class Solution {
     }
 }
 ```
+
+### Approach-2  Single Traversal
+
+```java
+class Solution {
+    public int trap(int[] arr) {
+
+        int n = arr.length;
+
+        int left = 0, right = n - 1, sum = 0;
+
+        int leftMax = arr[0], rightMax = arr[right];
+
+        while (left < right) {
+
+            if (leftMax <= rightMax) {
+
+                sum += leftMax - arr[left];
+
+                left++;
+
+                leftMax = arr[left] > leftMax ? arr[left] : leftMax;
+
+            } else {
+
+                sum += rightMax - arr[right];
+
+                right--;
+
+                rightMax = arr[right] > rightMax ? arr[right] : rightMax;
+            }
+
+        }
+
+        return sum;
+    }
+}
+```
