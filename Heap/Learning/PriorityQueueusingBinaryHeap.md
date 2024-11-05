@@ -83,4 +83,47 @@ Poll: 20
 
 ---
 
+```java
+import java.util.*;
+
+public class Main
+{
+	public static void main(String[] args) {
+		
+		// Custom comparator that orders elements in descending order
+        Comparator<Integer> descendingComparator = new Comparator<Integer>() {
+            @Override
+            public int compare(Integer a, Integer b) {
+                // Compare b to a for descending order
+                return b - a;  // Or b.compareTo(a) if using Integer's natural ordering
+            }
+        };
+        
+		// Create a PriorityQueue with the custom comparator
+        PriorityQueue<Integer> pq = new PriorityQueue<>(descendingComparator);
+
+        // Add elements to the queue
+        pq.add(10);
+        pq.add(20);
+        pq.add(5);
+        pq.add(30);
+
+        // Print the queue (note: this will not print in order, just the internal structure)
+        System.out.println("PriorityQueue (descending order): " + pq);
+
+        // Poll elements, they will be removed in descending order of value
+        System.out.println("Poll: " + pq.poll());  // 30
+        System.out.println("Poll: " + pq.poll());  // 20
+        System.out.println("Poll: " + pq.poll());  // 10
+        System.out.println("Poll: " + pq.poll());  // 5
+
+	}
+}
+```
+
+PriorityQueue (descending order): [30, 20, 5, 10]
+Poll: 30
+Poll: 20
+Poll: 10
+Poll: 5
 
