@@ -382,6 +382,7 @@
   ### Learning
   - [x] [Implementation of a Heap](./Heap/Learning/HeapImplementation.md)
   - [x] [Implementation of Priority Queue using Binary Heap](./Heap/Learning/PriorityQueueusingBinaryHeap.md)
+  - [x] [Does array represent Heap](./Heap/Learning/DoesArrayRepresentHeap.md)
 
   ### Medium
   - [x] [Find K Closest Elements](./Heap/Medium/KClosestElements.md)
