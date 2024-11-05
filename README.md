@@ -289,6 +289,7 @@
   - [x] [Sum of Subarray Minimums](./StackAndQueue/MonotonicStackQueueProblems/SumofSubarrayMinimums.md)
   - [x] [Trapping Rain Water](./StackAndQueue/MonotonicStackQueueProblems/TrappingRainWater.md)
   - [x] [Sum of Subarray Ranges](./StackAndQueue/MonotonicStackQueueProblems/SumofSubarrayRanges.md)
+  - [x] [Remove K Digits](./StackAndQueue/MonotonicStackQueueProblems/RemoveKDigits.md)
 
 ## Binary Tree
 
