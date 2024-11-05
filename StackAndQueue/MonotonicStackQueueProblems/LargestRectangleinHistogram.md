@@ -125,3 +125,33 @@ class Solution {
 }
 ```
 
+**Note:** Another way to compute Next smaller element
+
+```java
+ // Function to find next smaller for every element
+static int[] nextSmaller(int[] hist) {
+    int n = hist.length;
+
+    // Initialize with n for the cases when next smaller
+    // does not exist
+    int[] nextS = new int[n];
+    for (int i = 0; i < n; i++) {
+        nextS[i] = n;
+    }
+
+    Stack<Integer> st = new Stack<>();
+
+    // Traverse all array elements from left to right
+    for (int i = 0; i < n; i++) {
+        while (!st.isEmpty() && hist[i] < hist[st.peek()]) {
+
+            // Setting the index of the next smaller element
+            // for the top of the stack
+            nextS[st.pop()] = i;
+        }
+        st.push(i);
+    }
+    return nextS;
+}
+```
+
