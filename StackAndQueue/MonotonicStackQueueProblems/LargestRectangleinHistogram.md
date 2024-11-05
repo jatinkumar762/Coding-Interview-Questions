@@ -38,11 +38,9 @@ class Solution {
 
         for (int i = 0; i < len; i++) {
 
-            left = (i - prev[i]) * heights[i];
+            width = next[i] - prev[i] - 1;
 
-            right = (next[i] - i) * heights[i];
-
-            sum = left + right - heights[i]; // bcz 2 times counted heights[i]
+            sum = width * heights[i];
 
             max = Math.max(max, sum);
         }
