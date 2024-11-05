@@ -133,3 +133,59 @@ Poll: 5
 // Lambda for descending order
 PriorityQueue<Integer> pq = new PriorityQueue<>((a, b) -> b - a);  
 ```
+
+**Example:**
+
+```java
+import java.util.PriorityQueue;
+import java.util.Comparator;
+
+class Person {
+    String name;
+    int age;
+
+    Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        return name + " (" + age + ")";
+    }
+}
+
+public class Main
+{
+	public static void main(String[] args) {
+		
+		// Custom comparator to order by age in ascending order
+		/*
+        Comparator<Person> ageComparator = new Comparator<Person>() {
+            @Override
+            public int compare(Person p1, Person p2) {
+                return Integer.compare(p1.age, p2.age);  // Ascending order based on age
+            }
+        };
+        */
+
+        // Create a PriorityQueue with the custom comparator
+        PriorityQueue<Person> pq = new PriorityQueue<>((p1, p2) -> Integer.compare(p1.age, p2.age));
+
+        // Add Person objects to the queue
+        pq.add(new Person("Alice", 25));
+        pq.add(new Person("Bob", 30));
+        pq.add(new Person("Charlie", 20));
+        pq.add(new Person("Diana", 35));
+
+        // Print the queue
+        System.out.println("PriorityQueue (by age, ascending order): " + pq);
+
+        // Poll elements based on the custom ordering (age ascending)
+        while (!pq.isEmpty()) {
+            System.out.println(pq.poll());  // It will print the persons in order of increasing age
+        }
+
+	}
+}
+```
