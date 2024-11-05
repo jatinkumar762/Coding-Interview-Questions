@@ -53,6 +53,34 @@ public class Main
 
 **Custom Ordering**
 
+```java
+import java.util.*;
 
+public class Main
+{
+	public static void main(String[] args) {
+		
+		PriorityQueue<Integer> pq = new PriorityQueue<>(Comparator.reverseOrder());
+		
+		pq.add(10);
+        pq.add(20);
+        pq.add(5);
+        pq.add(30);
+        
+        System.out.println("PriorityQueue: " + pq);  // The order will be reversed
+        
+        // Poll elements (removes the largest first)
+        System.out.println("Poll: " + pq.poll());  // 30
+        System.out.println("Poll: " + pq.poll());  // 20
+
+	}
+}
+```
+
+PriorityQueue: [30, 20, 5, 10]\
+Poll: 30\
+Poll: 20
+
+---
 
 
