@@ -379,9 +379,9 @@
   - [x] [Coin Change_Minimum Coins to Make Sum-I](./DynamicProgramming/Medium/CoinChange_MinimumCoinsToMakeSum.md)
 
 ## Heap
-  ### Easy
-  - [x] [Implementation of a Heap](./Heap/Easy/HeapImplementation.md)
-  - [x] []
+  ### Learning
+  - [x] [Implementation of a Heap](./Heap/Learning/HeapImplementation.md)
+  - [x] [Implementation of Priority Queue using Binary Heap](./Heap/Learning/PriorityQueueusingBinaryHeap.md)
 
   ### Medium
   - [x] [Find K Closest Elements](./Heap/Medium/KClosestElements.md)
