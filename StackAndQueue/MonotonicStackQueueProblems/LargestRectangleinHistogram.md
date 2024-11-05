@@ -89,3 +89,39 @@ class Solution {
 }
 ```
 
+### Approach - 3 TLE Solution
+
+```java
+class Solution {
+    public int largestRectangleArea(int[] heights) {
+
+        int len = heights.length;
+        int max = 0, width, sum, next, prev;
+
+        // int[] prev = findPrevSmallerIndex(heights, len);
+        // int[] next = findNextSmallerIndex(heights, len);
+
+        for (int i = 0; i < len; i++) {
+
+            prev = i - 1;
+            while (prev >= 0 && heights[prev] >= heights[i]) {
+                prev--;
+            }
+
+            next = i + 1;
+            while (next < len && heights[next] >= heights[i]) {
+                next++;
+            }
+
+            width = next - prev - 1;
+
+            sum = width * heights[i];
+
+            max = Math.max(max, sum);
+        }
+
+        return max;
+    }
+}
+```
+
