@@ -127,3 +127,9 @@ Poll: 20
 Poll: 10
 Poll: 5
 
+**Using Lambda for the Comparator**
+
+```java
+// Lambda for descending order
+PriorityQueue<Integer> pq = new PriorityQueue<>((a, b) -> b - a);  
+```
