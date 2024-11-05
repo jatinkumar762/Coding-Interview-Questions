@@ -290,6 +290,7 @@
   - [x] [Trapping Rain Water](./StackAndQueue/MonotonicStackQueueProblems/TrappingRainWater.md)
   - [x] [Sum of Subarray Ranges](./StackAndQueue/MonotonicStackQueueProblems/SumofSubarrayRanges.md)
   - [x] [Remove K Digits](./StackAndQueue/MonotonicStackQueueProblems/RemoveKDigits.md)
+  - [x] [Largest Rectangle in Histogram](./StackAndQueue/MonotonicStackQueueProblems/LargestRectangleinHistogram.md)
 
 ## Binary Tree
 
