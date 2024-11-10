@@ -12,13 +12,7 @@ class StockSpanner {
     }
     
     public int next(int price) {
-        
-        if(stack.isEmpty()){
-            stack.add(new int[]{price, 1});
-            return 1;
-        } 
-
-
+    
         int count = 1 ;
         while(!stack.isEmpty() && stack.peek()[0] <= price){
             count+=stack.pop()[1];
@@ -31,30 +25,39 @@ class StockSpanner {
 }
 ```
 
-#### Slow but same approach
+#### Another way to write
 
 ```
 class StockSpanner {
-    
-    Stack<Pair<Integer,Integer>> stack;
+
+    class Node {
+        int price;
+        int count; // less than or equal to
+
+        Node(int p, int c) {
+            this.price = p;
+            this.count = c;
+        }
+    }
+
+    Stack<Node> stack;
+
     public StockSpanner() {
         stack = new Stack<>();
     }
-    
+
     public int next(int price) {
-        
-        if(stack.isEmpty()){
-            stack.add(new Pair(price, 1));
-            return 1;
-        } 
 
+        Node popped;
+        int count = 1; // current day;
+        while (!stack.isEmpty() && stack.peek().price <= price) {
 
-        int count = 1 ;
-        while(!stack.isEmpty() && stack.peek().getKey() <= price){
-            count+=stack.pop().getValue();
+            popped = stack.pop();
+
+            count += popped.count;
         }
 
-        stack.add(new Pair(price, count));
+        stack.push(new Node(price, count));
 
         return count;
     }
