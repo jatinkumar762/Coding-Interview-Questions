@@ -282,7 +282,6 @@
    #### Medium
   - [x] [BFS - Number of Islands](./StackAndQueue/Medium/BFS%20-%20Number%20of%20Islands.md)
   - [x] 🔥 [BFS - Open the Lock](./StackAndQueue/Medium/Open%20the%20Lock.md)
-  - [x] [The Celebrity Problem](./StackAndQueue/Medium/TheCelebrityProblem.md)
   - [x] [Design a stack with operations on middle element](./StackAndQueue/Medium/StackMiddleElement.md)
   - [x] 🔥 [Validate Stack Sequences](./StackAndQueue/Medium/ValidateStackSequences.md)
   - [x] 🔥 [Valid Substring](./StackAndQueue/Medium/ValidSubstring.md)
@@ -290,6 +289,7 @@
   - [x] 🔥 [Decode String](./StackAndQueue/Medium/DecodeString.md) 
   - [x] 🔥 [01 Matrix](./StackAndQueue/Medium/01%20Matrix.md)
   - [x] [Online Stock Span](./StackAndQueue/Medium/OnlineStockSpan.md)
+  - [x] [The Celebrity Problem](./StackAndQueue/Medium/TheCelebrityProblem.md)
 
 ## Binary Tree
 
