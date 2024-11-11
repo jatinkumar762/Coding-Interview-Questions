@@ -290,6 +290,7 @@
   - [x] 🔥 [01 Matrix](./StackAndQueue/Medium/01%20Matrix.md)
   - [x] [Online Stock Span](./StackAndQueue/Medium/OnlineStockSpan.md)
   - [x] [The Celebrity Problem](./StackAndQueue/Medium/TheCelebrityProblem.md)
+  - [x] [LRU Cache](./StackAndQueue/Medium/LRUCache.md)
 
 ## Binary Tree
 
