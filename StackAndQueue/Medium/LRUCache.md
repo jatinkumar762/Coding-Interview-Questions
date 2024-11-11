@@ -1,6 +1,6 @@
 https://leetcode.com/problems/lru-cache/description/
 
-### Approach-1 Using Inbuilt doubly linked list and Map
+### Approach-1 Using Inbuilt doubly linked list and Map - 1031 ms
 
 ```java
 class LRUCache {
@@ -49,16 +49,9 @@ class LRUCache {
         dLL.addFirst(key);
     }
 }
-
-/**
- * Your LRUCache object will be instantiated and called as such:
- * LRUCache obj = new LRUCache(capacity);
- * int param_1 = obj.get(key);
- * obj.put(key,value);
- */
 ```
 
-### Approach-2 Custom Doubly Linked List
+### Approach-2 Custom Doubly Linked List - 47ms
 
 ```java
 class Node {
@@ -187,11 +180,105 @@ class LRUCache {
         System.out.println("Hello");
     }
 }
+```
 
-/**
- * Your LRUCache object will be instantiated and called as such:
- * LRUCache obj = new LRUCache(capacity);
- * int param_1 = obj.get(key);
- * obj.put(key,value);
- */
+### Approach - 3 More clean code than approach - 2
+
+```java
+class Node {
+    int key;
+    int val;
+    Node prev;
+    Node next;
+
+    Node(int key, int val) {
+        this.key = key;
+        this.val = val;
+        prev = null;
+        next = null;
+    }
+}
+
+class LRUCache {
+
+    Node head, tail;
+    Map<Integer, Node> keyToValue;
+    int capacity;
+    int count;
+
+    public LRUCache(int capacity) {
+        head = tail = new Node(-1, -1);
+        head.next = tail;
+        tail.prev = head;
+
+        this.capacity = capacity;
+        this.count = 0;
+
+        keyToValue = new HashMap<>();
+    }
+
+    public int get(int key) {
+
+        if (!keyToValue.containsKey(key)) {
+            return -1;
+        }
+
+        Node node = keyToValue.get(key);
+
+        remove(node);
+
+        add(node);
+
+        return node.val;
+    }
+
+    public void put(int key, int value) {
+
+        if (keyToValue.containsKey(key)) {
+
+            remove(keyToValue.get(key));
+
+        } else {
+
+            if (count == capacity) {
+
+                keyToValue.remove(tail.prev.key);
+
+                remove(tail.prev);
+            } else {
+
+                count += 1;
+            }
+        }
+
+        Node node = new Node(key, value);
+
+        keyToValue.put(key, node);
+
+        add(node);
+    }
+
+    private void add(Node node) {
+
+        Node nextNode = head.next;
+
+        head.next = node;
+
+        node.prev = head;
+        node.next = nextNode;
+
+        nextNode.prev = node;
+    }
+
+    // Remove a node from the list
+    private void remove(Node node) {
+        Node prevNode = node.prev;
+        Node nextNode = node.next;
+        prevNode.next = nextNode;
+        nextNode.prev = prevNode;
+
+        node.prev = null;
+        node.next = null;
+    }
+}
 ```
