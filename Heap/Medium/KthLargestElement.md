@@ -6,6 +6,7 @@ left to right &rarr; means &rarr; kth smallest
 
 right to left &rarr; means &rarr; kth largest
 
+* we create k size heap
 
 #### Approach-1 Sorting
 
