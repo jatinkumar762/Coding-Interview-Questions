@@ -388,6 +388,7 @@
   - [x] [Find K Closest Elements](./Heap/Medium/KClosestElements.md)
   - [x] [Kth Largest Element in an Array](./Heap/Medium/KthLargestElement.md)
   - [x] [Kth smallest element in an array](./Heap/Medium/KthSmallestElement.md)
+  - [x] [Kth Largest Element in a Stream](./Heap/Medium/kth-largest-element-in-a-stream.md)
   - [x] [K largest elements](./Heap/Medium/K_LargestElements.md)
   - [x] [Sort a K Sorted Array](./Heap/Medium/SortKSortedArray.md)
   - [x] [Top K Frequent Elements](./Heap/Medium/TopKFrequentElements.md)
