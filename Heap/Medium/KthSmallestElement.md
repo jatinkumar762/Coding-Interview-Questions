@@ -1,5 +1,12 @@
 https://www.geeksforgeeks.org/problems/kth-smallest-element5635/1
 
+arr[] &rarr;  1 2 3 4 5 6 7 8 9 10
+
+left to right &rarr; means &rarr; kth smallest
+
+right to left &rarr; means &rarr; kth largest
+
+
 ### Approach-1 Using Priority Queue
 
 * to find min, will create max heap of k size;

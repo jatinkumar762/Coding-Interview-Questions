@@ -1,5 +1,12 @@
 https://leetcode.com/problems/kth-largest-element-in-an-array/description/
 
+arr[] &rarr;  1 2 3 4 5 6 7 8 9 10
+
+left to right &rarr; means &rarr; kth smallest
+
+right to left &rarr; means &rarr; kth largest
+
+
 #### Approach-1 Sorting
 
 
