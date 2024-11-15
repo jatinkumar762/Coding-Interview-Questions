@@ -394,7 +394,7 @@
   - [x] [Merge k Sorted Arrays](./Heap/Medium/merge-k-sorted-arrays.md)
   - [x] [Top K Frequent Elements](./Heap/Medium/TopKFrequentElements.md)
   - [x] [Replace elements by its rank in the array](./Heap/Medium/replace-elements-by-its-rank-in-the-array.md)
-  - [x] [Hand of Straights]()
+  - [x] [Hand of Straights](./Heap/Medium/hand-of-straights.md)
 
 
 ## Sliding Window
