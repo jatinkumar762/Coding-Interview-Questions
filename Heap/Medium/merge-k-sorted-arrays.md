@@ -63,3 +63,8 @@ $𝑂(log𝐾)$, and there are $𝑁$ elements in total.
 
 * $O(K)$ for the min-heap, as it holds at most one element from each array at any given time.
 
+
+### Approach-3 Divide and Conquer technique
+
+
+
