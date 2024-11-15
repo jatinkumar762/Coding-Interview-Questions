@@ -8,6 +8,10 @@ class Solution {
     static int[] replaceWithRank(int arr[], int N) {
         // code here
         
+        if (N == 0) {
+          return new int[] {};
+        }
+
         int[] temp = arr.clone();
         
         Arrays.sort(temp);
