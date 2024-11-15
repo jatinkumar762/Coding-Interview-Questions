@@ -42,3 +42,5 @@ class Solution {
     }
 }
 ```
+
+### To-Do Optimized Approach
