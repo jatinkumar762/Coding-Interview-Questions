@@ -391,6 +391,7 @@
   - [x] [Kth Largest Element in a Stream](./Heap/Medium/kth-largest-element-in-a-stream.md)
   - [x] [K largest elements](./Heap/Medium/K_LargestElements.md)
   - [x] [Nearly sorted](./Heap/Medium/NearlySorted.md)
+  - [x] [Merge k Sorted Arrays](./Heap/Medium/merge-k-sorted-arrays.md)
   - [x] [Top K Frequent Elements](./Heap/Medium/TopKFrequentElements.md)
 
 
