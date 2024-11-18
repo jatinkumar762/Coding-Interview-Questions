@@ -66,5 +66,101 @@ $𝑂(log𝐾)$, and there are $𝑁$ elements in total.
 
 ### Approach-3 Divide and Conquer technique
 
+```java
+class Solution
+{
+    //Function to merge k sorted arrays.
+    public ArrayList<Integer> mergeKArrays(int[][] arr,int K) 
+    {
+        
+        ArrayList<ArrayList<Integer>> inputList = new ArrayList<>();
+        
+        for(int i = 0; i < K; i++){
+            
+            ArrayList<Integer> tmp = new ArrayList<>();
+            
+            for(int ele : arr[i]){
+                tmp.add(ele);
+            }
+            
+            inputList.add(tmp);
+        }
+        
+        ArrayList<Integer> result = new ArrayList<>();
+        
+        result = mergeSort(inputList, 0, K-1);
+        
+        return result;
+    }
+    
+    private ArrayList<Integer> mergeSort(ArrayList<ArrayList<Integer>> inputList, int low, int high){
+        
+        if(low == high){
+            return inputList.get(low);
+        }
+        
+        if(high - low == 1) {
+            return merge(inputList.get(low), inputList.get(high));
+        }
+        
+        //if(low < high){
+            
+        int mid = low + (high - low)/2;
+        
+        ArrayList<Integer> list1 = mergeSort(inputList, low, mid);
+        
+        ArrayList<Integer> list2 = mergeSort(inputList, mid+1, high);
+        
+        return merge(list1, list2);
+        //}
+    }
+    
+    
+    private ArrayList<Integer> merge(ArrayList<Integer> list1, ArrayList<Integer> list2){
+        
+        int n1 = list1.size();
+        
+        int n2 = list2.size();
+        
+        if(n1 == 0){
+            return list2;
+        }
+        
+        if(n2 == 0){
+            return list1;
+        }
+        
+        ArrayList<Integer> result = new ArrayList<>();
+        
+        int i = 0, j = 0;
+        
+        while(i < n1 && j < n2){
+            
+            if(list1.get(i) <= list2.get(j)){
+                result.add(list1.get(i));
+                i++;
+            }
+            else {
+                result.add(list2.get(j));
+                j++;
+            }
+        }
+        
+        while(i < n1){
+            result.add(list1.get(i));
+            i++;
+        }
+        
+        while(j < n2){
+            result.add(list2.get(j));
+            j++;
+        }
+        
+        return result;
+    }
+    
+}
+```
+
 
 
