@@ -330,54 +330,6 @@
   - [x] [Validate Binary Search Tree](./BST/Medium/ValidateBinarySearchTree.md)
   - [x] [Lowest Common Ancestor of a Binary Search Tree](./BST/Medium/LowestCommonAncestorBinarySearchTree.md)
 
-## Dynamic Programming
-  ### 1D DP
-  - [x] [Introduction to DP](./DynamicProgramming/1D_DP/Introduction_to_DP.md)
-  - [x] [Climbing Stairs](./DynamicProgramming/1D_DP/ClimbingStairs.md)
-  - [x] [Geek Jump](./DynamicProgramming/1D_DP/GeekJump.md)
-  - [x] [Frog Jump with k Distances](./DynamicProgramming/1D_DP/Frog_Jump_with_k_Distances.md)
-  - [x] [House Robber](./DynamicProgramming/1D_DP/HouseRobber.md)
-  - [x] [Perfect Square](./DynamicProgramming/1D_DP/PerfectSquare.md)
-
-  ### 2D/3D DP and DP on Grids
-  - [x] [Geek's Training - 2D_DP](./DynamicProgramming/2D&3D_DP_and_DP_on_Grids/Geek's%20Training%20-%202D_DP.md)
-  - [x] [Grid Unique Paths : DP on Grids](./DynamicProgramming/2D&3D_DP_and_DP_on_Grids/GridUniquePaths:DPonGrids.md)
-  - [x] [Unique Paths II](./DynamicProgramming/2D&3D_DP_and_DP_on_Grids/UniquePaths-II.md)
-  - [x] [Minimum Path Sum](./DynamicProgramming/2D&3D_DP_and_DP_on_Grids/MinimumPathSum.md)
-  - [x] [Minimum Falling Path Sum](./DynamicProgramming/2D&3D_DP_and_DP_on_Grids/MinimumFallingPathSum.md)
-  - [ ] [3-d DP : Chocolates Pickup](./DynamicProgramming/2D&3D_DP_and_DP_on_Grids/3-dDP:ChocolatesPickup.md)
-
-  ### DP on Subsequences
-  - [x] [Subset Sum Problem](./DynamicProgramming/DP_on_Subsequences/SubsetSumProblem.md)
-  - [ ] [Partition Equal Subset Sum](./DynamicProgramming/DP_on_Subsequences/PartitionEqualSubsetSum.md)
-  - [ ] [Partition Array Into Two Arrays to Minimize Sum Difference](./DynamicProgramming/DP_on_Subsequences/PartitionArrayIntoTwoArraystoMinimizeSumDifference.md)
-  - [x] [Perfect Sum Problem](./DynamicProgramming/DP_on_Subsequences/PerfectSumProblem.md)
-  - [x] [Partitions with Given Difference](./DynamicProgramming/DP_on_Subsequences/PartitionswithGivenDifference.md)
-  - [x] [Coin Change](./DynamicProgramming/DP_on_Subsequences/CoinChange.md)
-  - [x] [Target Sum](./DynamicProgramming/DP_on_Subsequences/TargetSum.md)
-  - [x] [Coin Change II](./DynamicProgramming/DP_on_Subsequences/CoinChangeII.md)
-  - [x] [Knapsack with Duplicate Items](./DynamicProgramming/DP_on_Subsequences/KnapsackwithDuplicateItems.md)
-  - [x] [Rod Cutting](./DynamicProgramming/DP_on_Subsequences/RodCutting.md)
-
-  ### DP on Strings
-  - [x] [Longest Common Subsequence](./DynamicProgramming/DP_on_Strings/LongestCommonSubsequence.md)
-  - [x] [Print Longest Common Subsequence](./DynamicProgramming/DP_on_Strings/PrintLongestCommonSubsequence.md)
-  - [x] [Longest Common Substring](./DynamicProgramming/DP_on_Strings/LongestCommonSubstring.md)
-  - [x] [Longest Palindromic Subsequence](./DynamicProgramming/DP_on_Strings/LongestPalindromicSubsequence.md)
-  - [x] [Minimum insertions to make string palindrome](./DynamicProgramming/DP_on_Strings/Minimum_insertions_to_make_string_palindrome.md)
-  - [x] [Delete Operation for Two Strings](./DynamicProgramming/DP_on_Strings/DeleteOperationforTwoStrings.md)
-  - [x] [Shortest Common Supersequence](./DynamicProgramming/DP_on_Strings/ShortestCommonSupersequence.md)
-  - [x] [Edit Distance](./DynamicProgramming/DP_on_Strings/EditDistance.md)
-
-  ### Medium
-  - [x] [Longest Palindrome in a String](./DynamicProgramming/LongPalSub.md)
-  - [x] [Minimum Operations](./DynamicProgramming/MinimumOperations.md)
-  - [x] [Minimum number of Coins](./DynamicProgramming/MinimumNumberOfCoins.md)
-  - [x] [Longest Common Substring](./DynamicProgramming/LongestCommonSubstring.md)
-  - [x] [Longest Increasing Subsequence](./DynamicProgramming/LongestIncreasingSubsequence.md)
-  - [x] [Max length chain](./DynamicProgramming/Maxlengthchain.md)
-  - [x] [Coin Change_Minimum Coins to Make Sum-I](./DynamicProgramming/Medium/CoinChange_MinimumCoinsToMakeSum.md)
-
 ## Heap
   ### Learning
   - [x] [Implementation of a Heap](./Heap/Learning/HeapImplementation.md)
@@ -440,6 +392,54 @@
   - [x] [Insert Interval](./GreedyAlgorithms/Medium/InsertInterval.md)
   - [x] [Merge Intervals](./GreedyAlgorithms/Medium/MergeIntervals.md)
   - [x] [Non-overlapping Intervals](./GreedyAlgorithms/Medium/Non-overlappingIntervals.md)
+
+## Dynamic Programming
+  ### 1D DP
+  - [x] [Introduction to DP](./DynamicProgramming/1D_DP/Introduction_to_DP.md)
+  - [x] [Climbing Stairs](./DynamicProgramming/1D_DP/ClimbingStairs.md)
+  - [x] [Geek Jump](./DynamicProgramming/1D_DP/GeekJump.md)
+  - [x] [Frog Jump with k Distances](./DynamicProgramming/1D_DP/Frog_Jump_with_k_Distances.md)
+  - [x] [House Robber](./DynamicProgramming/1D_DP/HouseRobber.md)
+  - [x] [Perfect Square](./DynamicProgramming/1D_DP/PerfectSquare.md)
+
+  ### 2D/3D DP and DP on Grids
+  - [x] [Geek's Training - 2D_DP](./DynamicProgramming/2D&3D_DP_and_DP_on_Grids/Geek's%20Training%20-%202D_DP.md)
+  - [x] [Grid Unique Paths : DP on Grids](./DynamicProgramming/2D&3D_DP_and_DP_on_Grids/GridUniquePaths:DPonGrids.md)
+  - [x] [Unique Paths II](./DynamicProgramming/2D&3D_DP_and_DP_on_Grids/UniquePaths-II.md)
+  - [x] [Minimum Path Sum](./DynamicProgramming/2D&3D_DP_and_DP_on_Grids/MinimumPathSum.md)
+  - [x] [Minimum Falling Path Sum](./DynamicProgramming/2D&3D_DP_and_DP_on_Grids/MinimumFallingPathSum.md)
+  - [ ] [3-d DP : Chocolates Pickup](./DynamicProgramming/2D&3D_DP_and_DP_on_Grids/3-dDP:ChocolatesPickup.md)
+
+  ### DP on Subsequences
+  - [x] [Subset Sum Problem](./DynamicProgramming/DP_on_Subsequences/SubsetSumProblem.md)
+  - [ ] [Partition Equal Subset Sum](./DynamicProgramming/DP_on_Subsequences/PartitionEqualSubsetSum.md)
+  - [ ] [Partition Array Into Two Arrays to Minimize Sum Difference](./DynamicProgramming/DP_on_Subsequences/PartitionArrayIntoTwoArraystoMinimizeSumDifference.md)
+  - [x] [Perfect Sum Problem](./DynamicProgramming/DP_on_Subsequences/PerfectSumProblem.md)
+  - [x] [Partitions with Given Difference](./DynamicProgramming/DP_on_Subsequences/PartitionswithGivenDifference.md)
+  - [x] [Coin Change](./DynamicProgramming/DP_on_Subsequences/CoinChange.md)
+  - [x] [Target Sum](./DynamicProgramming/DP_on_Subsequences/TargetSum.md)
+  - [x] [Coin Change II](./DynamicProgramming/DP_on_Subsequences/CoinChangeII.md)
+  - [x] [Knapsack with Duplicate Items](./DynamicProgramming/DP_on_Subsequences/KnapsackwithDuplicateItems.md)
+  - [x] [Rod Cutting](./DynamicProgramming/DP_on_Subsequences/RodCutting.md)
+
+  ### DP on Strings
+  - [x] [Longest Common Subsequence](./DynamicProgramming/DP_on_Strings/LongestCommonSubsequence.md)
+  - [x] [Print Longest Common Subsequence](./DynamicProgramming/DP_on_Strings/PrintLongestCommonSubsequence.md)
+  - [x] [Longest Common Substring](./DynamicProgramming/DP_on_Strings/LongestCommonSubstring.md)
+  - [x] [Longest Palindromic Subsequence](./DynamicProgramming/DP_on_Strings/LongestPalindromicSubsequence.md)
+  - [x] [Minimum insertions to make string palindrome](./DynamicProgramming/DP_on_Strings/Minimum_insertions_to_make_string_palindrome.md)
+  - [x] [Delete Operation for Two Strings](./DynamicProgramming/DP_on_Strings/DeleteOperationforTwoStrings.md)
+  - [x] [Shortest Common Supersequence](./DynamicProgramming/DP_on_Strings/ShortestCommonSupersequence.md)
+  - [x] [Edit Distance](./DynamicProgramming/DP_on_Strings/EditDistance.md)
+
+  ### Medium
+  - [x] [Longest Palindrome in a String](./DynamicProgramming/LongPalSub.md)
+  - [x] [Minimum Operations](./DynamicProgramming/MinimumOperations.md)
+  - [x] [Minimum number of Coins](./DynamicProgramming/MinimumNumberOfCoins.md)
+  - [x] [Longest Common Substring](./DynamicProgramming/LongestCommonSubstring.md)
+  - [x] [Longest Increasing Subsequence](./DynamicProgramming/LongestIncreasingSubsequence.md)
+  - [x] [Max length chain](./DynamicProgramming/Maxlengthchain.md)
+  - [x] [Coin Change_Minimum Coins to Make Sum-I](./DynamicProgramming/Medium/CoinChange_MinimumCoinsToMakeSum.md)
 
 # Graphs
 
