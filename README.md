@@ -384,6 +384,7 @@
   - [x] [Implementation of Priority Queue using Binary Heap](./Heap/Learning/PriorityQueueusingBinaryHeap.md)
   - [x] [Does array represent Heap](./Heap/Learning/DoesArrayRepresentHeap.md)
   - [x] [Convert Min Heap to Max Heap](./Heap/Learning/convert-min-heap-to-max-heap.md)
+  - [x] [Binary Heap Operations](./Heap/Learning/operations-on-binary-min-heap.md)
 
   ### Medium
   - [x] [Find K Closest Elements](./Heap/Medium/KClosestElements.md)
