@@ -394,6 +394,7 @@
   - [x] [K largest elements](./Heap/Medium/K_LargestElements.md)
   - [x] [Nearly sorted](./Heap/Medium/NearlySorted.md)
   - [x] [Merge k Sorted Arrays](./Heap/Medium/merge-k-sorted-arrays.md)
+  - [x] [Merge k Sorted Lists](./Heap/Medium/merge-k-sorted-lists.md)
   - [x] [Top K Frequent Elements](./Heap/Medium/TopKFrequentElements.md)
   - [x] [Replace elements by its rank in the array](./Heap/Medium/replace-elements-by-its-rank-in-the-array.md)
   - [x] [Hand of Straights](./Heap/Medium/hand-of-straights.md)
