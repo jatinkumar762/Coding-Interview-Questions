@@ -1,6 +1,6 @@
+https://leetcode.com/problems/maximum-depth-of-binary-tree/description/
 
-
-1. Depth-first-search
+### Approach-1 Depth-first-search
 
 ```java
 /**
@@ -36,7 +36,7 @@ class Solution {
 ```
 
 
-2. Breadth First Search
+### Approach-2 Breadth First Search
 
 * Use the concept of level by level traversal, count of level
 
