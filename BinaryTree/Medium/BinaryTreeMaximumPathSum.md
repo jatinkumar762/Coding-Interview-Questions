@@ -41,4 +41,4 @@ class Solution {
 
 [-2,-1] &rarr; -1
 
-[2,-1] &rarr; 2
+[2,-1] &rarr; 
