@@ -299,12 +299,12 @@
   - [x] [Balanced Binary Tree](./BinaryTree/Easy/BalancedBinaryTree.md)
   - [x] [Diameter of Binary Tree](./BinaryTree/Easy/DiameterBinaryTree.md)
   - [x] [Same Tree](./BinaryTree/Easy/SameTree.md)
+  - [x] [Preorder, Inorder, and Postorder Traversal](./BinaryTree/Easy/PreInPostTraversal.md)
+  - [x] [Binary Tree Level Order Traversal](./BinaryTree/Easy/LevelOrderTraversalBT.md)
 
 
   ### Medium
    - [x] [ZigZag Tree Traversal](./BinaryTree/ZigZagTreeTraversal.md)
-   - [x] [Preorder, Inorder, and Postorder Traversal](./BinaryTree/Medium/PreInPostTraversal.md)
-   - [x] [Binary Tree Level Order Traversal](./BinaryTree/Medium/LevelOrderTraversalBT.md)
    - [x] [Binary Tree Maximum Path Sum](./BinaryTree/Medium/BinaryTreeMaximumPathSum.md)
    - [x] [Boundary Traversal of binary tree]
    - [x] [Top View of Binary Tree](./BinaryTree/Medium/TopViewBinaryTree.md)
