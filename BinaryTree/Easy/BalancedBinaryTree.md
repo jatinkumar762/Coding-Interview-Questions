@@ -1,5 +1,8 @@
 Leetcode - https://leetcode.com/problems/balanced-binary-tree/description/
 
+
+### Approach-1 Recursion
+
 ```java
 /**
  * Definition for a binary tree node.
@@ -51,7 +54,7 @@ class Solution {
 }
 ```
 
-
+### Approach-2 More Optimized, No global flag variable 
 
 Same approach in different way - https://takeuforward.org/data-structure/check-if-the-binary-tree-is-balanced-binary-tree/
 
