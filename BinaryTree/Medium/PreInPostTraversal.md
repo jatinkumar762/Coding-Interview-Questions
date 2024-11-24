@@ -54,12 +54,10 @@ class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {
         
         List<Integer> result = new ArrayList<>();
-        if(root==null){
-            return result;
-        }
+
         Stack<TreeNode> stack = new Stack<>();
 
-        while(root!=null || stack.size()>0){
+        while(root!=null || !stack.isEmpty()){
 
             while(root!=null){
                 stack.push(root);
@@ -67,6 +65,7 @@ class Solution {
             }
 
             root = stack.pop();
+
             result.add(root.val);
 
             root = root.right;
