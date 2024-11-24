@@ -3,7 +3,7 @@ https://www.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1
 ### Approach - 1
 
 * left boundary traversal
-* leaf node traversal
+* leaf node traversal - InOrder Traversal (LNR)
 * right boundary traversal (add result in reverse)
 
 ```java
