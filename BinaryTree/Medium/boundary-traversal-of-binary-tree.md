@@ -24,6 +24,7 @@ class Solution {
             return result;
         }
         
+        //add left boundary
         Node tmp = root.left;
         while(tmp!=null && (tmp.right!=null || tmp.left!=null)){
             
@@ -37,6 +38,7 @@ class Solution {
         }
         
         
+        //add leaf nodes
         tmp = root;
         Stack<Node> stack = new Stack<>();
         while(tmp!=null || !stack.isEmpty()){
@@ -56,10 +58,9 @@ class Solution {
         }
         
         
+        //add right boundary
         tmp = root.right;
-        
         LinkedList<Integer> rightBoundary = new LinkedList<>();
-        
         while(tmp!=null && (tmp.right!=null || tmp.left!=null)){
             
             rightBoundary.addFirst(tmp.data);
