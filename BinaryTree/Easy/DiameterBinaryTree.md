@@ -1,6 +1,6 @@
 Leetcode - https://leetcode.com/problems/diameter-of-binary-tree/description/
 
-here we can use tree height concept.
+### Approach-1 here we can use tree height concept.
 
 ```java
 /**
