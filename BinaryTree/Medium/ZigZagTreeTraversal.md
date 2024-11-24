@@ -1,7 +1,7 @@
 
 https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/
 
-#### Optmized Code
+### Optimized Code
 
 ```java
 /**
@@ -66,9 +66,7 @@ class Solution {
 }
 ```
 
----
-
-
+### Approach-2
 
 ```java
 

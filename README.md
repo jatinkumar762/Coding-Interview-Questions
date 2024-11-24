@@ -304,8 +304,8 @@
 
 
   ### Medium
-   - [x] [ZigZag Tree Traversal](./BinaryTree/ZigZagTreeTraversal.md)
    - [x] [Binary Tree Maximum Path Sum](./BinaryTree/Medium/BinaryTreeMaximumPathSum.md)
+   - [x] [ZigZag Tree Traversal](./BinaryTree/Medium/ZigZagTreeTraversal.md)
    - [x] [Boundary Traversal of binary tree]
    - [x] [Top View of Binary Tree](./BinaryTree/Medium/TopViewBinaryTree.md)
    - [x] [Bottom View of Binary Tree](./BinaryTree/Medium/BottomViewBinaryTree.md)
