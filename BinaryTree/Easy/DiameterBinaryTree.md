@@ -51,7 +51,9 @@ class Solution {
 }
 ```
 
-<b>Optimized code</b> </br> For every node, length of longest path which pass it = MaxDepth of its left subtree + MaxDepth of its right subtree.
+### Approach-2 Optimized Code 
+
+* For every node, length of longest path which pass it = MaxDepth of its left subtree + MaxDepth of its right subtree.
 
 ```java
 public class Solution {
