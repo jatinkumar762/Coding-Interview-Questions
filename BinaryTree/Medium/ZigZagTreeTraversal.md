@@ -4,61 +4,58 @@ https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/descripti
 ### Optimized Code
 
 ```java
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
 
 class Solution {
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
-        
-        //true->right to left, false->left to right
-        boolean leftToRight = true;
 
-        List<List<Integer>> result = new ArrayList<>();
-
-        if(root==null)
+        if (root == null) {
             return result;
+        }
+
+				List<List<Integer>> result = new LinkedList<>();
 
         Queue<TreeNode> queue = new LinkedList<>();
 
+        int count = 1;
+        int newCount = 0;
         queue.add(root);
 
-        while(!queue.isEmpty()){
+				boolean odd = true;
 
-            int size = queue.size();
+        while (!queue.isEmpty()) {
+
             List<Integer> levelResult = new LinkedList<>();
-            
-            for(int i=0;i<size;i++) {
+
+						//instead of newCount
+						//we can initialize count = queue.size()
+
+            for (int i = 0; i < count; i++) {
 
                 TreeNode tmp = queue.poll();
 
-                if(leftToRight){
+                if (odd) {
                     levelResult.add(tmp.val);
                 } else {
-                    levelResult.add(0, tmp.val);
+                    levelResult.addFirst(tmp.val);
                 }
-                
-                if(tmp.left!=null){
+
+                if (tmp.left != null) {
                     queue.add(tmp.left);
+                    newCount++;
                 }
-                if(tmp.right!=null){
+
+                if (tmp.right != null) {
                     queue.add(tmp.right);
+                    newCount++;
                 }
+
             }
+
+            count = newCount;
+            newCount = 0;
+            odd = !odd;
+
             result.add(levelResult);
-            leftToRight = !leftToRight;
         }
 
         return result;
