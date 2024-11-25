@@ -80,3 +80,58 @@ class Solution {
     }
 }
 ```
+
+### Approach-2 2ms Beats 99.70%
+
+* reference - leetcode solutions
+
+```java
+class Solution {
+    static class pair implements Comparable<pair> {
+        TreeNode node;
+        int row;
+        int col;
+
+        pair(TreeNode node, int row, int col) {
+            this.node = node;
+            this.row = row;
+            this.col = col;
+        }
+
+        public int compareTo(pair o) {
+            if (this.col != o.col) {
+                return this.col - o.col;
+            } else if (this.row != o.row) {
+                return this.row - o.row;
+            }
+            return this.node.val - o.node.val;
+        }
+    }
+
+    public List<List<Integer>> verticalTraversal(TreeNode root) {
+        PriorityQueue<pair> q = new PriorityQueue<>();
+        dfs(root, 0, 0, q);
+        List<List<Integer>> ans = new ArrayList<>();
+        while (!q.isEmpty()) {
+            List<Integer> k = new ArrayList<>();
+            int g = q.peek().col;
+            while (!q.isEmpty() && q.peek().col == g) {
+                pair curr = q.poll();
+                k.add(curr.node.val);
+            }
+            ans.add(k);
+        }
+        return ans;
+    }
+
+    static void dfs(TreeNode node, int row, int col, PriorityQueue<pair> q) {
+        if (node == null)
+            return;
+        pair newpair = new pair(node, row, col);
+        q.add(newpair);
+        dfs(node.left, row + 1, col - 1, q);
+        dfs(node.right, row + 1, col + 1, q);
+
+    }
+}
+```
