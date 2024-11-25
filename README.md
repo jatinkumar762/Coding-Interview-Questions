@@ -307,6 +307,7 @@
    - [x] [Binary Tree Maximum Path Sum](./BinaryTree/Medium/BinaryTreeMaximumPathSum.md)
    - [x] [ZigZag Tree Traversal](./BinaryTree/Medium/ZigZagTreeTraversal.md)
    - [x] [Boundary Traversal of binary tree](./BinaryTree/Medium/boundary-traversal-of-binary-tree.md)
+   - [x] [Vertical Order Traversal of a Binary Tree]()
    - [x] [Top View of Binary Tree](./BinaryTree/Medium/TopViewBinaryTree.md)
    - [x] [Bottom View of Binary Tree](./BinaryTree/Medium/BottomViewBinaryTree.md)
    - [x] [Binary Tree Right Side View](./BinaryTree/Medium/BinaryTreeRightSideView.md)
