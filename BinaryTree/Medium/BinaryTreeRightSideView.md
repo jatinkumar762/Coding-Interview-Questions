@@ -1,6 +1,4 @@
-
-1. https://takeuforward.org/data-structure/right-left-view-of-binary-tree/
-2. https://leetcode.com/problems/binary-tree-right-side-view/description/
+https://leetcode.com/problems/binary-tree-right-side-view/description/
 
 #### Approach-1 Using BFS, level by level order traversal
 
@@ -57,6 +55,73 @@ class Solution {
     }
 }
 ```
+
+**Different way**
+
+```java
+class Solution {
+
+    static class Node {
+        int level;
+        TreeNode node;
+
+        Node(int level, TreeNode node) {
+            this.level = level;
+            this.node = node;
+        }
+    }
+
+    public List<Integer> rightSideView(TreeNode root) {
+
+        // from each level only one rightmost node will part of result
+
+        List<Integer> result = new ArrayList<>();
+
+        if (root == null) {
+            return result;
+        }
+
+        Queue<Node> queue = new LinkedList<>();
+        queue.add(new Node(0, root));
+
+        int count = 1;
+        int nextCount = 0;
+
+        Map<Integer, Integer> levelToNode = new HashMap<>();
+
+        while (!queue.isEmpty()) {
+
+            for (int i = 0; i < count; i++) {
+
+                Node tmp = queue.poll();
+
+                if (!levelToNode.containsKey(tmp.level)) {
+                    levelToNode.put(tmp.level, tmp.node.val);
+                }
+
+                if (tmp.node.right != null) {
+                    queue.add(new Node(tmp.level + 1, tmp.node.right));
+                    nextCount++;
+                }
+
+                if (tmp.node.left != null) {
+                    queue.add(new Node(tmp.level + 1, tmp.node.left));
+                    nextCount++;
+                }
+
+            }
+
+            count = nextCount;
+            nextCount = 0;
+        }
+
+        levelToNode.forEach((k, v) -> result.add(v));
+
+        return result;
+    }
+}
+```
+
 
 ### Optimized Approach
 
