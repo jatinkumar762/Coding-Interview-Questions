@@ -1,8 +1,7 @@
-1. https://takeuforward.org/data-structure/top-view-of-a-binary-tree/
-2. https://www.geeksforgeeks.org/problems/top-view-of-binary-tree/1
+https://www.geeksforgeeks.org/problems/top-view-of-binary-tree/1
 
 * We need to use BFS approach, level by level order traversal, Need to use the concept of Horizontal distance
-* Here DFS will not work
+* Here DFS (recursion) will not work, bcz at same index, lower element can get visited first
 
 Note: We can use pair class also instead of NodeIndex </br>
 <b>Queue<Pair<Node, Integer>> q = new LinkedList<>(); </b>
