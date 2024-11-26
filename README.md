@@ -318,6 +318,7 @@
 
   - [x] [Root to Leaf Paths](./BinaryTree/Hard/root-to-leaf-paths.md)
   - [x] [Lowest Common Ancestor of a Binary Tree](./BinaryTree/Hard/LowestCommonAncestor.md)
+  - [x] [Maximum Width of Binary Tree](./BinaryTree/Hard/MaximumWidthofBinaryTree.md)
 
 ## Binary Search Tree
   ### Easy
