@@ -295,6 +295,7 @@
 ## Binary Tree
 
   ### Easy
+
   - [x] [Maximum depth of binary tree](./BinaryTree/Easy/MaximumDepth.md)
   - [x] [Balanced Binary Tree](./BinaryTree/Easy/BalancedBinaryTree.md)
   - [x] [Diameter of Binary Tree](./BinaryTree/Easy/DiameterBinaryTree.md)
@@ -302,19 +303,21 @@
   - [x] [Preorder, Inorder, and Postorder Traversal](./BinaryTree/Easy/PreInPostTraversal.md)
   - [x] [Binary Tree Level Order Traversal](./BinaryTree/Easy/LevelOrderTraversalBT.md)
 
-
   ### Medium
-   - [x] [Binary Tree Maximum Path Sum](./BinaryTree/Medium/BinaryTreeMaximumPathSum.md)
-   - [x] [ZigZag Tree Traversal](./BinaryTree/Medium/ZigZagTreeTraversal.md)
-   - [x] [Boundary Traversal of binary tree](./BinaryTree/Medium/boundary-traversal-of-binary-tree.md)
-   - [x] [Vertical Order Traversal of a Binary Tree]()
-   - [x] [Top View of Binary Tree](./BinaryTree/Medium/TopViewBinaryTree.md)
-   - [x] [Bottom View of Binary Tree](./BinaryTree/Medium/BottomViewBinaryTree.md)
-   - [x] [Binary Tree Right Side View](./BinaryTree/Medium/BinaryTreeRightSideView.md)
-   - [x] [Symmetric Tree](./BinaryTree/Medium/SymmetricTree.md)
-   - [x] [Lowest Common Ancestor of a Binary Tree](./BinaryTree/Medium/LowestCommonAncestor.md)
+
+  - [x] [Binary Tree Maximum Path Sum](./BinaryTree/Medium/BinaryTreeMaximumPathSum.md)
+  - [x] [ZigZag Tree Traversal](./BinaryTree/Medium/ZigZagTreeTraversal.md)
+  - [x] [Boundary Traversal of binary tree](./BinaryTree/Medium/boundary-traversal-of-binary-tree.md)
+  - [x] [Vertical Order Traversal of a Binary Tree]()
+  - [x] [Top View of Binary Tree](./BinaryTree/Medium/TopViewBinaryTree.md)
+  - [x] [Bottom View of Binary Tree](./BinaryTree/Medium/BottomViewBinaryTree.md)
+  - [x] [Binary Tree Right Side View](./BinaryTree/Medium/BinaryTreeRightSideView.md)
+  - [x] [Symmetric Tree](./BinaryTree/Medium/SymmetricTree.md)
     
   ### Hard
+
+  - [x] [Root to Leaf Paths](./BinaryTree/Hard/root-to-leaf-paths.md)
+  - [x] [Lowest Common Ancestor of a Binary Tree](./BinaryTree/Hard/LowestCommonAncestor.md)
 
 ## Binary Search Tree
   ### Easy
