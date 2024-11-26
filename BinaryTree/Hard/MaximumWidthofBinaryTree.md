@@ -48,6 +48,8 @@ class Solution {
 
 ### Case-2 When null values present
 
+* https://www.geeksforgeeks.org/maximum-width-of-a-binary-tree-with-null-value/
+
 ```java
 
 ```
