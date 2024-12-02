@@ -103,3 +103,68 @@ class Solution {
 
 
 ### Approach-2 Using DFS
+
+```java
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ * int val;
+ * TreeNode left;
+ * TreeNode right;
+ * TreeNode(int x) { val = x; }
+ * }
+ */
+class Solution {
+
+    Map<TreeNode, List<TreeNode>> graph;
+    List<Integer> result;
+    Set<TreeNode> visited;
+
+    public List<Integer> distanceK(TreeNode root, TreeNode target, int k) {
+
+        graph = new HashMap<>();
+        result = new ArrayList<>();
+        visited = new HashSet<>();
+
+        buildGraph(root, null);
+
+        visited.add(target);
+
+        dfs(target, 0, k);
+
+        return result;
+    }
+
+    private void buildGraph(TreeNode root, TreeNode parent) {
+
+        if (root == null) {
+            return;
+        }
+
+        graph.putIfAbsent(root, new ArrayList<>());
+
+        if (parent != null) {
+            graph.get(root).add(parent);
+            graph.get(parent).add(root);
+        }
+
+        buildGraph(root.left, root);
+        buildGraph(root.right, root);
+    }
+
+    private void dfs(TreeNode cur, int distance, int k) {
+
+        if (distance == k) {
+            result.add(cur.val);
+            return;
+        }
+
+        for (TreeNode neighbor : graph.getOrDefault(cur, new ArrayList<>())) {
+            if (!visited.contains(neighbor)) {
+                visited.add(neighbor);
+                dfs(neighbor, distance + 1, k);
+            }
+        }
+    }
+}
+```
