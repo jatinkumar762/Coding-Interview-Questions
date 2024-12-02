@@ -168,3 +168,7 @@ class Solution {
     }
 }
 ```
+
+**Note:**
+
+We can make graph of `Map<Integer, List<Integer>> graph;` instead of TreeNode
