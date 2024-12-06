@@ -46,3 +46,59 @@ class GfG
 ```
 
 [Editorail](https://www.geeksforgeeks.org/inorder-predecessor-successor-given-key-bst/)
+
+---
+
+https://leetcode.com/problems/inorder-successor-in-bst/description/
+
+
+### Approach-1
+
+```java
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ * int val;
+ * TreeNode left;
+ * TreeNode right;
+ * TreeNode(int x) { val = x; }
+ * }
+ */
+class Solution {
+    public TreeNode inorderSuccessor(TreeNode root, TreeNode p) {
+
+        if (root == null || p == null) {
+            return null;
+        }
+
+        Stack<TreeNode> stack = new Stack<>();
+
+        while (root != null || !stack.isEmpty()) {
+
+            while (root != null) {
+                stack.add(root);
+                root = root.left;
+            }
+
+            root = stack.pop();
+
+            if (root == p) {
+                if (root.right != null) {
+                    TreeNode tmp = root.right;
+
+                    while (tmp.left != null) {
+                        tmp = tmp.left;
+                    }
+
+                    return tmp;
+                }
+                return !stack.isEmpty() ? stack.peek() : null;
+            }
+
+            root = root.right;
+        }
+
+        return null;
+    }
+}
+```
