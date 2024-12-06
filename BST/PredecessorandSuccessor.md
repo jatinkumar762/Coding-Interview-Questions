@@ -141,4 +141,30 @@ if (p.right != null) {
 * approach that applies to any binary tree and is not specifically for a binary search tree.
 * the interviewer may ask you to find the inorder successor for a binary tree
 
+```java
+class Solution {
+
+    public TreeNode inorderSuccessor(TreeNode root, TreeNode p) {
+
+        if (root == null || p == null) {
+            return null;
+        }
+
+        TreeNode successor = null;
+
+        while (root != null) {
+
+            if (root.val <= p.val) {
+                root = root.right;
+            } else {
+                successor = root;
+                root = root.left;
+            }
+        }
+
+        return successor;
+    }
+}
+```
+
 
