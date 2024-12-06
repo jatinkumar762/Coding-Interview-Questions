@@ -1,5 +1,6 @@
 [Problem](https://practice.geeksforgeeks.org/problems/predecessor-and-successor/1/#)
 
+
 ```java
 // This function finds predecessor and successor of key in BST.
 // It sets pre and suc as predecessor and successor respectively
@@ -52,7 +53,14 @@ class GfG
 https://leetcode.com/problems/inorder-successor-in-bst/description/
 
 
-### Approach-1
+**Three Cases:**
+
+![Case-1](./inorder-successor-in-bst.png)
+
+
+![Case-2](./inorder-successor-in-bst-1.png)
+
+### Approach-1 Will work for BST and Binary Tree
 
 ```java
 /**
@@ -102,3 +110,35 @@ class Solution {
     }
 }
 ```
+
+**Note:**
+
+* we can further optimize above code
+
+```java
+if (p.right != null) {
+            
+    TreeNode leftmost = p.right;
+    
+    while (leftmost.left != null) {
+        leftmost = leftmost.left;
+    }
+    
+    this.inorderSuccessorNode = leftmost;
+} else {
+    
+    // Case 2: We need to perform the standard in order to traversal and keep track of the previous node.
+    this.inorderCase2(root, p);
+}
+```
+
+
+**Time Complexity:** $O(N)$
+
+
+### Approach-2 Using BST properties
+
+* approach that applies to any binary tree and is not specifically for a binary search tree.
+* the interviewer may ask you to find the inorder successor for a binary tree
+
+
