@@ -38,3 +38,33 @@ PreOrder &rarr; 3 9 20 15 7
 ```
 
 * In-Order is very important to create a unique binary tree
+
+
+https://www.geeksforgeeks.org/problems/unique-binary-tree-requirements/1
+
+
+```java
+class Solution{
+    
+    static int inOrder = 2, preOrder = 1, postOrder = 3;
+    
+    public static boolean isPossible(int a, int b){
+        // Code here
+        
+        if(a==inOrder){
+            if(b==preOrder || b ==postOrder){
+                return true;
+            }
+            //return false;
+        }
+        else if(b==inOrder){
+            if(a==preOrder || a ==postOrder){
+                return true;
+            }
+            //return false;
+        }
+        
+        return false;
+    }
+}
+```
