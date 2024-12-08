@@ -335,6 +335,7 @@
   - [x] [Kth Smallest Element in a BST](./BST/Medium/KthElementBST.md)
   - [x] [Validate Binary Search Tree](./BST/Medium/ValidateBinarySearchTree.md)
   - [x] [Lowest Common Ancestor of a Binary Search Tree](./BST/Medium/LowestCommonAncestorBinarySearchTree.md)
+  - [x] [Construct Binary Search Tree from Preorder Traversal](./BST/Medium/construct-binary-search-tree-from-preorder-traversal.md)
 
 ## Heap
   ### Learning
