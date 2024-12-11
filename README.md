@@ -322,6 +322,7 @@
   - [x] [All Nodes Distance K in Binary Tree](./BinaryTree/Hard/all-nodes-distance-k-in-binary-tree.md)
   - [x] [Requirements needed to construct a Unique Binary Tree | Theory](./BinaryTree/Hard/Construct%20a%20Unique%20Binary%20Tree.md)
   - [x] [Flatten Binary Tree to Linked List](./BinaryTree/Hard/FlattenBinaryTreetoLinkedList.md)
+  - [x] [Construct Binary Tree from Preorder and Inorder Traversal](./BinaryTree/Hard/construct-binary-tree-from-preorder-and-inorder-traversal.md)
 
 ## Binary Search Tree
   ### Easy
