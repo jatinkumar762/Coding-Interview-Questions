@@ -323,7 +323,7 @@
   - [x] [Requirements needed to construct a Unique Binary Tree | Theory](./BinaryTree/Hard/Construct%20a%20Unique%20Binary%20Tree.md)
   - [x] [Flatten Binary Tree to Linked List](./BinaryTree/Hard/FlattenBinaryTreetoLinkedList.md)
   - [x] [Construct Binary Tree from Preorder and Inorder Traversal](./BinaryTree/Hard/construct-binary-tree-from-preorder-and-inorder-traversal.md)
-  - [x] [Construct Binary Tree from Inorder and Postorder Traversal](./BinaryTree/Hard/construct-binary-tree-from-inorder-and-postorder-traversal.md)
+  - [x] [Construct Binary Tree from Inorder and Postorder Traversal](./BinaryTree/Hard/construct- binary-tree-from-inorder-and-postorder-traversal.md)
 
 ## Binary Search Tree
   ### Easy
@@ -340,6 +340,7 @@
   - [x] [Validate Binary Search Tree](./BST/Medium/ValidateBinarySearchTree.md)
   - [x] [Lowest Common Ancestor of a Binary Search Tree](./BST/Medium/LowestCommonAncestorBinarySearchTree.md)
   - [x] [Construct Binary Search Tree from Preorder Traversal](./BST/Medium/construct-binary-search-tree-from-preorder-traversal.md)
+  - [x] [Two Sum In BST | Check if there exists a pair with Sum K](./BST/Medium/two-sum-in-a-bst.md)
 
 ## Heap
   ### Learning
