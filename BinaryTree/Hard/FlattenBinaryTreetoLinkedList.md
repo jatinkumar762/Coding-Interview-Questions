@@ -37,3 +37,40 @@ class Solution {
 
 }
 ```
+
+
+### Approach-1 Using Recusrion
+
+```java
+class Solution {
+
+    TreeNode prev;
+
+    public void flatten(TreeNode root) {
+
+        if(root == null){
+            return;
+        }
+
+        //first flatten right sub-tree
+        flatten(root.right);
+
+        //after right flatten left sub-tree
+        flatten(root.left);
+
+        root.right = prev;
+        root.left = null;
+
+        prev = root;
+    }
+
+}
+```
+
+**Time Complexity:** $O(N)$
+
+**Sapce Complexity:** $O(N)$ - recursive stack
+
+
+
+### Approach-2
