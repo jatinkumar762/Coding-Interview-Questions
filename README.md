@@ -340,6 +340,7 @@
   - [x] [Validate Binary Search Tree](./BST/Medium/ValidateBinarySearchTree.md)
   - [x] [Lowest Common Ancestor of a Binary Search Tree](./BST/Medium/LowestCommonAncestorBinarySearchTree.md)
   - [x] [Construct Binary Search Tree from Preorder Traversal](./BST/Medium/construct-binary-search-tree-from-preorder-traversal.md)
+  - [ ] [Binary Search Tree Iterator]
   - [x] [Two Sum In BST | Check if there exists a pair with Sum K](./BST/Medium/two-sum-in-a-bst.md)
 
 ## Heap
