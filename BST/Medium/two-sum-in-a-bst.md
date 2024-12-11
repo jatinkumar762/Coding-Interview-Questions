@@ -55,6 +55,8 @@ public class Solution {
 
 ### Approach-2 Store InOrder Traversal 4ms
 
+* InOrder Traversal - sorted
+
 ```java
 class Solution {
     public boolean findTarget(TreeNode root, int k) {
