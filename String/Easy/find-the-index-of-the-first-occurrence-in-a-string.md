@@ -1,5 +1,7 @@
 https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/
 
+https://www.geeksforgeeks.org/problems/index-of-the-first-occurrence-of-pattern-in-a-text/1
+
 ```java
 class Solution {
     public int strStr(String haystack, String needle) {
