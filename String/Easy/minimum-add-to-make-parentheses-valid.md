@@ -1,5 +1,8 @@
 https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/
 
+* here is only one type of parenthesis, we can efficiently handle the matching process with a counter.
+* the stack-based approach is more generic and preferred for cases involving multiple types of parentheses
+
 ```java
 class Solution {
     public int minAddToMakeValid(String s) {
