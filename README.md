@@ -205,6 +205,7 @@
    - [x] [Sort Characters By Frequency](./String/Medium/SortCharactersByFrequency.md)
    - [x] [Maximum Nesting Depth of Paranthesis](./String/Easy/MaximumNestingDepthofParanthesis.md)
    - [x] [Minimum Add to Make Parentheses Valid](./String/Easy/minimum-add-to-make-parentheses-valid.md)
+   - [x] [Find the Index of the First Occurrence in a String](./String/Easy/find-the-index-of-the-first-occurrence-in-a-string.md)
 
    ### Medium
    - [x] [Valid Substring](./String/ValidSubstring.md)
