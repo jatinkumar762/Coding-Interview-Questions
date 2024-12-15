@@ -305,6 +305,7 @@
   - [x] [Same Tree](./BinaryTree/Easy/SameTree.md)
   - [x] [Preorder, Inorder, and Postorder Traversal](./BinaryTree/Easy/PreInPostTraversal.md)
   - [x] [Binary Tree Level Order Traversal](./BinaryTree/Easy/LevelOrderTraversalBT.md)
+  - [x] [Root Equals Sum of Children](./BinaryTree/Easy/root-equals-sum-of-children.md)
 
   ### Medium
 
