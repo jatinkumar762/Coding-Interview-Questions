@@ -1,6 +1,10 @@
 * [Longest Prefix Suffix](https://practice.geeksforgeeks.org/problems/longest-prefix-suffix2527/1)
 * [Longest Happy Prefix](https://leetcode.com/problems/longest-happy-prefix/)
 
+Pattern - a a b a a b a a a
+
+Prefix/Suffix Array - [0, 1, 0, 1, 2, 3, 4, 5, 2]
+
 ```java
 /**
 * Compute temporary array to maintain size of suffix which is same as prefix
@@ -18,11 +22,16 @@ class Solution {
         int[] count = new int[s.length()];
         
         count[0] = 0;
-        for(int i=0,j=i+1;j<len;){
-            if(s.charAt(i)==s.charAt(j)){
+
+        for(int i=0, j=i+1; j<len; ){
+            
+            if(s.charAt(i) == s.charAt(j)){
+                
                 count[j] = i+1;
                 j++; i++;
+            
             } else {
+
                 if(i!=0){
                     i = count[i-1];
                 } else {
@@ -44,7 +53,6 @@ import java.util.*;
 import java.lang.*;
 import java.io.*;
 
-/* Name of the class has to be "Main" only if the class is public. */
 class Codechef
 {
     private static int[] lps(String s) {
