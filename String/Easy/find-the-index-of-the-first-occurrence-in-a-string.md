@@ -2,6 +2,8 @@ https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string
 
 https://www.geeksforgeeks.org/problems/index-of-the-first-occurrence-of-pattern-in-a-text/1
 
+### Naive Approach
+
 ```java
 class Solution {
     public int strStr(String haystack, String needle) {
@@ -35,3 +37,80 @@ class Solution {
     }
 }
 ```
+
+**Time Complexity:** O(t * p)
+
+### KMP Algorithm
+
+```java
+class Solution {
+
+    public int strStr(String text, String pattern) {
+
+        int[] lpsArr = lps(pattern);
+
+        int textLen = text.length();
+        int pattLen = pattern.length();
+
+        char[] textArr = text.toCharArray();
+        char[] pattArr = pattern.toCharArray();
+
+        int i = 0, j = 0;
+        for (; i < textLen && j < pattLen;) {
+
+            if (textArr[i] == pattArr[j]) {
+                i++;
+                j++;
+            } else {
+
+                if (j != 0) {
+                    j = lpsArr[j - 1];
+                } else {
+                    i++;
+                }
+            }
+        }
+
+        if (j == pattLen) {
+            return i - j;
+        }
+
+        return -1;
+    }
+
+    private int[] lps(String pattern) {
+
+        int len = pattern.length();
+
+        // lps array
+        int[] arr = new int[len];
+
+        char[] charArr = pattern.toCharArray();
+
+        arr[0] = 0;
+
+        for (int i = 0, j = 1; j < len;) {
+
+            if (charArr[j] == charArr[i]) {
+
+                arr[j] = i + 1;
+
+                i++;
+                j++;
+            } else {
+
+                if (i == 0) {
+                    arr[j] = 0;
+                    j++;
+                } else {
+                    i = arr[i - 1];
+                }
+            }
+        }
+
+        return arr;
+    }
+}
+```
+
+**Time Complexity:** O(t + p)
