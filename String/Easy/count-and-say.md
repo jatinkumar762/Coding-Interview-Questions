@@ -1,6 +1,6 @@
 https://leetcode.com/problems/count-and-say/description/
 
-### Approach-1
+### Approach-1 - 1ms
 
 ```java
 class Solution {
@@ -49,5 +49,55 @@ class Solution {
 
         return res.toString();
     }
+}
+```
+
+**another way to write** - 2ms
+
+```java
+public String countAndSay(int n) {
+    String current = "1", next;
+
+    for (int i = 2; i <= n; i++) {
+        next = findRLE(current);
+        current = next;
+    }
+
+    return current;
+}
+```
+
+**Another approach** - 7ms
+
+```java
+class Solution {
+    public String countAndSay(int n) {
+
+        String current = "1";
+
+        StringBuilder next;
+
+        for (int i = 2; i <= n; i++) {
+
+            int currLen = current.length();
+
+            next = new StringBuilder("");
+
+            for (int j = 0, k = 0; j < currLen; j = k) {
+
+                while (k < currLen && current.charAt(k) == current.charAt(j)) {
+                    k++;
+                }
+
+                next.append(Integer.toString(k - j));
+                next.append(current.charAt(j));
+            }
+
+            current = next.toString();
+        }
+
+        return current;
+    }
+
 }
 ```
