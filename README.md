@@ -205,7 +205,6 @@
    - [x] [Sort Characters By Frequency](./String/Medium/SortCharactersByFrequency.md)
    - [x] [Maximum Nesting Depth of Paranthesis](./String/Easy/MaximumNestingDepthofParanthesis.md)
    - [x] [Minimum Add to Make Parentheses Valid](./String/Easy/minimum-add-to-make-parentheses-valid.md)
-   - [x] [Find the Index of the First Occurrence in a String](./String/Easy/find-the-index-of-the-first-occurrence-in-a-string.md)
    - [x] [Count and Say](./String/Easy/count-and-say.md)
 
    ### Medium
@@ -219,6 +218,7 @@
    - [x] [Permutations](./String/Permutations.md)
    - [x] [Number of Matching Subsequences](./String/NumberofMatchingSubsequences.md)
    - [x] [KMP Algorithm/Longest Prefix Suffix](./String/Medium/KMP%20Algorithm.md)
+   - [x] [Find the Index of the First Occurrence in a String](./String/Medium/find-the-index-of-the-first-occurrence-in-a-string.md)
    - [x] [Word Break](./String/Medium/WordBreak.md)
    - [x] [Count Reversal](./String/Medium/CountReversal.md)
    - [x] [Longest Common Subsequence](./String/Medium/longest%20common%20subsequence.md)
