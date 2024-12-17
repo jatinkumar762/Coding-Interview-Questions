@@ -461,6 +461,7 @@
 # Graphs
 
   ### Easy
+  - [x] [Graph and its representations](./Graphs/Easy/Graph_and_its_representations.md)
   - [x] [DFS - Adjacency Matrix Representation](./Graphs/Easy/DFS_AdjacencyMatrixRepresentation.md)
   - [x] [DFS - Adjacency List Representation](./Graphs/Easy/DFS_AdjacencyListRepresentation.md)
   - [x] [BFS - Adjacency Matrix Representation](./Graphs/Easy/BFS_AdjacencyMatrixRepresentation.md)
