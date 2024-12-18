@@ -13,6 +13,8 @@
 
 # Leetcode Top 150 Problems - [Link](./LeetCode/Top%20Interview%20150/README.md)
 
+# Leetcode 75 Problems - [Link](./LeetCode/LeetCode%2075/README.md)
+
 
 ## Sorting Problems
   - [x] [QuickSort implementation in java](QuickSort.java)
