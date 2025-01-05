@@ -25,10 +25,13 @@ class Solution {
 
     private int getPerimeter(int[][] grid, int R, int C){
         
+        //boundary land
         if (R < 0 || R >= Rows || C < 0 || C >= Cols) {
             return 1;
         }
 
+        //water exist
+        //will contribute 1 for land
         if(grid[R][C]==0){
             return 1;
         }
@@ -39,12 +42,16 @@ class Solution {
         }
         
         int count = 0;
+
+        //mark visited
         grid[R][C] = -1;
 
+        //given Grid cells are connected horizontally/vertically (not diagonally)
         count += getPerimeter(grid, R-1, C);
         count += getPerimeter(grid, R+1, C);
         count += getPerimeter(grid, R, C+1);
         count += getPerimeter(grid, R, C-1);
+
         return count;
     }
 }
