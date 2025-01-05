@@ -173,12 +173,16 @@ class Solution {
 
         for (int i = 0; i < V; i++) {
             // int parentX = find(i);
-            // wrong here, bcz even if parent updated of i, after merge with j
+            // wrong here, bcz if parent updated of i, after merge with j
             // will not reflect in another j, latest parent of i
             for (int j = 0; j < V; j++) {
+                
                 if (i != j && isConnected[i][j] == 1) {
                     int parentX = find(i);
                     int parentY = find(j);
+
+                    // if parents are same, means they are part of same set - means already connected
+
                     if (parentX != parentY) {
                         total -= 1;
                         union(parentX, parentY);
