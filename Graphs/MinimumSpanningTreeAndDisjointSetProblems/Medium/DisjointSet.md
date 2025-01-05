@@ -1,5 +1,7 @@
 https://www.geeksforgeeks.org/problems/disjoint-set-union-find/1
 
+* https://www.geeksforgeeks.org/introduction-to-disjoint-set-data-structure-or-union-find-algorithm/
+
 **Implementation of the Disjoint Set Union with both Union by Rank and Path Compression**
 
 ```java
