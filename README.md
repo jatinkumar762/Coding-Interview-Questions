@@ -472,8 +472,8 @@
   - [x] [Connected Components](./Graphs/Easy/ConnectedComponents.md)
 
   ### Medium
-  - [x] [Island Perimeter](./Graphs/Medium/IslandPerimeter.md)
   - [x] [Number of Provinces](./Graphs/Medium/NumberOfProvinces.md)
+  - [x] [Island Perimeter](./Graphs/Medium/IslandPerimeter.md)
   - [x] [Rotting Oranges](./Graphs/Medium/RottingOranges.md)
   - [x] [Detect Cycle in an Undirected Graph - BFS & DFS Approach](./Graphs/Medium/DetectCycleUndirectedGraph.md)
   - [x] [01 Matrix](./Graphs/Medium/01%20Matrix.md)
