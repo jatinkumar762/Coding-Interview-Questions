@@ -1,5 +1,83 @@
 https://leetcode.com/problems/rotting-oranges/description/
 
+
+### Approach-1
+
+```java
+class Solution {
+
+    public int orangesRotting(int[][] grid) {
+
+        Queue<Pair<Integer, Integer>> queue = new LinkedList<>();
+
+        int ROWS = grid.length;
+        int COLS = grid[0].length;
+
+        boolean fresh = false;
+        for (int i = 0; i < ROWS; i++) {
+            for (int j = 0; j < COLS; j++) {
+                if (grid[i][j] == 2) {
+                    queue.add(new Pair(i, j));
+                } else if (grid[i][j] == 1) {
+                    fresh = true;
+                }
+            }
+        }
+
+        if (!fresh) {
+            return 0;
+        }
+
+        int time = -1, size;
+
+        Pair<Integer, Integer> p;
+
+        int[][] dir = new int[][] { { -1, 0 }, { 1, 0 }, { 0, -1 }, { 0, 1 } };
+
+        while (!queue.isEmpty()) {
+
+            time++;
+
+            size = queue.size();
+
+            for (int i = 0; i < size; i++) {
+                p = queue.poll();
+
+                for (int j = 0; j < 4; j++) {
+                    int newX = p.getKey() + dir[j][0];
+                    int newY = p.getValue() + dir[j][1];
+
+                    if (isFresh(grid, newX, newY, ROWS, COLS)) {
+                        queue.add(new Pair(newX, newY));
+                        grid[newX][newY] = 2;
+                    }
+                }
+            }
+
+        }
+
+        for (int i = 0; i < ROWS; i++) {
+            for (int j = 0; j < COLS; j++) {
+                if (grid[i][j] == 1) {
+                    return -1;
+                }
+            }
+        }
+
+        return time;
+    }
+
+    private boolean isFresh(int[][] grid, int r, int c, int ROWS, int COLS) {
+        if (r >= 0 && r < ROWS && c >= 0 && c < COLS && grid[r][c] == 1) {
+            return true;
+        }
+        return false;
+    }
+}
+```
+
+---
+
 ```java
 class Solution {
     int R;
