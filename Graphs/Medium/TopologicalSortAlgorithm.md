@@ -59,9 +59,10 @@ TimeComplexity: O(V+E)
 
 #### Approach-2 Using BFS
 
+* The BFS based algorithm for Topological Sort is called **Kahn’s Algorithm**. 
+* The Kahn’s algorithm has same time complexity as the DFS based algorithm.
+
 ```java
-
-
 /*Complete the function below*/
 class Solution
 {
