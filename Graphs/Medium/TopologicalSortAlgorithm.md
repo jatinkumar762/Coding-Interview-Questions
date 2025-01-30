@@ -61,6 +61,7 @@ TimeComplexity: O(V+E)
 
 * The BFS based algorithm for Topological Sort is called **Kahn’s Algorithm**. 
 * The Kahn’s algorithm has same time complexity as the DFS based algorithm.
+* The algorithm works by repeatedly finding vertices with no incoming edges, removing them from the graph, and updating the incoming edges of the remaining vertices. This process continues until all vertices have been ordered.
 
 ```java
 /*Complete the function below*/
