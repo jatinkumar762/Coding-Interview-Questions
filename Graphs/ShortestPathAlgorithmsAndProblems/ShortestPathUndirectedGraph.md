@@ -6,6 +6,7 @@ https://www.geeksforgeeks.org/shortest-path-unweighted-graph/
 
 * BFS is typically used to find the shortest path in unweighted graphs or graphs where all edges have the same weight. 
 * It works by exploring neighbors level by level, guaranteeing that when you first reach a node, it is via the shortest path (in terms of the number of edges). 
+* But for graphs with arbitrary weights or where edges are not unit-weighted, BFS would not guarantee the shortest path.
 
 
 ```java
