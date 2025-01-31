@@ -500,7 +500,7 @@
 
   ### Shortest Path Algorithms and Problems
 
-   - [x] [Shortest path in Undirected Graph](./Graphs/ShortestPathAlgorithmsAndProblems/ShortestPathUndirectedGraph.md)
+   - [x] [Shortest Path in UG with unit weights](./Graphs/ShortestPathAlgorithmsAndProblems/ShortestPathUndirectedGraph.md)
 
 
   ### MinimumSpanningTree/DisjointSet Problems
