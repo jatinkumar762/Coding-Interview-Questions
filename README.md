@@ -481,7 +481,6 @@
   - [x] [Surrounded Regions](./Graphs/Medium/SurroundedRegions.md)
   - [x] [Is Graph Bipartite?](./Graphs/Medium/IsGraphBipartite.md)
   - [x] [Detect Cycle in a Directed Graph - DFS](./Graphs/Medium/DirectedGraphCycle_DFS.md)
-  - [x] [Shortest path in Undirected Graph](./Graphs/Medium/ShortestPathUndirectedGraph.md)
   - [x] [Djisktra's Algorithm](./Graphs/Medium/Djisktra'sAlgorithm.md)
   - [x] [Shortest path in Directed Acyclic Graph](./Graphs/Medium/ShortestPathDirectedAcyclicGraph.md)
   - [x] [Shortest Path in Binary Matrix](./Graphs/Medium/ShortestPathBinaryMatrix.md)
@@ -498,6 +497,10 @@
   - [x] [Course Schedule-I](./Graphs/Medium/Course%20Schedule-I.md)
   - [x] [Course Schedule-II](./Graphs/Medium/Course%20Schedule-II.md)
   - [x] [Find Eventual Safe States](./Graphs/Medium/FindEventualSafeStates.md)
+
+  ### Shortest Path Algorithms and Problems
+
+   - [x] [Shortest path in Undirected Graph](./Graphs/ShortestPathAlgorithmsAndProblems/ShortestPathUndirectedGraph.md)
 
 
   ### MinimumSpanningTree/DisjointSet Problems
