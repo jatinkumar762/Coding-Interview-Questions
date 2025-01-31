@@ -4,7 +4,9 @@ https://www.geeksforgeeks.org/shortest-path-unweighted-graph/
 
 ### Approach-1 Using BFS
 
-* BFS will always give the shortest path in terms of the number of edges.
+* BFS is typically used to find the shortest path in unweighted graphs or graphs where all edges have the same weight. 
+* It works by exploring neighbors level by level, guaranteeing that when you first reach a node, it is via the shortest path (in terms of the number of edges). 
+
 
 ```java
 class Node{
