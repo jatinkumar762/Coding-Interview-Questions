@@ -60,3 +60,54 @@ for each node in Nodes
 Time Complexity: The outer for loop will be executed V number of times and the inner for loop will be executed E number of times, Thus overall time complexity is O(V+E).
 
 The overall time complexity of the algorithm is O(V+E) 
+
+
+### DFS - Approach
+
+```java
+class Solution {
+    // Function to detect cycle in a directed graph.
+    boolean[] visited;
+    boolean[] recStack;
+    
+    public boolean isCyclic(int V, ArrayList<ArrayList<Integer>> adj) {
+        // code here
+        visited = new boolean[V];
+        recStack = new boolean[V];
+        
+        for(int i = 0; i < V; i++){
+            
+            if(!visited[i] && dfs(adj, i)){
+                return true;
+            }
+        }
+        
+        return false;
+    }
+    
+    
+    private boolean dfs(ArrayList<ArrayList<Integer>> adj, int curr){
+        
+        if(visited[curr] && recStack[curr]){
+            return true;
+        }
+        
+        if(visited[curr]){
+            return false;
+        }
+        
+        visited[curr] = true;
+        recStack[curr] = true;
+        
+        for(Integer nbr : adj.get(curr)){
+            if(dfs(adj, nbr)){
+                return true;
+            }
+        }
+        
+        recStack[curr] = false;
+        
+        return false;
+    }
+}
+```
