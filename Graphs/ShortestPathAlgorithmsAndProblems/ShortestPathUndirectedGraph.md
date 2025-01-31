@@ -2,6 +2,10 @@ https://www.geeksforgeeks.org/problems/shortest-path-in-undirected-graph-having-
 
 https://www.geeksforgeeks.org/shortest-path-unweighted-graph/
 
+### Approach-1 Using BFS
+
+* BFS will always give the shortest path in terms of the number of edges.
+
 ```java
 class Node{
     int v;
@@ -51,3 +55,7 @@ class Solution {
     }
 }
 ```
+
+**Time Complexity:**
+
+* The BFS runs in O(V + E) time, where V is the number of vertices and E is the number of edges. This is because each vertex and edge is processed once.
