@@ -482,7 +482,6 @@
   - [x] [Is Graph Bipartite?](./Graphs/Medium/IsGraphBipartite.md)
   - [x] [Detect Cycle in a Directed Graph - DFS](./Graphs/Medium/DirectedGraphCycle_DFS.md)
   - [x] [Djisktra's Algorithm](./Graphs/Medium/Djisktra'sAlgorithm.md)
-  - [x] [Shortest path in Directed Acyclic Graph](./Graphs/Medium/ShortestPathDirectedAcyclicGraph.md)
   - [x] [Shortest Path in Binary Matrix](./Graphs/Medium/ShortestPathBinaryMatrix.md)
   - [x] [Bellman Ford Algorithm](./Graphs/Medium/BellmanFordAlgorithm.md)
   - [x] [Floyd Warshall Algorithm](./Graphs/Medium/FloydWarshallAlgorithm.md)
@@ -501,6 +500,7 @@
   ### Shortest Path Algorithms and Problems
 
    - [x] [Shortest Path in UG with unit weights](./Graphs/ShortestPathAlgorithmsAndProblems/ShortestPathUndirectedGraph.md)
+   - [x] [Shortest path in Directed Acyclic Graph](./Graphs/ShortestPathAlgorithmsAndProblems/ShortestPathDirectedAcyclicGraph.md)
 
 
   ### MinimumSpanningTree/DisjointSet Problems
