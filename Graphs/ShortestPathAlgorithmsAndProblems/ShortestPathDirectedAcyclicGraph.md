@@ -28,38 +28,38 @@ https://www.geeksforgeeks.org/problems/shortest-path-in-undirected-graph/1
 ```java
 class Solution {
 
-	public int[] shortestPath(int N, int M, int[][] edges) {
-		//Code here
-		int[] shortestPath = new int[N];
-        Arrays.fill(shortestPath, -1);
-
-        boolean[] visited = new boolean[N];
+	public int[] shortestPath(int V, int E, int[][] edges) {
+        // Code here
+        int[] shortestPath = new int[V];
+        //if it is impossible to reach any vertex, then return -1 for that vertex
+        //otherwise we can use Integer.MAX_VALUE for initialization
+        Arrays.fill(shortestPath, -1);       
 
         ArrayList<ArrayList<ArrayList<Integer>>> adj = new ArrayList<>();
-        for(int i=0;i<N;i++){
+        for(int i=0;i<V;i++){
             adj.add(new ArrayList<ArrayList<Integer>>());
         }
-
-        for(int i=0;i<M;i++){
-            ArrayList<Integer> tmp  = new ArrayList<>();
+        
+        ArrayList<Integer> tmp;
+        for(int i=0;i<E;i++){
+            tmp = new ArrayList<>();
             tmp.add(edges[i][1]);
             tmp.add(edges[i][2]);
             adj.get(edges[i][0]).add(tmp);
         }
 
-        dfs(0, adj, shortestPath, visited, 0);
+        dfs(0, adj, shortestPath, 0);
 
         return shortestPath;
-	}
-
-	private void dfs(int source, ArrayList<ArrayList<ArrayList<Integer>>> adj,
-	int[] shortestPath, boolean[] visited, int dist){
+    }
+    
+    private void dfs(int source, ArrayList<ArrayList<ArrayList<Integer>>> adj, int[] shortestPath,  int dist){
 
 	    shortestPath[source] = dist;
 
 	    for(ArrayList<Integer> nbr : adj.get(source)){
 	        if(shortestPath[nbr.get(0)]==-1  || (nbr.get(1)+dist < shortestPath[nbr.get(0)])){
-	            dfs(nbr.get(0), adj, shortestPath, visited, nbr.get(1)+dist);
+	            dfs(nbr.get(0), adj, shortestPath, nbr.get(1)+dist);
 	        }
 	    }
 	}
