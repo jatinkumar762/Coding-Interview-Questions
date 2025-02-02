@@ -24,7 +24,7 @@ https://www.geeksforgeeks.org/problems/shortest-path-in-undirected-graph/1
 **Output:** 0 2 3 6 1 5
 
 
-#### Approach-1 DFS (Similar to Topological Sort)
+### Approach-1 DFS (Similar to Topological Sort)
 
 ```java
 class Solution {
@@ -71,7 +71,7 @@ class Solution {
 
 * Dijkstra's algorithm is necessary for graphs that can contain cycles because they can't be topologically sorted. 
 
-#### Approach-2 Dijktras
+### Approach-2 Dijkstra’s Algorithm
 
 ```java
 
