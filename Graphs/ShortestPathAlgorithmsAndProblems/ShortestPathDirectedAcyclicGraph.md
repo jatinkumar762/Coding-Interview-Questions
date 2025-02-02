@@ -12,14 +12,14 @@ https://www.geeksforgeeks.org/problems/shortest-path-in-undirected-graph/1
 
 **Test Case-**
 
-6 7
-0 1 2
-0 4 1
-4 5 4
-4 2 2
-1 2 3
-2 3 6
-5 3 1
+6 7 </br>
+0 1 2 </br>
+0 4 1 </br>
+4 5 4 </br>
+4 2 2 </br>
+1 2 3 </br>
+2 3 6 </br>
+5 3 1 </br>
 
 **Output:** 0 2 3 6 1 5
 
