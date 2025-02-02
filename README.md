@@ -501,6 +501,7 @@
 
    - [x] [Shortest Path in UG with unit weights](./Graphs/ShortestPathAlgorithmsAndProblems/ShortestPathUndirectedGraph.md)
    - [x] [Shortest path in Directed Acyclic Graph](./Graphs/ShortestPathAlgorithmsAndProblems/ShortestPathDirectedAcyclicGraph.md)
+   - [x] [0-1 BFS](./Graphs/ShortestPathAlgorithmsAndProblems/0-1_BFS.md)
 
 
   ### MinimumSpanningTree/DisjointSet Problems
