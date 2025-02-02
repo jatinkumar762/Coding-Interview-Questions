@@ -1,5 +1,14 @@
 https://www.geeksforgeeks.org/problems/shortest-path-in-undirected-graph/1
 
+**Note: **
+
+⚡ Correct Alternatives for Weighted DAGs:
+
+1. Topological Sort + Relaxation (Optimal for DAGs): Linear time complexity O(V+E).
+
+2. Dijkstra’s Algorithm: For general graphs with non-negative weights.
+
+3. Bellman-Ford Algorithm: For graphs with negative weights (but handles cycles too).
 
 **Test Case-**
 
