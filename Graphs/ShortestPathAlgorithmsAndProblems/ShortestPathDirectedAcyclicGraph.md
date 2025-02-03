@@ -73,6 +73,7 @@ class Solution {
 - works for both un-directed and directed weighted graph
 - find the shortest path from a source node to all other nodes
 - graph with non negative edge weights
+- Dijkstra's algorithm does not work correctly if there are negative weight edges in the graph, even if the graph does not contain any cycles.
 
 1. Greedy Approach
 2. Relaxation
