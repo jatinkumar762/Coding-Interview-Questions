@@ -71,6 +71,12 @@ class Solution {
 
 - Dijkstra's algorithm is necessary for graphs that can contain cycles because they can't be topologically sorted.
 - works for both un-directed and directed weighted graph
+- find the shortest path from a source node to all other nodes
+- graph with non negative edge weights
+
+1. Greedy Approach
+2. Relaxation
+3. Priority Queue
 
 ```java
 
@@ -139,3 +145,9 @@ class Solution {
 	}
 }
 ```
+
+Time Complexity: $O((V+E)logV)$
+
+Space Complexity: $O(V)$
+
+

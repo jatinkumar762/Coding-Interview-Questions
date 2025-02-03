@@ -47,7 +47,7 @@ class Solution {
     static int[] bellman_ford(int V, ArrayList<ArrayList<Integer>> edges, int S) {
         // Write your code here
         
-        int max_dis = 100000000;
+        int max_dis = 100000000; //If a vertices can't be reach from the s then mark the distance as 10^8
         int[] distance = new int[V];
         Arrays.fill(distance, max_dis);
         distance[S] = 0;
