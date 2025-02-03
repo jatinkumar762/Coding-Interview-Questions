@@ -25,7 +25,7 @@ https://www.geeksforgeeks.org/problems/shortest-path-in-undirected-graph/1
 
 ### Approach-1 DFS (Similar to Topological Sort)
 
-* Only, when graph is DAG
+- Only, when graph is DAG
 
 ```java
 class Solution {
@@ -35,13 +35,13 @@ class Solution {
         int[] shortestPath = new int[V];
         //if it is impossible to reach any vertex, then return -1 for that vertex
         //otherwise we can use Integer.MAX_VALUE for initialization
-        Arrays.fill(shortestPath, -1);       
+        Arrays.fill(shortestPath, -1);
 
         ArrayList<ArrayList<ArrayList<Integer>>> adj = new ArrayList<>();
         for(int i=0;i<V;i++){
             adj.add(new ArrayList<ArrayList<Integer>>());
         }
-        
+
         for(int i=0;i<E;i++){
             ArrayList<Integer> tmp = new ArrayList<>();
             tmp.add(edges[i][1]);
@@ -53,7 +53,7 @@ class Solution {
 
         return shortestPath;
     }
-    
+
     private void dfs(int source, ArrayList<ArrayList<ArrayList<Integer>>> adj, int[] shortestPath,  int dist){
 
 	    shortestPath[source] = dist;
@@ -67,9 +67,9 @@ class Solution {
 }
 ```
 
-- Dijkstra's algorithm is necessary for graphs that can contain cycles because they can't be topologically sorted.
-
 ### Approach-2 Dijkstra’s Algorithm
+
+- Dijkstra's algorithm is necessary for graphs that can contain cycles because they can't be topologically sorted.
 
 ```java
 
