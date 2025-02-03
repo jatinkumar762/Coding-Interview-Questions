@@ -70,6 +70,7 @@ class Solution {
 ### Approach-2 Dijkstra’s Algorithm
 
 - Dijkstra's algorithm is necessary for graphs that can contain cycles because they can't be topologically sorted.
+- works for both un-directed and directed weighted graph
 
 ```java
 
