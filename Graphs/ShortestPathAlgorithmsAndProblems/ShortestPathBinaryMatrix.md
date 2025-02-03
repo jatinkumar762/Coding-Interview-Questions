@@ -99,4 +99,23 @@ class Solution {
 }
 ```
 
+---
+
+```java
+class Node {
+    int x;
+    int y;
+    int dist;
+
+    Node(int x, int y, int dist) {
+        this.x = x;
+        this.y = y;
+        this.dist = dist;
+    }
+}
+
+
+Queue<Node> queue = new LinkedList<>();
+```
+
 Time Complexity: $O(Rows*Cols)$
