@@ -502,6 +502,7 @@
    - [x] [Djisktra's Algorithm](./Graphs/ShortestPathAlgorithmsAndProblems/Djisktra'sAlgorithm.md)
    - [x] [Bellman Ford Algorithm](./Graphs/ShortestPathAlgorithmsAndProblems/BellmanFordAlgorithm.md)
    - [x] [Shortest Path in Binary Matrix](./Graphs/ShortestPathAlgorithmsAndProblems/ShortestPathBinaryMatrix.md)
+   - [x] [Path With Minimum Effort](./Graphs/ShortestPathAlgorithmsAndProblems/path-with-minimum-effort.md)
 
 
   ### MinimumSpanningTree/DisjointSet Problems
