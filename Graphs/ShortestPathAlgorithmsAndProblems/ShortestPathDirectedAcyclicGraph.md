@@ -25,6 +25,8 @@ https://www.geeksforgeeks.org/problems/shortest-path-in-undirected-graph/1
 
 ### Approach-1 DFS (Similar to Topological Sort)
 
+* Only, when graph is DAG
+
 ```java
 class Solution {
 
@@ -40,9 +42,8 @@ class Solution {
             adj.add(new ArrayList<ArrayList<Integer>>());
         }
         
-        ArrayList<Integer> tmp;
         for(int i=0;i<E;i++){
-            tmp = new ArrayList<>();
+            ArrayList<Integer> tmp = new ArrayList<>();
             tmp.add(edges[i][1]);
             tmp.add(edges[i][2]);
             adj.get(edges[i][0]).add(tmp);
