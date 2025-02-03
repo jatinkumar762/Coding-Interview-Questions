@@ -481,7 +481,6 @@
   - [x] [Surrounded Regions](./Graphs/Medium/SurroundedRegions.md)
   - [x] [Is Graph Bipartite?](./Graphs/Medium/IsGraphBipartite.md)
   - [x] [Detect Cycle in a Directed Graph - DFS](./Graphs/Medium/DirectedGraphCycle_DFS.md)
-  - [x] [Floyd Warshall Algorithm](./Graphs/Medium/FloydWarshallAlgorithm.md)
   - [x] [Bridges in Graph](./Graphs/Medium/BridgesInGraph.md)
   - [x] [Bipartite Graph](./Graphs/Medium/BipartiteGraph.md)
 
@@ -503,6 +502,7 @@
    - [x] [Bellman Ford Algorithm](./Graphs/ShortestPathAlgorithmsAndProblems/BellmanFordAlgorithm.md)
    - [x] [Shortest Path in Binary Matrix](./Graphs/ShortestPathAlgorithmsAndProblems/ShortestPathBinaryMatrix.md)
    - [x] [Path With Minimum Effort](./Graphs/ShortestPathAlgorithmsAndProblems/path-with-minimum-effort.md)
+   - [x] [Floyd Warshall Algorithm](./Graphs/ShortestPathAlgorithmsAndProblems/FloydWarshallAlgorithm.md)
 
 
   ### MinimumSpanningTree/DisjointSet Problems
