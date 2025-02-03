@@ -86,3 +86,10 @@ class Solution {
 
 The time complexity is O(V×E), making it less efficient than Dijkstra's algorithm for graphs without negative weights, but essential for handling more complex cases with negative weight cycles.
 
+
+**Note:**
+
+* Dijkstra’s algorithm is not suitable for graphs with negative weight edges because it relies on the assumption that once a node’s shortest path is found, it cannot be improved.
+
+* If your graph contains negative weight edges, the Bellman-Ford algorithm is a better choice. It handles negative weights, finds the shortest paths, and detects negative weight cycles.
+
