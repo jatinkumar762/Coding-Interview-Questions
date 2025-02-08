@@ -118,7 +118,7 @@ class Trie {
 
 class TrieNode {
     TrieNode[] children = new TrieNode[26];
-    boolean isEndOfWord;
+    boolean isEndOfWord; //default false
 }
 
 class Trie {
@@ -171,3 +171,84 @@ class Trie {
 * **Spell Checking:** Tries can efficiently check if a word exists in a dictionary and suggest corrections.
 * **IP Routing:** Used in network routers to store and search IP address prefixes.
 * **Longest Prefix Matching:** Useful in scenarios where you need to find the longest prefix that matches a given query.
+
+
+---
+
+```java
+class Node {
+    Node[] children = new Node[26];
+    boolean end; // end of word
+
+    Node(boolean end) {
+        this.end = end;
+    }
+}
+
+class Trie {
+
+    private Node root;
+
+    public Trie() {
+        // empty word so true
+        root = new Node(true);
+    }
+
+    public void insert(String word) {
+
+        Node tmp = root;
+        int index;
+
+        for (char ch : word.toCharArray()) {
+
+            index = ch - 'a';
+
+            if (tmp.children[index] == null) {
+                tmp.children[index] = new Node(false);
+            }
+
+            tmp = tmp.children[index];
+        }
+
+        tmp.end = true;
+    }
+
+    public boolean search(String word) {
+
+        Node tmp = root;
+        int index;
+
+        for (char ch : word.toCharArray()) {
+
+            index = ch - 'a';
+
+            if (tmp.children[index] == null) {
+                return false;
+            }
+
+            tmp = tmp.children[index];
+        }
+
+        return tmp.end;
+    }
+
+    public boolean startsWith(String prefix) {
+
+        Node tmp = root;
+        int index;
+
+        for (char ch : prefix.toCharArray()) {
+
+            index = ch - 'a';
+
+            if (tmp.children[index] == null) {
+                return false;
+            }
+
+            tmp = tmp.children[index];
+        }
+
+        return true;
+    }
+}
+```
