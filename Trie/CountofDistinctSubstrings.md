@@ -46,7 +46,7 @@ class GfG
        char[] charArr = st.toCharArray();
         
        TrieNode root = new TrieNode();
-       int count = 1;
+       int count = 1; //empty string
        
        for(int i=0;i<len;i++){
            TrieNode tmp = root;
