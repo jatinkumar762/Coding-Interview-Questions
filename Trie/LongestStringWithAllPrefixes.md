@@ -92,6 +92,22 @@ class Solution {
 }
 ```
 
+**Total Time Complexity**
+
+1. Inserting words into the Trie: $O(n * m)$
+
+2. Checking all prefixes for each word
+
+* For each word of length m, the function checks all prefixes from length 1 to m
+* The total time complexity for checking all prefixes of a word is: $O(1)+O(2)+O(3)+⋯+O(m)$, which simplifies to $O(m^2)$.
+* Since there are n words in the array, the total time complexity for checking all prefixes for all words is $O(n * m^2)$.
+
+3. Comparing strings to find the longest and lexicographically smallest
+
+* The string comparison (result.compareTo(word)) has a time complexity of $O(m)$, where m is the length of the word.
+* Since there are n words in the array and for each word you may perform a string comparison, the total time complexity for comparing the words is $O(n * m)$.
+
+
 #### Approach-2 Recursive Approach
 
 ```java
