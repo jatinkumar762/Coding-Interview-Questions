@@ -23,12 +23,11 @@ public class Trie {
     TrieNode root;
 
     public Trie() {
-        // Write your code here.
         root = new TrieNode();
     }
 
     public void insert(String word) {
-        // Write your code here.
+        
         TrieNode node = root;
         for(char ch : word.toCharArray()){
             if(node.children[ch-'a']==null){
@@ -42,7 +41,7 @@ public class Trie {
     }
 
     public int countWordsEqualTo(String word) {
-        // Write your code here.
+        
         TrieNode node = root;
         for(char ch : word.toCharArray()){
             if(node.children[ch-'a']==null){
@@ -54,7 +53,7 @@ public class Trie {
     }
 
     public int countWordsStartingWith(String word) {
-        // Write your code here.
+        
         TrieNode node = root;
         for(char ch : word.toCharArray()){
             if(node.children[ch-'a']==null){
@@ -66,7 +65,7 @@ public class Trie {
     }
 
     public void erase(String word) {
-        // Write your code here.
+        
         if(countWordsEqualTo(word)==0){
             //word does not exist;
             return;
