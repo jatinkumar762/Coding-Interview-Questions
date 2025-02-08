@@ -164,6 +164,18 @@ class Trie {
 }
 ```
 
+**Time Complexity**
+
+1. Insertion - $O(m)$, m - length of the string
+2. Search - $O(m)$, m - length of the string
+3. Prefix Search - $O(m)$, m - length of the string
+4. Deletion - $O(m)$, m - length of the string
+
+**Space Complexity**
+
+$O(n * m)$
+
+n - no of strings, m - length of string
 
 ### Applications of Tries
 
