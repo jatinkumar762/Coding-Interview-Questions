@@ -76,6 +76,7 @@ public class Trie {
             TrieNode child = node.children[ch-'a'];
             child.prefixCount-=1;
             if(child.prefixCount==0){
+                //delete the child
                 node.children[ch-'a'] = null;
                 return;
             }
