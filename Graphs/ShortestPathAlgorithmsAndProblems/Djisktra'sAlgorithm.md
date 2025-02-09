@@ -83,6 +83,59 @@ class Solution
 }
 ```
 
+**Optimization:**
+
+* The visited array can be removed from the algorithm to improve efficiency.
+* In Dijkstra’s algorithm, once a node is processed (i.e., its shortest distance is finalized), you don't need to visit it again.
+* By only updating a node’s distance if it is smaller, you ensure that each node is processed once.
+
+```java
+while (!minHeap.isEmpty()) {
+    Node node = minHeap.poll();
+    
+    // Check all neighbors of the current node
+    for (ArrayList<Integer> nbr : adj.get(node.vertex)) {
+        int neighbor = nbr.get(0);
+        int weight = nbr.get(1);
+        
+        // If a shorter path is found, update the distance
+        if (dist[node.vertex] + weight < dist[neighbor]) {
+            dist[neighbor] = dist[node.vertex] + weight;
+            minHeap.add(new Node(neighbor, dist[neighbor]));
+        }
+    }
+}
+```
+
+
+**Example:** Consider undirected graph and start vertex is A
+
+A, B, C, D </br>
+A - B 10 </br>
+A - C 2 </br>
+C - D 1 </br>
+D - B 1
+
+Queue Elements
+
+- Step 1:   (C, 2) & (B, 10)
+    
+    - dist [0, INF, INF, INF]
+
+- Step 2:   (D, 3) & (B, 10)
+
+     - dist [0, INF, 2, INF]
+
+- Step 3:   (B, 4) & (B, 10)
+
+    - dist [0, INF, 2, 3]
+
+- Step 4:  (B, 10)
+
+    - dist [0, 4, 2, 3]
+
+- Step 5: empty
+
 **Limitations/Negatives of Dijkstra's Algorithm**
 
 1. **Non-Negative Weights Requirement:**
