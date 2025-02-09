@@ -8,5 +8,7 @@
 3. [Remove Duplicates From Sorted Array]()
 4. [Majority Element]()
 
-
 ### Medium
+
+1. [Remove Duplicates from Sorted Array II](../../Array/Medium/remove-duplicates-from-sorted-array-ii.md)
+
