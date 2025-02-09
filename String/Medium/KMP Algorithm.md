@@ -117,6 +117,9 @@ class Codechef
 
 ---
 
+* https://www.youtube.com/watch?v=GTJr8OvyEVQ&ab_channel=TusharRoy-CodingMadeSimple
+
+
 The **Knuth-Morris-Pratt (KMP)** algorithm is used for **pattern matching** in strings. It is efficient for finding all occurrences of a pattern within a text in \(O(n + m)\), where \(n\) is the length of the text and \(m\) is the length of the pattern. The efficiency comes from precomputing a **Longest Prefix Suffix (LPS)** array that avoids redundant comparisons.
 
 ---
@@ -175,31 +178,50 @@ Result: Pattern is found at indices `0` and `6`.
 ```java
 public class KMPAlgorithm {
 
-    // Function to compute the LPS array
+    /**
+     * Computes the Longest Prefix Suffix (LPS) array for the given pattern.
+     * The LPS array is used to skip unnecessary comparisons in the KMP algorithm.
+     * 
+     * @param pattern The pattern for which to compute the LPS array.
+     * @return The LPS array.
+     */
     public static int[] computeLPS(String pattern) {
-        int m = pattern.length();
-        int[] lps = new int[m];
-        int len = 0;
-        int i = 1;
+        int patternLen = pattern.length(); // m
+        int[] lps = new int[patternLen];
+        
+        // Edge case: if the pattern is empty, return an empty array
+        if (patternLen == 0) {
+            return lps;
+        }
 
-        while (i < m) {
-            if (pattern.charAt(i) == pattern.charAt(len)) {
-                len++;
-                lps[i] = len;
-                i++;
+        int j = 0; // Length of previous longest prefix suffix
+        int i = 1; // Start comparing from the second character
+
+        while (i < patternLen) {
+            // If there's a match
+            if (pattern.charAt(i) == pattern.charAt(j)) {
+                j++; // Increment both pointers
+                lps[i] = j; // Store length of the matched prefix-suffix
+                i++; // Move to the next character in the pattern
             } else {
-                if (len != 0) {
-                    len = lps[len - 1];
+                // If mismatch occurs and j > 0, try the previously found shorter prefix
+                if (j > 0) {
+                    j = lps[j - 1]; // Move to the previous longest prefix-suffix
                 } else {
-                    lps[i] = 0;
-                    i++;
+                    lps[i] = 0; // No prefix-suffix found
+                    i++; // Move to the next character
                 }
             }
         }
         return lps;
     }
 
-    // Function to perform KMP search
+
+    /**
+     * Perform KMP search to find all occurrences of the pattern in the text.
+     * @param text The text in which to search for the pattern.
+     * @param pattern The pattern to search for in the text.
+     */
     public static void KMPSearch(String text, String pattern) {
         int n = text.length();
         int m = pattern.length();
@@ -251,6 +273,6 @@ Pattern found at index 6
 1. **LPS Array:** The key to the efficiency of KMP.
 2. **Avoid Redundant Comparisons:** Use the LPS array to skip unnecessary character checks.
 3. **Time Complexity:** 
-   - Precomputing LPS: \(O(m)\)
-   - Searching: \(O(n)\)
-   - Total: \(O(n + m)\).
+   - Precomputing LPS: $O(m)$
+   - Searching: $O(n)$
+   - Total: $O(n + m)$
