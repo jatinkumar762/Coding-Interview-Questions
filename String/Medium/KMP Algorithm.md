@@ -259,8 +259,8 @@ public class KMPAlgorithm {
     }
 
     public static void main(String[] args) {
-        String text = "ababcababcabc";
-        String pattern = "ababc";
+        String text = "ababcababcabc";   //aaaa
+        String pattern = "ababc";       //aa
 
         KMPSearch(text, pattern);
     }
