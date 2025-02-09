@@ -460,7 +460,7 @@
   - [x] [Max length chain](./DynamicProgramming/Maxlengthchain.md)
   - [x] [Coin Change_Minimum Coins to Make Sum-I](./DynamicProgramming/Medium/CoinChange_MinimumCoinsToMakeSum.md)
 
-# Graphs
+## Graphs
 
   ### Easy
   - [x] [Graph and its representations](./Graphs/Easy/Graph_and_its_representations.md)
@@ -512,17 +512,12 @@
   - [x] [Disjoint Set | Union by Rank and Path](./Graphs/MinimumSpanningTreeAndDisjointSetProblems/Medium/DisjointSet.md)
   - [x] [Number of Operations to Make Network Connected](./Graphs/MinimumSpanningTreeAndDisjointSetProblems/Medium/NumberofOperationsToMakeNetworkConnected.md)
 
-# Tries
+## Tries
 
   - [x] [Implement TRIE | INSERT | SEARCH | STARTSWITH](./Trie/Trie.md)
   - [x] [Implement TRIE-ii Prefix-tree](./Trie/Trie-ii.md)
   - [x] [Longest String with All Prefixes](./Trie/LongestStringWithAllPrefixes.md)
   - [x] [Count of distinct substrings](./Trie/CountofDistinctSubstrings.md)
-
-
-
-
-
 
 
 ## Good Resources
