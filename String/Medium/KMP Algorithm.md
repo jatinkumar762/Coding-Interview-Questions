@@ -225,24 +225,33 @@ public class KMPAlgorithm {
     public static void KMPSearch(String text, String pattern) {
         int n = text.length();
         int m = pattern.length();
+        
+        // Compute the LPS array for the pattern
         int[] lps = computeLPS(pattern);
 
         int i = 0; // Index for text
         int j = 0; // Index for pattern
 
         while (i < n) {
+            // Match current characters of text and pattern
             if (pattern.charAt(j) == text.charAt(i)) {
                 i++;
                 j++;
             }
 
+            // If we found a match of the whole pattern
             if (j == m) {
                 System.out.println("Pattern found at index " + (i - j));
+                // Use LPS to avoid unnecessary comparisons
                 j = lps[j - 1];
-            } else if (i < n && pattern.charAt(j) != text.charAt(i)) {
-                if (j != 0) {
+            }
+            // Mismatch handling: use LPS to skip characters in the pattern
+            else if (i < n && pattern.charAt(j) != text.charAt(i)) {
+                if (j > 0) {
+                    // Use LPS to shift the pattern position
                     j = lps[j - 1];
                 } else {
+                    // Move to the next character in the text
                     i++;
                 }
             }
