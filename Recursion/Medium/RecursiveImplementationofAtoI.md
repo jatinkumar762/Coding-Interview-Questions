@@ -41,6 +41,7 @@ class Solution {
             return sum;
         }
 
+        //s = "9223372036854775808"
         if (sum > Integer.MAX_VALUE) {
             // sum can be abs(Integer.MIN_VALUE) = Integer.MAX_VALUE + 1;
             // so can not return Integer.MAX_VALUE
@@ -72,6 +73,76 @@ class Solution {
         return sum;
     }
 
+}
+```
+
+**Another way to write**
+
+```java
+
+class Solution {
+
+    private boolean negative;
+    private boolean positive;
+
+    public int myAtoi(String s) {
+
+        char[] arr = s.toCharArray();
+
+        int len = s.length();
+        int index = 0;
+
+        while (index < len) {
+
+            if (arr[index] - '0' >= 0 && arr[index] - '0' <= 9) {
+                break;
+            }
+
+            // ++12 ->0
+            // --12 ->0
+            // +-12 ->0
+            if (arr[index] == '-' && !positive && !negative) {
+                negative = true;
+            } else if (arr[index] == '+' && !positive && !negative) {
+                positive = true;
+            } else if (arr[index] == ' ' && !positive && !negative) {
+
+            } else {
+                return 0;
+            }
+
+            index++;
+        }
+
+        long number = getNumber(arr, index, len, 0L);
+
+        if (!negative) {
+            return number >= Integer.MAX_VALUE ? Integer.MAX_VALUE : (int) number;
+        } else {
+            return number > Integer.MAX_VALUE ? Integer.MIN_VALUE : -1 * (int) number;
+        }
+
+    }
+
+    private long getNumber(char[] arr, int index, int len, long num) {
+        
+        //s = "9223372036854775808"
+        if (num > Integer.MAX_VALUE) {
+            // sum can be abs(Integer.MIN_VALUE) = Integer.MAX_VALUE + 1;
+            // so can not return Integer.MAX_VALUE
+            return num;
+        }
+
+        if (index == len) {
+            return num;
+        }
+
+        if (arr[index] - '0' >= 0 && arr[index] - '0' <= 9) {
+            return getNumber(arr, index + 1, len, num * 10 + (arr[index] - '0'));
+        }
+
+        return num;
+    }
 }
 ```
 
