@@ -157,6 +157,11 @@ if (total > (Integer.MAX_VALUE - digit) / 10) {
 
 ### Leetcode Solution
 
+* INT_MAX = 2147483647
+
+* INT_MIN = -2147483648
+
+
 ```java
 class Solution {
     public int myAtoi(String input) {
