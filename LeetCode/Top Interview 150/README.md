@@ -7,6 +7,7 @@
 2. [Remove Element]()
 3. [Remove Duplicates From Sorted Array]()
 4. [Majority Element]()
+-[x] [Length of Last Word](../../String/Easy/Length%20of%20Last%20Word.md)
 
 ### Medium
 
