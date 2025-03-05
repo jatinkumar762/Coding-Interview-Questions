@@ -119,3 +119,9 @@ class Solution {
 }
 ```
 
+**Time Complexity:** $O(N * 2^N)$
+
+**Space Complexity:**
+
+- The space complexity is also O(N * 2^N) since we store all the subsequences, and each subsequence can have at most N elements.
+
