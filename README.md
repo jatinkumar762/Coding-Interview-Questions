@@ -92,12 +92,7 @@
   #### Medium
   - [x] [Recursive Implementation of atoi](./Recursion/Medium/RecursiveImplementationofAtoI.md)
   - [x] [Power (x,n)](./Recursion/Medium/PowerX^N.md)
-  - [x] [Subset Sums](./Recursion/Medium/SubsetSums.md)
   - [x] [Count Good Numbers](./Recursion/Medium/CountGoodNumbers.md)
-  - [x] [Combination Sum](./Recursion/Medium/CombinationSum.md)
-  - [x] [Combination Sum II](./Recursion/Medium/CombinationSum-II.md)
-  - [x] [Combination Sum III](./Recursion/Medium/CombinationSum-III.md)
-  - [x] [Subsets II](./Recursion/Medium/Subsets-II.md)
   - [x] [Letter Combinations of a Phone Number](./Recursion/Medium/LetterCombinationsPhoneNumber.md)
   - [x] [Permutations](./Recursion/Medium/Permutations.md)
   - [x] [Permutations II](./Recursion/Medium/Permutations-II.md)
@@ -109,6 +104,11 @@
   - [x] [Better String - Count distinct subsequences](./Recursion/SubSequence%20Pattern/BetterString-more_distinct_subsequences.md)
   - [x] [Count all subsequences with sum K - Perfect Sum Problem](./Recursion/SubSequence%20Pattern/PerfectSumProblem.md)
   - [x] [Check if there exists a subsequence with sum K](./Recursion/SubSequence%20Pattern/check-if-there-exists-a-subsequence-with-sum-k.md)
+  - [x] [Combination Sum](./Recursion/SubSequence%20Pattern/CombinationSum.md)
+  - [x] [Combination Sum II](./Recursion/SubSequence%20Pattern/CombinationSum-II.md)
+  - [x] [Combination Sum III](./Recursion/SubSequence%20Pattern/CombinationSum-III.md)
+  - [x] [Subset Sums](./Recursion/SubSequence%20Pattern/SubsetSums.md)
+  - [x] [Subsets II](./Recursion/SubSequence%20Pattern/Subsets-II.md)
 
   #### Other
   - [x] [Word Search in grid of characters](./Recursion/Other/WordSearch.md)
