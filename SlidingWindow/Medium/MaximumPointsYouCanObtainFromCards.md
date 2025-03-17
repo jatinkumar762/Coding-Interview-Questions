@@ -5,6 +5,9 @@ https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/descripti
 example - [1,2,3,4,5,6,1]
 failed
 
+
+[1, 15, 6, 5] and k = 2
+
 ```java
 class Solution {
     public int maxScore(int[] cardPoints, int k) {
