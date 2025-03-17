@@ -39,7 +39,7 @@ class Solution {
 &rarr; need to remove this while loop
 
 * when $zero>k$, will not update max and move window more left side (update left only)
-* why we are increasing, right every time -> once we get subarray L1, for max will be greater than this L1 only, smaller then L1 are irrelevant
+* why we are increasing, right every time -> once we get subarray L1, for max will be greater than this L1 only, smaller than L1 are irrelevant
 
 ```java
 class Solution {
