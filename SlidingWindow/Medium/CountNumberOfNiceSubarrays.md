@@ -56,7 +56,7 @@ k = 3
 
 [1 1 2 1] &rarr; index 2 - 5
 
-we can include
+we can include in result sub arrays
 
 [2, 1, 1, 2, 1] &rarr; index 1 - 5
 [2, 2, 1, 1, 2, 1] &rarr; index 0 - 5
@@ -88,7 +88,8 @@ class Solution {
             if (odd == k) {
                 
                 mid = left;
-
+                
+                //even number
                 while((nums[mid] & 1) == 0){
                     mid++;
                 }
