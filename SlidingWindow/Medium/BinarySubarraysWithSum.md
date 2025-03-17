@@ -62,14 +62,15 @@ class Solution {
 * res &rarr; countOf(sum<=goal) - countOf(sum<=goal-1)
 * ex:  countOf(sum<=3) - countOf(sum<=2) &rarr; will give us count where equals to 3
 
-goal = 2 and nums = [1,0,1,0,1]
-                     0 1 2 3 4
+goal = 2 and 
+
+nums = [1, 0, 1, 0, 1]
 
 res = 4
 
-1 0 1
-1 0 1 0
-0 1 0 1
+1 0 1 </br>
+1 0 1 0 </br>
+0 1 0 1 </br>
 1 0 1
 
 if we use normal sliding window approach, will not include last 1 0 1 (index 2 - 4 substring)
@@ -78,10 +79,10 @@ similarly, if i change example to
 
 [1, 0, 0, 1, 0, 1]
 
-1 0 0 1
-1 0 0 1 0
-0 0 1 0 1
-0 1 0 1
+1 0 0 1 </br>
+1 0 0 1 0 </br>
+0 0 1 0 1 </br>
+0 1 0 1 </br>
 1 0 1
 
 [0 1 0 1] & [1 0 1] -> will not include in answer if we use traditional approach
@@ -110,7 +111,10 @@ class Solution {
                 left++;
             }
 
+            //from current right index position, goes towards left side
+            //total non empty sub strings possible of len(n) = n
             count += right - left + 1;
+            
         }
 
         return count;
