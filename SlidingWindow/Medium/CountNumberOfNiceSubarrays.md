@@ -1,6 +1,6 @@
 https://leetcode.com/problems/count-number-of-nice-subarrays/description/
 
-#### Sliding Window (10 ms)
+## Sliding Window (10 ms)
 
 * similar to problem - https://leetcode.com/problems/binary-subarrays-with-sum/description/
 
@@ -44,11 +44,14 @@ class Solution {
 
 **Time Complexity: $2*O(N+N)$**
 
-#### Sliding Window Approach - 2 (6 ms)
+---
+
+## Sliding Window Approach - 2 (6 ms)
 
 * https://www.youtube.com/watch?v=4zNK0rhFfcA
 
 nums = [2, 2, 1, 1, 2, 1, 1]
+
 k = 3
 
 [1 1 2 1] &rarr; index 2 - 5
@@ -56,7 +59,7 @@ k = 3
 we can include
 
 [2, 1, 1, 2, 1] &rarr; index 1 - 5
-[2, 2, 1, 1, 2, 1, 1] &rarr; index 0 - 5
+[2, 2, 1, 1, 2, 1] &rarr; index 0 - 5
 
 
 ```java
@@ -101,6 +104,8 @@ class Solution {
 }
 ```
 ---
+
+## Single pass solution
 
 https://leetcode.com/problems/count-number-of-nice-subarrays/solutions/419378/java-c-python-sliding-window-o-1-space/
 
