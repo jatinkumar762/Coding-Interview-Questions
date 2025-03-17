@@ -1,8 +1,6 @@
 https://www.geeksforgeeks.org/problems/fruit-into-baskets-1663137462/1
 
-https://leetcode.com/problems/fruit-into-baskets/description/
-
-#### Approach-1 2 pointers
+## Using HashMap
 
 * this approach will work for max bucket k
 * here k=2
@@ -75,9 +73,28 @@ class Solution {
 }
 ```
 
-#### Approach-2 Using two   
+---
+
+https://leetcode.com/problems/fruit-into-baskets/description/
 
 &rarr; ToDo - https://leetcode.com/problems/fruit-into-baskets/solutions/170745/problem-longest-subarray-with-2-elements/
+
+
+fruits =
+[0,1,2,0]
+Output
+2
+Expected
+2
+
+
+fruits =
+[0,1,2,2]
+Output
+3
+Expected
+3
+
 
 ```java
 class Solution {
