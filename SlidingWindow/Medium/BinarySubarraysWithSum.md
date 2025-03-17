@@ -1,6 +1,6 @@
 https://leetcode.com/problems/binary-subarrays-with-sum/description/
 
-#### Brute Force Approach - 1814ms
+## Brute Force Approach - 1814ms
 
 * generating all possible sub strings
 
@@ -24,7 +24,9 @@ class Solution {
 }
 ```
 
-#### Prefix Sum - 23ms
+---
+
+## Prefix Sum - 23ms
 
 ```java
 class Solution {
@@ -53,7 +55,9 @@ class Solution {
 }
 ```
 
-#### Sliding Windows - 1ms
+---
+
+## Sliding Windows - 1ms
 
 * res &rarr; countOf(sum<=goal) - countOf(sum<=goal-1)
 * ex:  countOf(sum<=3) - countOf(sum<=2) &rarr; will give us count where equals to 3

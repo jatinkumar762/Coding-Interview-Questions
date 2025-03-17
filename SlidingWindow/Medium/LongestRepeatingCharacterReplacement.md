@@ -6,7 +6,7 @@
 
 Ex: "AABABBA", k = 1
 
-will prefer changing $B -> A$
+will prefer changing B &rarr; A
 
 * this method, trying to generate every substring and find max len
 * its based on simple formula ->
