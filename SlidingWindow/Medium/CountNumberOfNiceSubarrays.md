@@ -110,19 +110,33 @@ class Solution {
 https://leetcode.com/problems/count-number-of-nice-subarrays/solutions/419378/java-c-python-sliding-window-o-1-space/
 
 ```java
-public int numberOfSubarrays(int[] A, int k) {
-    int res = 0, i = 0, count = 0, n = A.length;
-    for (int j = 0; j < n; j++) {
-        if (A[j] % 2 == 1) {
-            --k;
-            count = 0;
+class Solution {
+    public int numberOfSubarrays(int[] nums, int k) {
+
+        int res = 0, left = 0, count = 0, n = nums.length;
+        
+        /*
+            [2,1,2,1,1] k = 2
+            
+            [2, 1, 2, 1]
+            [1, 2, 1]
+        */
+        for (int right = 0; right < n; right++) {
+
+            if (nums[right] % 2 == 1) {
+                --k;
+                count = 0;
+            }
+
+            while (k == 0) {
+                k += nums[left++] & 1;
+                ++count;
+            }
+
+            res += count;
         }
-        while (k == 0) {
-            k += A[i++] & 1;
-            ++count;
-        }
-        res += count;
+
+        return res;
     }
-    return res;
 }
 ```
