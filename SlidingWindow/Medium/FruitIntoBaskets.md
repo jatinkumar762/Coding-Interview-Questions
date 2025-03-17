@@ -1,3 +1,5 @@
+https://www.geeksforgeeks.org/problems/fruit-into-baskets-1663137462/1
+
 https://leetcode.com/problems/fruit-into-baskets/description/
 
 #### Approach-1 2 pointers
